@@ -26,6 +26,7 @@ It does not automatically email, scrape submitted links, or generate concepts. W
 Project: appgprj_6abad0b85e3c8191afb28f6a6136d71f
 D1 binding: DB. R2 binding: BUCKET.
 Worker: dist/server/index.js. Assets: dist/client.
+Deployment archives must preserve dist/.openai/hosting.json and dist/.openai/drizzle. On Windows, package the completed build with `node scripts/package-portable.mjs ABSOLUTE_ARCHIVE_PATH.tar.gz` to retain the database migrations.
 The review deployment is private. Public launch and custom domain are separate release steps.
 The source is portable; another host needs equivalent storage bindings.
 
