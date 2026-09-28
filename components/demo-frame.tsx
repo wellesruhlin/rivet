@@ -1,0 +1,3 @@
+"use client";
+import { useState } from "react";
+export function DemoFrame(){const [ready,setReady]=useState(false);return <><div className="demo-toolbar"><span>ON3P CUSTOM SKI CONCEPT</span><a href="https://wellesruhlin.com/demos/CPQ/ON3P/" target="_blank" rel="noreferrer" className="text-link">Open full screen ↗</a></div><div className="demo-frame">{!ready&&<div className="demo-loading" role="status">Loading the configurator…</div>}<iframe title="Interactive ON3P ski configurator concept" src="https://wellesruhlin.com/demos/CPQ/ON3P/" onLoad={()=>setReady(true)} allow="clipboard-write" referrerPolicy="strict-origin-when-cross-origin" /></div></>}

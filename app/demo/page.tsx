@@ -1,0 +1,5 @@
+import type { Metadata } from "next";
+import { SiteHeader } from "@/components/site-header";
+import { DemoFrame } from "@/components/demo-frame";
+export const metadata:Metadata={title:"Try the configurator — Rivet CPQ",description:"Explore an independent ON3P ski configurator concept built by Welles Ruhlin."};
+export default function Demo(){return <><SiteHeader /><main id="main" className="demo-page wrap"><div className="demo-heading"><div><h1>A product you can explore.</h1><p>Choose a ski, explore its options, and see how a build comes together.</p></div><a className="text-link" href="/#request">Imagine this for your product →</a></div><DemoFrame /><p className="demo-disclosure">Independent ON3P concept by Welles Ruhlin. Not affiliated with or endorsed by ON3P. Product names and artwork belong to their respective owners. This is a demonstration, not a live store; specifications, availability, and pricing may differ.</p></main></>}
