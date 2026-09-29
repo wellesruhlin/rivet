@@ -4,20 +4,12 @@ import {RadioGroup} from '../ui/Controls.jsx';
 import {generateSkiMesh} from '@rivet/ski-geometry';
 import {buildLayers} from '@rivet/ski-geometry';
 import {createSkiRenderer} from './renderer.js';
-import {canvasSize, paintSidewall, paintSurfaces} from './surfaces.js';
+import {canvasSize, decodedImage, paintSidewall, paintSurfaces} from './surfaces.js';
 import './studio3d.css';
 
-// Session view names (shared with the 2D stage and the packs) and their cameras.
-export const VIEWS = [
-  {value: 'Topsheet', label: 'Front', camera: 'front'},
-  {value: 'Base', label: 'Back', camera: 'back'},
-  {value: 'Sidewall', label: 'Sidewall', camera: 'sidewall'},
-  {value: 'Bindings', label: 'Bindings', camera: 'bindings'},
-  {value: '3D', label: '3D', camera: 'orbit'},
-  {value: 'Construction', label: 'Inside', camera: 'construction'},
-  {value: 'Technical', label: 'Tech Specs', camera: 'tech'},
-];
-export const cameraFor = (view, views = VIEWS) => views.find(v => v.value === view)?.camera ?? VIEWS.find(v => v.value === view)?.camera ?? 'front';
+import {VIEWS, cameraFor} from './views.js';
+
+export {VIEWS, cameraFor};
 
 const HINTS = {
   construction: ['Hover or tap a layer · drag to inspect', 'Tap a layer · drag to inspect'],
@@ -141,16 +133,29 @@ export default function Studio3D({engine, config, view, onView, previewBinding, 
     runtime.current?.setBinding(binding ? {colorway: binding.colorway, url: binding.url} : null).then(status => {if (live && status !== 'superseded') setBindingStatus(status);});
     return () => {live = false;};
   }, [binding?.key]); // eslint-disable-line react-hooks/exhaustive-deps
+  // Artwork is painted into one canvas per ski. A pack may paint in its own units and size
+  // (`surfaces.canvas`: {widthMm, lengthMm, size}) to keep native print pixels, and may add
+  // high-resolution detail overlays painted from a decoded source image (`model3d.details`).
+  const details = model3d.details?.(display, ctx) ?? null;
   useEffect(() => {
     if (!mesh) return undefined;
     let live = true;
     setArtwork('loading');
-    const box = {widthMm: mesh.definition.fullWidthMm, lengthMm: mesh.definition.lengthMm};
-    paintSurfaces(surfaces, {...box, size: canvasSize(box.widthMm, box.lengthMm)})
-      .then(painted => {if (live) {runtime.current?.setSurfaces({...painted, sidewall: surfaces.sidewallText ? paintSidewall(surfaces.sidewallText, {lengthMm: box.lengthMm, heightMm: mesh.definition.sidewallHeightMm ?? 5}) : null}); setArtwork('ready');}})
+    const own = {widthMm: mesh.definition.fullWidthMm ?? Math.max(mesh.definition.tipMm, mesh.definition.tailMm), lengthMm: mesh.definition.lengthMm};
+    const box = surfaces.canvas ?? {...own, size: canvasSize(own.widthMm, own.lengthMm)};
+    const detailed = details
+      ? Promise.all([decodedImage(details.src), details.ready?.()]).then(([image]) => (live ? details.paint(image, {maxTextureSize: runtime.current?.maxTextureSize ?? 4096}) : []))
+      : Promise.resolve([]);
+    Promise.all([paintSurfaces(surfaces, box), detailed])
+      .then(([painted, overlays]) => {
+        if (!live) return;
+        runtime.current?.setDetails(overlays);
+        runtime.current?.setSurfaces({...painted, sidewall: surfaces.sidewallText ? paintSidewall(surfaces.sidewallText, {lengthMm: own.lengthMm, heightMm: mesh.definition.sidewallHeightMm ?? 5}) : null});
+        setArtwork('ready');
+      })
       .catch(() => {if (live) setArtwork('error');});
     return () => {live = false;};
-  }, [surfaces.key, JSON.stringify(surfaces.sidewallText ?? null), mesh?.definition.fullWidthMm, mesh?.definition.lengthMm]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [surfaces.key, details?.key, JSON.stringify(surfaces.sidewallText ?? null), mesh?.definition.fullWidthMm, mesh?.definition.lengthMm]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const [pointerHint, touchHint] = HINTS[cameraView] ?? HINTS.front;
   return (

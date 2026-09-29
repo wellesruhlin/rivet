@@ -1,13 +1,15 @@
 $ErrorActionPreference = 'Stop'
 $makerProject = Split-Path $PSScriptRoot -Parent
-$skiProject = [IO.Path]::GetFullPath((Join-Path $makerProject '../on3p-custom-shop'))
+$skiProject = [IO.Path]::GetFullPath((Join-Path $makerProject '../on3p'))
+# Dependencies are installed once at the repository root (npm workspaces).
+$vite = [IO.Path]::GetFullPath((Join-Path $makerProject '../../node_modules/vite/bin/vite.js'))
 $workspaceLogs = Join-Path $makerProject '../../work/table-demo'
 New-Item -ItemType Directory -Force -Path $workspaceLogs | Out-Null
 $workspaceNode = (Get-Command node.exe).Source
 $workspaceServices = @(
   @{Name='Maker API';Port=5193;Root=$makerProject;Args='server/index.mjs';Log='workspace-api'},
-  @{Name='Management and tables';Port=5192;Root=$makerProject;Args='node_modules/vite/bin/vite.js --configLoader native --host 127.0.0.1 --port 5192 --strictPort';Log='workspace-web'},
-  @{Name='ON3P configurator';Port=5178;Root=$skiProject;Args='node_modules/vite/bin/vite.js --configLoader native --host 127.0.0.1 --port 5178 --strictPort';Log='workspace-skis'}
+  @{Name='Management and tables';Port=5192;Root=$makerProject;Args="`"$vite`" --configLoader native --host 127.0.0.1 --port 5192 --strictPort";Log='workspace-web'},
+  @{Name='ON3P configurator';Port=5178;Root=$skiProject;Args="`"$vite`" --configLoader native --host 127.0.0.1 --port 5178 --strictPort";Log='workspace-skis'}
 )
 foreach ($workspaceService in $workspaceServices) {
   $workspaceSocket = [Net.Sockets.TcpClient]::new()

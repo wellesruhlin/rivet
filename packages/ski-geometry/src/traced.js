@@ -79,7 +79,9 @@ export function artUV(model, u, xFraction, side, base) {
 /**
  * The kernel shape for a traced model at a resolved definition.
  * uv: 'canvas' maps artwork into the original print canvas for `side` (the Blender lab);
- *     'span' uses the kernel's default, spanning the widest width (the configurators).
+ *     'span' spans a constant width (the published tip or tail, whichever is wider), so
+ *     artwork is clipped by the outline rather than stretched to every row's edge (the
+ *     configurators, whose textures are the ski's own print area).
  */
 export function tracedShape(model, d, {side = 0, uv = 'canvas'} = {}) {
   const c = model.construction;
@@ -92,7 +94,9 @@ export function tracedShape(model, d, {side = 0, uv = 'canvas'} = {}) {
     steelStartU: c.estimatedTipSteelStartU,
     stations: [...model.outline.landmarks, ...model.profile.contactU],
     edgeClamp: false,
-    uvAt: uv === 'canvas' ? (u, x, band) => artUV(model, u, x, side, band === 1) : undefined,
+    uvAt: uv === 'canvas'
+      ? (u, x, band) => artUV(model, u, x, side, band === 1)
+      : (u, x, band, xMm) => [.5 + (band === 1 ? xMm : -xMm) / Math.max(d.tipMm, d.tailMm), 1 - u],
     definition: d,
     surfaces: TRACED_SURFACES,
     axes: 'X across, Y up, +Z nose',

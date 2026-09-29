@@ -20,6 +20,20 @@ export function constructionRecipe(layup = 'Stock', wood = false) {
 }
 const lerp = (a, b, t) => a + (b - a) * t;
 
+// Legend groups in stack order, top to bottom. Every layer maps to one of these.
+export const LAYER_KEYS = ['topsheet', 'composite', 'binding', 'insert', 'core', 'sidewall', 'rubber', 'base', 'edges'];
+export function layerKey(id) {
+  if (id === 'topsheet') return 'topsheet';
+  if (id.endsWith('composite')) return 'composite';
+  if (id === 'binding-mat') return 'binding';
+  if (id === 'insert') return 'insert';
+  if (id.startsWith('core-')) return 'core';
+  if (id.startsWith('sidewall-')) return 'sidewall';
+  if (id.startsWith('vds-')) return 'rubber';
+  if (id.startsWith('edge-')) return 'edges';
+  return 'base';
+}
+
 // The ordered layer specs for one layup, top to bottom. Each follows the exterior's
 // sampled outline, camber, rocker and local surface normal.
 export function on3pStack(definition, recipe) {
@@ -31,7 +45,7 @@ export function on3pStack(definition, recipe) {
   const full = s => [-width(s), width(s)];
   const inner = s => [-width(s, 3), width(s, 3)];
   const layer = (id, label, material, bounds, bottom, top, explode, {start, end, artwork = false, detail = '', confidence = 'illustrative'} = {}) =>
-    ({id, label, material, bounds, bottom, top, explode, start, end, detail, confidence, tiled: true, ...(artwork ? {artwork: material === 'base' ? 'base' : 'top'} : {})});
+    ({id, key: layerKey(id), label, material, bounds, bottom, top, explode, start, end, detail, confidence, tiled: true, ...(artwork ? {artwork: material === 'base' ? 'base' : 'top'} : {})});
   const stack = [];
   stack.push(layer('topsheet', wood ? 'Wood topsheet' : 'Textured topsheet', 'topsheet', s => [-width(s, .45), width(s, .45)], s => s.thicknessMm - .4, s => s.thicknessMm, [0, .176, 0], {artwork: true, detail: wood ? 'Selected wood cover' : 'ISOSPORT 8210 · Pi19 texture'}));
   stack.push(layer('upper-composite', 'Upper composite', 'composite', full, s => s.thicknessMm - .95, s => s.thicknessMm - .4, [0, .133, 0], {detail: '2800 hybrid · fiberglass / carbon'}));

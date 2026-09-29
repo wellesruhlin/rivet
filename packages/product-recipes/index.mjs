@@ -1,4 +1,4 @@
-import {defineProduct} from '@maker/configurator-core';
+import {defineProduct} from '@rivet/configurator/product';
 import {recipeScene} from './geometry.mjs';
 
 export const TEMPLATE_NAMES={parsons:'Corner-leg table',pedestal:'Round pedestal'};

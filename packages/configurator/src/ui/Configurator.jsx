@@ -1,6 +1,6 @@
 import {lazy, Suspense, useEffect, useMemo, useReducer, useRef, useState} from 'react';
 import {Bookmark, Check, CircleHelp, Info, X} from 'lucide-react';
-import {createSessionReducer, initialSession} from '../engine/session.js';
+import {createSessionReducer, initialSession, nextConfirmation} from '../engine/session.js';
 import Stage from './Stage.jsx';
 import {StepPanel, ReviewPanel} from './Panels.jsx';
 import BuildBar from './BuildBar.jsx';
@@ -98,7 +98,7 @@ export default function Configurator({engine, guides = {}, link, header, finalAc
     }
     return {...initialSession(engine, initial ?? {}), step: initial?.step ?? 0};
   });
-  const {config, step, reviewed, adjustments, view, field} = session;
+  const {config, step, reviewed, adjustments, view, field, confirmed} = session;
   // A visual-test binding: shown on the skis, never in the price, saves or links.
   const bindingGroup = useMemo(() => engine.groups.find(group => group.type === 'binding') ?? null, [engine]);
   const [previewBinding, setPreviewBinding] = useState(() => carriedBinding(engine, bindingGroup, linkedValue(link?.read?.(), bindingGroup?.id), config));
@@ -133,6 +133,9 @@ export default function Configurator({engine, guides = {}, link, header, finalAc
     dispatch({type: 'patch', patch: carried, notes});
     setPreviewBinding(next[id] ? null : choice);
   };
+  // A visual-test binding travels with saves, links and downloads as a selection that is
+  // re-checked on load; it is never priced.
+  const retained = current => (bindingGroup && previewBinding && !current[bindingGroup.id] ? {...current, [bindingGroup.id]: previewBinding} : current);
   const removeBinding = () => {
     if (bindingGroup) dispatch({type: 'patch', patch: {[bindingGroup.id]: ''}});
     setPreviewBinding(null);
@@ -183,7 +186,7 @@ export default function Configurator({engine, guides = {}, link, header, finalAc
 
   const save = () => {
     try {
-      localStorage.setItem(storageKey, JSON.stringify({version: 2, reviewVersion: engine.pack.reviewVersion, config, reviewed}));
+      localStorage.setItem(storageKey, JSON.stringify({version: 3, reviewVersion: engine.pack.reviewVersion, config: retained(config), reviewed, confirmed}));
       setHasSave(true);
       setModal('saved');
     } catch {
@@ -202,7 +205,17 @@ export default function Configurator({engine, guides = {}, link, header, finalAc
       const before = stored.config || stored;
       const after = engine.normalize(before);
       const savedReviews = (!engine.pack.reviewVersion || stored.reviewVersion === engine.pack.reviewVersion) && Array.isArray(stored.reviewed) ? stored.reviewed.filter(x => Number.isInteger(x) && x >= 0 && x < last) : [];
-      dispatch({type: 'load', config: after, reviewed: engine.invalidateReviews(before, after, savedReviews), changes: engine.apply({...engine.defaults(), ...before}, {}).changes});
+      // Confirmations survive only for choices the current rules left unchanged. Saves from
+      // before confirmations were stored count a reviewed step as confirmed.
+      const confirmStep = engine.steps.findIndex(s => s.id === engine.pack.confirm?.step);
+      const savedConfirmed = Array.isArray(stored.confirmed) ? stored.confirmed : Array.isArray(stored.graphicsConfirmed) ? stored.graphicsConfirmed : confirmStep >= 0 && savedReviews.includes(confirmStep) ? engine.pack.confirm.fields : [];
+      dispatch({
+        type: 'load',
+        config: after,
+        reviewed: engine.invalidateReviews(before, after, savedReviews),
+        confirmed: savedConfirmed.filter(key => before[key] === after[key]),
+        changes: engine.apply({...engine.defaults(), ...before}, {}).changes,
+      });
       setModal(null);
       setPreviewBinding(carriedBinding(engine, bindingGroup, bindingGroup && before[bindingGroup.id], after));
       setNotice(JSON.stringify(before) !== JSON.stringify(after) ? 'Build restored and revalidated against current rules. Please review your choices.' : 'Your saved build is back.');
@@ -212,7 +225,8 @@ export default function Configurator({engine, guides = {}, link, header, finalAc
   };
 
   const share = async () => {
-    const url = link?.url(engine.encode(config)) ?? `${location.origin}${location.pathname}#build=${engine.encode(config)}`;
+    const encoded = engine.encode(retained(config));
+    const url = link?.url(encoded) ?? `${location.origin}${location.pathname}#build=${encoded}`;
     const local = ['localhost', '127.0.0.1'].includes(location.hostname);
     try {
       await navigator.clipboard.writeText(url);
@@ -224,7 +238,7 @@ export default function Configurator({engine, guides = {}, link, header, finalAc
   };
 
   const download = () => {
-    const blob = new Blob([engine.text(config)], {type: 'text/plain;charset=utf-8'});
+    const blob = new Blob([engine.text(config, {previewBinding})], {type: 'text/plain;charset=utf-8'});
     const url = URL.createObjectURL(blob);
     const anchor = document.createElement('a');
     const model = engine.context(config).model;
@@ -277,9 +291,9 @@ export default function Configurator({engine, guides = {}, link, header, finalAc
           {adjustments.length > 0 && <AdjustmentNotice adjustments={adjustments} onDismiss={() => dispatch({type: 'dismissAdjustments'})} />}
           <div className="cfg-panel" key={`${step}-${field}`}>
             {step < last ? (
-              <StepPanel engine={engine} index={step} config={config} field={field} update={update} onView={setView} openGuide={setModal} display={display} binding={{preview: previewBinding, setPreview: setPreviewBinding, remove: removeBinding}} />
+              <StepPanel engine={engine} index={step} config={config} field={field} update={update} onView={setView} onField={next => dispatch({type: 'goto', step, field: next})} openGuide={setModal} display={display} binding={{preview: previewBinding, setPreview: setPreviewBinding, remove: removeBinding}} />
             ) : (
-              <ReviewPanel engine={engine} config={config} setStep={goTo} share={share} download={download} display={display} previewBinding={previewBinding} />
+              <ReviewPanel engine={engine} config={config} setStep={goTo} share={share} download={download} display={display} previewBinding={previewBinding} notify={setNotice} />
             )}
           </div>
         </section>
@@ -298,6 +312,8 @@ export default function Configurator({engine, guides = {}, link, header, finalAc
         onBack={() => goTo(step - 1)}
         finalLabel={finalAction?.label ?? 'Save your build'}
         previewBinding={previewBinding}
+        pendingConfirm={nextConfirmation(engine, session)}
+        field={field}
       />
       <p className="cfg-sr-only" aria-live="polite">
         {ready ? `${engine.pack.copy.totalLabel ?? 'Reference total'} ${engine.money(amount)}` : ''}

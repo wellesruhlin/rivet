@@ -14,9 +14,9 @@
 //         edgeClamp: false keeps the published steel and base heights even where the ski is
 //           thinner than they allow (the traced ON3P lab geometry); by default they are capped
 //           at 45% / 90% of the local thickness,
-//         uvAt(u, xFraction, band): optional artwork UVs for the topsheet (band 0) and base
-//           (band 1), with xFraction 0–1 across the local width; the default spans the widest
-//           width with v = 1 − u,
+//         uvAt(u, xFraction, band, xMm): optional artwork UVs, called for every side band
+//           (band 1 is the base, 0 everything else) with xFraction 0–1 across the local width
+//           and xMm from the centre line; the default spans the widest width with v = 1 − u,
 //         definition, surfaces, axes: optional replacements for those returned fields}
 export const SURFACES = ['topsheet', 'base', 'sidewall', 'steel', 'sidewall-print'];
 const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
@@ -49,7 +49,8 @@ export function generateSkiMesh(shape, {segments = 360} = {}) {
   const uvOf = shape.uvAt
     ? (k, material) => {
       const section = sections[Math.floor(k / N)];
-      return shape.uvAt(section.u, clamp(positions[k][0] * 1000 / section.widthMm + .5, 0, 1), material === 1 ? 1 : 0);
+      const xMm = positions[k][0] * 1000;
+      return shape.uvAt(section.u, clamp(xMm / section.widthMm + .5, 0, 1), material === 1 ? 1 : 0, xMm);
     }
     : (k, material) => {
       const section = sections[Math.floor(k / N)];

@@ -5,11 +5,13 @@ import {Field, RadioGroup} from './Controls.jsx';
 import {GroupField} from './Fields.jsx';
 import ArtSwatch from './ArtSwatch.jsx';
 
-export function PanelHead({index, step}) {
+export function PanelHead({index, step, config}) {
+  // An intro may depend on the build (a prompt that retires once it is answered).
+  const intro = typeof step.intro === 'function' ? step.intro(config) : step.intro;
   return (
     <header className="cfg-panel-head">
       <h2><span className="cfg-heading-number">{String(index + 1).padStart(2, '0')}</span>{step.title}</h2>
-      {step.intro && <p className="cfg-panel-intro">{step.intro}</p>}
+      {intro && <p className="cfg-panel-intro">{intro}</p>}
     </header>
   );
 }
@@ -75,7 +77,7 @@ function GroupList({engine, groups, props}) {
   );
 }
 
-export function StepPanel({engine, index, config, field, update, onView, openGuide, display, binding}) {
+export function StepPanel({engine, index, config, field, update, onView, onField, openGuide, display, binding}) {
   const step = engine.steps[index];
   const groups = engine.stepGroups(step.id);
   const tabs = step.layout === 'tabs' ? step.tabs ?? groups.map(group => ({group: group.id, label: group.ui?.tab ?? group.label})) : null;
@@ -86,7 +88,7 @@ export function StepPanel({engine, index, config, field, update, onView, openGui
 
   return (
     <>
-      <PanelHead index={index} step={step} />
+      <PanelHead index={index} step={step} config={config} />
       {tabs ? (
         <>
           <RadioGroup
@@ -95,6 +97,9 @@ export function StepPanel({engine, index, config, field, update, onView, openGui
             options={tabs.map(t => ({value: t.group, label: t.label}))}
             value={tab}
             onChange={next => {
+              // On a confirmation step the tab is the choice being confirmed, so it moves the
+              // session (and the primary button) with it.
+              if (engine.pack.confirm?.step === step.id && onField) return onField(next);
               setTab(next);
               const view = tabs.find(t => t.group === next)?.view;
               if (view) onView(view);
@@ -108,6 +113,34 @@ export function StepPanel({engine, index, config, field, update, onView, openGui
       {step.footnote && <p className="cfg-fine">{typeof step.footnote === 'function' ? step.footnote(config, ctx) : step.footnote}</p>}
       <FooterLink link={step.link} />
     </>
+  );
+}
+
+// Hands the exact build to the maker desk for review, a confirmed quote and an order
+// export. The pack decides where it is offered (local pilots only, for example).
+function Handoff({handoff, config, previewBinding}) {
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+  if (handoff.available && !handoff.available()) return null;
+  const submit = async () => {
+    setBusy(true);
+    setError('');
+    try {
+      location.assign(await handoff.submit(config, {previewBinding}));
+    } catch (failure) {
+      setError(failure.message);
+      setBusy(false);
+    }
+  };
+  return (
+    <section className="cfg-review-block" aria-label={handoff.label ?? 'Maker review'}>
+      <h3 className="cfg-overline">{handoff.title}</h3>
+      <p className="cfg-fine cfg-handoff-text">{handoff.text}</p>
+      <button className="cfg-outline-button" type="button" disabled={busy} onClick={submit}>
+        {busy ? handoff.busy ?? 'Saving your build…' : handoff.button}
+      </button>
+      {error && <p role="alert" className="cfg-fine cfg-handoff-error">{error}</p>}
+    </section>
   );
 }
 
@@ -136,7 +169,7 @@ const Rows = ({rows}) => (
   </dl>
 );
 
-export function ReviewPanel({engine, config, setStep, share, download, display, previewBinding}) {
+export function ReviewPanel({engine, config, setStep, share, download, display, previewBinding, notify}) {
   const index = engine.steps.length - 1;
   const step = engine.steps[index];
   const lines = engine.bom(config);
@@ -158,7 +191,7 @@ export function ReviewPanel({engine, config, setStep, share, download, display, 
 
   return (
     <>
-      <PanelHead index={index} step={step} />
+      <PanelHead index={index} step={step} config={config} />
       {engine.steps.slice(0, -1).map((s, stepIndex) => {
         const stepLines = lines.filter(line => line.step === stepIndex);
         const galleries = stepLines.filter(line => engine.group(line.key).type === 'gallery');
@@ -248,6 +281,7 @@ export function ReviewPanel({engine, config, setStep, share, download, display, 
         </div>
       )}
 
+      {engine.pack.handoff && <Handoff handoff={engine.pack.handoff} config={config} previewBinding={previewBinding} />}
       <div className="cfg-review-actions">
         <button type="button" className="cfg-outline-button" onClick={share}>
           <Link2 size={15} strokeWidth={1.8} /> Copy build link

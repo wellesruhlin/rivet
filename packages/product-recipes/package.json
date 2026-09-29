@@ -9,6 +9,6 @@
     "./materials": "./materials.json"
   },
   "dependencies": {
-    "@maker/configurator-core": "*"
+    "@rivet/configurator": "*"
   }
 }

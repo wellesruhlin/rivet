@@ -6,10 +6,10 @@ import {join} from 'node:path';
 import {randomUUID} from 'node:crypto';
 import {createApp} from '../server/app.mjs';
 import {tableProduct} from '@maker/ref-parsons';
-import {skiProduct} from '../../on3p-custom-shop/src/product-adapter.js';
-import {normalizeConfig,stockFor} from '../../on3p-custom-shop/src/config.js';
+import {skiProduct} from '@rivet/brand-on3p/product';
+import {normalizeConfig,stockFor} from '@rivet/brand-on3p';
 import {createHandoffStore,packetFiles} from '../server/handoff-store.mjs';
-import {submitForReview} from '@maker/configurator-core/handoff-client';
+import {submitForReview} from '@rivet/configurator/product/handoff-client';
 
 const password='local-pilot-test-password';
 const token=()=>randomUUID().replaceAll('-','')+randomUUID().replaceAll('-','');

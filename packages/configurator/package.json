@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Brand-agnostic custom ski configurator: engine, session state, React UI and an optional three.js ski studio.",
+  "description": "Rivet configurator: the brand-agnostic engine, session state, React UI and 3D ski studio, plus the order-side product contract (validate, price, snapshot, hand off).",
   "exports": {
     ".": "./src/index.js",
     "./engine": "./src/engine/index.js",
     "./styles.css": "./src/styles/configurator.css",
-    "./studio3d.css": "./src/studio3d/studio3d.css"
+    "./studio3d.css": "./src/studio3d/studio3d.css",
+    "./product": "./src/product/index.mjs",
+    "./product/handoff-client": "./src/product/handoff-client.mjs",
+    "./product/asset-build": "./src/product/asset-build.mjs",
+    "./product/geometry": "./src/product/geometry.mjs",
+    "./product/management": "./src/product/management.mjs",
+    "./product/engine": "./src/product/engine-product.js",
+    "./studio3d/views": "./src/studio3d/views.js",
+    "./studio3d/renderer": "./src/studio3d/renderer.js",
+    "./studio3d/finishes": "./src/studio3d/finishes.js"
   },
   "peerDependencies": {
     "lucide-react": ">=0.468.0",

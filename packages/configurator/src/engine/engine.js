@@ -14,6 +14,7 @@
 //   price(value, config, ctx)   number, or {quote: [min, max]} for quote-only items
 //   format(value, config, ctx)  display text
 //   resets                      group ids cleared when this group changes
+//   explain                     false to never explain a change to this group (see changeNotes)
 //   bom                         false to leave the group out of the build sheet, or
 //                               (config, ctx) => boolean to list it only when it applies
 //   min, max                    the accepted range of a `number` group
@@ -111,16 +112,22 @@ export function createEngine(pack) {
     return `${group.label}: ${format(group, previous[group.id], previous)} → ${format(group, config[group.id], config)}.${why ? ` ${why}` : ''}`;
   }
 
-  // Applies a customer edit and explains every dependent choice that changed.
-  function apply(previous, patch = {}) {
+  // The configuration an edit asks for, before validation: the patch over the previous
+  // build, dependent choices it resets, and the pack's own adjustments. The order side
+  // (product contracts) shares this step with customer edits.
+  function prepare(previous, patch = {}) {
     let requested = {...previous, ...patch};
     for (const [id, value] of Object.entries(patch)) {
       const group = groupsById.get(id);
       // A dependent choice the same edit makes explicitly is kept.
       if (group?.resets && value !== previous[id]) for (const reset of group.resets) if (!Object.hasOwn(patch, reset)) requested[reset] = undefined;
     }
-    requested = pack.beforeNormalize?.(previous, patch, requested) ?? requested;
-    const config = normalize(requested);
+    return pack.beforeNormalize?.(previous, patch, requested) ?? requested;
+  }
+
+  // Applies a customer edit and explains every dependent choice that changed.
+  function apply(previous, patch = {}) {
+    const config = normalize(prepare(previous, patch));
     const changes = [];
     for (const group of groups) {
       if (group.explain === false || Object.hasOwn(patch, group.id)) continue;
@@ -128,6 +135,10 @@ export function createEngine(pack) {
       if (group.type === 'text') continue;
       changes.push({field: group.id, text: explain(group, previous, config)});
     }
+    // Notes a pack derives from the whole edit (a binding that joined or left the price
+    // because the ski changed) lead the list.
+    const notes = pack.changeNotes?.(previous, patch, config, context(config));
+    if (notes?.length) changes.unshift(...notes);
     return {config, changes};
   }
 
@@ -179,17 +190,25 @@ export function createEngine(pack) {
   }
 
   const encode = config => new URLSearchParams(groups.filter(g => !isEmpty(config[g.id]) && g.share !== false).map(g => [g.id, String(config[g.id])])).toString();
+  // A link carries only the choices it names; every other group takes the pack's default
+  // for that build (a model's stock artwork, say), not the pack's global default.
   function decode(text) {
     const data = Object.fromEntries(new URLSearchParams(text));
-    const input = {...defaults()};
+    const input = {};
     for (const group of groups) if (Object.hasOwn(data, group.id)) input[group.id] = coerce(group, data[group.id]);
     return apply(input, {});
   }
 
-  function text(config) {
+  // The plain-text build sheet. A visual-test binding (shown on the skis, never priced)
+  // is listed after the priced lines when the pack describes it.
+  function text(config, {previewBinding = null} = {}) {
     const {amount, quote, currency} = total(config);
     const money = value => formatMoney(value, currency);
     const lines = bom(config).map(line => `${line.label}: ${line.value} — ${line.quote ? `quote ${money(line.quote[0])}–${money(line.quote[1])}` : line.price ? money(line.price) : 'Included'}`);
+    if (previewBinding) {
+      const visual = pack.exportVisual?.(previewBinding, config, context(config));
+      if (visual) lines.push(visual);
+    }
     const notes = groups
       .filter(group => group.type === 'text' && config[group.id])
       .map(group => `${group.label}: ${config[group.id]}`);
@@ -224,6 +243,7 @@ export function createEngine(pack) {
     format,
     defaults,
     normalize,
+    prepare,
     apply,
     ready,
     missingForOrder,

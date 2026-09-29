@@ -1,6 +1,6 @@
 import {useEffect,useRef,useState} from 'react';
 import {ArrowUpRight,Check,Download,RefreshCw,LockKeyhole,PackageCheck,ChevronRight} from 'lucide-react';
-import {formatMoney} from '@maker/configurator-core';
+import {formatMoney} from '@rivet/configurator/product';
 import './handoff.css';
 
 const names={'on3p-custom-ski':'ON3P Custom Skis','ref-parsons':'Parsons Dining Table','vft-bistro-round':'Bistro Round'};

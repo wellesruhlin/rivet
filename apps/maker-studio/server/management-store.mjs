@@ -1,7 +1,7 @@
 import {DatabaseSync} from 'node:sqlite';
 import {mkdirSync} from 'node:fs';
 import {join} from 'node:path';
-import {DEFAULT_MAPPING,RESOURCE_KINDS,validateManaged} from '@maker/configurator-core/management';
+import {DEFAULT_MAPPING,RESOURCE_KINDS,validateManaged} from '@rivet/configurator/product/management';
 import {canonical} from './handoff-release.mjs';
 const fail=(status,message,issues)=>{throw Object.assign(new Error(message),{status,issues});};
 export function createManagementStore(directory){

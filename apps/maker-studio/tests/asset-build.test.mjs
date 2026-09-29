@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {createAssetBuild, readAssetBuild, assetDigest} from '@maker/configurator-core/asset-build';
+import {createAssetBuild, readAssetBuild, assetDigest} from '@rivet/configurator/product/asset-build';
 
 const input = () => ({product: {id: 'ski-assembly', version: '2026-09'}, resolverRevision: 'reference-1',
   selection: {ski: 'woodsman-108', lengthCm: 191, binding: '47243248206049', boot: {confirmedBslMm: null}},

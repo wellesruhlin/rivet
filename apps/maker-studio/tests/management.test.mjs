@@ -6,7 +6,7 @@ import {join} from 'node:path';
 import {randomUUID} from 'node:crypto';
 import {createApp} from '../server/app.mjs';
 import {createManagementStore} from '../server/management-store.mjs';
-import {validateManaged,DEFAULT_MAPPING} from '@maker/configurator-core/management';
+import {validateManaged,DEFAULT_MAPPING} from '@rivet/configurator/product/management';
 import {tableProduct} from '@maker/ref-parsons';
 
 const product={id:'test-product',title:'Test product',currency:'USD',fields:[{id:'finish',type:'string'},{id:'length',type:'number'}]};

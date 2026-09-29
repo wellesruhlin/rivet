@@ -1,5 +1,5 @@
 import {join} from 'node:path';
-import {ConfigurationError} from '@maker/configurator-core';
+import {ConfigurationError} from '@rivet/configurator/product';
 import {createHandoffStore,fail} from './handoff-store.mjs';
 import {canonical,productRelease} from './handoff-release.mjs';
 import {resolveProduct} from './studio-routes.mjs';

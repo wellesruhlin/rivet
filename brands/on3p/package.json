@@ -5,9 +5,34 @@
   "type": "module",
   "description": "ON3P brand pack: catalog, rules, traced geometry, construction, artwork and bindings. Independent fan concept; not affiliated with ON3P.",
   "exports": {
-    "./construction": "./src/geometry/construction.js"
+    ".": "./src/index.js",
+    "./product": "./src/product.js",
+    "./pack": "./src/pack.js",
+    "./app": "./src/app/App.jsx",
+    "./app/styles.css": "./src/app/styles.css",
+    "./construction": "./src/geometry/construction.js",
+    "./geometry/configured": "./src/geometry/configured.js",
+    "./catalog.json": "./src/catalog.json",
+    "./compatibility.json": "./src/compatibility.json",
+    "./stock-art.json": "./src/stock-art.json",
+    "./bindings-catalog.json": "./src/bindings-catalog.json",
+    "./geometry/traced-models.json": "./src/geometry/traced-models.json"
   },
   "dependencies": {
+    "@rivet/configurator": "*",
     "@rivet/ski-geometry": "*"
+  },
+  "peerDependencies": {
+    "react": ">=19",
+    "react-dom": ">=19",
+    "lucide-react": ">=0.468.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "art": "node scripts/build-art.mjs",
+    "art:print": "node scripts/build-print-art.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
   }
 }

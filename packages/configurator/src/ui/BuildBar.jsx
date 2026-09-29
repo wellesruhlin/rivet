@@ -74,7 +74,7 @@ function BuildSheet({engine, config, reviewed, ready, onEdit, onClose, sheetRef,
   );
 }
 
-export default function BuildBar({engine, config, step, reviewed, ready, open, setOpen, onEdit, onNext, onBack, finalLabel, previewBinding}) {
+export default function BuildBar({engine, config, step, reviewed, ready, open, setOpen, onEdit, onNext, onBack, finalLabel, previewBinding, pendingConfirm, field}) {
   const model = engine.context(config).model;
   // The length (or a pack's size group, `ui.size`) shown next to the model name.
   const lengthGroup = engine.groups.find(group => group.type === 'length' || group.ui?.size);
@@ -100,8 +100,13 @@ export default function BuildBar({engine, config, step, reviewed, ready, open, s
 
   const next = engine.steps[step + 1]?.label;
   const first = engine.pack.copy.firstStep ?? {};
-  const label = !ready ? first.cta ?? 'Select your shape' : step === last ? finalLabel : `Continue to ${next}`;
-  const shortLabel = !ready ? first.short ?? 'Select shape' : step === last ? finalLabel : next;
+  // Labels may depend on the build (what is still missing); a pack's confirmation step
+  // names the choice being confirmed ("Use this base").
+  const copy = (value, fallback) => (typeof value === 'function' ? value(config) : value) ?? fallback;
+  const confirm = engine.pack.confirm;
+  const confirming = ready && pendingConfirm && engine.steps[step]?.id === confirm?.step ? confirm.label(pendingConfirm, field, config) : null;
+  const label = !ready ? copy(first.cta, 'Select your shape') : confirming ?? (step === last ? finalLabel : `Continue to ${next}`);
+  const shortLabel = !ready ? copy(first.short, 'Select shape') : confirming ?? (step === last ? finalLabel : next);
   const length = lengthGroup && config[lengthGroup.id];
   const lengthText = engine.pack.review?.barMeta?.(config, engine.context(config)) ?? (length ? lengthGroup.ui?.barLabel?.(length, config) ?? `${length} cm` : first.missing ?? 'select a length');
 

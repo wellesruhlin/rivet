@@ -1,7 +1,7 @@
 import {lazy,Suspense,useEffect,useMemo,useState} from 'react';
 import {Share2,Download,Bookmark,ArrowUpRight} from 'lucide-react';
 import {compileRecipe} from '@maker/product-recipes';
-import {encodeConfiguration,decodeConfiguration,formatMoney} from '@maker/configurator-core';
+import {encodeConfiguration,decodeConfiguration,formatMoney} from '@rivet/configurator/product';
 import {api,exportJSON} from './api.js';
 import {Field,NumberField} from './Fields.jsx';
 import './studio.css';

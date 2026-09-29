@@ -1,4 +1,4 @@
-import {defineProduct} from '@maker/configurator-core';
+import {defineProduct} from '@rivet/configurator/product';
 import catalog from './catalog.json' with {type:'json'};
 import {tableScene} from './geometry.mjs';
 export {catalog};

@@ -39,7 +39,7 @@ function CategoryCards({engine, group, config, ctx, update}) {
   const options = useOptions(engine, group, config, ctx);
   return (
     <RadioGroup
-      label={group.ui?.field ?? group.label}
+      label={group.ui?.ariaLabel ?? group.ui?.field ?? group.label}
       className="cfg-card-grid"
       itemClassName="cfg-card cfg-card-category"
       options={options}
@@ -89,14 +89,14 @@ function ModelSelect({engine, group, config, ctx, update}) {
 
 function LengthChips({engine, group, config, ctx, update}) {
   const options = useOptions(engine, group, config, ctx).map(option => ({...option, label: option.label ?? String(option.value)}));
-  return <RadioGroup label={group.ui?.field ?? group.label} className="cfg-length-row" itemClassName="cfg-length-chip" options={options} value={config[group.id]} onChange={value => update({[group.id]: value})} />;
+  return <RadioGroup label={group.ui?.ariaLabel ?? group.ui?.field ?? group.label} className="cfg-length-row" itemClassName="cfg-length-chip" options={options} value={config[group.id]} onChange={value => update({[group.id]: value})} />;
 }
 
 function ChoiceCards({engine, group, config, ctx, update, describedBy}) {
   const options = useOptions(engine, group, config, ctx).map(option => ({...option, describedBy}));
   return (
     <RadioGroup
-      label={group.ui?.field ?? group.label}
+      label={group.ui?.ariaLabel ?? group.ui?.field ?? group.label}
       className={`cfg-card-grid ${options.length > 2 ? 'is-compact' : ''}`}
       itemClassName="cfg-card"
       options={options}
@@ -117,14 +117,14 @@ function ChoiceCards({engine, group, config, ctx, update, describedBy}) {
 
 function Segmented({engine, group, config, ctx, update, describedBy}) {
   const options = useOptions(engine, group, config, ctx).map(option => ({...option, label: option.short ?? option.label, describedBy}));
-  return <RadioGroup label={group.ui?.field ?? group.label} className="cfg-segmented is-block" options={options} value={config[group.id]} onChange={value => update({[group.id]: value})} />;
+  return <RadioGroup label={group.ui?.ariaLabel ?? group.ui?.field ?? group.label} className="cfg-segmented is-block" options={options} value={config[group.id]} onChange={value => update({[group.id]: value})} />;
 }
 
 function ChoiceList({engine, group, config, ctx, update}) {
   const options = useOptions(engine, group, config, ctx);
   const radio = useRadioGroup(options, config[group.id], value => update({[group.id]: value}));
   return (
-    <div role="radiogroup" aria-label={group.ui?.field ?? group.label} className="cfg-option-list">
+    <div role="radiogroup" aria-label={group.ui?.ariaLabel ?? group.ui?.field ?? group.label} className="cfg-option-list">
       {options.map((option, i) => {
         const checked = option.value === config[group.id];
         const noteId = `${group.id}-note-${i}`;
@@ -194,7 +194,7 @@ function Swatches({engine, group, config, ctx, update}) {
         </div>
       )}
       <RadioGroup
-        label={group.ui?.field ?? group.label}
+        label={group.ui?.ariaLabel ?? group.ui?.field ?? group.label}
         className={`cfg-swatch-row ${group.ui?.swatchSize === 'large' ? 'is-large' : ''}`}
         itemClassName="cfg-swatch"
         options={options}
@@ -406,7 +406,7 @@ function CompactChoices({engine, group, config, ctx, update}) {
   return (
     <>
       <RadioGroup
-        label={group.ui?.field ?? group.label}
+        label={group.ui?.ariaLabel ?? group.ui?.field ?? group.label}
         className="cfg-compact-grid"
         itemClassName="cfg-compact-option"
         options={options}

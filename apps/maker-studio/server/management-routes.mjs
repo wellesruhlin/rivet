@@ -1,4 +1,4 @@
-import {MANAGEMENT_CONTRACT,validateManaged} from '@maker/configurator-core/management';
+import {MANAGEMENT_CONTRACT,validateManaged} from '@rivet/configurator/product/management';
 import {packetFiles,fail} from './handoff-store.mjs';
 export function managementRoutes(management,getCatalog){
   return async function route(path,req,readBody,send){

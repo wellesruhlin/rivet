@@ -64,6 +64,28 @@ export function bufferGeometry(mesh) {
   return geometry;
 }
 
+// Overlays a small high-resolution texture on part of a material's artwork (UV bounds
+// [u, v, width, height]), so fine print keeps its detail without a huge whole-ski
+// texture. The ink shares the material's lighting and finish.
+export function withDetail(material, detail) {
+  if (!detail) return material;
+  material.onBeforeCompile = shader => {
+    shader.uniforms.printDetail = {value: detail.texture};
+    shader.uniforms.printBounds = {value: new THREE.Vector4(...detail.bounds)};
+    shader.fragmentShader = shader.fragmentShader.replace('#include <map_pars_fragment>',
+      '#include <map_pars_fragment>\nuniform sampler2D printDetail;\nuniform vec4 printBounds;');
+    shader.fragmentShader = shader.fragmentShader.replace('#include <map_fragment>', `
+      #include <map_fragment>
+      vec2 detailUv = (vMapUv - printBounds.xy) / printBounds.zw;
+      vec4 detailInk = texture2D(printDetail, clamp(detailUv, 0.0, 1.0));
+      float inside = step(0.0, detailUv.x) * step(detailUv.x, 1.0) * step(0.0, detailUv.y) * step(detailUv.y, 1.0);
+      diffuseColor.rgb = mix(diffuseColor.rgb, detailInk.rgb, detailInk.a * inside);
+    `);
+  };
+  material.customProgramCacheKey = () => 'rivet-print-detail-v1';
+  return material;
+}
+
 export function createSkiRenderer(host, onFailure, {onLayer, onPick, bindingUrl, labels = {}, pair: showPair = true, detailSpan = .86} = {}) {
   const renderer = new THREE.WebGLRenderer({antialias: true, alpha: true});
   renderer.setPixelRatio(Math.min(2.5, Math.max(2, devicePixelRatio)));
@@ -103,7 +125,7 @@ export function createSkiRenderer(host, onFailure, {onLayer, onPick, bindingUrl,
     light.position.set(...pos);
     scene.add(light);
   }
-  let alive = true, geometry, meshes = [], textures = {top: [], base: [], sidewall: null}, view = 'front', length = 1.8, sidewall = '#151515', finish = 'nylon';
+  let alive = true, geometry, meshes = [], textures = {top: [], base: [], sidewall: null}, details = [], view = 'front', length = 1.8, sidewall = '#151515', finish = 'nylon';
   let parts = [], partSpecs = [];
   let shell = null, layers = null, veneer = false, study = null, reveal = 0, overview = true, highlighted = null, hovered = null, pressed = null;
   let animation = null, frame = 0;
@@ -115,7 +137,7 @@ export function createSkiRenderer(host, onFailure, {onLayer, onPick, bindingUrl,
     const response = FINISH_RESPONSE[finish] ?? FINISH_RESPONSE.nylon;
     const top = textures.top[side] ?? null, base = textures.base[baseArtworkSide(side, artworkView)] ?? null;
     return [
-      new THREE.MeshPhysicalMaterial({map: top, color: top ? 0xffffff : 0x24211d, roughness: 1, roughnessMap: maps.roughness, normalMap: maps.normal, normalScale: new THREE.Vector2(1, 1), metalness: 0, ior: 1.48, ...response}),
+      withDetail(new THREE.MeshPhysicalMaterial({map: top, color: top ? 0xffffff : 0x24211d, roughness: 1, roughnessMap: maps.roughness, normalMap: maps.normal, normalScale: new THREE.Vector2(1, 1), metalness: 0, ior: 1.48, ...response}), top ? details[side] : null),
       new THREE.MeshStandardMaterial({map: base, color: base ? 0xffffff : 0x121314, roughness: .62, metalness: 0}),
       new THREE.MeshStandardMaterial({color: sidewall, roughness: .52}),
       new THREE.MeshStandardMaterial({color: 0xc4c9cc, metalness: .9, roughness: .3}),
@@ -412,6 +434,17 @@ export function createSkiRenderer(host, onFailure, {onLayer, onPick, bindingUrl,
     },
     setSidewall(color) {sidewall = color; meshes.forEach(ski => {ski.material[2].color.set(color); if (!textures.sidewall) ski.material[4].color.set(color);}); rebuildStudy(); render();},
     setFinish(kind) {finish = kind; canvas.dataset.finish = kind; refreshMaterials();},
+    /** The largest texture this device accepts, for packs that paint high-resolution detail. */
+    get maxTextureSize() {return renderer.capabilities.maxTextureSize;},
+    /** High-resolution topsheet detail, [left ski, right ski]: {canvas, bounds: [u, v, w, h]} or null. */
+    setDetails(list = []) {
+      const previous = details;
+      details = list.map(detail => (detail ? {texture: canvasTexture(detail.canvas), bounds: detail.bounds} : null));
+      details.forEach(detail => {if (detail) detail.texture.anisotropy = anisotropy;});
+      canvas.dataset.printDetail = details.some(Boolean) ? 'detail' : 'source';
+      refreshMaterials();
+      previous.forEach(detail => detail?.texture.dispose());
+    },
     /** Top and base artwork as canvases (or images), [left ski, right ski] each. */
     setSurfaces({top = [], base = [], sidewall: print = null}) {
       const previous = [...textures.top, ...textures.base, textures.sidewall];
@@ -431,6 +464,7 @@ export function createSkiRenderer(host, onFailure, {onLayer, onPick, bindingUrl,
       study?.dispose();
       bindingStudy.dispose();
       [...textures.top, ...textures.base, textures.sidewall].forEach(texture => texture?.dispose());
+      details.forEach(detail => detail?.texture.dispose());
       parts.forEach(part => {part.geometry.dispose(); part.material.dispose();});
       ground.geometry.dispose(); ground.material.dispose();
       Object.values(finishes).forEach(maps => maps.dispose());
