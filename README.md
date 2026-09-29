@@ -48,6 +48,24 @@ Each app's own `README.md` and handoff file has the full detail.
 
 Assembled on 2026-09-29 from the Codex working folders on Welles's PC. Only the
 site had version control before; its history is preserved under `apps/site`.
-The original folders under `Documents/Codex/2026-09-2x/` were left untouched.
-Ski Studio's lockfile was re-synced during import (the `outreach` app had been
-added without updating it, so `npm ci` failed).
+The original folders were left untouched. Older documents (including Fall
+Line's asset-production records) cite these pre-import paths:
+
+| Old path under `Documents/Codex` | Now |
+|---|---|
+| `2026-09-23/i/outputs/on3p-custom-shop` | `apps/on3p-custom-shop` |
+| `2026-09-23/go-x20/outputs/maker-studio` | `apps/maker-studio` |
+| `2026-09-23/go-x20/outputs/on3p-ski-lab` | `labs/on3p-ski-lab` |
+| `2026-09-23/go-x20/work/maker-studio-builds` | `work/maker-studio-builds` |
+| `2026-09-23/i/work/stock-2027` | `work/stock-2027` |
+| `2026-09-24/ski-studio` | `apps/ski-studio` |
+| `2026-09-28/giv/outputs/rivet-site` | `apps/site` |
+
+Text files are stored with LF line endings, so a few files that had Windows line
+endings hash differently from the originals. Ski Studio's lockfile was
+re-synced during import (the `outreach` app had been added without updating it,
+so `npm ci` failed).
+
+Not imported (still only in the Codex folders): the earlier Praxis site
+prototypes and review packages in `2026-09-23/go-x20/outputs/`, zip snapshots,
+and scratch scripts and logs under the dated `work/` folders.
