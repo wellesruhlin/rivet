@@ -1,7 +1,7 @@
 import {useEffect,useMemo,useState} from 'react';
 import {ArrowUpRight,Check,Download,Plus,Save,Settings2,Trash2,RefreshCw,GitBranch,Plug,Package,Coins,History} from 'lucide-react';
 import {formatMoney} from '@maker/configurator-core';
-import {CONNECTOR_PROVIDERS,DEFAULT_MAPPING,EXPORT_FIELDS,validateManaged} from '../../packages/configurator-core/management.mjs';
+import {CONNECTOR_PROVIDERS,DEFAULT_MAPPING,EXPORT_FIELDS,validateManaged} from '@maker/configurator-core/management';
 import {managedApi as api,downloadJson} from './api.js';
 import '../handoff/handoff.css';
 import './management.css';

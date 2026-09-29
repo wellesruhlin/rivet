@@ -1,11 +1,8 @@
 {
-  "name": "maker-studio",
+  "name": "@rivet/app-maker-studio",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "dev": "vite --configLoader native --host 127.0.0.1 --port 5192 --strictPort",
     "server": "node server/index.mjs",

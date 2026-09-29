@@ -6,7 +6,7 @@ import {configuredGeometry, configuredMesh} from '../geometry/configured.js';
 import {createSkiRenderer} from '../geometry/renderer.js';
 import {finishFor} from '../geometry/finishes.js';
 import {cameraFor} from '../preview-views.js';
-import {constructionRecipe} from '../geometry/construction.mjs';
+import {constructionRecipe} from '@rivet/brand-on3p/construction';
 import {constructionLayers} from '../construction-layers.js';
 import {bindingFor} from '../bindings.js';
 

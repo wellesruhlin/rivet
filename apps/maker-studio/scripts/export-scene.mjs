@@ -1,8 +1,8 @@
 import {writeFile,readFile} from 'node:fs/promises';
 import {tableProduct} from '@maker/ref-parsons';
 import {inspectScene} from '@maker/configurator-core/geometry';
-import {compileRecipe} from '../packages/product-recipes/index.mjs';
-import seeds from '../packages/product-recipes/seeds.json' with {type:'json'};
+import {compileRecipe} from '@maker/product-recipes';
+import seeds from '@maker/product-recipes/seeds' with {type:'json'};
 const args=process.argv.slice(2),option=key=>{const i=args.indexOf(key);return i>=0?args[i+1]:null;};
 let input={};
 if(args.includes('--stdin')){let raw='';for await(const chunk of process.stdin)raw+=chunk;input=JSON.parse(raw||'{}');}

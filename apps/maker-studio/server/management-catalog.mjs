@@ -1,6 +1,6 @@
 import {catalog,compatibility,categories,sidewalls,layups,flexOptions,PRICES} from '../../on3p-custom-shop/src/config.js';
 import {bindingCatalog} from '../../on3p-custom-shop/src/bindings.js';
-import {compileRecipe} from '../packages/product-recipes/index.mjs';
+import {compileRecipe} from '@maker/product-recipes';
 const choices=list=>list.map(v=>typeof v==='object'?{value:v.id,label:v.name||v.id}:{value:v,label:String(v)});
 export async function managementCatalog(recipes,products){
   const published=await recipes.catalog(),lists=await recipes.list();

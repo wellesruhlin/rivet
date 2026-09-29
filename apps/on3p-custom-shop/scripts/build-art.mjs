@@ -12,8 +12,10 @@ import catalog from '../src/catalog.json' with {type: 'json'};
 import {CROPS, THUMB_WIDTH, artName} from '../src/art-geometry.js';
 
 const root = path.resolve(import.meta.dirname, '..');
-const sourceDir = path.join(root, 'art-source');
-const outDirs = {stage: path.join(root, 'public/art/stage'), thumb: path.join(root, 'public/art/thumb')};
+// ON3P artwork lives once, in the brand pack.
+const brand = path.resolve(root, '../../brands/on3p');
+const sourceDir = path.join(brand, 'art-source');
+const outDirs = {stage: path.join(brand, 'public/art/stage'), thumb: path.join(brand, 'public/art/thumb')};
 
 const newer = async (output, input) => {
   try {

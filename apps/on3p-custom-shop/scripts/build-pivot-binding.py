@@ -34,7 +34,7 @@ SAMPLES = 32 if QUICK else 256
 RES = 800 if QUICK else 1600
 OUT = ROOT / 'blender'
 RENDERS = OUT / 'renders'
-GLB = ROOT / 'public/models/look-pivot-15.glb'
+GLB = ROOT.parents[1] / 'brands/on3p/public/models/look-pivot-15.glb'
 COLORWAYS = ['Black', 'Blue', 'Orange', 'Super Edition']
 DESCRIPTION = ('LOOK Pivot 2.0 15 GW visual study. Signed-distance model measured from photographs of a '
                'retail binding and LOOK catalogue renders; 320 mm reference boot sole. Not factory CAD; '

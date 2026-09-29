@@ -1,1 +1,0 @@
-{"name":"@maker/product-recipes","version":"0.1.0","type":"module","exports":{".":"./index.mjs","./geometry":"./geometry.mjs","./seeds":"./seeds.json"},"dependencies":{"@maker/configurator-core":"*"}}

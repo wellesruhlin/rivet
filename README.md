@@ -7,24 +7,25 @@ names; nothing here is affiliated with or endorsed by those makers.
 
 ## Layout
 
-| Path | What it is | Local port |
-|---|---|---|
-| `apps/on3p-custom-shop` | Standalone ON3P custom-ski configurator (the hero CPQ demo). Blender-based 3D preview, bindings, build sheet. | 5178 (serves `dist`) |
-| `apps/maker-studio` | Product recipe editor, configurator core (`packages/configurator-core`), table configurators, quote/handoff API. | 5192 app, 5193 API |
-| `apps/ski-studio` | Shared ski/snowboard configurator engine with ON3P, Praxis and Proteus brand packs, plus the outreach app. | 5180 / 5181 / 5182 |
-| `apps/site` | Rivet marketing site and product-intake form (hosted on ChatGPT Sites with D1/R2). Full git history preserved. | 5173 |
-| `labs/on3p-ski-lab` | Canonical ON3P ski geometry and construction kernel, Blender library/export scripts. | 5190 |
-| `work/maker-studio-builds` | Maker Studio's saved drafts, published versions and build snapshots. **This is data, back it up.** | — |
-| `work/stock-2027` | Cached public product metadata/images used by `on3p-custom-shop/scripts/extend-geometry.py`. | — |
+One npm workspace (`npm install` at the root) for everything except `apps/site`.
 
-### How the pieces depend on each other
-
-- `on3p-custom-shop` installs `@maker/configurator-core` from `apps/maker-studio/packages/configurator-core`.
-- `maker-studio`'s server and tests import the ON3P adapter, config and bindings from `apps/on3p-custom-shop/src`.
-- `on3p-custom-shop`'s construction test checks its kernel against `labs/on3p-ski-lab/construction.mjs`.
-- Maker Studio stores data in `work/maker-studio-builds` (override with `MAKER_STORAGE`).
-
-Keep these apps side by side; moving one breaks the others.
+| Path | What it is |
+|---|---|
+| `packages/configurator` | `@rivet/configurator`: the shared engine, session reducer, React UI and 3D ski studio every brand runs on. |
+| `packages/ski-geometry` | `@rivet/ski-geometry`: the one ski mesh kernel, construction-layer builder and traced-outline models. Dependency-free; runs in Node, the browser and feeds Blender and Fall Line. |
+| `packages/configurator-core` | `@maker/configurator-core`: the order-side product contract (validate, price, snapshot, hand off). |
+| `packages/product-recipes`, `packages/ref-parsons` | Maker Studio's recipe compiler and the Parsons table product. |
+| `brands/on3p` | ON3P artwork (`art-source/`, `public/`) and construction layups, stored once. |
+| `apps/on3p-custom-shop` | Flagship ON3P configurator: Blender-based 3D, bindings, build sheet. |
+| `apps/on3p-studio` | The older 2D ON3P pack on the shared engine (to be replaced by the flagship). |
+| `apps/praxis`, `apps/proteus`, `apps/outreach` | Praxis storefront + configurator, Proteus snowboards, and the Grass Sticks / Folsom / Meier outreach demos. |
+| `apps/maker-studio` | Product recipe editor, table configurators, quote/handoff API. |
+| `apps/site` | Rivet marketing site (ChatGPT Sites; own lockfile, not in the workspace). |
+| `labs/on3p-ski-lab` | ON3P geometry lab and Blender library/export scripts, on the shared kernel. |
+| `qa/` | Scripted browser passes (puppeteer) and presentation screenshots. |
+| `work/maker-studio-builds` | Maker Studio's saved drafts and builds. **Data: back it up.** |
+| `work/stock-2027` | Cached ON3P product data for `extend-geometry.py`. |
+| `docs/history` | Handoff notes from the pre-import projects. |
 
 Fall Line consumes these products too. Its
 [CPQ asset reuse contract](https://github.com/wellesruhlin/fall-line/blob/main/docs/CPQ-ASSET-REUSE-CONTRACT.md)
@@ -32,17 +33,24 @@ requires one maintained Blender/product master to feed both the CPQ preview and 
 
 ## Run and test
 
-Node 22.12+. Install `maker-studio` before `on3p-custom-shop`.
+Node 22.12+.
 
 ```sh
-cd apps/maker-studio      && npm ci && npm test      # 34 tests
-cd apps/on3p-custom-shop  && npm ci && npm test      # 52 tests; npm run build
-cd apps/ski-studio        && npm ci && npm test      # 66 tests
-cd labs/on3p-ski-lab      && npm test                # geometry verification
-cd apps/site              && npm ci && npm run build
+npm install
+npm test                 # every workspace: engine, geometry, brands, apps, lab
+npm run build            # every app
+npm run dev:on3p         # flagship ON3P  http://127.0.0.1:5178
+npm run dev:praxis       # 5181 · dev:proteus 5182 · dev:outreach 5184 · dev:on3p-studio 5180
+npm run server:maker     # Maker API 5193, then npm run dev:maker for the app on 5192
 ```
 
-Each app's own `README.md` and handoff file has the full detail.
+Browser QA: start the matching dev server, then `npm run qa:praxis` (or `qa:proteus`,
+`qa:on3p-studio`). Set `CHROME_PATH` if Chrome isn't at the default Windows
+location; `CHROME_NO_SANDBOX=1` for containers running as root.
+
+`labs/on3p-ski-lab/test/golden.json` pins every lab mesh and construction layer to
+the output of the original lab code. If a kernel change moves a fingerprint, that
+change altered real geometry: review it, don't just regenerate the file.
 
 ## History
 
@@ -53,12 +61,12 @@ Line's asset-production records) cite these pre-import paths:
 
 | Old path under `Documents/Codex` | Now |
 |---|---|
-| `2026-09-23/i/outputs/on3p-custom-shop` | `apps/on3p-custom-shop` |
-| `2026-09-23/go-x20/outputs/maker-studio` | `apps/maker-studio` |
+| `2026-09-23/i/outputs/on3p-custom-shop` | `apps/on3p-custom-shop` (artwork: `brands/on3p`) |
+| `2026-09-23/go-x20/outputs/maker-studio` | `apps/maker-studio`, `packages/configurator-core`, `packages/product-recipes`, `packages/ref-parsons` |
 | `2026-09-23/go-x20/outputs/on3p-ski-lab` | `labs/on3p-ski-lab` |
 | `2026-09-23/go-x20/work/maker-studio-builds` | `work/maker-studio-builds` |
 | `2026-09-23/i/work/stock-2027` | `work/stock-2027` |
-| `2026-09-24/ski-studio` | `apps/ski-studio` |
+| `2026-09-24/ski-studio` | `packages/configurator`, `apps/praxis`, `apps/proteus`, `apps/outreach`, `apps/on3p-studio`, `qa/` |
 | `2026-09-28/giv/outputs/rivet-site` | `apps/site` |
 
 Text files are stored with LF line endings, so a few files that had Windows line

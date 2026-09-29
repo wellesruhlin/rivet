@@ -1,9 +1,9 @@
 import {readFile,writeFile,mkdir,rename} from 'node:fs/promises';
 import {join} from 'node:path';
 import {randomUUID} from 'node:crypto';
-import seeds from '../packages/product-recipes/seeds.json' with {type:'json'};
-import materialSeeds from '../packages/product-recipes/materials.json' with {type:'json'};
-import {assertRecipe,compileRecipe} from '../packages/product-recipes/index.mjs';
+import seeds from '@maker/product-recipes/seeds' with {type:'json'};
+import materialSeeds from '@maker/product-recipes/materials' with {type:'json'};
+import {assertRecipe,compileRecipe} from '@maker/product-recipes';
 
 const clone=structuredClone;
 const fail=(status,message)=>Object.assign(new Error(message),{status});

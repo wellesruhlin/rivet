@@ -1,0 +1,13 @@
+{
+  "name": "@rivet/brand-on3p",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ON3P brand pack: catalog, rules, traced geometry, construction, artwork and bindings. Independent fan concept; not affiliated with ON3P.",
+  "exports": {
+    "./construction": "./src/geometry/construction.js"
+  },
+  "dependencies": {
+    "@rivet/ski-geometry": "*"
+  }
+}

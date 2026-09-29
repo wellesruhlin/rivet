@@ -1,0 +1,25 @@
+{
+  "name": "@rivet/configurator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Brand-agnostic custom ski configurator: engine, session state, React UI and an optional three.js ski studio.",
+  "exports": {
+    ".": "./src/index.js",
+    "./engine": "./src/engine/index.js",
+    "./styles.css": "./src/styles/configurator.css",
+    "./studio3d.css": "./src/studio3d/studio3d.css"
+  },
+  "peerDependencies": {
+    "lucide-react": ">=0.468.0",
+    "react": ">=19",
+    "react-dom": ">=19"
+  },
+  "scripts": {
+    "test": "node --test src/engine/engine.test.js"
+  },
+  "dependencies": {
+    "three": "0.180.0",
+    "@rivet/ski-geometry": "*"
+  }
+}

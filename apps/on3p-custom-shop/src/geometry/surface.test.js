@@ -58,7 +58,7 @@ test('local print textures have independent uniforms and leave ordinary graphics
 });
 
 test('every public design has an original-source lossless preview', () => {
-  const folder = new URL('../../public/art/print/', import.meta.url);
+  const folder = new URL('../../../../brands/on3p/public/art/print/', import.meta.url);
   const manifest = JSON.parse(readFileSync(new URL('manifest.json', folder)));
   assert.equal(manifest.length, catalog.tops.length + catalog.bases.length);
   for (const graphic of [...catalog.tops, ...catalog.bases]) {

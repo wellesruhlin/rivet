@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import {generateConstruction} from './construction.mjs';
+import {generateConstruction} from '@rivet/brand-on3p/construction';
 import {surfaceMaps} from './construction-materials.js';
 
 // Legend groups in stack order, top to bottom. Every layer mesh maps to one of these.

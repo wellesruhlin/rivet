@@ -7,7 +7,7 @@ export function canonical(value) {
   return JSON.stringify(value);
 }
 const skiRoot = new URL('../../on3p-custom-shop/src/', import.meta.url);
-const sharedRoot = new URL('../packages/', import.meta.url);
+const sharedRoot = new URL('../../../packages/', import.meta.url);
 const files = {
   'on3p-custom-ski': ['config.js','product-adapter.js','bindings.js','catalog.json','compatibility.json','stock-art.json','bindings-catalog.json'].map(p => [p,new URL(p,skiRoot)]),
   'ref-parsons': ['index.mjs','catalog.json'].map(p => [p,new URL('ref-parsons/'+p,sharedRoot)]),

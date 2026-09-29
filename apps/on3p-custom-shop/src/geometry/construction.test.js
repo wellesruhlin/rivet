@@ -1,7 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFileSync, existsSync} from 'node:fs';
-import {constructionRecipe, generateConstruction, LAYUP_IDS} from './construction.mjs';
+import {constructionRecipe, generateConstruction, LAYUP_IDS} from '@rivet/brand-on3p/construction';
 import {configuredGeometry, configuredMesh} from './configured.js';
 import {defaultConfig} from '../config.js';
 import library from './on3p.json' with {type: 'json'};
@@ -52,11 +51,9 @@ test('Torsion Bar reaches farther than Leaf Spring; leaf is broader; mounting pl
   assert.ok(mount[1] < leaf[1]);
 });
 
-test('browser and Blender use the identical dependency-free construction generator', t => {
-  const canonical = new URL('../../../../labs/on3p-ski-lab/construction.mjs', import.meta.url);
-  if (!existsSync(canonical)) return t.skip('Blender lab is not present in this standalone checkout');
-  // Path resolves from src/geometry up to the repo root, then into labs/on3p-ski-lab.
-  assert.equal(readFileSync(new URL('./construction.mjs', import.meta.url), 'utf8'), readFileSync(canonical, 'utf8'));
+test('browser and Blender use the one construction generator', async () => {
+  const lab = await import('../../../../labs/on3p-ski-lab/construction.mjs');
+  assert.equal(lab.generateConstruction, generateConstruction);
 });
 
 test('every construction layer maps to one described, highlightable legend entry', async () => {

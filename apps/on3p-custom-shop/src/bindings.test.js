@@ -91,7 +91,7 @@ test('bindings is the fourth reviewed section before the final review', () => {
 });
 
 test('Blender export is a self-contained finite meter-scale mesh with recolorable paint', () => {
-  const bytes = readFileSync(new URL('../public/models/look-pivot-15.glb', import.meta.url));
+  const bytes = readFileSync(new URL('../../../brands/on3p/public/models/look-pivot-15.glb', import.meta.url));
   assert.equal(bytes.readUInt32LE(0), 0x46546c67);
   assert.equal(bytes.readUInt32LE(8), bytes.length);
   const gltf = JSON.parse(bytes.subarray(20, 20 + bytes.readUInt32LE(12)).toString());

@@ -78,7 +78,7 @@ def main():
         if i:
             for obj in objects: obj.hide_render=True
     scene.frame_end=85;scene.frame_set(55)
-    for name,text in [('ON3P_CONSTRUCTION_README', 'Select a Reveal control empty and change separation 0–1, or scrub frames 1–55. Six 186 cm Jeffrey 106 layups are asset-marked collections. Regenerate any supported model/size/layup with scripts/blender_controls.py. Internal dimensions and placement are illustrative, not factory CAD. Source: https://www.on3pskis.com/products/custom-skis'),('ON3P_CONSTRUCTION_RECIPE',json.dumps({'source':'https://www.on3pskis.com/products/custom-skis','layups':LAYUPS,'verified':results},indent=2)),('ON3P_CONSTRUCTION_GENERATOR.mjs',(ROOT/'construction.mjs').read_text(encoding='utf-8'))]:
+    for name,text in [('ON3P_CONSTRUCTION_README', 'Select a Reveal control empty and change separation 0–1, or scrub frames 1–55. Six 186 cm Jeffrey 106 layups are asset-marked collections. Regenerate any supported model/size/layup with scripts/blender_controls.py. Internal dimensions and placement are illustrative, not factory CAD. Source: https://www.on3pskis.com/products/custom-skis'),('ON3P_CONSTRUCTION_RECIPE',json.dumps({'source':'https://www.on3pskis.com/products/custom-skis','layups':LAYUPS,'verified':results},indent=2)),('ON3P_CONSTRUCTION_GENERATOR.mjs',(ROOT/'../../brands/on3p/src/geometry/construction.js').read_text(encoding='utf-8'))]:
         block=bpy.data.texts.get(name) or bpy.data.texts.new(name);block.clear();block.write(text)
     for loc,power,size in [((1,-1,2.5),220,2),((-1,0,1.6),170,2),((0,2,1.5),130,1.5)]:
         light=bpy.data.lights.new('Construction softbox','AREA');light.energy=power;light.shape='RECTANGLE';light.size=size;light.size_y=2.4

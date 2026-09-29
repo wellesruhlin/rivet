@@ -1,6 +1,6 @@
 import {lazy,Suspense,useEffect,useMemo,useRef,useState} from 'react';
 import {Plus,Database,ArrowUpRight,Check,Download,Trash2} from 'lucide-react';
-import {compileRecipe,validateRecipe,TEMPLATE_NAMES} from '../../packages/product-recipes/index.mjs';
+import {compileRecipe,validateRecipe,TEMPLATE_NAMES} from '@maker/product-recipes';
 import {formatMoney} from '@maker/configurator-core';
 import {api,exportJSON} from './api.js';
 import {Field,NumberField,Select,Modal,MaterialFields} from './Fields.jsx';

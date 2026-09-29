@@ -1,1 +1,18 @@
-{"name":"on3p-geometry-study","version":"0.1.0","private":true,"type":"module","scripts":{"start":"node scripts/server.mjs","test":"node scripts/verify.mjs","export":"node scripts/export-mesh.mjs"},"engines":{"node":">=22"}}
+{
+  "name": "@rivet/lab-on3p-ski",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "test": "node scripts/verify.mjs && node --test test/*.test.mjs",
+    "export": "node scripts/export-mesh.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@rivet/ski-geometry": "*",
+    "@rivet/brand-on3p": "*"
+  }
+}

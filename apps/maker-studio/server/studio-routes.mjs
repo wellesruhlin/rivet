@@ -1,4 +1,4 @@
-import {compileRecipe} from '../packages/product-recipes/index.mjs';
+import {compileRecipe} from '@maker/product-recipes';
 
 export function studioRoutes(store){
   return async function route(req,res,url,readBody,send){

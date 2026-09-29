@@ -1,0 +1,16 @@
+{
+  "name": "@rivet/ski-geometry",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dependency-free ski geometry: the mesh kernel, construction layers and traced-outline models. Runs in Node, the browser (no bundler) and feeds Blender.",
+  "exports": {
+    ".": "./src/index.js",
+    "./kernel": "./src/kernel.js",
+    "./construction": "./src/construction.js",
+    "./traced": "./src/traced.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}

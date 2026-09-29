@@ -8,7 +8,9 @@ import catalog from '../src/catalog.json' with {type: 'json'};
 import {CROPS, artName} from '../src/art-geometry.js';
 
 const root = path.resolve(import.meta.dirname, '..');
-const out = path.join(root, 'public/art/print');
+// ON3P artwork lives once, in the brand pack.
+const brand = path.resolve(root, '../../brands/on3p');
+const out = path.join(brand, 'public/art/print');
 await mkdir(out, {recursive: true});
 const jobs = [...catalog.tops.map(graphic => ({graphic, kind: 'top'})), ...catalog.bases.map(graphic => ({graphic, kind: 'base'}))];
 const manifest = [];

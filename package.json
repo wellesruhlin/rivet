@@ -1,0 +1,38 @@
+{
+  "name": "rivet",
+  "private": true,
+  "type": "module",
+  "description": "Rivet CPQ: shared configurator engine, geometry, brand packs and apps.",
+  "workspaces": [
+    "packages/*",
+    "brands/*",
+    "apps/praxis",
+    "apps/proteus",
+    "apps/outreach",
+    "apps/on3p-studio",
+    "apps/on3p-custom-shop",
+    "apps/maker-studio",
+    "labs/on3p-ski-lab"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "build": "npm run build -w apps/praxis -w apps/proteus -w apps/outreach -w apps/on3p-studio -w apps/on3p-custom-shop -w apps/maker-studio",
+    "dev:on3p": "npm run dev -w apps/on3p-custom-shop -- --port 5178",
+    "dev:on3p-studio": "npm run dev -w apps/on3p-studio -- --port 5180",
+    "dev:praxis": "npm run dev -w apps/praxis -- --port 5181",
+    "dev:proteus": "npm run dev -w apps/proteus -- --port 5182",
+    "dev:outreach": "npm run dev -w apps/outreach",
+    "dev:maker": "npm run dev -w apps/maker-studio",
+    "server:maker": "npm run server -w apps/maker-studio",
+    "qa:praxis": "node qa/praxis.mjs",
+    "qa:on3p-studio": "node qa/on3p.mjs",
+    "qa:proteus": "node qa/proteus.mjs",
+    "screenshots": "node qa/screenshots.mjs qa/screenshots"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}
