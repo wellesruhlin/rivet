@@ -2,8 +2,8 @@
 // Stock items keep the original concept's storage key and shape; custom builds are
 // stored as validated configurations so they can be edited again later.
 import {useSyncExternalStore} from 'react';
-import {product} from '../catalog/index.js';
-import {engine} from '../configurator/index.js';
+import {product} from '@rivet/brand-praxis/catalog';
+import {engine} from '@rivet/brand-praxis';
 
 const BAG_KEY = 'praxis-demo-bag';
 const COMPARE_KEY = 'praxis-compare';

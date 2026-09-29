@@ -1,7 +1,7 @@
 import {ArrowUpRight} from 'lucide-react';
 import {formatMoney} from '@rivet/configurator/engine';
-import {BASE_PRICE, catalog, COLLAB_PRICE, CUSTOM_FEE} from './brand/pack.js';
-import {CAMBER_PRESETS, describeEnd, SIZES, STIFFNESS, TRAVEL_MM} from './brand/specs.js';
+import {BASE_PRICE, catalog, COLLAB_PRICE, CUSTOM_FEE} from '../pack.js';
+import {CAMBER_PRESETS, describeEnd, SIZES, STIFFNESS, TRAVEL_MM} from '../specs.js';
 
 const capital = text => text.charAt(0).toUpperCase() + text.slice(1);
 

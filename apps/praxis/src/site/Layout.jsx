@@ -1,7 +1,7 @@
 import {useEffect, useRef, useState} from 'react';
 import {ArrowRight, ArrowUpRight, Menu, Search, X} from 'lucide-react';
-import {money, priceLabel, product, search} from '../catalog/index.js';
-import {categories, modelById} from '../configurator/pack.js';
+import {money, priceLabel, product, search} from '@rivet/brand-praxis/catalog';
+import {categories, modelById} from '@rivet/brand-praxis/pack';
 import {bagCount, clearCompare, useStore} from './store.js';
 
 export const NAV = [

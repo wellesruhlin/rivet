@@ -1,5 +1,5 @@
 import {ArrowRight} from 'lucide-react';
-import {priceLabel, product, summary} from '../../catalog/index.js';
+import {priceLabel, product, summary} from '@rivet/brand-praxis/catalog';
 import {Cover} from '../Cards.jsx';
 import {toggleCompare, useStore} from '../store.js';
 

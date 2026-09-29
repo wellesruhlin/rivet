@@ -1,6 +1,6 @@
 import {Configurator} from '@rivet/configurator';
-import {engine} from './brand/index.js';
-import {asset} from './brand/art.js';
+import {engine} from '../index.js';
+import {asset} from '../art.js';
 import {guides} from './guides.jsx';
 import {attachWidgets} from './widgets.jsx';
 

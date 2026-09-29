@@ -1,7 +1,6 @@
 import {across,strip,rail} from '@rivet/ski-geometry';
-import {rockerProfiles,tailShapes,profileHeight,folsomBindings} from './folsom-options.js';
+import {rockerProfiles,tailShapes,profileHeight,folsomBindings} from '@rivet/brand-folsom';
 import {asset} from './catalog.js';
-import outlines from './data/outlines.json' with {type:'json'};
 
 export const modelDimensions=(model,length)=>model.dimsByLength?.[length]||model.dims;
 const interpolate=(values,u)=>{const p=Math.max(0,Math.min(1,u))*(values.length-1),i=Math.min(values.length-2,Math.floor(p));return values[i]+(values[i+1]-values[i])*(p-i);};
@@ -9,7 +8,7 @@ const interpolate=(values,u)=>{const p=Math.max(0,Math.min(1,u))*(values.length-
 export function skiShape(config,ctx){
  const m=ctx.model, L=(config.length||m.lengths[0])*10;
  const [tip,waist,tail]=modelDimensions(m,config.length);
- const outline=outlines[`${ctx.brand.id}/${m.id}`];
+ const outline=ctx.brand.outlines?.[m.id];
  // Trace each model's published planform, then calibrate to its length-specific dimensions.
  // One continuous interpolation avoids the detached cap/shoulder of the old generic curve.
  const tipU=outline.widths.slice(0,104).reduce((best,v,i,all)=>v>all[best]?i:best,0)/256;

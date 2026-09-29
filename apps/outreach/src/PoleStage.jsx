@@ -5,7 +5,7 @@ import {Minus,Plus,RotateCcw} from 'lucide-react';
 import {RadioGroup} from '@rivet/configurator';
 import {brands,colors,title,asset} from './catalog.js';
 
-import {strapDesigns} from './grass-options.js';
+import {strapDesigns} from '@rivet/brand-grass-sticks';
 
 function bambooTexture(torched=false){const c=document.createElement('canvas');c.width=256;c.height=1024;const p=c.getContext('2d');p.fillStyle='#caaa69';p.fillRect(0,0,256,1024);for(let x=0;x<256;x++){p.strokeStyle=`rgba(87,57,18,${.025+(Math.sin(x*71)+1)*.025})`;p.beginPath();p.moveTo(x,0);p.lineTo(x+Math.sin(x)*2,1024);p.stroke();}for(const y of [130,362,600,844]){p.fillStyle='#aa864c';p.fillRect(0,y,256,3);p.fillStyle='#e1c795';p.fillRect(0,y+4,256,3);}if(torched)for(let y=55;y<1024;y+=95){const gradient=p.createLinearGradient(0,y-14,0,y+14);gradient.addColorStop(0,'#b58b48');gradient.addColorStop(.4,'#382215');gradient.addColorStop(.65,'#523019');gradient.addColorStop(1,'#b58b48');p.fillStyle=gradient;p.fillRect(0,y-14,256,28);}const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;return t;}
 function makePole(c,x){const g=new THREE.Group();g.position.x=x;const L=c.length/100;const mat=(color='#202426',roughness=.62)=>new THREE.MeshStandardMaterial({color,roughness});const bamboo=new THREE.MeshStandardMaterial({map:bambooTexture(c.model==='ringtail'),roughness:.62});

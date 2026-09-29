@@ -5,7 +5,7 @@
 // boards; the background, shadows and the marks printed on every board (binding inserts,
 // the adjustment cap, the base wordmark) do not. The per-pixel variation across all 222
 // images therefore gives the exact board silhouette. From it:
-//   src/brand/data/outline.json   the traced planform (width per row) and mockup landmarks
+//   src/data/outline.json   the traced planform (width per row) and mockup landmarks
 //   public/art/top|base/<name>.webp   each colorway's topsheet and base, cropped to the
 //                                     board and bled 2 px past the edge (no grey fringe)
 //   public/art/thumb/<name>.webp  gallery tiles (top and base side by side)
@@ -75,8 +75,8 @@ const outline = {
   },
   crops: {top: topBox, base: baseBox},
 };
-await mkdir(`${root}src/brand/data`, {recursive: true});
-await writeFile(`${root}src/brand/data/outline.json`, `${JSON.stringify(outline)}\n`);
+await mkdir(`${root}src/data`, {recursive: true});
+await writeFile(`${root}src/data/outline.json`, `${JSON.stringify(outline)}\n`);
 
 // 3. Crops with a 2 px bleed past the traced edge.
 const rowsByY = rows => new Map(rows.map(r => [r[0], r]));

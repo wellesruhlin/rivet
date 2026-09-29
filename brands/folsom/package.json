@@ -1,0 +1,13 @@
+{
+  "name": "@rivet/brand-folsom",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Folsom Custom Skis outreach pack: shapes, graphics library, layups, rocker and tail options, Marker bindings and artwork. Independent demo; not affiliated with Folsom.",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "dependencies": {
+    "@rivet/configurator": "*"
+  }
+}

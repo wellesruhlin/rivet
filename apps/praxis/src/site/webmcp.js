@@ -1,6 +1,6 @@
 // Optional, feature-detected browser tools (WebMCP) for agents that browse the site.
 // They read the catalog, open pages and stage the device-local bag; nothing can purchase.
-import {product, products, search} from '../catalog/index.js';
+import {product, products, search} from '@rivet/brand-praxis/catalog';
 import {addStock} from './store.js';
 
 export function registerBrowserTools() {

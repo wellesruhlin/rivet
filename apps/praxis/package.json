@@ -1,29 +1,24 @@
 {
   "name": "@rivet/app-praxis",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
   "type": "module",
+  "description": "Praxis storefront and custom workshop (independent concept) on the shared Rivet configurator.",
   "scripts": {
     "dev": "vite --configLoader native --host 127.0.0.1",
     "build": "vite build --configLoader native",
-    "preview": "vite preview --configLoader native --host 127.0.0.1",
-    "test": "node --test src/configurator/pack.test.js src/configurator/studio.test.js src/catalog/catalog.test.js",
-    "import": "node scripts/import-catalog.mjs",
-    "art": "node scripts/fetch-art.mjs && node scripts/trace-outlines.mjs && node scripts/build-art.mjs",
-    "bindings": "node scripts/import-bindings.mjs"
+    "preview": "vite preview --configLoader native --host 127.0.0.1"
   },
   "dependencies": {
+    "@rivet/brand-praxis": "*",
+    "@rivet/configurator": "*",
     "@fontsource-variable/dm-sans": "^5.2.0",
     "@fontsource-variable/fraunces": "^5.2.0",
     "lucide-react": "^0.468.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "@rivet/configurator": "*",
-    "@rivet/ski-geometry": "*"
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "node-html-parser": "^7.0.1",
-    "sharp": "^0.34.5",
     "vite": "^7.1.7"
   }
 }

@@ -25,10 +25,11 @@
     "dev:outreach": "npm run dev -w apps/outreach",
     "dev:maker": "npm run dev -w apps/maker-studio",
     "server:maker": "npm run server -w apps/maker-studio",
+    "qa:on3p": "node qa/on3p-parity.mjs",
     "qa:praxis": "node qa/praxis.mjs",
     "qa:proteus": "node qa/proteus.mjs",
-    "screenshots": "node qa/screenshots.mjs qa/screenshots",
-    "qa:on3p": "node qa/on3p-parity.mjs"
+    "qa:outreach": "node qa/outreach.mjs",
+    "screenshots": "node qa/screenshots.mjs qa/screenshots"
   },
   "devDependencies": {
     "puppeteer-core": "^25.12.0"

@@ -1,4 +1,4 @@
-import {colors,title} from './catalog.js';
+import {colors,title} from './palette.js';
 import {formatMoney} from '@rivet/configurator/engine';
 const option=(value,label=value,text)=>({value,label,text});
 export const strapDesigns=['Bridgers','Dark Side','Fantasia','Flow','Idaho 9','Lone 2','Lone Peak','Mount Tam','Purple Haze','Sacagawea','Spanish Peaks','Teton','The Grand','Wasatch Front'];

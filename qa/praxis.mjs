@@ -97,7 +97,9 @@ await click('.cfg-card', 'Standard molding');
 await click('.cfg-card', 'Standard');
 await click('.cfg-compact-option', 'Ultra Light');
 check('Ultra Light adds $150', (await amount()) === '$1,750');
-check('Weight shows an honest bound', /< 8\.9/.test((await heading()) ?? ''), await heading());
+// The weight estimate lives in Tech Specs; the heading keeps to the model and artwork.
+await view('Tech Specs');
+check('Weight shows an honest bound', /< 8\.9/.test((await text('.cfg-3d-tech')) ?? ''), await text('.cfg-3d-tech'));
 await view('Inside');
 await settled();
 check('Inside shows the Ultra Light layup', (await page.$$('.cfg-3d-chip')).length === 9 && /Carbon fiber/.test((await text('.cfg-3d-legend')) ?? '') && /Ultra Light core/.test((await text('.cfg-3d-legend')) ?? ''), await text('.cfg-3d-legend'));
@@ -132,7 +134,8 @@ check('Custom price in the bag', (await text('.px-bag-item.is-custom .px-bag-pri
 check('Bag total adds stock and custom', (await text('.px-total-row strong')) === '$2,750', await text('.px-total-row strong'));
 await click('.px-bag-actions a', 'Edit build');
 await sleep(900);
-check('Edit opens the review step', (await text('.cfg-panel-head h2')) === 'Review', await text('.cfg-panel-head h2'));
+// The panel heading carries its step number ("06Review").
+check('Edit opens the review step', /Review$/.test((await text('.cfg-panel-head h2')) ?? ''), await text('.cfg-panel-head h2'));
 check('Final action updates instead of duplicating', /Update your bag/.test((await text('.cfg-primary-button')) ?? ''));
 check('Rider notes survive editing', /175 lb/.test((await text('.cfg-panel')) ?? ''));
 await click('.cfg-step-nav button', 'Look');

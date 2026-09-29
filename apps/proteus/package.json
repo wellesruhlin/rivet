@@ -1,27 +1,24 @@
 {
   "name": "@rivet/app-proteus",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
+  "description": "Proteus custom shop (independent fan concept) on the shared Rivet configurator.",
   "scripts": {
     "dev": "vite --configLoader native --host 127.0.0.1",
     "build": "vite build --configLoader native",
-    "preview": "vite preview --configLoader native --host 127.0.0.1",
-    "test": "node --test src/brand/pack.test.js",
-    "import": "node scripts/import-catalog.mjs",
-    "art": "node scripts/fetch-art.mjs && node scripts/build-art.mjs"
+    "preview": "vite preview --configLoader native --host 127.0.0.1"
   },
   "dependencies": {
+    "@rivet/brand-proteus": "*",
+    "@rivet/configurator": "*",
     "@fontsource-variable/figtree": "^5.3.0",
     "@fontsource-variable/urbanist": "^5.3.0",
     "lucide-react": "^0.468.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "@rivet/configurator": "*",
-    "@rivet/ski-geometry": "*"
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "sharp": "^0.34.5",
     "vite": "^7.1.7"
   }
 }

@@ -1,7 +1,7 @@
 import {useMemo} from 'react';
 import {Configurator} from '@rivet/configurator';
-import {engine} from '../../configurator/index.js';
-import {guides} from '../../configurator/guides.jsx';
+import {engine} from '@rivet/brand-praxis';
+import {guides} from '@rivet/brand-praxis/guides';
 import {addCustom, customItem, updateCustom} from '../store.js';
 import {toast} from '../toast.jsx';
 import {parseHash} from '../router.js';

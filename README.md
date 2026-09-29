@@ -15,8 +15,12 @@ One npm workspace (`npm install` at the root) for everything except `apps/site`.
 | `packages/ski-geometry` | `@rivet/ski-geometry`: the one ski mesh kernel, construction-layer builder and traced-outline models. Dependency-free; runs in Node, the browser, Blender exports and Fall Line. |
 | `packages/product-recipes`, `packages/ref-parsons` | Maker Studio's recipe compiler and the Parsons table product. |
 | `brands/on3p` | `@rivet/brand-on3p`: ON3P's catalog, rules, traced geometry, layups, bindings, artwork (`art-source/`, `public/`), Blender sources, art scripts and app shell. |
-| `apps/on3p` | The ON3P custom shop: the shared configurator plus the ON3P brand (a few lines). |
-| `apps/praxis`, `apps/proteus`, `apps/outreach` | Praxis storefront + configurator, Proteus snowboards, and the Grass Sticks / Folsom / Meier outreach demos. |
+| `brands/praxis` | `@rivet/brand-praxis`: Praxis's custom catalog and rules, in-stock catalog, traced shapes, veneers, artwork, bindings, import scripts and configurator guides. |
+| `brands/proteus` | `@rivet/brand-proteus`: Proteus's boards, sizing, adjustable camber, board geometry, layup, artwork, import scripts and app shell. |
+| `brands/folsom`, `brands/meier`, `brands/grass-sticks` | The outreach makers: each pack is the maker's record, scraped catalog, traced outlines, maker-specific options and artwork (`public/`). |
+| `apps/on3p`, `apps/proteus` | Thin hosts: the shared configurator plus one brand pack (a few lines each). |
+| `apps/praxis` | The Praxis storefront (collection, product pages, bag) around `@rivet/brand-praxis`. |
+| `apps/outreach` | The first-wave review: one studio template (`src/pack.js`) run over the three outreach packs, plus catalog controls. |
 | `apps/maker-studio` | Product recipe editor, table configurators, quote/handoff API. |
 | `apps/site` | Rivet marketing site (ChatGPT Sites; own lockfile, not in the workspace). |
 | `labs/on3p-ski-lab` | ON3P geometry lab and Blender library/export scripts, on the shared kernel. |
@@ -43,7 +47,7 @@ npm run server:maker     # Maker API 5193, then npm run dev:maker for the app on
 ```
 
 Browser QA: start the matching dev server, then `npm run qa:on3p` (or `qa:praxis`,
-`qa:proteus`). Set `CHROME_PATH` if Chrome isn't at the default Windows
+`qa:proteus`, `qa:outreach`). Set `CHROME_PATH` if Chrome isn't at the default Windows
 location; `CHROME_NO_SANDBOX=1` for containers running as root.
 
 `brands/on3p/test/parity.test.js` checks the ON3P engine pack against frozen copies of
@@ -51,6 +55,17 @@ the original flagship's rules and session: normalization, edits, explanations, b
 sheet, links and whole sessions must match. `labs/on3p-ski-lab/test/golden.json` pins every lab mesh and construction layer to
 the output of the original lab code. If a kernel change moves a fingerprint, that
 change altered real geometry: review it, don't just regenerate the file.
+
+## Adding a brand
+
+A brand is a folder under `brands/<id>` with its own `package.json` (`@rivet/brand-<id>`).
+It exports a pack for `createEngine()` from `@rivet/configurator`: steps, option groups,
+context, prices and presentation hooks, and optionally `model3d` for the 3D studio (use
+`@rivet/ski-geometry` for shapes). Artwork goes in the pack's `public/`, sources and
+scrapes in `art-source/`, and tests in the pack. An app is then a few lines that mount
+`Configurator` with the engine and point Vite's `publicDir` at the pack (see `apps/proteus`).
+For a quick outreach demo, add a pack like `brands/meier` and list it in
+`apps/outreach/src/catalog.js` and `vite.config.js`.
 
 ## History
 
@@ -66,7 +81,7 @@ Line's asset-production records) cite these pre-import paths:
 | `2026-09-23/go-x20/outputs/on3p-ski-lab` | `labs/on3p-ski-lab` |
 | `2026-09-23/go-x20/work/maker-studio-builds` | `work/maker-studio-builds` |
 | `2026-09-23/i/work/stock-2027` | `work/stock-2027` |
-| `2026-09-24/ski-studio` | `packages/configurator`, `apps/praxis`, `apps/proteus`, `apps/outreach`, `qa/` (its 2D ON3P app was retired for the flagship) |
+| `2026-09-24/ski-studio` | `packages/configurator`; `brands/praxis` + `apps/praxis`; `brands/proteus` + `apps/proteus`; `brands/folsom`, `brands/meier`, `brands/grass-sticks` + `apps/outreach`; `qa/` (its 2D ON3P app was retired for the flagship) |
 | `2026-09-28/giv/outputs/rivet-site` | `apps/site` |
 
 Text files are stored with LF line endings, so a few files that had Windows line

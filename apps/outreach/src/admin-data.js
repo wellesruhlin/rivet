@@ -1,4 +1,4 @@
-import {folsomBindings} from './folsom-options.js';
+import {folsomBindings} from '@rivet/brand-folsom';
 import {brands} from './catalog.js';
 export const readOverrides=id=>{try{return JSON.parse(localStorage.getItem(`first-wave-catalog-${id}`)||'{}');}catch{return {};}};
 export function catalogRows(id){const b=brands[id];return [...b.models.map(m=>({key:`model:${m.id}`,label:m.name,price:m.price??b.basePrice,enabled:true})),...b.graphics.map(([key,label])=>({key:`graphic:${key}`,label,price:0,enabled:true})),...(id==='folsom'?[...folsomBindings.map(b=>({key:'binding:'+b.id,label:b.name,price:b.price,enabled:true})),{key:'layup:tour',label:'Tour construction supplement',price:200,enabled:true}]:id==='meier'?[{key:'design:custom',label:'Custom design supplement',price:396,enabled:true}]:[{key:'grip:cork',label:'Cork grip supplement',price:14,enabled:true},{key:'strap:adjustable',label:'Adjustable strap supplement',price:10,enabled:true}])];}

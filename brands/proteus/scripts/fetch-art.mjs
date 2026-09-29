@@ -3,7 +3,7 @@
 import {mkdir, writeFile} from 'node:fs/promises';
 import {existsSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
-import catalog from '../src/brand/data/catalog.json' with {type: 'json'};
+import catalog from '../src/data/catalog.json' with {type: 'json'};
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const dir = `${root}art-source/images/boards/`;

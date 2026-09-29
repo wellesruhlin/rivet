@@ -1,10 +1,10 @@
-// Builds src/brand/data/catalog.json from Proteus's public shop pages, cached in
+// Builds src/data/catalog.json from Proteus's public shop pages, cached in
 // art-source/pages/ (`node scripts/import-catalog.mjs -- --fetch` re-downloads them).
 //
 // Boards: every made-to-order design with its collection, colorways (and their product
 // images), stiffness prices and sizes; the off-the-rack boards; accessories and the custom
 // programme's fees. The size chart (an outlined SVG) and the stiffness builds (technology
-// page) are transcribed in src/brand/specs.js, not parsed here.
+// page) are transcribed in src/specs.js, not parsed here.
 import {mkdir, readFile, readdir, writeFile} from 'node:fs/promises';
 import {existsSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
@@ -128,5 +128,5 @@ const catalog = {
   sizes: boards.find(b => b.slug === 'mt-fuji').sizes,
   accessories,
 };
-await writeFile(`${root}src/brand/data/catalog.json`, `${JSON.stringify(catalog, null, 1)}\n`);
+await writeFile(`${root}src/data/catalog.json`, `${JSON.stringify(catalog, null, 1)}\n`);
 console.log(`${catalog.designs.length} designs (${catalog.collections.map(c => `${catalog.designs.filter(d => d.collection === c.id).length} ${c.id}`).join(', ')}), ${catalog.designs.reduce((n, d) => n + d.colorways.length, 0)} colorways, ${catalog.offTheRack.length} other boards, ${accessories.length} accessories. Status: ${catalog.status}.`);

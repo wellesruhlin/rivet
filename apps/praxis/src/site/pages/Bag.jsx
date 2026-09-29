@@ -1,7 +1,7 @@
 import {ArrowRight, ArrowUpRight, Download, Minus, Pencil, Plus} from 'lucide-react';
 import {PairPreview, formatWeight} from '@rivet/configurator';
-import {money, product} from '../../catalog/index.js';
-import {engine} from '../../configurator/index.js';
+import {money, product} from '@rivet/brand-praxis/catalog';
+import {engine} from '@rivet/brand-praxis';
 import {Cover} from '../Cards.jsx';
 import {bagCount, bagTotals, removeItem, setQuantity, useStore} from '../store.js';
 import {toast} from '../toast.jsx';

@@ -59,7 +59,6 @@ export function createModel3d({asset, graphicById, veneerById, cores, estimateWe
     heading(config, ctx, {cameraView, sample, lengthChosen}) {
       const model = ctx.model;
       const shape = shapeOf(config, ctx);
-      const weight = lengthChosen && ctx.spec ? formatWeight(estimateWeight(config, ctx)) : null;
       const core = coreOf(config, ctx);
       const length = `${lengthLabel(model, config.length)} cm`;
       return {

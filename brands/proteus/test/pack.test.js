@@ -4,14 +4,14 @@ import {existsSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import {generateSkiMesh, meshReport} from '@rivet/ski-geometry';
 import {buildLayers, layerReport} from '@rivet/ski-geometry';
-import {engine} from './index.js';
-import {artName, BASE_COLORS, TEMPLATE} from './art.js';
-import {boardShape, planform, profile} from './geometry.js';
-import {proteusLayers, proteusStack} from './construction.js';
-import {BASE_PRICE, catalog, COLLAB_PRICE, CUSTOM_FEE, readyBoards} from './pack.js';
-import {CAMBER_PRESETS, contactOffset, describeCamber, SIZES, sizeById, STIFFNESS, TRAVEL_MM} from './specs.js';
+import {engine} from '../src/index.js';
+import {artName, BASE_COLORS, TEMPLATE} from '../src/art.js';
+import {boardShape, planform, profile} from '../src/geometry.js';
+import {proteusLayers, proteusStack} from '../src/construction.js';
+import {BASE_PRICE, catalog, COLLAB_PRICE, CUSTOM_FEE, readyBoards} from '../src/pack.js';
+import {CAMBER_PRESETS, contactOffset, describeCamber, SIZES, sizeById, STIFFNESS, TRAVEL_MM} from '../src/specs.js';
 
-const publicDir = fileURLToPath(new URL('../../public/', import.meta.url));
+const publicDir = fileURLToPath(new URL('../public/', import.meta.url));
 const sized = (patch = {}) => engine.apply(engine.defaults(), {length: '157', ...patch}).config;
 
 test('catalog: every design and colorway has its artwork', () => {

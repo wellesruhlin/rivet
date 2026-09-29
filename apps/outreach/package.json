@@ -1,20 +1,24 @@
 {
   "name": "@rivet/app-outreach",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
+  "description": "First-wave outreach review: one studio template over the Folsom, Meier and Grass Sticks brand packs, plus catalog controls.",
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5184",
     "build": "vite build",
     "test": "node --test tests/*.test.js"
   },
   "dependencies": {
+    "@rivet/brand-folsom": "*",
+    "@rivet/brand-grass-sticks": "*",
+    "@rivet/brand-meier": "*",
+    "@rivet/configurator": "*",
+    "@rivet/ski-geometry": "*",
+    "lucide-react": "^0.468.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "three": "^0.180.0",
-    "lucide-react": "^0.468.0",
-    "@rivet/configurator": "*",
-    "@rivet/ski-geometry": "*"
+    "three": "^0.180.0"
   },
   "devDependencies": {
     "vite": "^7.3.6"

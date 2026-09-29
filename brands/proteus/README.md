@@ -21,11 +21,11 @@ Views: Front, Back, Sidewall, 3D, Camber, Inside and Tech Specs.
 
 ## Sources
 
-All from proteussnowboards.com, observed September 25, 2026 (pages cached in `art-source/pages/`, imported by `scripts/import-catalog.mjs` into `src/brand/data/catalog.json`):
+All from proteussnowboards.com, observed September 25, 2026 (pages cached in `art-source/pages/`, imported by `scripts/import-catalog.mjs` into `src/data/catalog.json`):
 
 - **Designs, colorways, prices, sizes, accessories and sidewall text** from the 53 made-to-order board pages (WooCommerce variations and product add-ons). Every design is $749 in Flex; collaborations are $774. Sidewall text is limited to 12 letters and numbers, free. The shop listed boards as “Production Paused”; the concept says so in the build sheet and How it works.
 - **Ready-to-ride boards** (148 Flex Mt. Fuji, 148 Soft New Day, 157 Stiff Mt. Fuji, 159 Standard New Day at $699; 161 Sharknado, used, $499) from their product pages' board details.
-- **Sizing chart** (rider weight, effective edge, sidecut radius, waist, binding size, stance) from the chart image on every board page, transcribed in `src/brand/specs.js`.
+- **Sizing chart** (rider weight, effective edge, sidecut radius, waist, binding size, stance) from the chart image on every board page, transcribed in `src/specs.js`.
 - **Stiffness Guide** (glass per build, the gauge positions) and **Adjustable Camber** (the six settings, the indicator, “up to 1.2 inches per side at the end of your effective edge”) from the Tech page; how the screws work and the daily return to full camber from the FAQ.
 - **Construction** from “Inside a Proteus Snowboard” on the Tech page.
 - **Custom boards** ($749 plus a $50 graphic processing fee, the 68 × 13 in template, file and placement guidelines, 2–8 weeks, Lakewood, Colorado) from the custom snowboard page and the deposit page.
@@ -40,7 +40,7 @@ Custom uploads are cropped to the template's shape from the center (landscape ar
 
 ## The 3D board
 
-`src/brand/geometry.js`, through the pack's `model3d` adapter (`model3d.js`):
+`src/geometry.js`, through the pack's `model3d` adapter (`model3d.js`):
 
 - **Planform:** the published waist, sidecut radius and effective edge give a circular sidecut between the contact points; the nose and tail follow the traced outline, averaged into a true twin and scaled to meet the sidecut.
 - **Camber:** the molded board has half the adjustment travel as camber. Tensioning an end bends that half evenly (a constant moment between the center and the end of the effective edge) and turns the nose or tail with it, so each end moves 30.5 mm from full camber through flat to full rocker. The board then rests on flat snow on its lowest points under its center, so S curves tilt slightly as a real board would. Flat is taken as mid-travel because Proteus marks it with the indicator's center line; Proteus doesn't publish its molded heights.
@@ -49,6 +49,6 @@ Custom uploads are cropped to the template's shape from the center (landscape ar
 
 ## Tests
 
-`src/brand/pack.test.js`: artwork for every colorway, every design × build price against the board pages, size gating, defaults, links (sanitized sidewall text, no rider weight), ready-board matching, planform against the published sidecut, camber travel and resting, closed meshes with one topology per size (so settings animate), a closed layup whose legend covers every layer, and the recovered base template.
+`test/pack.test.js`: artwork for every colorway, every design × build price against the board pages, size gating, defaults, links (sanitized sidewall text, no rider weight), ready-board matching, planform against the published sidecut, camber travel and resting, closed meshes with one topology per size (so settings animate), a closed layup whose legend covers every layer, and the recovered base template.
 
 Artwork, photographs and logos belong to Proteus and its artists. They are used to demonstrate the concept, with no claim of ownership.

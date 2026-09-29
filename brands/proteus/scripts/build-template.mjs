@@ -5,7 +5,7 @@
 // symbol is drawn in the body color and the wordmark in the block color. Every topsheet
 // also shows the same hardware: two groups of binding inserts and the outline of the
 // adjustment port. From the cropped art (npm run art):
-//   src/brand/data/template.json        band boundaries and mark boxes (fractions of the board box)
+//   src/data/template.json        band boundaries and mark boxes (fractions of the board box)
 //   public/art/template/symbol.png      the base symbol as a white alpha mask
 //   public/art/template/wordmark.png    the base wordmark as a white alpha mask
 //   public/art/template/hardware.png    inserts and port outline as a dark alpha mask
@@ -33,7 +33,7 @@ const {width: W, height: H} = images[0];
 
 // Inside the board, a few pixels in from the traced edge (the mockup shades the rails and
 // the crop box shows background beside the tapered nose and tail).
-const outline = JSON.parse(await (await import('node:fs/promises')).readFile(`${root}src/brand/data/outline.json`, 'utf8'));
+const outline = JSON.parse(await (await import('node:fs/promises')).readFile(`${root}src/data/outline.json`, 'utf8'));
 const widthAt = v => {
   const rows = outline.profile;
   let i = 0;
@@ -134,7 +134,7 @@ const template = {
   symbol: fraction(symbol.box),
   wordmark: fraction(wordmark.box),
 };
-await writeFile(`${root}src/brand/data/template.json`, `${JSON.stringify(template, null, 2)}\n`);
+await writeFile(`${root}src/data/template.json`, `${JSON.stringify(template, null, 2)}\n`);
 
 // 4. The trident from Proteus's logo (the white shape inside the navy square).
 const logo = await sharp(`${root}art-source/images/proteus-logo-dark@2x.png`).removeAlpha().raw().toBuffer({resolveWithObject: true});

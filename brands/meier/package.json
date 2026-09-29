@@ -1,0 +1,13 @@
+{
+  "name": "@rivet/brand-meier",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Meier Skis outreach pack: shapes, house graphics and artwork. Independent demo; not affiliated with Meier.",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "dependencies": {
+    "@rivet/configurator": "*"
+  }
+}

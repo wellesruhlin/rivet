@@ -1,0 +1,13 @@
+{
+  "name": "@rivet/brand-grass-sticks",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Grass Sticks outreach pack: poles, accessories, gifts, grip and basket colors, straps and engraving. Independent demo; not affiliated with Grass Sticks.",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "dependencies": {
+    "@rivet/configurator": "*"
+  }
+}

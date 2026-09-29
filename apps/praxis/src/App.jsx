@@ -1,5 +1,5 @@
 import {useEffect, useRef, useState} from 'react';
-import {product} from './catalog/index.js';
+import {product} from '@rivet/brand-praxis/catalog';
 import {useRoute} from './site/router.js';
 import {CompareBar, Footer, Header, MenuDialog, SearchDialog} from './site/Layout.jsx';
 import {Toast} from './site/toast.jsx';
