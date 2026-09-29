@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-52k47r",
+  "name": "Solid Black",
+  "file": "base-answer-52k47r.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/52k7kn.jpg",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "4f779614acb6f5e11f108f5d187e78837d8575a45c081f3a852b63cbbb5b1aac",
+  "retrieved": "2026-09-24T17:07:58.240Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

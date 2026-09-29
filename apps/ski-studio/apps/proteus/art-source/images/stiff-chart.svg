@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271 19.61">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_2124" data-name="Group 2124" transform="translate(-795 -3431.39)">
+    <g id="Rectangle_612" data-name="Rectangle 612" class="cls-1" transform="translate(795 3438)">
+      <rect class="cls-4" width="271" height="13"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="270" height="12"/>
+    </g>
+    <g id="Rectangle_613" data-name="Rectangle 613" class="cls-2" transform="translate(976 3438)">
+      <rect class="cls-4" width="60" height="13"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="59" height="12"/>
+    </g>
+    <path id="Path_2000" data-name="Path 2000" class="cls-3" d="M-1170.835,1934.153v2.865" transform="translate(1966.335 1497.236)"/>
+    <path id="Path_2001" data-name="Path 2001" class="cls-3" d="M-1170.835,1934.153v2.865" transform="translate(1996.335 1497.236)"/>
+    <path id="Path_2002" data-name="Path 2002" class="cls-3" d="M-1170.835,1934.153v2.865" transform="translate(2026.335 1497.236)"/>
+    <path id="Path_2003" data-name="Path 2003" class="cls-3" d="M-1170.835,1934.153v2.865" transform="translate(2056.335 1497.236)"/>
+    <path id="Path_2004" data-name="Path 2004" class="cls-3" d="M-1170.835,1934.153v2.865" transform="translate(2086.335 1497.236)"/>
+    <path id="Path_2005" data-name="Path 2005" class="cls-3" d="M-1170.835,1934.153v2.865" transform="translate(2116.335 1497.236)"/>
+    <path id="Path_2006" data-name="Path 2006" class="cls-3" d="M-1170.835,1934.153v2.865" transform="translate(2146.335 1497.236)"/>
+    <path id="Path_2007" data-name="Path 2007" class="cls-3" d="M-1170.835,1934.153v2.865" transform="translate(2176.335 1497.236)"/>
+    <path id="Path_2008" data-name="Path 2008" class="cls-3" d="M-1170.835,1934.153v2.865" transform="translate(2206.335 1497.236)"/>
+    <path id="Path_2103" data-name="Path 2103" class="cls-3" d="M-1170.835,1934.153v2.865" transform="translate(2236.335 1497.236)"/>
+    <path id="Path_2009" data-name="Path 2009" class="cls-3" d="M-1170.835,1934.153v2.865" transform="translate(2236.335 1507.236)"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+{
+  "profilePixelsIdentical": [
+    "jeffrey-106",
+    "jeffrey-112"
+  ],
+  "comparisonRegion": [
+    1200,
+    0,
+    1667,
+    3125
+  ],
+  "comparison": "All RGBA pixel channels match exactly in this region.",
+  "notIndependentValidation": "Fitting an image to published dimensions does not verify those same dimensions independently."
+}

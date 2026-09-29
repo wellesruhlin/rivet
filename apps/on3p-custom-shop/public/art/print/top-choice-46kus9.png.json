@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46kus9",
+  "name": "Cat Camo",
+  "file": "top-choice-46kus9.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7523c5ec72001739f7dd.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "046b975a06a885ce8322577e4e17815e26ce096b976de5da3759becec831b612",
+  "retrieved": "2026-09-24T17:07:42.804Z",
+  "crop": {
+    "x": 80,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

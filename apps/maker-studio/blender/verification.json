@@ -1,0 +1,13 @@
+{
+  "default": {
+    "parts": 13,
+    "vertices": 1248,
+    "maxVertexErrorMeters": 0.0
+  },
+  "custom": {
+    "parts": 13,
+    "vertices": 1248,
+    "maxVertexErrorMeters": 0.0
+  },
+  "constructionDriver": true
+}

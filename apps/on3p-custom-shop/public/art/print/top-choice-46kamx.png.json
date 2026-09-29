@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46kamx",
+  "name": "Black Wolf",
+  "file": "top-choice-46kamx.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7483c5ec72001739f7cf.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "1bde2ebb1c087ec2634bcac0aad28de6f85245af1f90d2a03f07ddca72a6918d",
+  "retrieved": "2026-09-24T17:07:38.389Z",
+  "crop": {
+    "x": 80,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

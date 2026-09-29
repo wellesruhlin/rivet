@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-8mo0va",
+  "name": "Dazzle Yellow",
+  "file": "base-answer-8mo0va.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4d5eb01a2f667e3e6451.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "8acfc3a0c7a9aa2f8cfbd44d810c7ba693cdb3f5626d41996fec7efb86248c36",
+  "retrieved": "2026-09-24T17:08:02.409Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

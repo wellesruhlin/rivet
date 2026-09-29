@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-3av8dn",
+  "name": "Red",
+  "file": "base-answer-3av8dn.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/6454882e5b68ac97088ebed7.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "04025ffee54fc8957132af0e7ba985fe1a95028805a434a9e9105fc404496cde",
+  "retrieved": "2026-09-24T17:07:57.963Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

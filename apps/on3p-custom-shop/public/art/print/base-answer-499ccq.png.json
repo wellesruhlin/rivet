@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-499ccq",
+  "name": "Flo-Yellow",
+  "file": "base-answer-499ccq.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/ca0a9d19-d61e-4a39-9508-513541d1caa5.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "bdc54ae1a0a487b9a6f15c2908e7d6160d9dcdbf891d57bc3090698e53c81066",
+  "retrieved": "2026-09-24T17:07:59.168Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "spec": {
+    "handle": "woodsman-108",
+    "name": "Woodsman 108",
+    "family": "Woodsman",
+    "waist_mm": 108,
+    "rocker": "Signature",
+    "line": "resort",
+    "core": "Bamboo",
+    "lengths": [
+      {
+        "length_cm": 161,
+        "mount_from_center_cm": -7.25,
+        "mount_from_tail_cm": 74,
+        "tip_mm": 133,
+        "waist_mm": 108,
+        "tail_mm": 125,
+        "effective_edge_mm": 1265,
+        "turn_radius_m": 17.9,
+        "weight_g": 1700
+      },
+      {
+        "length_cm": 166,
+        "mount_from_center_cm": -7.5,
+        "mount_from_tail_cm": 76.25,
+        "tip_mm": 134,
+        "waist_mm": 108,
+        "tail_mm": 125,
+        "effective_edge_mm": 1310,
+        "turn_radius_m": 18.5,
+        "weight_g": 1760
+      },
+      {
+        "length_cm": 171,
+        "mount_from_center_cm": -7.75,
+        "mount_from_tail_cm": 78.5,
+        "tip_mm": 135,
+        "waist_mm": 108,
+        "tail_mm": 126,
+        "effective_edge_mm": 1355,
+        "turn_radius_m": 19.2,
+        "weight_g": 1830
+      },
+      {
+        "length_cm": 176,
+        "mount_from_center_cm": -8,
+        "mount_from_tail_cm": 80.75,
+        "tip_mm": 136,
+        "waist_mm": 108,
+        "tail_mm": 127,
+        "effective_edge_mm": 1400,
+        "turn_radius_m": 19.8,
+        "weight_g": 1950
+      },
+      {
+        "length_cm": 181,
+        "mount_from_center_cm": -8.25,
+        "mount_from_tail_cm": 83,
+        "tip_mm": 137,
+        "waist_mm": 108,
+        "tail_mm": 127,
+        "effective_edge_mm": 1445,
+        "turn_radius_m": 20.4,
+        "weight_g": 2040
+      },
+      {
+        "length_cm": 186,
+        "mount_from_center_cm": -8.5,
+        "mount_from_tail_cm": 85.25,
+        "tip_mm": 138,
+        "waist_mm": 108,
+        "tail_mm": 128,
+        "effective_edge_mm": 1490,
+        "turn_radius_m": 21,
+        "weight_g": 2150
+      },
+      {
+        "length_cm": 191,
+        "mount_from_center_cm": -8.75,
+        "mount_from_tail_cm": 87.5,
+        "tip_mm": 139,
+        "waist_mm": 108,
+        "tail_mm": 129,
+        "effective_edge_mm": 1535,
+        "turn_radius_m": 21.6,
+        "weight_g": 2190
+      }
+    ]
+  },
+  "product": {
+    "images": [
+      {
+        "id": 50110117740769,
+        "product_id": 9728655294689,
+        "position": 1,
+        "created_at": "2026-09-16T09:28:31-07:00",
+        "updated_at": "2026-09-16T09:28:32-07:00",
+        "alt": null,
+        "width": 1667,
+        "height": 3125,
+        "src": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Woodsman108_WebWorkingFile_Final_WebFinal_800x1500x150_3f848417-d80e-49b6-9828-1454ef10b854.png?v=1789576112",
+        "variant_ids": []
+      },
+      {
+        "id": 50110073897185,
+        "product_id": 9728655294689,
+        "position": 2,
+        "created_at": "2026-09-16T09:10:39-07:00",
+        "updated_at": "2026-09-16T09:10:41-07:00",
+        "alt": null,
+        "width": 1667,
+        "height": 3125,
+        "src": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Woodsman108_WebWorkingFile_Final_WebFinal_Skis_800x1500x150.png?v=1789575041",
+        "variant_ids": []
+      },
+      {
+        "id": 50110073929953,
+        "product_id": 9728655294689,
+        "position": 3,
+        "created_at": "2026-09-16T09:10:39-07:00",
+        "updated_at": "2026-09-16T09:10:41-07:00",
+        "alt": null,
+        "width": 1667,
+        "height": 3125,
+        "src": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Woodsman108_WebWorkingFile_Final_WebFinal_Base_800x1500x150.png?v=1789575041",
+        "variant_ids": []
+      },
+      {
+        "id": 50110073995489,
+        "product_id": 9728655294689,
+        "position": 4,
+        "created_at": "2026-09-16T09:10:39-07:00",
+        "updated_at": "2026-09-16T09:10:41-07:00",
+        "alt": null,
+        "width": 1667,
+        "height": 3125,
+        "src": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Woodsman108_WebWorkingFile_Final_WebFinal_Rocker_800x1500x150.png?v=1789575041",
+        "variant_ids": []
+      }
+    ]
+  }
+}

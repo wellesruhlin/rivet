@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-6ox45d",
+  "name": "SFTL Blue",
+  "file": "base-answer-6ox45d.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/27b213e6-62d3-48f1-bb6f-49845dd06c18.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "9f375d05319eab3a55d21ccf56cf1b195e3f21ff5b6b583b9469aeba71f7ab3b",
+  "retrieved": "2026-09-24T17:07:58.601Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

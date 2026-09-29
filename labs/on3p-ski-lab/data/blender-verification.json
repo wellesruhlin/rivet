@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "objects": [
+    {
+      "object": "Jeffrey 106 / left",
+      "vertices": 4406,
+      "faces": 4416,
+      "canonicalMaxErrorMeters": 2.97190996256802e-08
+    },
+    {
+      "object": "Jeffrey 106 / right",
+      "vertices": 4406,
+      "faces": 4416,
+      "canonicalMaxErrorMeters": 2.97190996256802e-08
+    },
+    {
+      "object": "Woodsman 108 / left",
+      "vertices": 4406,
+      "faces": 4416,
+      "canonicalMaxErrorMeters": 2.9669230405815483e-08
+    },
+    {
+      "object": "Woodsman 108 / right",
+      "vertices": 4406,
+      "faces": 4416,
+      "canonicalMaxErrorMeters": 2.9669230405815483e-08
+    },
+    {
+      "object": "Jeffrey 112 / left",
+      "vertices": 4406,
+      "faces": 4416,
+      "canonicalMaxErrorMeters": 2.971058932210724e-08
+    },
+    {
+      "object": "Jeffrey 112 / right",
+      "vertices": 4406,
+      "faces": 4416,
+      "canonicalMaxErrorMeters": 2.971058932210724e-08
+    }
+  ],
+  "axes": "Blender X across, -Y nose, +Z up; glTF X across, Y up, +Z nose",
+  "packedTextures": true
+}

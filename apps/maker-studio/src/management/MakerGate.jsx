@@ -1,0 +1,10 @@
+import {useEffect,useState} from 'react';
+import {LockKeyhole} from 'lucide-react';
+import {managedApi} from './api.js';
+import '../handoff/handoff.css';
+export default function MakerGate({children}){
+  const [session,setSession]=useState(null),[error,setError]=useState(''),[busy,setBusy]=useState(false);
+  useEffect(()=>{managedApi('session').then(setSession).catch(e=>setError(e.message));},[]);
+  if(session?.operator)return children;
+  return <div className="hd-app"><header className="hd-header"><a className="hd-brand" href="/manage">Maker Studio</a><span className="hd-pilot">Local management</span></header><main className="hd-main"><div className="hd-intro"><p className="hd-eyebrow">MANAGEMENT WORKSPACE</p><h1>One place to run the tool.</h1><p>Products, price lists, connections and handoffs — with shared controls for people and agents.</p></div>{error&&<p className="hd-error" role="alert">{error}</p>}{session?<form className="hd-login hd-form" onSubmit={async e=>{e.preventDefault();setBusy(true);setError('');const password=new FormData(e.currentTarget).get('password');try{await managedApi(session.setupRequired?'setup':'login',{password});setSession(await managedApi('session'));}catch(err){setError(err.message);}finally{setBusy(false);}}}><LockKeyhole size={26}/><h2>{session.setupRequired?'Set up your maker workspace':'Sign in to manage'}</h2><p>{session.setupRequired?'Choose the local maker password. It protects product editing, pricing, connector settings and order approval.':'Use the same maker account as the handoff desk.'}</p><label>Maker password<input name="password" type="password" required minLength={session.setupRequired?12:1} maxLength={200} autoComplete={session.setupRequired?'new-password':'current-password'}/></label><p className="hd-muted">{session.setupRequired?'Use at least 12 characters. This account is for this local workspace.':'Your session lasts eight hours.'}</p><button className="hd-primary" disabled={busy}>{session.setupRequired?'Create maker account':'Sign in'}</button></form>:!error&&<p role="status">Opening management…</p>}</main></div>;
+}

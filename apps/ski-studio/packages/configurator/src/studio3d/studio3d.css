@@ -1,0 +1,536 @@
+/* The 3D stage. Layout and behaviour follow the ON3P configurator's preview; colours
+   come from the brand theme's --cfg-* tokens. */
+
+.cfg-3d {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) 64px;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  background: var(--cfg-stage-bottom);
+}
+.cfg-3d-stage {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(38% 46% at 50% 42%, var(--cfg-stage-key), transparent 72%),
+    radial-gradient(ellipse at 50% 44%, var(--cfg-stage-top) 0%, var(--cfg-stage-mid) 52%, var(--cfg-stage-bottom) 88%);
+}
+.cfg-3d.view-construction .cfg-3d-stage {
+  background:
+    radial-gradient(46% 52% at 50% 36%, var(--cfg-stage-key), transparent 74%),
+    radial-gradient(ellipse at 50% 37%, var(--cfg-stage-top), var(--cfg-stage-bottom) 72%);
+}
+
+/* Nameplate */
+.cfg-3d-heading {
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 22px;
+  right: 22px;
+  pointer-events: none;
+}
+.cfg-3d-heading .cfg-overline {
+  font-size: 10px;
+  margin-bottom: 6px;
+}
+.cfg-3d-heading h2 {
+  font: var(--cfg-display-weight) clamp(24px, 2.2vw, 38px) / 1.1 var(--cfg-display);
+  font-stretch: var(--cfg-display-stretch);
+  letter-spacing: -0.01em;
+  margin: 0 0 8px;
+  color: var(--cfg-text);
+}
+.cfg-3d-heading p {
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--cfg-text-2);
+}
+.cfg-3d-heading .cfg-3d-lead {
+  color: var(--cfg-text);
+}
+.cfg-3d-finish {
+  margin-top: 8px;
+  font-size: 10.5px !important;
+  letter-spacing: 0.02em;
+  color: var(--cfg-text-3) !important;
+}
+.cfg-3d-finish span {
+  margin-right: 4px;
+  color: var(--cfg-text-2);
+}
+.cfg-3d-binding-caption {
+  margin-top: 8px;
+  font-size: 11px !important;
+  color: var(--cfg-text) !important;
+}
+
+/* Canvas */
+.cfg-3d-viewport {
+  position: absolute;
+  inset: 140px 0 0;
+}
+.cfg-3d-canvas {
+  position: absolute;
+  inset: 0;
+}
+.cfg-3d-canvas canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+  outline-offset: -4px;
+}
+.cfg-3d-canvas canvas:active {
+  cursor: grabbing;
+}
+.cfg-3d-canvas.is-unavailable {
+  visibility: hidden;
+}
+.cfg-3d-message {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  padding: 24px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--cfg-text-2);
+}
+.cfg-3d-message strong {
+  display: block;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--cfg-text);
+}
+.cfg-3d.view-sidewall .cfg-3d-viewport,
+.cfg-3d.view-bindings .cfg-3d-viewport {
+  inset: 150px 0 0;
+}
+.cfg-3d.view-tech .cfg-3d-viewport {
+  inset: 140px 0 190px;
+}
+.cfg-3d.view-construction .cfg-3d-viewport {
+  inset: 130px 0 150px;
+}
+@media (min-width: 1100px) {
+  /* A wide stage can place the upright pair beside the nameplate. */
+  .cfg-3d.view-front .cfg-3d-viewport,
+  .cfg-3d.view-back .cfg-3d-viewport,
+  .cfg-3d.view-orbit .cfg-3d-viewport {
+    inset: 20px 0 0;
+  }
+}
+
+/* Controls over the canvas */
+.cfg-3d-controls {
+  position: absolute;
+  z-index: 2;
+  inset: 12px 18px 18px;
+  pointer-events: none;
+}
+.cfg-3d-controls button {
+  pointer-events: auto;
+}
+.cfg-3d-remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px 13px;
+  border: 1px solid var(--cfg-line-3) !important;
+  border-radius: 20px;
+  font-size: 11px;
+  color: var(--cfg-text-2);
+  background: color-mix(in srgb, var(--cfg-bg) 86%, transparent) !important;
+}
+.cfg-3d-remove:hover {
+  color: var(--cfg-text);
+}
+.cfg-3d-zoom,
+.cfg-3d-actions {
+  display: flex;
+  gap: 3px;
+  padding: 4px;
+  border: 1px solid var(--cfg-line-2);
+  border-radius: 24px;
+  background: color-mix(in srgb, var(--cfg-bg) 86%, transparent);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+.cfg-3d-zoom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.cfg-3d-zoom button {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid transparent !important;
+  border-radius: 50%;
+  color: var(--cfg-text-2);
+}
+.cfg-3d-zoom button:hover {
+  color: var(--cfg-text);
+  border-color: var(--cfg-line-3) !important;
+}
+.cfg-3d-actions {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+}
+.cfg-3d-actions button {
+  min-height: 34px;
+  padding: 8px 12px;
+  border-radius: 18px;
+  font-size: 11px;
+  color: var(--cfg-text-2);
+}
+.cfg-3d-actions button:hover {
+  color: var(--cfg-text);
+  background: rgba(255, 255, 255, 0.04);
+}
+.cfg-3d-hint {
+  position: absolute;
+  z-index: 1;
+  bottom: 28px;
+  left: 22px;
+  right: 150px;
+  pointer-events: none;
+  font-size: 10px;
+  line-height: 1.5;
+  color: var(--cfg-text-2);
+  text-shadow: 0 1px 8px #000;
+}
+.cfg-3d-hint p[role='status'] {
+  margin-top: 4px;
+  color: var(--cfg-text);
+}
+.cfg-3d-touch-hint {
+  display: none;
+}
+/* In the exploded view the hint sits top-right, level with the nameplate, clear of the
+   layers and the legend. */
+.cfg-3d.view-construction .cfg-3d-hint {
+  top: -108px;
+  right: 22px;
+  bottom: auto;
+  left: auto;
+  text-align: right;
+}
+@media (hover: none) {
+  .cfg-3d-pointer-hint {
+    display: none;
+  }
+  .cfg-3d-touch-hint {
+    display: block;
+  }
+}
+
+/* Inside: legend and layer card */
+.cfg-3d-legend {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  left: 16px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 4px 6px;
+  margin: 0;
+  padding: 12px 0 0;
+  list-style: none;
+  border-top: 1px solid var(--cfg-line-2);
+}
+.cfg-3d-legend li {
+  min-width: 0;
+}
+.cfg-3d-chip {
+  display: grid;
+  align-content: start;
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+  padding: 7px 9px 8px;
+  border: 1px solid transparent !important;
+  border-radius: 8px;
+  text-align: left;
+  transition: background 0.15s, border-color 0.15s, opacity 0.15s;
+}
+.cfg-3d-chip:hover,
+.cfg-3d-chip:focus-visible,
+.cfg-3d-chip.is-active {
+  background: rgba(255, 255, 255, 0.045);
+  border-color: var(--cfg-line-3) !important;
+}
+.cfg-3d-chip[aria-pressed='true'] {
+  border-color: var(--cfg-selected-line, var(--cfg-line-3)) !important;
+}
+.cfg-3d-legend.has-active .cfg-3d-chip:not(.is-active) {
+  opacity: 0.42;
+}
+.cfg-3d-chip.is-empty .cfg-3d-chip-title {
+  color: var(--cfg-text-2);
+}
+.cfg-3d-chip-title {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--cfg-text);
+}
+.cfg-3d-num {
+  font-size: 8px;
+  color: var(--cfg-text-3);
+  font-variant-numeric: tabular-nums;
+}
+.cfg-3d-chip-spec {
+  padding-left: 12px;
+  font-size: 10px;
+  line-height: 1.4;
+  color: var(--cfg-text-2);
+}
+.cfg-3d-dot {
+  display: inline-block;
+  flex: 0 0 6px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.cfg-3d-layer-card {
+  position: absolute;
+  z-index: 3;
+  top: 18px;
+  right: 18px;
+  width: min(330px, 40%);
+  padding: 13px 15px 14px;
+  border: 1px solid var(--cfg-line-3);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--cfg-bg-panel) 95%, transparent);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+.cfg-3d-layer-eyebrow {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  margin: 0 0 7px;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cfg-text-3);
+}
+.cfg-3d-layer-card h3 {
+  margin: 0;
+  font: var(--cfg-heading-weight) 17px / 1.25 var(--cfg-display);
+  color: var(--cfg-text);
+}
+.cfg-3d-layer-spec {
+  margin: 3px 0 8px !important;
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--cfg-caution-text);
+}
+.cfg-3d-layer-card p:last-child {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--cfg-text-2);
+}
+.cfg-3d-layers-toggle {
+  display: none;
+}
+
+/* Tech specs */
+.cfg-3d-tech {
+  position: absolute;
+  right: 22px;
+  bottom: 20px;
+  left: 22px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--cfg-line-2);
+}
+.cfg-3d-tech dt {
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cfg-text-3);
+}
+.cfg-3d-tech dd {
+  margin: 4px 0 0;
+  font-size: 14px;
+  line-height: 1.35;
+  color: var(--cfg-text);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Disclosure */
+.cfg-3d-disclosure {
+  position: absolute;
+  z-index: 3;
+  top: 20px;
+  right: 22px;
+  max-width: min(340px, 45%);
+  font-size: 11px;
+  color: var(--cfg-text-3);
+  text-align: right;
+}
+.cfg-3d-disclosure summary {
+  cursor: pointer;
+  list-style: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.cfg-3d-disclosure summary::-webkit-details-marker {
+  display: none;
+}
+.cfg-3d-disclosure[open] > div {
+  margin-top: 8px;
+  padding: 12px 14px;
+  border: 1px solid var(--cfg-line-2);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--cfg-bg-panel) 95%, transparent);
+  text-align: left;
+  line-height: 1.55;
+  color: var(--cfg-text-2);
+}
+.cfg-3d-disclosure[open] p + p {
+  margin-top: 8px;
+}
+.cfg-3d.view-construction .cfg-3d-disclosure,
+.cfg-3d.view-bindings .cfg-3d-disclosure {
+  display: none;
+}
+
+/* View switcher */
+.cfg-3d-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  padding: 0 16px;
+  border-top: 1px solid var(--cfg-line);
+  background: var(--cfg-bg);
+}
+.cfg-3d-footer .cfg-segmented {
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+@media (max-width: 1300px) {
+  /* Narrower stages: legend names only; the hover card carries each layer's spec. */
+  .cfg-3d-chip-spec {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .cfg-3d {
+    height: clamp(560px, 82svh, 740px);
+    grid-template-rows: minmax(0, 1fr) 58px;
+  }
+  .cfg-3d-heading {
+    top: 16px;
+    left: 14px;
+    right: 14px;
+  }
+  .cfg-3d-heading h2 {
+    font-size: 26px;
+  }
+  .cfg-3d-viewport,
+  .cfg-3d.view-sidewall .cfg-3d-viewport,
+  .cfg-3d.view-bindings .cfg-3d-viewport {
+    inset: 150px 0 0;
+  }
+  .cfg-3d.view-construction .cfg-3d-viewport {
+    inset: 130px 0 70px;
+  }
+  .cfg-3d.view-tech .cfg-3d-viewport {
+    inset: 150px 0 200px;
+  }
+  .cfg-3d-controls {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+  }
+  .cfg-3d-hint {
+    left: 14px;
+    right: 130px;
+    bottom: 24px;
+  }
+  /* Phones: the layer button and legend carry the exploded view; the specs grid and the
+     preview note would otherwise overlap. */
+  .cfg-3d.view-construction .cfg-3d-hint,
+  .cfg-3d.view-tech .cfg-3d-disclosure {
+    display: none;
+  }
+  .cfg-3d-actions {
+    bottom: 54px;
+  }
+  .cfg-3d-tech {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    left: 14px;
+    right: 14px;
+  }
+  .cfg-3d-disclosure {
+    top: auto;
+    bottom: 70px;
+    right: 14px;
+  }
+  .cfg-3d-legend {
+    display: none;
+  }
+  .cfg-3d-legend.is-open {
+    display: grid;
+    z-index: 3;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    bottom: 64px;
+    padding: 8px;
+    border: 1px solid var(--cfg-line-3);
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--cfg-bg-panel) 96%, transparent);
+  }
+  .cfg-3d-layers-toggle {
+    display: block;
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-height: 40px;
+    padding: 0 18px;
+    border: 1px solid var(--cfg-line-2) !important;
+    border-radius: 20px;
+    font-size: 11px;
+    background: var(--cfg-bg-panel) !important;
+  }
+  .cfg-3d.view-construction .cfg-3d-zoom {
+    display: none;
+  }
+  .cfg-3d-layer-card {
+    top: 14px;
+    left: 10px;
+    right: 10px;
+    width: auto;
+  }
+  .cfg-3d-footer .cfg-segmented button {
+    height: 38px;
+    padding: 0 10px;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  .cfg-3d-zoom button {
+    width: 36px;
+    height: 36px;
+  }
+}

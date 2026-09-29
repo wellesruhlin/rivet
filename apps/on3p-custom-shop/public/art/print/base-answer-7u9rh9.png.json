@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-7u9rh9",
+  "name": "Herringburn Orange",
+  "file": "base-answer-7u9rh9.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/7u9uu5.jpg",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "5367b161dfc2b54b2ee11964c3c6dade0089e98f99cfe6cca85ad5282ab88bbc",
+  "retrieved": "2026-09-24T17:07:58.760Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

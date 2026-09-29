@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-548nm2",
+  "name": "Hot Rod Blue",
+  "file": "base-answer-548nm2.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/646d07ca80a48560621ee3b2.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "430ccea80ce0016c2a1e65c2cdab43711f665d76e42c8dc8502340b4b131c52f",
+  "retrieved": "2026-09-24T17:08:00.594Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

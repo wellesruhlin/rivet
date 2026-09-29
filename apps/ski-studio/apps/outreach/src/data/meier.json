@@ -1,0 +1,735 @@
+{
+  "families": [
+    {
+      "id": "frontside",
+      "name": "Frontside"
+    },
+    {
+      "id": "all-mountain",
+      "name": "All Mountain"
+    },
+    {
+      "id": "big-mountain-freeride",
+      "name": "Big Mountain / Freeride"
+    },
+    {
+      "id": "powder",
+      "name": "Powder"
+    },
+    {
+      "id": "womens",
+      "name": "Women’s"
+    },
+    {
+      "id": "backcountry",
+      "name": "Backcountry / Touring"
+    },
+    {
+      "id": "build-to-order",
+      "name": "Secret Stash"
+    }
+  ],
+  "models": [
+    {
+      "id": "quickdraw",
+      "name": "Quickdraw 80",
+      "handle": "quickdraw-80",
+      "family": "frontside",
+      "families": [
+        "frontside"
+      ],
+      "summary": "A quick frontside carver with strong edge hold and an energetic poplar, maple and beetle-kill pine core.",
+      "lengths": [
+        167,
+        173,
+        179
+      ],
+      "dims": [
+        128,
+        80,
+        106
+      ],
+      "radii": [
+        13,
+        14,
+        15
+      ],
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/quickdraw-80",
+      "core": "Poplar, maple and Colorado beetle-kill pine",
+      "graphic": "quickdraw",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Quickdraw80.jpg?v=1757367402"
+    },
+    {
+      "id": "quickdraw-80w",
+      "name": "Quickdraw 80W",
+      "handle": "quickdraw-80w",
+      "family": "frontside",
+      "families": [
+        "frontside",
+        "womens"
+      ],
+      "summary": "The Quickdraw 80 platform in shorter lengths, with a women-specific mounting position and artwork.",
+      "lengths": [
+        149,
+        155,
+        161,
+        167
+      ],
+      "dims": [
+        128,
+        80,
+        106
+      ],
+      "radii": [
+        11,
+        12,
+        12,
+        13
+      ],
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/quickdraw-80w",
+      "core": "Locally made wood core",
+      "graphic": "quickdraw-80w",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Quickdraw80w_webv3.png?v=1757373813"
+    },
+    {
+      "id": "quickdraw-88",
+      "name": "Quickdraw 88",
+      "handle": "quickdraw-88",
+      "family": "frontside",
+      "families": [
+        "frontside",
+        "all-mountain"
+      ],
+      "summary": "A broad shovel and narrow waist make fast edge changes easy, with a stable wood core for confident all-mountain turns.",
+      "lengths": [
+        156,
+        161,
+        166,
+        171,
+        176,
+        181,
+        186
+      ],
+      "dims": [
+        134,
+        88,
+        111
+      ],
+      "radii": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/quickdraw-88",
+      "core": "Maple, aspen and Colorado beetle-kill pine",
+      "graphic": "quickdraw-88",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Quickdraw88webv2.png?v=1757369685"
+    },
+    {
+      "id": "quickdraw-98",
+      "name": "Quickdraw 98",
+      "handle": "quickdraw-98",
+      "family": "frontside",
+      "families": [
+        "frontside",
+        "all-mountain"
+      ],
+      "summary": "More width and a stiffer core bring the Quickdraw’s carving character into a wider range of snow conditions.",
+      "lengths": [
+        165,
+        170,
+        175,
+        180,
+        185
+      ],
+      "dims": [
+        138,
+        98,
+        128
+      ],
+      "radii": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "radiusNote": "16m, 17m, 18m & 19m",
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/quickdraw-98",
+      "core": "Locally made wood core",
+      "graphic": "quickdraw-98",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Quickdraw98.jpg?v=1757367127"
+    },
+    {
+      "id": "quickdraw-92w",
+      "name": "Quickdraw 92W",
+      "handle": "quickdraw-92w",
+      "family": "frontside",
+      "families": [
+        "frontside",
+        "all-mountain",
+        "womens"
+      ],
+      "summary": "An accessible all-mountain shape with early tip rise and a moderate sidecut for exploring varied terrain.",
+      "lengths": [
+        147,
+        155,
+        165,
+        173
+      ],
+      "dims": [
+        131,
+        92,
+        121
+      ],
+      "radii": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/quickdraw-92w",
+      "core": "Locally made wood core",
+      "graphic": "quickdraw-92w",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Quickdraw92W_web.png?v=1757374627"
+    },
+    {
+      "id": "wrangler",
+      "name": "Wrangler",
+      "handle": "wrangler",
+      "family": "frontside",
+      "families": [
+        "frontside",
+        "all-mountain"
+      ],
+      "summary": "A nimble 94 mm daily driver that moves easily from bumps and groomers into soft snow.",
+      "lengths": [
+        170,
+        175,
+        180,
+        185
+      ],
+      "dims": [
+        134,
+        94,
+        118
+      ],
+      "radii": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/wrangler",
+      "core": "Maple, aspen and Colorado beetle-kill pine",
+      "graphic": "wrangler",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/products/Wrangler_web.jpg?v=1650389570"
+    },
+    {
+      "id": "teton",
+      "name": "Teton",
+      "handle": "teton",
+      "family": "all-mountain",
+      "families": [
+        "all-mountain",
+        "big-mountain-freeride"
+      ],
+      "summary": "Owen Leeper’s 104 mm everyday ski pairs a wood core and carbon with a versatile all-mountain shape.",
+      "lengths": [
+        171,
+        178,
+        185,
+        192
+      ],
+      "dims": [
+        137,
+        104,
+        129
+      ],
+      "radii": [
+        15,
+        17,
+        19,
+        21
+      ],
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/teton",
+      "core": "Locally made wood core",
+      "graphic": "teton",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Teton_web_v2.jpg?v=1685587133"
+    },
+    {
+      "id": "the-leeper",
+      "name": "The Leeper",
+      "handle": "the-leeper",
+      "family": "all-mountain",
+      "families": [
+        "all-mountain",
+        "big-mountain-freeride",
+        "powder"
+      ],
+      "summary": "Owen Leeper’s wide freeride ski, with camber underfoot, early rise and carbon reinforcement for powerful skiing.",
+      "lengths": [
+        171,
+        178,
+        185,
+        192
+      ],
+      "dims": [
+        147,
+        114,
+        139
+      ],
+      "radii": [
+        15,
+        17,
+        19,
+        21
+      ],
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/the-leeper",
+      "core": "Locally made wood core",
+      "graphic": "the-leeper",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/products/Leeper_Web.jpg?v=1646675195"
+    },
+    {
+      "id": "prospector-96",
+      "name": "Prospector 96",
+      "handle": "prospector-96",
+      "family": "backcountry",
+      "families": [
+        "backcountry"
+      ],
+      "summary": "A touring-minded 96 mm ski built to balance low uphill weight with a stable descent.",
+      "lengths": [
+        166,
+        171,
+        178,
+        185,
+        192
+      ],
+      "dims": [
+        124,
+        96,
+        115
+      ],
+      "radii": [
+        null,
+        null,
+        21,
+        null,
+        null
+      ],
+      "radiusNote": "21m in a 178 cm length",
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/prospector-96",
+      "core": "Poplar, maple and Colorado beetle-kill pine",
+      "graphic": "prospector-96",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Prospector_2023web.jpg?v=1688416139"
+    },
+    {
+      "id": "strata",
+      "name": "Strata",
+      "handle": "strata",
+      "family": "big-mountain-freeride",
+      "families": [
+        "big-mountain-freeride",
+        "powder",
+        "backcountry"
+      ],
+      "summary": "A broad, fully rockered big-mountain ski with a surfy feel in deep snow.",
+      "lengths": [
+        183,
+        192
+      ],
+      "dims": [
+        163,
+        127,
+        139
+      ],
+      "radii": [
+        17,
+        19
+      ],
+      "price": 1099,
+      "retailPrice": 859,
+      "source": "https://meierskis.com/products/strata",
+      "core": "Locally made wood core",
+      "graphic": "strata",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Strata2023.jpg?v=1697485610"
+    },
+    {
+      "id": "crosscut-bc",
+      "name": "Crosscut BC",
+      "handle": "crosscut-bc",
+      "family": "all-mountain",
+      "families": [
+        "all-mountain",
+        "big-mountain-freeride",
+        "powder",
+        "backcountry"
+      ],
+      "summary": "A touring ski with a flat-to-rockered profile for efficient ascents and soft-snow descents.",
+      "lengths": [
+        178,
+        185
+      ],
+      "dims": [
+        142,
+        106,
+        125
+      ],
+      "radii": [
+        18,
+        19
+      ],
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/crosscut-bc",
+      "core": "Locally made wood core",
+      "graphic": "crosscut-bc",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/products/CrosscutBC_2021.jpg?v=1620932928"
+    },
+    {
+      "id": "eureka",
+      "name": "Eureka",
+      "handle": "eureka",
+      "family": "big-mountain-freeride",
+      "families": [
+        "big-mountain-freeride",
+        "powder",
+        "backcountry"
+      ],
+      "summary": "A playful freeride ski with a rockered tip, camber underfoot and an easy-releasing tail.",
+      "lengths": [
+        164,
+        174,
+        184
+      ],
+      "dims": [
+        148,
+        113,
+        124
+      ],
+      "radii": [
+        15,
+        17,
+        19
+      ],
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/eureka",
+      "core": "Locally made wood core",
+      "graphic": "eureka",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Eureka_23-24.png?v=1684966111"
+    },
+    {
+      "id": "norheim-telemark-skis-1",
+      "name": "Norheim Telemark Skis",
+      "handle": "norheim-telemark-skis-1",
+      "family": "frontside",
+      "families": [
+        "frontside",
+        "all-mountain"
+      ],
+      "summary": "Purpose-built for telemark: asymmetric sidecut, shaped tips and a reinforced binding area.",
+      "lengths": [
+        170,
+        175,
+        180,
+        185
+      ],
+      "dims": [
+        135,
+        98,
+        126
+      ],
+      "radii": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "price": 1099,
+      "retailPrice": 759,
+      "source": "https://meierskis.com/products/norheim-telemark-skis-1",
+      "core": "Locally made wood core",
+      "graphic": "norheim-telemark-skis-1",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/products/NorheimWeb-larger_53c75148-6881-4ecd-85dd-9182bc93e7da.jpg?v=1666037475"
+    },
+    {
+      "id": "calamity-j",
+      "name": "Calamity Jane",
+      "handle": "calamity-j",
+      "family": "womens",
+      "families": [
+        "womens",
+        "build-to-order"
+      ],
+      "summary": "A light, easy-turning frontside ski for developing skiers and smaller riders.",
+      "lengths": [
+        149,
+        159,
+        164
+      ],
+      "dims": [
+        128,
+        78,
+        104
+      ],
+      "radii": [
+        13,
+        14,
+        15
+      ],
+      "price": 1099,
+      "retailPrice": 795,
+      "source": "https://meierskis.com/products/calamity-j",
+      "core": "Locally made wood core",
+      "graphic": "calamity-j",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/products/CalamityJane.jpg?v=1588527218"
+    },
+    {
+      "id": "claim-jumper",
+      "name": "Claim Jumper",
+      "handle": "claim-jumper",
+      "family": "backcountry",
+      "families": [
+        "backcountry",
+        "build-to-order"
+      ],
+      "summary": "A wide powder ski developed with heli and cat operators for deep-snow days.",
+      "lengths": [
+        178,
+        185,
+        192
+      ],
+      "dims": [
+        149,
+        124,
+        140
+      ],
+      "radii": [
+        21,
+        22,
+        23
+      ],
+      "price": 1099,
+      "retailPrice": 1095,
+      "source": "https://meierskis.com/products/claim-jumper",
+      "core": "Locally made wood core",
+      "graphic": "claim-jumper",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Claimjumper_Web_smooth.jpg?v=1692715883"
+    },
+    {
+      "id": "big-hoss",
+      "name": "Big Hoss",
+      "handle": "big-hoss",
+      "family": "build-to-order",
+      "families": [
+        "build-to-order"
+      ],
+      "summary": "A powerful 104 mm freeride ski for skiers who like to drive their turns at speed.",
+      "lengths": [
+        170,
+        175,
+        180,
+        185,
+        191
+      ],
+      "dims": [
+        144,
+        104,
+        133
+      ],
+      "radii": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "radiusNote": "15m, 16m, 17m, 19m",
+      "price": 1099,
+      "retailPrice": 995,
+      "source": "https://meierskis.com/products/big-hoss",
+      "core": "Locally made wood core",
+      "graphic": "big-hoss",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/products/BigHossWeb2022.jpg?v=1669832601"
+    },
+    {
+      "id": "doc",
+      "name": "The Doc",
+      "handle": "the-doc",
+      "family": "build-to-order",
+      "families": [
+        "build-to-order"
+      ],
+      "summary": "A confident freeride shape with modest sidecut and early tip rise for skiers who direct their own turns.",
+      "lengths": [
+        168,
+        174,
+        179,
+        184
+      ],
+      "dims": [
+        140,
+        108,
+        133
+      ],
+      "radii": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "price": 1099,
+      "retailPrice": 995,
+      "source": "https://meierskis.com/products/the-doc",
+      "core": "Locally made wood core",
+      "graphic": "doc",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Doc2023_e276e830-df45-48aa-8b99-64a68ebc9058.jpg?v=1686619230"
+    },
+    {
+      "id": "wild-bill",
+      "name": "Wild Bill",
+      "handle": "wild-bill",
+      "family": "build-to-order",
+      "families": [
+        "build-to-order"
+      ],
+      "summary": "A stable 98 mm all-mountain ski with modest sidecut for a composed ride at speed.",
+      "lengths": [
+        170,
+        175,
+        180,
+        185
+      ],
+      "dims": [
+        129,
+        98,
+        125
+      ],
+      "radii": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "price": 1099,
+      "retailPrice": 995,
+      "source": "https://meierskis.com/products/wild-bill",
+      "core": "Locally made wood core",
+      "graphic": "wild-bill",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/WildBill.jpg?v=1694734991"
+    },
+    {
+      "id": "bangtail",
+      "name": "Bangtail",
+      "handle": "bangtail",
+      "family": "build-to-order",
+      "families": [
+        "build-to-order"
+      ],
+      "summary": "A narrow race-inspired frontside carver with a firm tail and deep sidecut.",
+      "lengths": [
+        166,
+        176,
+        186
+      ],
+      "dims": [
+        126,
+        73,
+        103
+      ],
+      "radii": [
+        14,
+        16,
+        18
+      ],
+      "price": 1099,
+      "retailPrice": 995,
+      "source": "https://meierskis.com/products/bangtail",
+      "core": "Poplar, maple and Colorado beetle-kill pine",
+      "graphic": "bangtail",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/files/Bangtail_2025_web_v5.jpg?v=1755644930"
+    },
+    {
+      "id": "mother-lode",
+      "name": "Mother Lode",
+      "handle": "mother-lode",
+      "family": "build-to-order",
+      "families": [
+        "build-to-order"
+      ],
+      "summary": "A 130 mm powder platform with aggressive rocker and a flat midsection for deep snow.",
+      "lengths": [
+        183,
+        191
+      ],
+      "dims": [
+        155,
+        130,
+        145
+      ],
+      "radii": [
+        32,
+        32
+      ],
+      "price": 1099,
+      "retailPrice": 1095,
+      "source": "https://meierskis.com/products/mother-lode",
+      "core": "Locally made wood core",
+      "graphic": "mother-lode",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/products/MotherLode_7c510233-f956-4605-a8db-49f0be3c001d.jpg?v=1588390623"
+    },
+    {
+      "id": "annie-oakley",
+      "name": "Annie Oakley",
+      "handle": "annie-oakley",
+      "family": "build-to-order",
+      "families": [
+        "build-to-order"
+      ],
+      "summary": "The Doc’s freeride character in shorter lengths, with a women’s graphic and an early-rise tip.",
+      "lengths": [
+        159,
+        168
+      ],
+      "dims": [
+        140,
+        108,
+        133
+      ],
+      "radii": [
+        16,
+        19
+      ],
+      "price": 1099,
+      "retailPrice": 995,
+      "source": "https://meierskis.com/products/annie-oakley",
+      "core": "Locally made wood core",
+      "graphic": "annie-oakley",
+      "outlineSource": "https://cdn.shopify.com/s/files/1/1439/2464/products/AnnieOakley.jpg?v=1588554402"
+    }
+  ]
+}

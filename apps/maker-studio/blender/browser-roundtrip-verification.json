@@ -1,0 +1,14 @@
+{
+  "browserBuildId": "bc09731f-8491-47bb-80f8-3b051d246031",
+  "productId": "bistro-walnut-study",
+  "version": "2",
+  "dimensionsIn": [
+    42.25,
+    42.25,
+    30.0
+  ],
+  "finish": "walnut",
+  "baseFinish": "matte-black",
+  "maxVertexErrorMeters": 0,
+  "mismatchedVersionRejected": true
+}

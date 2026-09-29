@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-45jxib",
+  "name": "Hawaiian Alpine",
+  "file": "base-answer-45jxib.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4cb238ba7260011172d53.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "e90b24f7ad08499c611244fd4a86b3502b0f1bbe72ac8c1b7221630e2af6da3d",
+  "retrieved": "2026-09-24T17:08:01.974Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

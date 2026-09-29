@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46lb6x",
+  "name": "Mango Sunrise",
+  "file": "top-choice-46lb6x.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa75ddc5ec72001739f7e5.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "10b11b382d1588d013d618ee8b946756a35dd59bc9e61980e3e7e38617494f3d",
+  "retrieved": "2026-09-24T17:07:40.800Z",
+  "crop": {
+    "x": 80,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

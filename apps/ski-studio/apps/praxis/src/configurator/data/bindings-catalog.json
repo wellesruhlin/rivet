@@ -1,0 +1,675 @@
+{
+ "observed": "2026-09-25",
+ "source": "https://www.praxisskis.com/ski-bindings/",
+ "fitPolicy": "Conservative prototype screen: the brake must be at least as wide as the ski waist and at most 15 mm wider. A clearance check, not a certified fit or DIN recommendation.",
+ "scope": "The LOOK Pivot 2.0 family and CAST’s Pivot-based Freetour 2.0, the bindings the 3D study can represent. Praxis also sells LOOK SPX, other brands and the Freetour upgrade kit.",
+ "excluded": [
+  "https://www.praxisskis.com/ski-bindings/spx-11-gw-grey-khaki/",
+  "https://www.praxisskis.com/ski-bindings/spx-11-gw-purple-black/",
+  "https://www.praxisskis.com/ski-bindings/spx-13-gw-petrol-blue/",
+  "https://www.praxisskis.com/ski-bindings/spx-13-gw-black/",
+  "https://www.praxisskis.com/ski-bindings/freetour-2-0-upgrade-kit/",
+  "https://www.praxisskis.com/ski-bindings/almonte-10-pt-touring-bindings/",
+  "https://www.praxisskis.com/ski-bindings/almonte-12-pt-touring-bindings/",
+  "https://www.praxisskis.com/ski-bindings/attack-lyt-11-gw-freeski-bindings/",
+  "https://www.praxisskis.com/ski-bindings/ambition-12-at/"
+ ],
+ "products": [
+  {
+   "id": "pivot-18",
+   "name": "LOOK Pivot 2.0 18 GW",
+   "family": "Pivot 2.0",
+   "rating": 18,
+   "din": "8–18",
+   "model": "stand-in",
+   "touring": false,
+   "bootCompatibility": "Alpine ISO 5355 A and GripWalk ISO 23223 A soles",
+   "source": "https://www.praxisskis.com/ski-bindings/look-bindings/look-pivot-2-0-18-gw-bluesteel/",
+   "variants": [
+    {
+     "id": "743-3061",
+     "productId": 743,
+     "color": "Blue Steel",
+     "brake": 95,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-18-gw-bluesteel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-bindings/look-pivot-2-0-18-gw-bluesteel/"
+    },
+    {
+     "id": "743-3062",
+     "productId": 743,
+     "color": "Blue Steel",
+     "brake": 105,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-18-gw-bluesteel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-bindings/look-pivot-2-0-18-gw-bluesteel/"
+    },
+    {
+     "id": "743-3063",
+     "productId": 743,
+     "color": "Blue Steel",
+     "brake": 115,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-18-gw-bluesteel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-bindings/look-pivot-2-0-18-gw-bluesteel/"
+    },
+    {
+     "id": "743-3064",
+     "productId": 743,
+     "color": "Blue Steel",
+     "brake": 130,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-18-gw-bluesteel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-bindings/look-pivot-2-0-18-gw-bluesteel/"
+    }
+   ]
+  },
+  {
+   "id": "pivot-15",
+   "name": "LOOK Pivot 2.0 15 GW",
+   "family": "Pivot 2.0",
+   "rating": 15,
+   "din": "6–15",
+   "model": "study",
+   "touring": false,
+   "bootCompatibility": "Alpine ISO 5355 A and GripWalk ISO 23223 A soles",
+   "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-black-metal/",
+   "variants": [
+    {
+     "id": "780-3061",
+     "productId": 780,
+     "color": "Black Metal",
+     "brake": 95,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-black-metal/"
+    },
+    {
+     "id": "780-3062",
+     "productId": 780,
+     "color": "Black Metal",
+     "brake": 105,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-black-metal/"
+    },
+    {
+     "id": "780-3063",
+     "productId": 780,
+     "color": "Black Metal",
+     "brake": 115,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-black-metal/"
+    },
+    {
+     "id": "780-3064",
+     "productId": 780,
+     "color": "Black Metal",
+     "brake": 130,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-black-metal/"
+    },
+    {
+     "id": "779-3061",
+     "productId": 779,
+     "color": "Orange Metal",
+     "brake": 95,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-orange-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-orange-metal/"
+    },
+    {
+     "id": "779-3062",
+     "productId": 779,
+     "color": "Orange Metal",
+     "brake": 105,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-orange-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-orange-metal/"
+    },
+    {
+     "id": "779-3063",
+     "productId": 779,
+     "color": "Orange Metal",
+     "brake": 115,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-orange-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-orange-metal/"
+    },
+    {
+     "id": "779-3064",
+     "productId": 779,
+     "color": "Orange Metal",
+     "brake": 130,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-orange-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-orange-metal/"
+    },
+    {
+     "id": "742-3061",
+     "productId": 742,
+     "color": "Blue Steel",
+     "brake": 95,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-bluesteel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-bindings/look-pivot-2-0-15-gw-bluesteel/"
+    },
+    {
+     "id": "742-3062",
+     "productId": 742,
+     "color": "Blue Steel",
+     "brake": 105,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-bluesteel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-bindings/look-pivot-2-0-15-gw-bluesteel/"
+    },
+    {
+     "id": "742-3063",
+     "productId": 742,
+     "color": "Blue Steel",
+     "brake": 115,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-bluesteel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-bindings/look-pivot-2-0-15-gw-bluesteel/"
+    },
+    {
+     "id": "742-3064",
+     "productId": 742,
+     "color": "Blue Steel",
+     "brake": 130,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-bluesteel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-bindings/look-pivot-2-0-15-gw-bluesteel/"
+    },
+    {
+     "id": "781-3061",
+     "productId": 781,
+     "color": "Super Edition",
+     "brake": 95,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-super-edition.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-super-edition/"
+    },
+    {
+     "id": "781-3062",
+     "productId": 781,
+     "color": "Super Edition",
+     "brake": 105,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-super-edition.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-super-edition/"
+    },
+    {
+     "id": "781-3063",
+     "productId": 781,
+     "color": "Super Edition",
+     "brake": 115,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-super-edition.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-super-edition/"
+    },
+    {
+     "id": "781-3064",
+     "productId": 781,
+     "color": "Super Edition",
+     "brake": 130,
+     "price": 499.95,
+     "listPrice": 600,
+     "available": true,
+     "image": "art/bindings/look-pivot-2-0-15-gw-super-edition.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/look-pivot-2-0-15-gw-super-edition/"
+    }
+   ]
+  },
+  {
+   "id": "pivot-13",
+   "name": "LOOK Pivot 2.0 13 GW",
+   "family": "Pivot 2.0",
+   "rating": 13,
+   "model": "stand-in",
+   "touring": false,
+   "bootCompatibility": "Alpine ISO 5355 A and GripWalk ISO 23223 A soles",
+   "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-black-metal/",
+   "variants": [
+    {
+     "id": "782-3061",
+     "productId": 782,
+     "color": "Black Metal",
+     "brake": 95,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-black-metal/"
+    },
+    {
+     "id": "782-3062",
+     "productId": 782,
+     "color": "Black Metal",
+     "brake": 105,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-black-metal/"
+    },
+    {
+     "id": "782-3063",
+     "productId": 782,
+     "color": "Black Metal",
+     "brake": 115,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-black-metal/"
+    },
+    {
+     "id": "782-3064",
+     "productId": 782,
+     "color": "Black Metal",
+     "brake": 130,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-black-metal/"
+    },
+    {
+     "id": "784-3061",
+     "productId": 784,
+     "color": "Blue Steel",
+     "brake": 95,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-blue-steel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-blue-steel/"
+    },
+    {
+     "id": "784-3062",
+     "productId": 784,
+     "color": "Blue Steel",
+     "brake": 105,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-blue-steel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-blue-steel/"
+    },
+    {
+     "id": "784-3063",
+     "productId": 784,
+     "color": "Blue Steel",
+     "brake": 115,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-blue-steel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-blue-steel/"
+    },
+    {
+     "id": "784-3064",
+     "productId": 784,
+     "color": "Blue Steel",
+     "brake": 130,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-blue-steel.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-blue-steel/"
+    },
+    {
+     "id": "783-3061",
+     "productId": 783,
+     "color": "Orange Metal",
+     "brake": 95,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-orange-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-orange-metal/"
+    },
+    {
+     "id": "783-3062",
+     "productId": 783,
+     "color": "Orange Metal",
+     "brake": 105,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-orange-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-orange-metal/"
+    },
+    {
+     "id": "783-3063",
+     "productId": 783,
+     "color": "Orange Metal",
+     "brake": 115,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-orange-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-orange-metal/"
+    },
+    {
+     "id": "783-3064",
+     "productId": 783,
+     "color": "Orange Metal",
+     "brake": 130,
+     "price": 399.95,
+     "listPrice": 500,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-13-gw-orange-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-13-gw-orange-metal/"
+    }
+   ]
+  },
+  {
+   "id": "pivot-11",
+   "name": "LOOK Pivot 2.0 11 GW",
+   "family": "Pivot 2.0",
+   "rating": 11,
+   "model": "stand-in",
+   "touring": false,
+   "bootCompatibility": "Alpine ISO 5355 A and GripWalk ISO 23223 A soles",
+   "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-11-gw-black-metal/",
+   "variants": [
+    {
+     "id": "786-3061",
+     "productId": 786,
+     "color": "Black Metal",
+     "brake": 95,
+     "price": 299.95,
+     "listPrice": 375,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-11-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-11-gw-black-metal/"
+    },
+    {
+     "id": "786-3062",
+     "productId": 786,
+     "color": "Black Metal",
+     "brake": 105,
+     "price": 299.95,
+     "listPrice": 375,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-11-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-11-gw-black-metal/"
+    },
+    {
+     "id": "786-3063",
+     "productId": 786,
+     "color": "Black Metal",
+     "brake": 115,
+     "price": 299.95,
+     "listPrice": 375,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-11-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-11-gw-black-metal/"
+    },
+    {
+     "id": "786-3064",
+     "productId": 786,
+     "color": "Black Metal",
+     "brake": 130,
+     "price": 299.95,
+     "listPrice": 375,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-11-gw-black-metal.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-11-gw-black-metal/"
+    },
+    {
+     "id": "785-3061",
+     "productId": 785,
+     "color": "White / Black",
+     "brake": 95,
+     "price": 299.95,
+     "listPrice": 375,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-11-gw-white-black.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-11-gw-white-black/"
+    },
+    {
+     "id": "785-3062",
+     "productId": 785,
+     "color": "White / Black",
+     "brake": 105,
+     "price": 299.95,
+     "listPrice": 375,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-11-gw-white-black.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-11-gw-white-black/"
+    },
+    {
+     "id": "785-3063",
+     "productId": 785,
+     "color": "White / Black",
+     "brake": 115,
+     "price": 299.95,
+     "listPrice": 375,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-11-gw-white-black.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-11-gw-white-black/"
+    },
+    {
+     "id": "785-3064",
+     "productId": 785,
+     "color": "White / Black",
+     "brake": 130,
+     "price": 299.95,
+     "listPrice": 375,
+     "available": true,
+     "image": "art/bindings/pivot-2-0-11-gw-white-black.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/pivot-2-0-11-gw-white-black/"
+    }
+   ]
+  },
+  {
+   "id": "freetour-15",
+   "name": "CAST Freetour 2.0 Pivot 15",
+   "family": "Freetour 2.0",
+   "rating": 15,
+   "din": "6–15",
+   "model": "alpine-mode",
+   "touring": true,
+   "bootCompatibility": "Alpine ISO 5355, GripWalk ISO 23223 and touring ISO 9523 soles",
+   "weight": {
+    "alpine": 1340,
+    "touring": 1000
+   },
+   "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-15-black-metal-raw/",
+   "variants": [
+    {
+     "id": "733-3061",
+     "productId": 733,
+     "color": "Black Metal Raw",
+     "brake": 95,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-15-black-metal-raw.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-15-black-metal-raw/"
+    },
+    {
+     "id": "733-3062",
+     "productId": 733,
+     "color": "Black Metal Raw",
+     "brake": 105,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-15-black-metal-raw.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-15-black-metal-raw/"
+    },
+    {
+     "id": "733-3063",
+     "productId": 733,
+     "color": "Black Metal Raw",
+     "brake": 115,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-15-black-metal-raw.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-15-black-metal-raw/"
+    },
+    {
+     "id": "733-3064",
+     "productId": 733,
+     "color": "Black Metal Raw",
+     "brake": 130,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-15-black-metal-raw.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-15-black-metal-raw/"
+    },
+    {
+     "id": "777-3061",
+     "productId": 777,
+     "color": "Purple",
+     "brake": 95,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-15-purple.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-15-purple/"
+    },
+    {
+     "id": "777-3062",
+     "productId": 777,
+     "color": "Purple",
+     "brake": 105,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-15-purple.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-15-purple/"
+    },
+    {
+     "id": "777-3063",
+     "productId": 777,
+     "color": "Purple",
+     "brake": 115,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-15-purple.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-15-purple/"
+    },
+    {
+     "id": "777-3064",
+     "productId": 777,
+     "color": "Purple",
+     "brake": 130,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-15-purple.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-15-purple/"
+    }
+   ]
+  },
+  {
+   "id": "freetour-18",
+   "name": "CAST Freetour 2.0 Pivot 18",
+   "family": "Freetour 2.0",
+   "rating": 18,
+   "din": "8–18",
+   "model": "alpine-mode",
+   "touring": true,
+   "bootCompatibility": "Alpine ISO 5355, GripWalk ISO 23223 and touring ISO 9523 soles",
+   "weight": {
+    "alpine": 1340,
+    "touring": 1000
+   },
+   "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-18-purple/",
+   "variants": [
+    {
+     "id": "734-3061",
+     "productId": 734,
+     "color": "Purple",
+     "brake": 95,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-18-purple.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-18-purple/"
+    },
+    {
+     "id": "734-3062",
+     "productId": 734,
+     "color": "Purple",
+     "brake": 105,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-18-purple.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-18-purple/"
+    },
+    {
+     "id": "734-3063",
+     "productId": 734,
+     "color": "Purple",
+     "brake": 115,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-18-purple.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-18-purple/"
+    },
+    {
+     "id": "734-3064",
+     "productId": 734,
+     "color": "Purple",
+     "brake": 130,
+     "price": 829,
+     "listPrice": null,
+     "available": true,
+     "image": "art/bindings/freetour-2-0-pivot-18-purple.webp",
+     "source": "https://www.praxisskis.com/ski-bindings/freetour-2-0-pivot-18-purple/"
+    }
+   ]
+  }
+ ]
+}

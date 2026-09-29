@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-0h7qxl",
+  "name": "Excalibur Green",
+  "file": "base-answer-0h7qxl.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/650a0668f3ee5957bc584537.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "18c21386f3d872aaeb938c3bff9bea2ac0644ee7a7083e35f3585a32da7dbf37",
+  "retrieved": "2026-09-24T17:08:00.835Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

@@ -1,0 +1,109 @@
+/* Praxis theme for the shared configurator: warm graphite, ivory as the only
+   accent, Fraunces for names and figures, DM Sans for everything you operate. */
+
+.px-app .cfg-root,
+.px-app .cfg-theme {
+  --cfg-bg: #0e0d0b;
+  --cfg-bg-panel: #12110e;
+  --cfg-surface: #1a1815;
+  --cfg-surface-hover: #211f1b;
+  --cfg-line: rgba(239, 233, 221, 0.075);
+  --cfg-line-2: rgba(239, 233, 221, 0.14);
+  --cfg-line-3: rgba(239, 233, 221, 0.28);
+  --cfg-text: #efe9dd;
+  --cfg-text-2: #b9b1a3;
+  --cfg-text-3: #8f8779;
+  --cfg-text-4: #5f584f;
+  --cfg-accent: #efe9dd;
+  --cfg-accent-hover: #fbf5ea;
+  --cfg-accent-ink: #15130f;
+  --cfg-accent-glow: rgba(239, 233, 221, 0.32);
+  --cfg-selected-line: rgba(239, 233, 221, 0.85);
+  --cfg-display: 'Fraunces Variable', Georgia, 'Times New Roman', serif;
+  --cfg-ui: 'DM Sans Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --cfg-body: 'DM Sans Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --cfg-display-weight: 320;
+  --cfg-heading-weight: 480;
+  --cfg-label-tracking: 0.17em;
+  --cfg-stage-key: rgba(255, 234, 206, 0.095);
+  --cfg-stage-fill: rgba(196, 160, 118, 0.055);
+  --cfg-stage-top: #17150f;
+  --cfg-stage-mid: #0f0e0b;
+  --cfg-stage-bottom: #0a0908;
+  --cfg-word-top: rgba(255, 244, 228, 0.07);
+  --cfg-word-weight: 560;
+  --cfg-word-stretch: 100%;
+  --cfg-word-factor: 0.62;
+}
+
+.px-app .cfg-root {
+  --cfg-header-h: 58px;
+  --cfg-height: calc(100dvh - var(--px-header-h));
+  --cfg-sticky-top: var(--px-header-h);
+  min-height: 560px;
+  font-size: 15px;
+}
+
+.px-app .cfg-topbar {
+  justify-content: center;
+  padding: 0 24px;
+  background: var(--cfg-bg-panel);
+}
+/* The actions float right of the centered steps on desktop; phones keep the sticky bar. */
+@media (min-width: 901px) {
+  .px-app .cfg-topbar {
+    position: relative;
+  }
+  .px-app .cfg-topbar .cfg-header-actions {
+    position: absolute;
+    right: 20px;
+  }
+}
+.px-app .cfg-stage-word {
+  font-style: italic;
+  letter-spacing: -0.02em;
+}
+.px-app .cfg-nameplate h2,
+.px-app .cfg-panel-head h2 {
+  font-optical-sizing: auto;
+  letter-spacing: -0.02em;
+}
+.px-app .cfg-step-nav button {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+.px-app .cfg-swatch-chip.is-image {
+  background: var(--swatch);
+}
+
+/* The veneer guide dialog */
+.px-veneer-guide {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 10px;
+  margin: 6px 0 18px;
+}
+.px-veneer-guide figure {
+  margin: 0;
+}
+.px-veneer-guide img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.px-veneer-guide figcaption {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--cfg-text-2);
+}
+
+@media (max-width: 900px) {
+  .px-app .cfg-topbar {
+    padding: 0;
+  }
+  .px-veneer-guide {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,2106 @@
+{
+ "source": "https://www.praxisskis.com/custom-order-skis/",
+ "observed": "2026-09-24",
+ "models": [
+  {
+   "id": "9-d",
+   "name": "9 D",
+   "productId": 556,
+   "url": "https://www.praxisskis.com/custom-skis/9-d-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 174,
+     "label": "174"
+    },
+    {
+     "value": 182,
+     "label": "182"
+    }
+   ],
+   "standardCore": "heavy-hitter",
+   "standardFlex": 4,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 50
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 100
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 0
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 50
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra Light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "9d8",
+   "name": "9D8",
+   "productId": 545,
+   "url": "https://www.praxisskis.com/custom-skis/9d8-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 173,
+     "label": "173"
+    },
+    {
+     "value": 179,
+     "label": "179"
+    },
+    {
+     "value": 185,
+     "label": "185"
+    },
+    {
+     "value": 191,
+     "label": "191"
+    }
+   ],
+   "standardCore": "heavy-hitter",
+   "standardFlex": 4,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 50
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 100
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 0
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 50
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra Light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "bc",
+   "name": "BC",
+   "productId": 568,
+   "url": "https://www.praxisskis.com/custom-skis/bc-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 150,
+     "label": "150"
+    },
+    {
+     "value": 160,
+     "label": "160"
+    },
+    {
+     "value": 170,
+     "label": "170"
+    },
+    {
+     "value": 180,
+     "label": "180"
+    },
+    {
+     "value": 185,
+     "label": "185"
+    },
+    {
+     "value": 190,
+     "label": "190"
+    }
+   ],
+   "standardCore": "ultra-light-carbon",
+   "standardFlex": 3,
+   "standardFlexByLength": {
+    "150": 2,
+    "160": 2,
+    "170": 2,
+    "180": 3,
+    "185": 3,
+    "190": 3
+   },
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra Light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "bps",
+   "name": "BPS",
+   "productId": 560,
+   "url": "https://www.praxisskis.com/custom-skis/bps-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 183,
+     "label": "183"
+    },
+    {
+     "value": 193,
+     "label": "193"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 3,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "concept",
+   "name": "Concept",
+   "productId": 557,
+   "url": "https://www.praxisskis.com/custom-skis/concept-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 177,
+     "label": "177"
+    },
+    {
+     "value": 187,
+     "label": "187"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 4,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "exp",
+   "name": "EXP",
+   "productId": 555,
+   "url": "https://www.praxisskis.com/custom-skis/exp-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 173,
+     "label": "173"
+    },
+    {
+     "value": 183,
+     "label": "183"
+    }
+   ],
+   "standardCore": "ultra-light-carbon",
+   "standardFlex": 3,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra Light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "frd",
+   "name": "FRD",
+   "productId": 563,
+   "url": "https://www.praxisskis.com/custom-order-skis/frd-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 164,
+     "label": "164"
+    },
+    {
+     "value": 174,
+     "label": "174"
+    },
+    {
+     "value": 184,
+     "label": "184"
+    },
+    {
+     "value": 194,
+     "label": "194"
+    }
+   ],
+   "standardCore": "heavy-hitter",
+   "standardFlex": 4,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 50
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 100
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 0
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 50
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra Light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "frs",
+   "name": "FRS",
+   "productId": 540,
+   "url": "https://www.praxisskis.com/custom-skis/frs-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 176,
+     "label": "176"
+    },
+    {
+     "value": 182,
+     "label": "182"
+    },
+    {
+     "value": 188,
+     "label": "188"
+    },
+    {
+     "value": 194,
+     "label": "194"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 4,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "gpo",
+   "name": "GPO",
+   "productId": 531,
+   "url": "https://www.praxisskis.com/custom-skis/gpo-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 155,
+     "label": "155"
+    },
+    {
+     "value": 165,
+     "label": "165"
+    },
+    {
+     "value": 175,
+     "label": "175"
+    },
+    {
+     "value": 182,
+     "label": "182"
+    },
+    {
+     "value": 187,
+     "label": "187"
+    },
+    {
+     "value": 192,
+     "label": "192"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 4,
+   "standardFlexByLength": {
+    "155": 3,
+    "165": 3,
+    "175": 3,
+    "182": 4,
+    "187": 4,
+    "192": 4
+   },
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "gpo-jr",
+   "name": "GPO JR",
+   "productId": 562,
+   "url": "https://www.praxisskis.com/custom-skis/gpo-jr-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 143,
+     "label": "143"
+    },
+    {
+     "value": 153,
+     "label": "153"
+    },
+    {
+     "value": 163,
+     "label": "163"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 2,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "jedi-mind-sticks",
+   "name": "Jedi Mind Sticks",
+   "productId": 630,
+   "url": "https://www.praxisskis.com/custom-skis/jedi-mind-sticks-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 174,
+     "label": "174"
+    },
+    {
+     "value": 182,
+     "label": "182"
+    },
+    {
+     "value": 190,
+     "label": "190"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 4,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "mvp-94",
+   "name": "MVP 94",
+   "productId": 542,
+   "url": "https://www.praxisskis.com/custom-skis/mvp-94-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 154,
+     "label": "154"
+    },
+    {
+     "value": 164,
+     "label": "164"
+    },
+    {
+     "value": 174,
+     "label": "174"
+    },
+    {
+     "value": 184,
+     "label": "184"
+    }
+   ],
+   "standardCore": "heavy-hitter",
+   "standardFlex": 4,
+   "standardFlexByLength": {
+    "154": 3,
+    "164": 3,
+    "174": 4,
+    "184": 4
+   },
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 50
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 100
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 0
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 50
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra Light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "mvp-108",
+   "name": "MVP 108",
+   "productId": 551,
+   "url": "https://www.praxisskis.com/custom-skis/mvp-108-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 120,
+     "label": "120 Jr",
+     "junior": true
+    },
+    {
+     "value": 130,
+     "label": "130 Jr",
+     "junior": true
+    },
+    {
+     "value": 163,
+     "label": "163"
+    },
+    {
+     "value": 173,
+     "label": "173"
+    },
+    {
+     "value": 183,
+     "label": "183"
+    },
+    {
+     "value": 188,
+     "label": "188"
+    },
+    {
+     "value": 193,
+     "label": "193"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 4,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "piste-jib",
+   "name": "Piste Jib",
+   "productId": 564,
+   "url": "https://www.praxisskis.com/custom-skis/piste-jib-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 164,
+     "label": "164"
+    },
+    {
+     "value": 174,
+     "label": "174"
+    },
+    {
+     "value": 184,
+     "label": "184"
+    }
+   ],
+   "standardCore": "heavy-hitter",
+   "standardFlex": 3,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 50
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 100
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 0
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 50
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra Light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "powderboard",
+   "name": "Powderboard",
+   "productId": 559,
+   "url": "https://www.praxisskis.com/custom-skis/powderboard-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 170,
+     "label": "170"
+    },
+    {
+     "value": 180,
+     "label": "180"
+    },
+    {
+     "value": 190,
+     "label": "190"
+    },
+    {
+     "value": 200,
+     "label": "200"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 4,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "protest",
+   "name": "Protest",
+   "productId": 549,
+   "url": "https://www.praxisskis.com/custom-skis/protest-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 163,
+     "label": "163"
+    },
+    {
+     "value": 177,
+     "label": "177"
+    },
+    {
+     "value": 187,
+     "label": "187"
+    },
+    {
+     "value": 192,
+     "label": "192"
+    },
+    {
+     "value": 196,
+     "label": "196"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 3,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "quixote",
+   "name": "Quixote",
+   "productId": 561,
+   "url": "https://www.praxisskis.com/custom-skis/quixote-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 182,
+     "label": "182"
+    },
+    {
+     "value": 188,
+     "label": "188"
+    },
+    {
+     "value": 194,
+     "label": "194"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 4,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "rx",
+   "name": "RX",
+   "productId": 553,
+   "url": "https://www.praxisskis.com/custom-skis/rx-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 169,
+     "label": "169"
+    },
+    {
+     "value": 179,
+     "label": "179"
+    },
+    {
+     "value": 184,
+     "label": "184"
+    },
+    {
+     "value": 189,
+     "label": "189"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 4,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "slugger",
+   "name": "Slugger",
+   "productId": 607,
+   "url": "https://www.praxisskis.com/custom-skis/slugger-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 165,
+     "label": "165"
+    },
+    {
+     "value": 175,
+     "label": "175"
+    },
+    {
+     "value": 185,
+     "label": "185"
+    }
+   ],
+   "standardCore": "heavy-hitter",
+   "standardFlex": 4,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 50
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 100
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 0
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 50
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra Light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "snd",
+   "name": "SND",
+   "productId": 533,
+   "url": "https://www.praxisskis.com/custom-skis/snd-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 167,
+     "label": "167"
+    },
+    {
+     "value": 176,
+     "label": "176"
+    },
+    {
+     "value": 185,
+     "label": "185"
+    }
+   ],
+   "standardCore": "heavy-hitter",
+   "standardFlex": 5,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 50
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 100
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 0
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 50
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra Light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "ullr",
+   "name": "Ullr",
+   "productId": 558,
+   "url": "https://www.praxisskis.com/custom-skis/ullr-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 175,
+     "label": "175"
+    },
+    {
+     "value": 185,
+     "label": "185"
+    },
+    {
+     "value": 194,
+     "label": "194"
+    }
+   ],
+   "standardCore": "enduro",
+   "standardFlex": 3,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra light with carbon",
+     "price": 150
+    }
+   ]
+  },
+  {
+   "id": "yeti",
+   "name": "Yeti",
+   "productId": 554,
+   "url": "https://www.praxisskis.com/custom-skis/yeti-custom-ski/",
+   "price": 1600,
+   "lengths": [
+    {
+     "value": 172,
+     "label": "172"
+    },
+    {
+     "value": 182,
+     "label": "182"
+    },
+    {
+     "value": 192,
+     "label": "192"
+    }
+   ],
+   "standardCore": "ultra-light-carbon",
+   "standardFlex": 3,
+   "cores": [
+    {
+     "value": "enduro",
+     "label": "Enduro",
+     "price": 0
+    },
+    {
+     "value": "enduro-carbon",
+     "label": "Enduro with carbon",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter",
+     "label": "Heavy Hitter",
+     "price": 50
+    },
+    {
+     "value": "heavy-hitter-carbon",
+     "label": "Heavy Hitter with carbon",
+     "price": 100
+    },
+    {
+     "value": "ultra-light-carbon",
+     "label": "Ultra Light with carbon",
+     "price": 150
+    }
+   ]
+  }
+ ],
+ "graphics": [
+  {
+   "id": "646",
+   "name": "Abduct",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/646/2017/abduct-thumb__88502.1679882544.jpg"
+  },
+  {
+   "id": "452",
+   "name": "Abominable",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/452/1273/Abominable_89_567__55659.1604369478.jpg"
+  },
+  {
+   "id": "222",
+   "name": "Above The Clouds",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/222/470/Above_the_Clouds_web_thumb__14069.1391305339.jpg"
+  },
+  {
+   "id": "202",
+   "name": "Abstract",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/202/451/Abstract_web_small__75941.1391303285.jpg"
+  },
+  {
+   "id": "569",
+   "name": "Abyss",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/569/1725/abyss_89_567__11455.1604369017.jpg"
+  },
+  {
+   "id": "463",
+   "name": "Alibi",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/463/1284/Alibi_89_567__13106.1604369037.jpg"
+  },
+  {
+   "id": "370",
+   "name": "Alpenglow",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/370/942/Alpenglow_thumb__49489.1604369436.jpg"
+  },
+  {
+   "id": "344",
+   "name": "Ancient",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/344/858/Sean_Ancient__90937.1604368828.jpg"
+  },
+  {
+   "id": "337",
+   "name": "Arctic One",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/337/851/Mark_Arctic_1__65502.1604368891.jpg"
+  },
+  {
+   "id": "338",
+   "name": "Arctic Two",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/338/852/Mark_Arctic_2__71631.1604368912.jpg"
+  },
+  {
+   "id": "647",
+   "name": "Birds",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/647/2018/birds-thumb__41408.1679882715.jpg"
+  },
+  {
+   "id": "350",
+   "name": "Black Circles",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/350/865/George_BlackCircles__36583.1427741548.jpg"
+  },
+  {
+   "id": "489",
+   "name": "Blobs",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/489/1437/blobs-89-567__08426.1604368954.jpg"
+  },
+  {
+   "id": "482",
+   "name": "Blue Gorge",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/482/1430/sean-2praxis2019-89-567__56999.1553015706.jpg"
+  },
+  {
+   "id": "499",
+   "name": "Bluebird: Al Odt Memorial",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/499/1465/Al_Odte_89_567__68475.1556731518.jpg"
+  },
+  {
+   "id": "218",
+   "name": "Buck's Beach",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/218/466/Bucks_Beach_web_small__89298.1391305147.jpg"
+  },
+  {
+   "id": "606",
+   "name": "Calla Lily",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/606/1841/Calla_Lily__78760.1617654113.jpg"
+  },
+  {
+   "id": "481",
+   "name": "Calligrifade",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/481/1429/sean-3praxis2019-89-567__49396.1553015648.jpg"
+  },
+  {
+   "id": "200",
+   "name": "Cherry Grain",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/200/446/Cherry_woodgrain_web_thumb__96698.1391296817.jpg"
+  },
+  {
+   "id": "225",
+   "name": "Cold Smoke",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/225/473/Cold_Smoke_web_thumb__16623.1391305557.jpg"
+  },
+  {
+   "id": "371",
+   "name": "Constellation",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/371/943/constellation_thumb__31892.1604369877.jpg"
+  },
+  {
+   "id": "221",
+   "name": "Crest",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/221/469/Crest_web_thumb__28917.1391305292.jpg"
+  },
+  {
+   "id": "335",
+   "name": "Crystals",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/335/833/Mark_Crystals__53836.1427653546.jpg"
+  },
+  {
+   "id": "280",
+   "name": "Cubes",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/280/576/Cubes_web_small__01189.1395261998.jpg"
+  },
+  {
+   "id": "291",
+   "name": "Custom Graphic (+ $200)",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/291/633/BC_with_Custom__06833.1395613131.jpg"
+  },
+  {
+   "id": "648",
+   "name": "Day of the Dead",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/648/2019/day-of-dead-thumb__75919.1679882983.jpg"
+  },
+  {
+   "id": "649",
+   "name": "Daybreak",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/649/2020/daybreak-thumb__79760.1679883102.jpg"
+  },
+  {
+   "id": "453",
+   "name": "Dimension",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/453/1274/Dimension_89_567__20425.1521926309.jpg"
+  },
+  {
+   "id": "445",
+   "name": "Dino",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/445/1254/Dino_89_567__61200.1521665570.jpg"
+  },
+  {
+   "id": "612",
+   "name": "Dirt and Sky",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/612/1851/Dirt_and_Sky__79344.1617668488.jpg"
+  },
+  {
+   "id": "605",
+   "name": "Dixie",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/605/1840/Dixie__68744.1617654071.jpg"
+  },
+  {
+   "id": "650",
+   "name": "Doorway",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/650/2021/doorway-thumb__61120.1679883217.jpg"
+  },
+  {
+   "id": "604",
+   "name": "Dragon",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/604/1839/Dragon__07821.1617654028.jpg"
+  },
+  {
+   "id": "273",
+   "name": "Drip",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/273/569/Drip_web__26470.1395256572.jpg"
+  },
+  {
+   "id": "279",
+   "name": "East Shore",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/279/575/East_Shore_web_small__09604.1395261598.jpg"
+  },
+  {
+   "id": "573",
+   "name": "Eel Groto",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/573/1729/Eel_Groto_89_567__19565.1585516648.jpg"
+  },
+  {
+   "id": "345",
+   "name": "Elemental",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/345/859/Sean_Elemental__92694.1427741199.jpg"
+  },
+  {
+   "id": "454",
+   "name": "Elevate",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/454/1275/Elevate_89_567__52952.1521926363.jpg"
+  },
+  {
+   "id": "578",
+   "name": "Feast",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/578/1734/feast_89_567__67101.1585516941.jpg"
+  },
+  {
+   "id": "455",
+   "name": "Final Frontier",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/455/1276/Final_Frontier_89_567__57901.1521926412.jpg"
+  },
+  {
+   "id": "651",
+   "name": "Floating",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/651/2022/floating-thumb__99533.1679883338.jpg"
+  },
+  {
+   "id": "276",
+   "name": "Forest",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/276/572/Forrest_web_small__64712.1395261482.jpg"
+  },
+  {
+   "id": "603",
+   "name": "Fungi",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/603/1838/Fungi__52205.1617653984.jpg"
+  },
+  {
+   "id": "602",
+   "name": "Funkadelic",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/602/1837/Funkadelic__39100.1617653952.jpg"
+  },
+  {
+   "id": "629",
+   "name": "Gaillardia",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/629/1903/gaillardia__71155.1649960058.jpg"
+  },
+  {
+   "id": "212",
+   "name": "Giant Pacific Octopus",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/212/460/GPO_web_small__28854.1391304620.jpg"
+  },
+  {
+   "id": "618",
+   "name": "Gods",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/618/1859/Gods__00006.1617919583.jpg"
+  },
+  {
+   "id": "229",
+   "name": "Golden Trout",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/229/477/Golden_trout_web_thumb__21560.1391305740.jpg"
+  },
+  {
+   "id": "456",
+   "name": "Grim",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/456/1277/Grim_89_567__21579.1521926442.jpg"
+  },
+  {
+   "id": "652",
+   "name": "Grumpy",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/652/2023/grumpy-thumb__98205.1679883482.jpg"
+  },
+  {
+   "id": "628",
+   "name": "Hands",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/628/1902/hands__83973.1649960024.jpg"
+  },
+  {
+   "id": "282",
+   "name": "Headwall",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/282/586/Headwall_web_thumb__59199.1395353593.jpg"
+  },
+  {
+   "id": "346",
+   "name": "Hex",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/346/860/Sean_Hex__03392.1427741259.jpg"
+  },
+  {
+   "id": "627",
+   "name": "Horizon",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/627/1901/horizon__82139.1649959981.jpg"
+  },
+  {
+   "id": "336",
+   "name": "Ibex",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/336/957/Mark_Ibex__22402.1461187484.jpg"
+  },
+  {
+   "id": "372",
+   "name": "Icebergs",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/372/944/Icebergs_thumb__59725.1460394311.jpg"
+  },
+  {
+   "id": "373",
+   "name": "Jamaican Lion",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/373/945/Jamaican_Lion_thumb__60883.1460394361.jpg"
+  },
+  {
+   "id": "275",
+   "name": "Junk Wood",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/275/571/Junk_Wood_web_small__73902.1395261441.jpg"
+  },
+  {
+   "id": "488",
+   "name": "Kraken",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/488/1436/kraken-89-567__66945.1553015962.jpg"
+  },
+  {
+   "id": "626",
+   "name": "Leviathan",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/626/1900/Leviathan__59410.1649959951.jpg"
+  },
+  {
+   "id": "351",
+   "name": "Light Dark",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/351/866/George_LightDark_l__56676.1427741581.jpg"
+  },
+  {
+   "id": "207",
+   "name": "Logo Art",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/207/455/Praxis_logo_web_small_2__39363.1391304187.jpg"
+  },
+  {
+   "id": "610",
+   "name": "Loose",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/610/1849/Loose__30902.1617668406.jpg"
+  },
+  {
+   "id": "625",
+   "name": "Lovecraft",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/625/1899/lovecraft__73334.1649959912.jpg"
+  },
+  {
+   "id": "613",
+   "name": "Mandala",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/613/1852/Mandala__90979.1617730420.jpg"
+  },
+  {
+   "id": "210",
+   "name": "Maple",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/210/458/Maple_web_small__44315.1391304341.jpg"
+  },
+  {
+   "id": "620",
+   "name": "Maple Leaves",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/620/1894/Maple_Leaves__72090.1649709993.jpg"
+  },
+  {
+   "id": "374",
+   "name": "Max",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/374/946/Max_thumb__69674.1460394397.jpg"
+  },
+  {
+   "id": "341",
+   "name": "Maze Blue",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/341/961/Maze_Blue_thumb__29390.1461187800.jpg"
+  },
+  {
+   "id": "343",
+   "name": "Maze Green",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/343/959/Maze_Green_thumb__58480.1461187725.jpg"
+  },
+  {
+   "id": "342",
+   "name": "Maze Orange",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/342/960/Maze_Orange_thumb__47496.1461187760.jpg"
+  },
+  {
+   "id": "217",
+   "name": "Modern Graffiti",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/217/465/modern_graffiti_thumb__55636.1391305075.jpg"
+  },
+  {
+   "id": "375",
+   "name": "Mountain Glow",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/375/947/Mountain_Glow_thumb__38114.1460394432.jpg"
+  },
+  {
+   "id": "457",
+   "name": "Mountain Spring",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/457/1278/Mountain_Spring_89_567__87571.1521926484.jpg"
+  },
+  {
+   "id": "376",
+   "name": "Mountain Sunrise",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/376/948/Mountain_Sun_thumb__76320.1460394485.jpg"
+  },
+  {
+   "id": "228",
+   "name": "Mr. Claw",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/228/476/Mr_Claw_web_thumb__82236.1391305704.jpg"
+  },
+  {
+   "id": "490",
+   "name": "Mystic Mountain",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/490/1444/mystic-mountain__96503.1553033365.jpg"
+  },
+  {
+   "id": "216",
+   "name": "Navajo",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/216/464/Navajo_web_small__80317.1391305037.jpg"
+  },
+  {
+   "id": "486",
+   "name": "Neighborhood Watch",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/486/1434/neighborhood-watch-89-567__08678.1553015880.jpg"
+  },
+  {
+   "id": "352",
+   "name": "No6",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/352/867/George_No6__55838.1427741629.jpg"
+  },
+  {
+   "id": "339",
+   "name": "Norway",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/339/958/Mark_Norway__82417.1461187679.jpg"
+  },
+  {
+   "id": "609",
+   "name": "Nova",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/609/1848/Nova__39464.1617668372.jpg"
+  },
+  {
+   "id": "458",
+   "name": "Nukin",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/458/1279/Nukin_89_567__41376.1521926530.jpg"
+  },
+  {
+   "id": "353",
+   "name": "O",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/353/868/George_O__54714.1427741676.jpg"
+  },
+  {
+   "id": "485",
+   "name": "Old Growth",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/485/1433/old-growth-89-567__90024.1553015830.jpg"
+  },
+  {
+   "id": "601",
+   "name": "Paradise",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/601/1836/Paradise__93409.1617653910.jpg"
+  },
+  {
+   "id": "214",
+   "name": "Peacock",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/214/462/Leaf_web_thumb__19203.1391304819.jpg"
+  },
+  {
+   "id": "653",
+   "name": "Pieces",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/653/2024/pieces-thumb__31784.1679883603.jpg"
+  },
+  {
+   "id": "281",
+   "name": "Pine",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/281/585/Pine_web_thumb__54048.1395353494.jpg"
+  },
+  {
+   "id": "232",
+   "name": "Pompei",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/232/480/Pompei_web_thumb__20571.1391305886.jpg"
+  },
+  {
+   "id": "574",
+   "name": "Powdah Snek Black",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/574/1730/Powdah_snek_black_89_567__74163.1585516734.jpg"
+  },
+  {
+   "id": "575",
+   "name": "Powdah Snek White",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/575/1731/Powdah_snek_white_89_567__54555.1585516777.jpg"
+  },
+  {
+   "id": "231",
+   "name": "Powder Eagle",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/231/479/Powder_eagle_web_thumb__61788.1391305824.jpg"
+  },
+  {
+   "id": "600",
+   "name": "Praxis 51",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/600/1835/Praxis_51__17567.1617653870.jpg"
+  },
+  {
+   "id": "230",
+   "name": "Praxis Camo",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/230/478/praxis_camo_gold_web_thumb__24991.1391305784.jpg"
+  },
+  {
+   "id": "377",
+   "name": "Praxis Tattoo",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/377/949/Praxis_Tattoo_thumb__17068.1604373874.jpg"
+  },
+  {
+   "id": "209",
+   "name": "Psychedelic Rock",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/209/457/Psychedelic_Rock_web_small__33928.1391304269.jpg"
+  },
+  {
+   "id": "484",
+   "name": "Quartz",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/484/1432/quartz-89-567__60071.1553015789.jpg"
+  },
+  {
+   "id": "340",
+   "name": "Rastaman",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/340/962/Mark_Rastaman__12259.1461187836.jpg"
+  },
+  {
+   "id": "206",
+   "name": "Redwood Surf",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/206/454/Redwood_Surf_web_small__97692.1391304146.jpg"
+  },
+  {
+   "id": "378",
+   "name": "Reflection",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/378/950/reflection_thumb__59128.1460394927.jpg"
+  },
+  {
+   "id": "379",
+   "name": "Reindeer",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/379/951/Reindeer_thumb__08471.1460394959.jpg"
+  },
+  {
+   "id": "577",
+   "name": "Roam",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/577/1733/Roam_89_567__92561.1585516886.jpg"
+  },
+  {
+   "id": "579",
+   "name": "Roots",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/579/1735/Roots_89_567__43091.1585522344.jpg"
+  },
+  {
+   "id": "199",
+   "name": "Screaming Bear",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/199/445/Screaming_bear_web_small__95523.1391296496.jpg"
+  },
+  {
+   "id": "215",
+   "name": "Scuba",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/215/463/Scuba_web_small__39852.1391304886.jpg"
+  },
+  {
+   "id": "571",
+   "name": "Shipwrecked color",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/571/1727/Shipwrecked_color_89_567__29819.1585516516.jpg"
+  },
+  {
+   "id": "570",
+   "name": "Shipwrecked White",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/570/1726/Shipwrecked_white_89_567__97492.1585516449.jpg"
+  },
+  {
+   "id": "451",
+   "name": "Shrooms",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/451/1272/shrooms_89_567__22940.1521919523.jpg"
+  },
+  {
+   "id": "599",
+   "name": "Sierra Stone",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/599/1834/Sierra_Stone__63445.1617653778.jpg"
+  },
+  {
+   "id": "235",
+   "name": "Sister Theresa",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/235/483/sister_theresa_web_thumb__69936.1391306058.jpg"
+  },
+  {
+   "id": "654",
+   "name": "Skull",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/654/2025/skull-thumb__79407.1679883748.jpg"
+  },
+  {
+   "id": "461",
+   "name": "Skull Island",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/461/1282/Skull_Island_89_567__51915.1521928066.jpg"
+  },
+  {
+   "id": "611",
+   "name": "Sliced",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/611/1850/Sliced__36756.1617668450.jpg"
+  },
+  {
+   "id": "621",
+   "name": "Smile",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/621/1895/smile__92410.1649959698.jpg"
+  },
+  {
+   "id": "655",
+   "name": "Smoke",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/655/2026/smoke-thumb__17306.1679883852.jpg"
+  },
+  {
+   "id": "462",
+   "name": "Snorkel Babe",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/462/1283/snorkelbabe_89_567__05932.1523058266.jpg"
+  },
+  {
+   "id": "208",
+   "name": "Snowfall",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/208/456/Snowfall_web_small__59866.1391304224.jpg"
+  },
+  {
+   "id": "226",
+   "name": "Snowflake",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/226/474/snowflakes_web_thumb__87832.1391305598.jpg"
+  },
+  {
+   "id": "480",
+   "name": "Spacelift",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/480/1428/spaclift-89-567__32275.1553015594.jpg"
+  },
+  {
+   "id": "277",
+   "name": "Speed",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/277/573/Speed_web_small__08566.1395261527.jpg"
+  },
+  {
+   "id": "211",
+   "name": "Stained Glass MTN",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/211/459/StainedGlass_MTN__80983.1391304375.jpg"
+  },
+  {
+   "id": "213",
+   "name": "Stained Glass Trees",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/213/461/stained_Glass_trees_web_thumb__89265.1391304777.jpg"
+  },
+  {
+   "id": "380",
+   "name": "Star Streaks",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/380/952/star_streaks_thumb__78203.1460394997.jpg"
+  },
+  {
+   "id": "576",
+   "name": "Station",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/576/1732/Station_89_567__50126.1585516836.jpg"
+  },
+  {
+   "id": "616",
+   "name": "Sunfish",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/616/1857/Sunfish__17023.1617842884.jpg"
+  },
+  {
+   "id": "237",
+   "name": "Sunrise",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/237/485/sunrise_web_thumb__83073.1391306144.jpg"
+  },
+  {
+   "id": "274",
+   "name": "Surf Trip",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/274/570/Surf_Trip_web_small__34273.1395261328.jpg"
+  },
+  {
+   "id": "624",
+   "name": "Tahoe Daze",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/624/1898/tahoe_daze__47387.1649959872.jpg"
+  },
+  {
+   "id": "278",
+   "name": "Tahoe Pier",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/278/574/Tahoe_Pier_web_small__41196.1395261560.jpg"
+  },
+  {
+   "id": "236",
+   "name": "Tattoo Art Circus",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/236/484/Protest_tattoo_thumb__87198.1391306100.jpg"
+  },
+  {
+   "id": "233",
+   "name": "Tattoo Art Evolution",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/233/481/Concept_web_thumb__50578.1391305931.jpg"
+  },
+  {
+   "id": "598",
+   "name": "The Local",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/598/1833/The_Local__33646.1617653737.jpg"
+  },
+  {
+   "id": "219",
+   "name": "The Protest",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/219/467/The_Protest_web_thumb__16970.1391305186.jpg"
+  },
+  {
+   "id": "623",
+   "name": "The Wall",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/623/1897/the_wall__10585.1649959833.jpg"
+  },
+  {
+   "id": "656",
+   "name": "Tiger",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/656/2027/tiger-thumb__21088.1679883917.jpg"
+  },
+  {
+   "id": "234",
+   "name": "Topo",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/234/482/topo_map_web_thumb__49752.1391305999.jpg"
+  },
+  {
+   "id": "205",
+   "name": "Tranquility",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/205/453/tranquility_web_thumb__97299.1391303992.jpg"
+  },
+  {
+   "id": "459",
+   "name": "Trees",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/459/1280/Trees_89_567__93837.1521926559.jpg"
+  },
+  {
+   "id": "645",
+   "name": "Tribal Lines",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/645/2016/Tribal_Lines_Thumb__25172.1679866298.jpg"
+  },
+  {
+   "id": "204",
+   "name": "Tsunami",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/204/452/Tsunami_web_thumb__21239.1391303604.jpg"
+  },
+  {
+   "id": "479",
+   "name": "Vast",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/479/1427/vast-89-567__59446.1553015336.jpg"
+  },
+  {
+   "id": "381",
+   "name": "Viceversa",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/381/953/viceversa_thumb__25057.1460395041.jpg"
+  },
+  {
+   "id": "203",
+   "name": "Vintage",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/203/448/vintage_web_thumb__10398.1391303112.jpg"
+  },
+  {
+   "id": "347",
+   "name": "Wall",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/347/862/Sean_Wall__40167.1427741346.jpg"
+  },
+  {
+   "id": "617",
+   "name": "Watercolor",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/617/1858/Watercolor__46215.1617842919.jpg"
+  },
+  {
+   "id": "227",
+   "name": "Waterfall",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/227/475/praxiswaterfall_web_thumb__70667.1391305669.jpg"
+  },
+  {
+   "id": "483",
+   "name": "Watershed",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/483/1431/sean-1praxis2019-89-567__80513.1553015751.jpg"
+  },
+  {
+   "id": "224",
+   "name": "White",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/224/472/White_web_thumb__70450.1391305521.jpg"
+  },
+  {
+   "id": "382",
+   "name": "Winter",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/382/955/Winter_thumb__33603.1460395119.jpg"
+  },
+  {
+   "id": "597",
+   "name": "Wise",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/597/1832/Wise__62158.1617653677.jpg"
+  },
+  {
+   "id": "460",
+   "name": "Wolf",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/460/1281/Wolf_89_567__94056.1521926589.jpg"
+  },
+  {
+   "id": "348",
+   "name": "Wooden Blue",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/348/915/wooden-design-blue-thumb-rgb__52408.1428092001.jpg"
+  },
+  {
+   "id": "349",
+   "name": "Wooden Pink",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/349/914/wooden-design-pink-thumb-rgb__14297.1428091546.jpg"
+  },
+  {
+   "id": "354",
+   "name": "X",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/354/869/George_X__91238.1427741708.jpg"
+  },
+  {
+   "id": "201",
+   "name": "Yeti Art",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/201/773/Yeti_web_Thumb__06306.1427308720.jpg"
+  },
+  {
+   "id": "622",
+   "name": "Zen",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/622/1896/zen__60104.1649959800.jpg"
+  }
+ ],
+ "signatureGraphics": [
+  {
+   "id": "572",
+   "name": "Eagles Nest",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/572/1728/Eagles_Nest_Beck_89_567__99223.1585516593.jpg",
+   "models": [
+    "frd"
+   ]
+  },
+  {
+   "id": "631",
+   "name": "Jedi",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/631/1905/JEDI_graphic_89_567__71831.1650737294.jpg",
+   "models": [
+    "jedi-mind-sticks"
+   ]
+  },
+  {
+   "id": "403",
+   "name": "Quixote Art",
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/403/1102/Quixote_Thumb__81652.1491099435.jpg",
+   "models": [
+    "quixote"
+   ]
+  }
+ ],
+ "veneers": [
+  {
+   "id": "437",
+   "name": "Ambrosia Maple",
+   "price": 100,
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/437/1918/Ambrosia_Maple__06011.1653337080.jpg"
+  },
+  {
+   "id": "436",
+   "name": "Cherry",
+   "price": 100,
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/436/1442/Cherry__74632.1604369121.jpg"
+  },
+  {
+   "id": "434",
+   "name": "Maple",
+   "price": 100,
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/434/1441/Maple__78412.1553030064.jpg"
+  },
+  {
+   "id": "439",
+   "name": "Oak",
+   "price": 100,
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/439/1917/Oak_bookmatched_square__03383.1653336856.jpg"
+  },
+  {
+   "id": "438",
+   "name": "Red Gum",
+   "price": 100,
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/438/1920/Red_Gum__77238.1653341073.jpg"
+  },
+  {
+   "id": "435",
+   "name": "White Birch",
+   "price": 100,
+   "source": "https://cdn11.bigcommerce.com/s-81ye82k/images/stencil/original/products/435/1919/White_Birch__67015.1653340640.jpg"
+  }
+ ],
+ "widths": [
+  {
+   "value": "standard",
+   "label": "Standard Width",
+   "price": 0,
+   "formId": "2042"
+  },
+  {
+   "value": "wider",
+   "label": "+ 10 mm Fatter",
+   "price": 200,
+   "formId": "2010"
+  },
+  {
+   "value": "narrower",
+   "label": "- 10 mm Skinnier",
+   "price": 200,
+   "formId": "2011"
+  }
+ ],
+ "molding": [
+  {
+   "value": "standard",
+   "label": "Standard Molding",
+   "quote": null,
+   "formId": "2518"
+  },
+  {
+   "value": "custom",
+   "label": "Custom camber/rocker molding",
+   "quote": [
+    200,
+    500
+   ],
+   "formId": "2513"
+  }
+ ],
+ "ability": [
+  {
+   "value": "132",
+   "label": "Beginner (Level 1)"
+  },
+  {
+   "value": "133",
+   "label": "Intermediate (Level 2)"
+  },
+  {
+   "value": "134",
+   "label": "Expert (Level 3)"
+  },
+  {
+   "value": "135",
+   "label": "Extreme Skier"
+  }
+ ],
+ "textFields": [
+  {
+   "label": "Height/Weight",
+   "name": "attribute[2838]"
+  },
+  {
+   "label": "Where do you ski at? Let us know about the resorts, destinations and locations that you ski?",
+   "name": "attribute[2839]"
+  },
+  {
+   "label": "Skiing Style and Preferences",
+   "name": "attribute[2840]"
+  }
+ ]
+}

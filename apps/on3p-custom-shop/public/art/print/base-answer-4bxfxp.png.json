@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-4bxfxp",
+  "name": "Herringburn Green",
+  "file": "base-answer-4bxfxp.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/4bxjal.jpg",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "6add747d71857da899af53e81950118674d5a7df1b7eed93e0470c01b5b8bb92",
+  "retrieved": "2026-09-24T17:07:58.298Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

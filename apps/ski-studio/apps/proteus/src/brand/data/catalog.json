@@ -1,0 +1,1921 @@
+{
+ "source": "https://www.proteussnowboards.com/shop/",
+ "observed": "2026-09-25",
+ "status": "Production Paused",
+ "collections": [
+  {
+   "id": "proteus",
+   "label": "Proteus designs"
+  },
+  {
+   "id": "collaborations",
+   "label": "Artist & rider collaborations"
+  }
+ ],
+ "designs": [
+  {
+   "id": "b-line",
+   "name": "B-Line",
+   "collection": "proteus",
+   "fresh": false,
+   "description": "This design in particular sports the chosen Proteus brand design with colorways for the bold or humble. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "soft": 764,
+    "standard": 779,
+    "stiff": 794
+   },
+   "colorways": [
+    {
+     "name": "Maroon/Mustard",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-3_MaroonMustard.png"
+    },
+    {
+     "name": "Navy/Gold",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-3_NavyGold.png"
+    },
+    {
+     "name": "Navy/Red",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-3_NavyRed.png"
+    },
+    {
+     "name": "Neon",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-3_Neon.png"
+    },
+    {
+     "name": "Orange/Navy",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-3_OrangeNavy.png"
+    },
+    {
+     "name": "Teal/Peach",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-3_TealPeach.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/b-line/",
+   "productId": 415
+  },
+  {
+   "id": "blocks",
+   "name": "Blocks",
+   "collection": "proteus",
+   "fresh": false,
+   "description": "Relive the glory days of the ’80s with this nostalgic and retro design. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "RGB",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2019/11/Blocks-RGB.png"
+    },
+    {
+     "name": "BOP",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2019/11/Blocks-BOP.png"
+    },
+    {
+     "name": "Cool",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2019/11/Blocks-Cool.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/blocks/",
+   "productId": 1407
+  },
+  {
+   "id": "geometric",
+   "name": "Geometric",
+   "collection": "proteus",
+   "fresh": false,
+   "description": "Inspired by nature. Refined to precise angles. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "Tundra",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Geometric_Tundra.png"
+    },
+    {
+     "name": "Evergreen",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Geometric_Evergreen.png"
+    },
+    {
+     "name": "Dusk",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Geometric_Dusk.png"
+    },
+    {
+     "name": "Dawn",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Geometric_Dawn.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/geometric/",
+   "productId": 3732
+  },
+  {
+   "id": "hubble",
+   "name": "Hubble",
+   "collection": "proteus",
+   "fresh": false,
+   "description": "Take your pick from a range of intergalactic scenes with the Hubble design. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed premium board construction, and a strategic, multi-directional shape. The images used in these graphics were sourced at The Hubble Site , which were produced by NASA and STScI . Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "Lagoon",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Stars-Teal.png"
+    },
+    {
+     "name": "Pillars",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Stars-Pillars.png"
+    },
+    {
+     "name": "Veil",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Stars-Veil.png"
+    },
+    {
+     "name": "Orion",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Stars-Purple.png"
+    },
+    {
+     "name": "Trumpler",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Stars-Scattered.png"
+    },
+    {
+     "name": "Veil X",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Stars-X.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/hubble/",
+   "productId": 1097
+  },
+  {
+   "id": "instant-vintage",
+   "name": "Instant Vintage",
+   "collection": "proteus",
+   "fresh": false,
+   "description": "Strap into our Instant Vintage design. This classic was designed in-house and inspired by childish simplicity and the ability to throw down whatever pops into your head. Enjoy some timeless and funky colorways, along with some more contemporary interpretations to celebrate your inner child while shredding the slopes. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "Primary",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Instant-Vintage_Primary.png"
+    },
+    {
+     "name": "Wagwan",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Instant-Vintage_Wagwan.png"
+    },
+    {
+     "name": "Disco",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Instant-Vintage_Disco.png"
+    },
+    {
+     "name": "Defrag",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Instant-Vintage_Defrag.png"
+    },
+    {
+     "name": "Snozzberry",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Instant-Vintage_Snozzberry.png"
+    },
+    {
+     "name": "Matcha",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Instant-Vintage_Matcha.png"
+    },
+    {
+     "name": "Secondary",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Instant-Vintage_Secondary.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/instant-vintage/",
+   "productId": 5491
+  },
+  {
+   "id": "liquid",
+   "name": "Liquid",
+   "collection": "proteus",
+   "fresh": false,
+   "description": "The Liquid pushes a custom graphic texture in versatile colorways to keep it unique beneath your feet. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "Black/Grey",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-2_BlackGray.png"
+    },
+    {
+     "name": "Blue/Cream",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-2_BlueCream.png"
+    },
+    {
+     "name": "Forest/Green",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-2_ForestGreen.png"
+    },
+    {
+     "name": "Red/Navy",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-2_RedNavy.png"
+    },
+    {
+     "name": "Slate/White",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-2_SlateWhite.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/liquid/",
+   "productId": 373
+  },
+  {
+   "id": "lucid",
+   "name": "Lucid",
+   "collection": "proteus",
+   "fresh": false,
+   "description": "Ride a true dreamscape with this illustrative mountain range in three imaginative settings. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "Day",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-5_Day.png"
+    },
+    {
+     "name": "Blue/Brown",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-5_BlueBrown.png"
+    },
+    {
+     "name": "Night",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-5_Night.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/lucid/",
+   "productId": 501
+  },
+  {
+   "id": "machina",
+   "name": "Machina",
+   "collection": "proteus",
+   "fresh": false,
+   "description": "The Machina offers a strong, industrial look for you setup in both subtle or vibrant colorways. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "2Tone/Teal",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-4_2ToneTeal.png"
+    },
+    {
+     "name": "Army/Green",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-4_ArmyGreen.png"
+    },
+    {
+     "name": "Arctic/Orange",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-4_ArticOrange.png"
+    },
+    {
+     "name": "Black/Teal",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-4_BlackTeal.png"
+    },
+    {
+     "name": "Maroon/Orange",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-4_MaroonOrange.png"
+    },
+    {
+     "name": "Mustard/Brown",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/10/Proteus-Snowboard_Design-4_MustardBrown.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/machina/",
+   "productId": 429
+  },
+  {
+   "id": "mauna-kea",
+   "name": "Mauna Kea",
+   "collection": "proteus",
+   "fresh": false,
+   "description": "Many don’t know this but, Aloha also means \"slay powder\". Every winter, snow falls atop Hawaii’s tallest volcanic peaks and while the Hawaiians are most famous for their wave sliding, our Mauna Kea board pays homage to the long proud history of Hawaiian board riding, and those few brave braddahs who sampled the frozen wave. Designed by surfer of wave and pow, Drew Farwell. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "Mango",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/12/Mauna-Kea_Mango.png"
+    },
+    {
+     "name": "Eruption",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/12/Mauna-Kea_Eruption.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/mauna-kea/",
+   "productId": 4102
+  },
+  {
+   "id": "mt-fuji",
+   "name": "Mt. Fuji",
+   "collection": "proteus",
+   "fresh": true,
+   "description": "Paintings from the series “Thirty-six Views of Mount Fuji” by legendary Japanese artist Katsushika Hokusai. Paintings shown are Tea house at Koishikawa and Enoshima in Sagami Province. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "Enoshima",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Fuji-City.png"
+    },
+    {
+     "name": "Tea House",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Fuji-Tea.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/mt-fuji/",
+   "productId": 1076
+  },
+  {
+   "id": "natural",
+   "name": "Natural",
+   "collection": "proteus",
+   "fresh": false,
+   "description": "The Natural, well, keeps it all natural – revealing the beautiful aesthetic of a clean walnut finish. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "Burnt Umber",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Burnt-Umber.png"
+    },
+    {
+     "name": "Irish Coffee",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Irish-Coffee.png"
+    },
+    {
+     "name": "Rust",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Rust.png"
+    },
+    {
+     "name": "Santa Fe",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Santa-Fe.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/natural/",
+   "productId": 1107
+  },
+  {
+   "id": "paint",
+   "name": "Paint",
+   "collection": "proteus",
+   "fresh": true,
+   "description": "Give the slopes some fresh color. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "Utah",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Paint_Utah.png"
+    },
+    {
+     "name": "Ice",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Paint_Ice.png"
+    },
+    {
+     "name": "Sweet",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Paint_Sweet.png"
+    },
+    {
+     "name": "Thunder",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Paint_Thunder.png"
+    },
+    {
+     "name": "Blast",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Paint_Blast.png"
+    },
+    {
+     "name": "Splat",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Paint_Splat.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/paint/",
+   "productId": 3741
+  },
+  {
+   "id": "usasa",
+   "name": "USASA",
+   "collection": "proteus",
+   "fresh": false,
+   "description": "As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 749,
+    "stiff": 794,
+    "standard": 779,
+    "soft": 764
+   },
+   "colorways": [
+    {
+     "name": "Light",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/01/USASA_Light.png"
+    },
+    {
+     "name": "Dark",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/01/USASA_Dark.png"
+    },
+    {
+     "name": "Geo",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/01/USASA_Geo.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/usasa/",
+   "productId": 3944
+  },
+  {
+   "id": "6stick",
+   "name": "6Stick",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "6Stick – Proteus Rider Design for \"Jamin\" Jay White. See the infomercial here. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Golden Goodie",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/03/6Stick_Golden-Goodie-1.png"
+    },
+    {
+     "name": "Krack Stick",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/03/6Stick_Krack-Stick.png"
+    },
+    {
+     "name": "Sonic Stick",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/03/6Stick_Sonic-Stick.png"
+    },
+    {
+     "name": "Nevermore",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/03/6Stick_Nevermore.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/6stick/",
+   "productId": 4528
+  },
+  {
+   "id": "ace",
+   "name": "Ace",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Pro(teus) team rider Braeden Himell signature board for the 25-26&#8242; season. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Diamonds",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/10/Ace_Diamonds.png"
+    },
+    {
+     "name": "Midnight",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/10/Ace_Midnight.png"
+    },
+    {
+     "name": "Crimson",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/10/Ace_Crimson.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/ace/",
+   "productId": 6172
+  },
+  {
+   "id": "alpha-omega",
+   "name": "Alpha & Omega",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Pro(teus) team rider Tyson Allen’s signature board for the 24-25&#8242; season. With his signature color scheme and new aerial orienteering \"Alpha\" & \"Omega\" tips, we know this board will be put to the Allen test. Check his rider page out here for more. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "TY Dye",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/10/Alpha-Omega_TY-Dye.png"
+    },
+    {
+     "name": "Sunset & Cream",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/10/Alpha-Omega_Sunset-Cream.png"
+    },
+    {
+     "name": "Purple Knight",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/10/Alpha-Omega_Purple-Knight.png"
+    },
+    {
+     "name": "White Gold",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/10/Alpha-Omega_White-Gold.png"
+    },
+    {
+     "name": "Sour Apple",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/10/Alpha-Omega_Sour-Apple.png"
+    },
+    {
+     "name": "Blue Dream",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/10/Alpha-Omega_Blue-Dream.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/alpha-omega/",
+   "productId": 5418
+  },
+  {
+   "id": "arachnid",
+   "name": "Arachnid",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Our Connor Brooks signature design, the Arachnid, instills fear in all competitors who cross it. Inspired by Connor’s daydreams of stringing together perfect rail combos and his unique, venomous, slopestyle, the Arachnid is comfortable stalking its prey on the hill, in the park, in your backyard, and even while you sleep. Available in a diversity of designs, all eyes will be on you if you choose to wield this board at your local mountain. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Black Widow",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/12/Arachnid_Black-Widow.png"
+    },
+    {
+     "name": "Webslinger",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/12/Arachnid_Webslinger.png"
+    },
+    {
+     "name": "Cobweb",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/12/Arachnid_Cobweb.png"
+    },
+    {
+     "name": "Concrete Cobweb",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/12/Arachnid_Concrete-Cobweb.png"
+    },
+    {
+     "name": "White Widow",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/12/Arachnid_White-Widow.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/arachnid/",
+   "productId": 4125
+  },
+  {
+   "id": "brook-trout",
+   "name": "Brook Trout",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Art by Sean Moon. Designed to look like a monster Brook Trout. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Follower",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/06/Brook-Trout_Follower.png"
+    },
+    {
+     "name": "Hit",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/06/Brook-Trout_Hit.png"
+    },
+    {
+     "name": "Set",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/06/Brook-Trout_Set.png"
+    },
+    {
+     "name": "Landed",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/06/Brook-Trout_Landed.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/brook-trout/",
+   "productId": 6433
+  },
+  {
+   "id": "buck",
+   "name": "Buck",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Keeping it natural and wild with this wood Buck design. This is inspired by a backcountry ride and an encounter with some local wildlife. This design was made by PA artist Katelynne Cooper . As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Bold",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/Buck-Bold.png"
+    },
+    {
+     "name": "Light",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/Buck-Light.png"
+    },
+    {
+     "name": "Dark",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/Buck-Dark.png"
+    },
+    {
+     "name": "Natural",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/Buck-Natural.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/buck/",
+   "productId": 1770
+  },
+  {
+   "id": "caliburn",
+   "name": "CaliBurn",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Custom art by team rider Zente Csontos: This board is a combination of burning hearts and tribal art representing how you have to overcome weakness to gain true strength. It is simple yet aggressive pushing you to attack the mountain every time you strap in. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Arctic",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/01/CaliBurn_Arctic.png"
+    },
+    {
+     "name": "Hunter",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/01/CaliBurn_Hunter.png"
+    },
+    {
+     "name": "Infernal",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/01/CaliBurn_Infernal.png"
+    },
+    {
+     "name": "Lucid",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/01/CaliBurn_Lucid.png"
+    },
+    {
+     "name": "Phantom",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/01/CaliBurn_Phantom.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/caliburn/",
+   "productId": 6295
+  },
+  {
+   "id": "dear-john",
+   "name": "Dear John",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Dear John by Tziping Leong. A \"Dear John letter\" is letter written to a man by his wife or romantic partner to inform him that their relationship is over. The term originated during World War II when soldiers received such letters from their partners back home. While the letter typically begins with \"Dear John,\" it can be addressed to anyone, and its use has since broadened to encompass various types of breakups beyond romantic contexts. Yes, even to those who fall in love with snowboarding and elope to the slopes. From skinning their little knees back in kindergarten to blasting down gnarly powder chutes, these lovers have no fear. Only scars. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Classic Camo",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/10/Dear-John_Classic-Camo.png"
+    },
+    {
+     "name": "Dont Shoot",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/10/Dear-John_Dont-Shoot.png"
+    },
+    {
+     "name": "Dune",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/10/Dear-John_Dune.png"
+    },
+    {
+     "name": "Blizzard",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/10/Dear-John_Blizzard.png"
+    },
+    {
+     "name": "Space Force",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/10/Dear-John_Space-Force.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/dear-john/",
+   "productId": 5430
+  },
+  {
+   "id": "devils-devil",
+   "name": "Devils Devil",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "From Artist Igor Petrakov. All Hell is about to break loose and time is running out. Even the Devil is about to lose control. \"I wanted the rider of the board to feel like something unstoppable is coming for them.\" As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Purple Haze",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/03/Devils-Devil_Purple-Haze.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/devils-devil/",
+   "productId": 4671
+  },
+  {
+   "id": "dippin-daisys",
+   "name": "Dippin Daisys",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Art by Dippin’ Daisys . Dippin Daisys is a female-founded and owned swim company based in LA, California, focused on sustainability and female empowerment. Dippin Daisys, in collaboration with Proteus Snowboards, curated a new collection that blends the energy of both snow and surf: inspired by the brand’s signature Après Surf and Après Ski collections. This collection features boards that showcase vibrant, wave-inspired graphics and sleek designs that connect the beauty of the ocean and the mountains. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Aspen",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Dippin-Daisys_Aspen.png"
+    },
+    {
+     "name": "Hit the Slopes",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Dippin-Daisys_Hit-the-Slopes.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/dippin-daisys/",
+   "productId": 5512
+  },
+  {
+   "id": "dragon-slayer",
+   "name": "Dragon Slayer",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Art from local Boulder artist Mad King . Designed for master of the Proteus shop and the rails: Iono the @guccidragonking . As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Haku",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/11/Dragon-Slayer_Haku.png"
+    },
+    {
+     "name": "Smaug",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/11/Dragon-Slayer_Smaug.png"
+    },
+    {
+     "name": "Saphira",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/11/Dragon-Slayer_Saphira.png"
+    },
+    {
+     "name": "Shenron",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/11/Dragon-Slayer_Shenron.png"
+    },
+    {
+     "name": "Mushu",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/11/Dragon-Slayer_Mushu.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/dragon-slayer/",
+   "productId": 6228
+  },
+  {
+   "id": "ecd-lax",
+   "name": "ECD Lax",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "This is a collaboration design between ECD Lacrosse and Proteus Snowboards. Just like Proteus, ECD is no stranger to the custom manufacturing world as they are a respected leader in USA-built, quality, custom lax gear. Based out of Maryland, the home of lacrosse (don’t fight it bro), our snowboard collaboration is a righteous extension of ECD’s dedication to the personalized culture you see in lacrosse and snowboarding. So if you lax and shred, this collab is for you. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Signature",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/12/ECD_Signature.png"
+    },
+    {
+     "name": "South Beach",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/12/ECD_South-Beach.png"
+    },
+    {
+     "name": "Frost",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/12/ECD_Frost.png"
+    },
+    {
+     "name": "Finish Line",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/12/ECD_Finish-Line.png"
+    },
+    {
+     "name": "Bubble Lax",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/12/ECD_Bubble-Lax.png"
+    },
+    {
+     "name": "Banana Board",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/12/ECD_Banana-Board.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/ecd-lax/",
+   "productId": 5571
+  },
+  {
+   "id": "evolve",
+   "name": "Evolve",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Keep Evolving! A signature board designed by local Colorado rider Johnathan Buckhouse. Check out Johnathan’s content on YouTube , Instagram , Facebook , and Twitter . As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Green",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/09/Evolve_Green.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/evolve/",
+   "productId": 3873
+  },
+  {
+   "id": "explorer",
+   "name": "Explorer",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "The Explorer Collection, each board is named after a polar explorer. This design was made by artist Paul Clarke . As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Weber",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/07/Explorer_Weber.png"
+    },
+    {
+     "name": "Scott",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/07/Explorer_Scott.png"
+    },
+    {
+     "name": "Nansen",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/07/Explorer_Nansen.png"
+    },
+    {
+     "name": "Hillary",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/07/Explorer_Hillary.png"
+    },
+    {
+     "name": "Henson",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/07/Explorer_Henson.png"
+    },
+    {
+     "name": "Erik",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/07/Explorer_Erik.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/explorer/",
+   "productId": 1783
+  },
+  {
+   "id": "fonk",
+   "name": "Fonk",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Pro(teus) team rider Gonzalo Baez signature board for the 25-26&#8242; season. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Analog",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/09/Fonk_Analog.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/fonk/",
+   "productId": 6136
+  },
+  {
+   "id": "frostbite",
+   "name": "Frostbite",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Frostbite – Proteus Rider Design for Maya Davis. . As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Wild Blueberry",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/03/Frostbite_Wild-Blueberry.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/frostbite/",
+   "productId": 4665
+  },
+  {
+   "id": "full-lotus",
+   "name": "Full Lotus",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Pro(teus) team rider Tyson Allen’s signature board for the 25-26&#8242; season. Dialed to Tyson’s style, the Full Lotus comes in his signature colorway plus options to match your kit. Built to take a beating in the streets and park, Tyson’s riding it hard every session. Check his rider page out here for more. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "RB",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/Full-Lotus_RB.png"
+    },
+    {
+     "name": "BG",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/Full-Lotus_BG.png"
+    },
+    {
+     "name": "WB",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/Full-Lotus_WB.png"
+    },
+    {
+     "name": "YR",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/Full-Lotus_YR.png"
+    },
+    {
+     "name": "RBW",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/Full-Lotus_RBW.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/full-lotus/",
+   "productId": 6087
+  },
+  {
+   "id": "get-licked",
+   "name": "Get Licked",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Get Licked – Exclusive (PRO)TEUS Team Rider Design for \"Jonesie\" Casey Williams Hailing from Colorado, Jonesie comes by sledding and shredding naturally. He rips harder than he looks, so don’t take his kindness for weakness – his send is righteous and his style melts ice cream on a cold winter day. Sleep on Jonesie and you’ll bout get licked as we like to say. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Dreamsicle",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/01/Get-Licked_Dreamsicle.png"
+    },
+    {
+     "name": "Sherbert",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/01/Get-Licked_Sherbert.png"
+    },
+    {
+     "name": "Cherry",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/01/Get-Licked_Cherry.png"
+    },
+    {
+     "name": "Dipped",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/01/Get-Licked_Dipped.png"
+    },
+    {
+     "name": "Sprinkles",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/01/Get-Licked_Sprinkles.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/get-licked/",
+   "productId": 5605
+  },
+  {
+   "id": "haze",
+   "name": "Haze",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Art by Katelynne Cooper . Inspired by Asian landscape artwork and many hazy days on the mountain. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Pink-Purple",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/12/Haze_Pink-Purple.png"
+    },
+    {
+     "name": "Gray-White",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/12/Haze_Gray-White.png"
+    },
+    {
+     "name": "Blue-Purple",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/12/Haze_Blue-Purple.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/haze/",
+   "productId": 3913
+  },
+  {
+   "id": "hex",
+   "name": "Hex",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Art by Pat Smith. The “Hex” design was inspired by my time playing for the Minnesota Swarm in the NLL. I was always a fan of when they mixed in the honeycomb pattern onto our helmets and jerseys and thought it would be a great pattern to use on a snowboard. Mix the honeycomb with some of my favorite color combinations and the final product speaks for itself. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Candy Cane",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Hex_Candy-Cane.png"
+    },
+    {
+     "name": "Toxin",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Hex_Toxin.png"
+    },
+    {
+     "name": "Orca",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Hex_Orca.png"
+    },
+    {
+     "name": "Lava Lamp",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Hex_Lava-Lamp.png"
+    },
+    {
+     "name": "Patina",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Hex_Patina.png"
+    },
+    {
+     "name": "Team USA",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/11/Hex_Team-USA.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/hex/",
+   "productId": 5474
+  },
+  {
+   "id": "high-tide",
+   "name": "High Tide",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "High Tide – Proteus Rider Design for Jake Leach. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Purple Tang",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/03/High-Tide_Purple-Tang.png"
+    },
+    {
+     "name": "Panama City",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/03/High-Tide_Panama-City.png"
+    },
+    {
+     "name": "Lemon Drop",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/03/High-Tide_Lemon-Drop.png"
+    },
+    {
+     "name": "Creamscicle",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/03/High-Tide_Creamscicle.png"
+    },
+    {
+     "name": "Slime Time",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/03/High-Tide_Slime-Time.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/high-tide/",
+   "productId": 4537
+  },
+  {
+   "id": "koi",
+   "name": "Koi",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Swim down the mountain with this design. Koi is inspired by how the fish carve through the water, just like a snowboarder carves down the mountian. Art by Katelynne Cooper , an artist from PA. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Fish",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/Koi-Fish.png"
+    },
+    {
+     "name": "Lily",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/Koi-Lily.png"
+    },
+    {
+     "name": "Nightshade",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/Koi_NIghtshade.png"
+    },
+    {
+     "name": "Trishfish",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/Koi_Trishfish.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/koi/",
+   "productId": 1754
+  },
+  {
+   "id": "line",
+   "name": "Line",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Feel the rush of carving fresh powder with Line, as bold lines in deep tones inspire you to carve your own path and leave your mark on the mountain. Art by John Chaides . As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Red",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/03/Line_Red.png"
+    },
+    {
+     "name": "Blue",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/03/Line_Blue.png"
+    },
+    {
+     "name": "Green",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/03/Line_Green.png"
+    },
+    {
+     "name": "Purple",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/03/Line_Purple.png"
+    },
+    {
+     "name": "Tan",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/03/Line_Tan.png"
+    },
+    {
+     "name": "Yellow",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/03/Line_Yellow.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/line/",
+   "productId": 3957
+  },
+  {
+   "id": "luminance",
+   "name": "Luminance",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Art designed by Carrie Long. From the designer, \"The philosopher Simone Weil stated that “Two forces rule the universe: light and gravity.” Luminance represents the luminous intensity of traveling light, an entity that is influenced by gravity. This board represents the convergence of light and gravity, marrying the disciplines of art and science with a bit of mysticism.\" As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Moonlight",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/01/Luminance_Moonlight.png"
+    },
+    {
+     "name": "Ember",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/01/Luminance_Ember.png"
+    },
+    {
+     "name": "Aurora",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/01/Luminance_Aurora.png"
+    },
+    {
+     "name": "Verdant",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/01/Luminance_Verdant.png"
+    },
+    {
+     "name": "Magenta",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2024/01/Luminance_Magenta.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/luminance/",
+   "productId": 4232
+  },
+  {
+   "id": "national-parks",
+   "name": "National Parks",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Two designs of National parks that have a great mountain view. Created from photos of Grand Teton National Park and Mount Rainier National Park. Art by Katelynne Cooper , an artist from PA. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Rainier",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/National-Park-Rainier.png"
+    },
+    {
+     "name": "Teton",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/National-Park-Teton.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/national-parks/",
+   "productId": 1748
+  },
+  {
+   "id": "new-day",
+   "name": "New Day",
+   "collection": "collaborations",
+   "fresh": true,
+   "description": "Art from local Boulder artist Mad King. This design has been remixed for your riding pleasures based off of one of the original paintings from Mad King’s \"Techno Mountainscape\" series. The drum loop sampled for this one is from Skull Snaps \"It’s a new day \" and the birds featured are sandhill cranes. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Glacial Pathways",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/New-Day_Glacial-Pathways.png"
+    },
+    {
+     "name": "Resonant Morning",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/New-Day_Resonant-Morning.png"
+    },
+    {
+     "name": "First Light",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/New-Day_First-Light.png"
+    },
+    {
+     "name": "Silent Caldera",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/New-Day_Silent-Caldera.png"
+    },
+    {
+     "name": "Darkwave Migration",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/New-Day_Darkwave-Migration.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/new-day/",
+   "productId": 6072
+  },
+  {
+   "id": "peaks",
+   "name": "Peaks",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Great mountains from around the US. This design was inspired by a national park traveler that is drawn to the mountains. Topography is a beautiful, natural art that was meant to be admired. Art by Katelynne Cooper . As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Kings",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/09/Peaks_Kings.png"
+    },
+    {
+     "name": "Denali",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/09/Peaks_Denali.png"
+    },
+    {
+     "name": "Grand Tetons",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/09/Peaks_Grand-Tetons.png"
+    },
+    {
+     "name": "Pikes",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/09/Peaks_Pikes.png"
+    },
+    {
+     "name": "Mt Rainier",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/09/Peaks_Mt-Rainier.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/peaks/",
+   "productId": 1855
+  },
+  {
+   "id": "pilot",
+   "name": "Pilot",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "You are the Pilot. Get your wings and command the slopes. Inspired by vintage aircraft markings and historic mission roles. Design created by Brendan Escobar. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Daylight",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/10/Pilot_Daylight.png"
+    },
+    {
+     "name": "Lastlight",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/10/Pilot_Lastlight.png"
+    },
+    {
+     "name": "Ground",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/10/Pilot_Ground.png"
+    },
+    {
+     "name": "Invasion",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/10/Pilot_Invasion.png"
+    },
+    {
+     "name": "Navy",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/10/Pilot_Navy.png"
+    },
+    {
+     "name": "Night",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/10/Pilot_Night.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/pilot/",
+   "productId": 1925
+  },
+  {
+   "id": "polygonus",
+   "name": "Polygonus",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Polygonus is the name of one of Proteus’ children according to the legend. The graphic idea of this model is a simple concise metaphor of wave processes, vibrations, diverging circles on water from a thrown stone. It is a story about the initial impulse that gives rise to new possibilities. Artwork designed by Lёsha Pushkarёv . As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Teal",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/09/Polygonus_Teal.png"
+    },
+    {
+     "name": "Purple",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/09/Polygonus_Purple.png"
+    },
+    {
+     "name": "Pink",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/09/Polygonus_Pink.png"
+    },
+    {
+     "name": "Yellow",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/09/Polygonus_Yellow.png"
+    },
+    {
+     "name": "Red",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/09/Polygonus_Red.png"
+    },
+    {
+     "name": "Black",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/09/Polygonus_Black.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/polygonus/",
+   "productId": 4016
+  },
+  {
+   "id": "poseidon",
+   "name": "Poseidon",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Artwork designed by Lёsha Pushkarёv . The second model I would like to dedicate to Poseidon, because Proteus was generally regarded as the son of this sea-god. Poseidon is one of the Twelve Olympians in ancient Greek religion and mythology, presiding over the sea, storms, earthquakes and horses. He was the protector of seafarers and the guardian of many Hellenic cities and colonies. In pre-Olympian Bronze Age Greece, Poseidon was venerated as a chief deity at Pylos and Thebes, with the cult title \"earth shaker\". It is a schematic portrait of the sea-god with his famous trident, made in a geometric style of circles and arcs that symbolize the sea element. The portrait seems to be reflected in the ever-changing, undulating water surface. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Alpha",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/10/Poseidon_Alpha.png"
+    },
+    {
+     "name": "Beta",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/Poseidon_Beta_2.png"
+    },
+    {
+     "name": "Gamma",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/Poseidon_Gamma_2.png"
+    },
+    {
+     "name": "Delta",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/10/Poseidon_Delta.png"
+    },
+    {
+     "name": "Epsilon",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/Poseidon_Epsilon_2.png"
+    },
+    {
+     "name": "Zeta",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/Poseidon_Zeta_2.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/poseidon/",
+   "productId": 6055
+  },
+  {
+   "id": "proteus-the-destroyer",
+   "name": "Proteus the Destroyer",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "A storm brewing on the darkest of nights, Proteus the Destroyer emerges from the depths of the abyss with all his ferocious might. Art by local Denver artist Sam Pierson. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Blue",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/ProteusDestroyer-Green.png"
+    },
+    {
+     "name": "Zombie",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/ProteusDestroyer-Orange.png"
+    },
+    {
+     "name": "Red",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/ProteusDestroyer-Red.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/proteus-the-destroyer/",
+   "productId": 1083
+  },
+  {
+   "id": "proteus-the-protector",
+   "name": "Proteus the Protector",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Abandoned and in peril. Just when you were about to abandon all hope. Rejoice, for Proteus the Protector will emerge in his enigmatic changing form to save those on the brink of mortality. Art by local Denver artist Sam Pierson. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Green",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/ProteusProtector-Gold.png"
+    },
+    {
+     "name": "Purple",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/ProteusProtector-Green.png"
+    },
+    {
+     "name": "Red",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/ProteusProtector-Red.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/proteus-the-protector/",
+   "productId": 1091
+  },
+  {
+   "id": "sasquatch",
+   "name": "Sasquatch",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Sasquatch&#8230; The mountains are his! Ride with the magical beast on the slopes for ultimate control and response. Designed submitted by Joseph Kearney. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Blue",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/10/Sasquatch_Blue.png"
+    },
+    {
+     "name": "Green",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/10/Sasquatch_Green.png"
+    },
+    {
+     "name": "Orange",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/10/Sasquatch_Orange.png"
+    },
+    {
+     "name": "Yellow",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/10/Sasquatch_Yellow.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/sasquatch/",
+   "productId": 1975
+  },
+  {
+   "id": "sharknado",
+   "name": "Sharknado",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "We asked Tyson “Sharknado” Allen to describe his board for us: “I’ve been told I snowboard like a shark, and I love animals, so throwing some on a design seems fitting for a board for me.” – Tyson Allen. Tyson’s signature air game and ability to hunt sick lines make him a standout competitor and an asset for Proteus R&D. Tyson is currently experimenting with boards in the 154-157 and stiffer layups to compliment his competitive riding and all-terrain range. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Electric",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/11/Sharknado_Electric.png"
+    },
+    {
+     "name": "Tempest",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/11/Sharknado_Tempest.png"
+    },
+    {
+     "name": "Yin",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/11/Sharknado_Yin.png"
+    },
+    {
+     "name": "Yang",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/11/Sharknado_Yang.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/sharknado/",
+   "productId": 4055
+  },
+  {
+   "id": "stich",
+   "name": "Stich",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Art by Isaac Stich: The name of the design is Space Frame and it is derived from my love of outer space in conjunction with flowing geometric patterns. The juxtaposition of the \"natural\" ends of the board makes an interesting design when contrasted with the \"technical\" center of the board. I think this design mimics the spirit of the board being an adjustable camber board. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Space Frame",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/11/Stich_Space-Frame.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/stich/",
+   "productId": 6194
+  },
+  {
+   "id": "stokenvrstops",
+   "name": "StokeNvrStops",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Bone-jour, shred till you’re dead on this one of a kind board! Art by Khiler Brown. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Stoke",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/03/StokeNvrStops_Stoke.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/stokenvrstops/",
+   "productId": 3994
+  },
+  {
+   "id": "teddy",
+   "name": "Teddy",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Art by Regina Campbell and Katelynne Cooper. A soft glow in a cold world. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction, and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Purple Haze",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/01/Teddy_Purple-Haze.png"
+    },
+    {
+     "name": "Arctic Pulse",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/01/Teddy_Arctic-Pulse.png"
+    },
+    {
+     "name": "Infrared Dream",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/01/Teddy_Infrared-Dream.png"
+    },
+    {
+     "name": "Emerald Afterglow",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2026/01/Teddy_Emerald-Afterglow.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/teddy/",
+   "productId": 6312
+  },
+  {
+   "id": "the-fox",
+   "name": "The Fox",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "Get in touch with nature and the spirit of the fox with this design. Art by Katelynne Cooper , an artist from PA. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Orange",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/Fox-Orange.png"
+    },
+    {
+     "name": "Mirror",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/Fox-Mirror.png"
+    },
+    {
+     "name": "Blue",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2020/06/Fox-Blue.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/the-fox/",
+   "productId": 1741
+  },
+  {
+   "id": "yeti",
+   "name": "Yeti",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "I Believe. Art by Katelynne Cooper , an artist from PA. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Bigfoot",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Yeti_Bigfoot.png"
+    },
+    {
+     "name": "Squatch",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Yeti_Squatch.png"
+    },
+    {
+     "name": "Abominable",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Yeti_Abominable.png"
+    },
+    {
+     "name": "Bumble",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Yeti_Bumble.png"
+    },
+    {
+     "name": "Wampa",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Yeti_Wampa.png"
+    },
+    {
+     "name": "Hugo",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2022/01/Yeti_Hugo.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/yeti/",
+   "productId": 3721
+  },
+  {
+   "id": "yosemite",
+   "name": "Yosemite | Proteus Snowboards",
+   "collection": "collaborations",
+   "fresh": false,
+   "description": "A vectorized rendition of the breathtaking Yosemite Valley at the crack of dawn. Art by native Californian Darren Freitas. As with all Proteus boards, this design features the patented Proteus Adjustable Camber system, a guaranteed-premium board construction and a strategic, multi-directional shape. Now with Thru-Stitch Technology that will keep your board riding for many seasons to come.",
+   "prices": {
+    "flex": 774,
+    "stiff": 819,
+    "standard": 804,
+    "soft": 789
+   },
+   "colorways": [
+    {
+     "name": "Dawn",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Yosemite-Green.png"
+    },
+    {
+     "name": "Dusk",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Yosemite-Purple.png"
+    },
+    {
+     "name": "Night",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Yosemite-Blue.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/yosemite/",
+   "productId": 1115
+  }
+ ],
+ "offTheRack": [
+  {
+   "id": "148-flex-mt-fuji",
+   "name": "148 Flex Mt. Fuji",
+   "category": "ready-boards",
+   "status": "In stock",
+   "price": 699,
+   "design": "mt-fuji",
+   "colorway": "Tea House",
+   "size": "148",
+   "stiffness": "flex",
+   "condition": "Brand New",
+   "year": 2025,
+   "colorways": [
+    {
+     "name": "Standard",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Fuji-Tea.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/148-flex-mt-fuji/"
+  },
+  {
+   "id": "148-flex-new-day",
+   "name": "148 Soft New Day",
+   "category": "ready-boards",
+   "status": "In stock",
+   "price": 699,
+   "design": "new-day",
+   "colorway": "Resonant Morning",
+   "size": "148",
+   "stiffness": "soft",
+   "condition": "Brand New",
+   "year": 2026,
+   "colorways": [
+    {
+     "name": "Standard",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/New-Day_Resonant-Morning.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/148-flex-new-day/"
+  },
+  {
+   "id": "157-stiff-mt-fuji",
+   "name": "157 Stiff Mt. Fuji",
+   "category": "ready-boards",
+   "status": "In stock",
+   "price": 699,
+   "design": "mt-fuji",
+   "colorway": "Tea House",
+   "size": "157",
+   "stiffness": "stiff",
+   "condition": "Brand New",
+   "year": 2025,
+   "colorways": [
+    {
+     "name": "Standard",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2018/12/Fuji-Tea.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/157-stiff-mt-fuji/"
+  },
+  {
+   "id": "159-standard-new-day",
+   "name": "159 Standard New Day",
+   "category": "ready-boards",
+   "status": "In stock",
+   "price": 699,
+   "design": "new-day",
+   "colorway": "Silent Caldera",
+   "size": "159",
+   "stiffness": "standard",
+   "condition": "Brand New",
+   "year": 2025,
+   "colorways": [
+    {
+     "name": "Standard",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2025/08/New-Day_Silent-Caldera.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/159-standard-new-day/"
+  },
+  {
+   "id": "161-sharknado-used",
+   "name": "161 Sharknado - Used",
+   "category": "discount-boards",
+   "status": "In stock",
+   "price": 499,
+   "design": "sharknado",
+   "colorway": "Yang",
+   "size": "161",
+   "stiffness": "standard",
+   "condition": "Decent",
+   "year": 2024,
+   "colorways": [
+    {
+     "name": "Standard",
+     "image": "https://www.proteussnowboards.com/wp-content/uploads/2023/11/Sharknado_Yang.png"
+    }
+   ],
+   "source": "https://www.proteussnowboards.com/shop/161-sharknado-used/"
+  }
+ ],
+ "sizes": [
+  "148",
+  "151",
+  "154",
+  "157",
+  "157W",
+  "159",
+  "159W",
+  "161",
+  "161W",
+  "163W",
+  "165W"
+ ],
+ "accessories": [
+  {
+   "id": "snow-stopper",
+   "label": "Snow Stopper",
+   "price": 25,
+   "included": false
+  },
+  {
+   "id": "all-temp-board-wax",
+   "label": "All Temp Board Wax",
+   "price": 20,
+   "included": false
+  },
+  {
+   "id": "adjustment-wrench",
+   "label": "Adjustment Wrench",
+   "price": 0,
+   "included": true
+  }
+ ]
+}

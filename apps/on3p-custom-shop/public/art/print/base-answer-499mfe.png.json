@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-499mfe",
+  "name": "Flo-Blue",
+  "file": "base-answer-499mfe.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/3c8bd975-902d-450d-bcc8-05c2244addaf.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "79c9533a7377061993481cb91753f6656f8f3fa56e2e3fc8d463914c787a32d4",
+  "retrieved": "2026-09-24T17:07:59.148Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

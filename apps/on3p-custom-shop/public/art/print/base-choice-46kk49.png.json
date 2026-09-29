@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46kk49",
+  "name": "Team White",
+  "file": "base-choice-46kk49.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efaae26df8c2800107ea7d9.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "a42b06be4d80d7402cc26f98b3af8c39d7c1e4e53df7c570eef47fe615dd8013",
+  "retrieved": "2026-09-24T17:08:03.733Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

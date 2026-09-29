@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-6dppg3",
+  "name": "Chevron Red",
+  "file": "base-answer-6dppg3.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/66562eacd3bbd2ee41ccf21c.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "72d239604d1fa8a8d7a92fe2adb78d7d926a2a791aa485c2ec941c613cf2b89c",
+  "retrieved": "2026-09-24T17:07:59.761Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

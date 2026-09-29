@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46lhwp",
+  "name": "America",
+  "file": "top-choice-46lhwp.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa77e3c5ec72001739f802.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "d4d8105313a988b18aea7614e3717bd758f01a5e5bcc0c6fd834db0e67d6b23a",
+  "retrieved": "2026-09-24T17:07:43.046Z",
+  "crop": {
+    "x": 80,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

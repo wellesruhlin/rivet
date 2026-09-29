@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-0h6xax",
+  "name": "Purple",
+  "file": "base-answer-0h6xax.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/650a138c7cdfb8340559d1ea.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "f435a73ddb53e2572f26b0cea4472a062eacf2897123e1b2b86818d3a09e4294",
+  "retrieved": "2026-09-24T17:07:58.146Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

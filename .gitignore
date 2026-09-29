@@ -1,0 +1,26 @@
+# Dependencies and build output (every app)
+node_modules/
+dist/
+.vite/
+
+# Python and Blender scratch
+__pycache__/
+*.pyc
+*.blend1
+
+# Secrets and local environment
+.env*
+!.env.example
+*.pem
+.dev.vars
+
+# Local logs and test scratch under work/ (keep the folders, not their contents)
+work/table-demo/*
+!work/table-demo/.gitkeep
+work/product-studio/*
+!work/product-studio/.gitkeep
+*.log
+
+# OS noise
+.DS_Store
+Thumbs.db

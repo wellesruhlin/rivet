@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {resolve,generateMesh} from '../geometry.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const data=JSON.parse(fs.readFileSync(path.join(root,'data/on3p.json')));
+const request=JSON.parse(fs.readFileSync(0,'utf8'));
+const model=data.models.find(m=>m.handle===request.handle);
+if(!model)throw Error('Unknown model');
+console.log(JSON.stringify(generateMesh(model,resolve(model,Number(request.length||186),request.overrides||{}),{side:request.side||0})));

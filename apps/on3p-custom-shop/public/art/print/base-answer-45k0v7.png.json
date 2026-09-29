@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-45k0v7",
+  "name": "Crushin' Cans",
+  "file": "base-answer-45k0v7.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4cb358ba7260011172d57.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "27ad1acc3e17ad4c1005c2cb6ab5e430522c6c1247850745d5b851b00f2ea6ff",
+  "retrieved": "2026-09-24T17:08:03.539Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

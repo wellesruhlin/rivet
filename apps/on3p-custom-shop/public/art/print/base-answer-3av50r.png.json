@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-3av50r",
+  "name": "Yellow",
+  "file": "base-answer-3av50r.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/645486cd35867fdca0363ba0.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "83a856646130a6f2b3a2cd30a596b31bded0d7d3f3c2429eec6c0da2457783a3",
+  "retrieved": "2026-09-24T17:07:58.185Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

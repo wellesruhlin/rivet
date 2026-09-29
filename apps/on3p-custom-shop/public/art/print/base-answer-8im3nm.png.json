@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-8im3nm",
+  "name": "Desert Tiger",
+  "file": "base-answer-8im3nm.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/6282d4b84d101a00110f3537.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "bf3a9929d31d8e4b27eccce694f53438ad279940ed6e38da580898d995f56181",
+  "retrieved": "2026-09-24T17:08:02.835Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

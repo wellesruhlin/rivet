@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-7uaelp",
+  "name": "Herringburn Purple",
+  "file": "base-answer-7uaelp.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/7uahyl.jpg",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "c41d4c12490870541d20be701358acfa175e69a5a3468487ed8bcdae09b50f17",
+  "retrieved": "2026-09-24T17:07:58.765Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

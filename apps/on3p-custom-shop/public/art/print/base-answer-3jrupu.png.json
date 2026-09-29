@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-3jrupu",
+  "name": "Clawed Blue",
+  "file": "base-answer-3jrupu.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/3jt5qa.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "6909cecd687a8265f44aafa9e44e26c51db1901ddbc726f0206d7939f7c53e6f",
+  "retrieved": "2026-09-24T17:07:59.702Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

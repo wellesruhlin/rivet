@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-8moeau",
+  "name": "Forza 1.0",
+  "file": "base-answer-8moeau.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4e8ab01a2f667e3e68cc.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "95b5f1a8da43c9abb724b2cc20bf166cc33361ee4918a0d9c3693cbb0aa7e3ec",
+  "retrieved": "2026-09-24T17:08:01.588Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

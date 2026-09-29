@@ -1,0 +1,5618 @@
+[
+  {
+    "id": "ANSWER-0h6n89",
+    "name": "Orange",
+    "file": "base-answer-0h6n89.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/650a0dcdd0e203ce7dd7d640.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5448223f892e63855a596a43225e76c505a4ff5890421d13161c656706797931",
+    "retrieved": "2026-09-24T17:07:58.127Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0h6ql5",
+    "name": "Blue",
+    "file": "base-answer-0h6ql5.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/650a0df6f3ee5957bc5960b3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "4490c5cfb75af5c7afa6870c7d23325d963dd9d22588ff2a94cab667f441e04e",
+    "retrieved": "2026-09-24T17:07:58.092Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0h6ty1",
+    "name": "Forest",
+    "file": "base-answer-0h6ty1.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/650a0e10d0e203ce7dd7e0d5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "59afc5f1cdca8330d1a30b530024bf48642d82957967bafd86ca3b34fa6a54cd",
+    "retrieved": "2026-09-24T17:07:58.417Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0h6xax",
+    "name": "Purple",
+    "file": "base-answer-0h6xax.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/650a138c7cdfb8340559d1ea.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f435a73ddb53e2572f26b0cea4472a062eacf2897123e1b2b86818d3a09e4294",
+    "retrieved": "2026-09-24T17:07:58.146Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0h7nkp",
+    "name": "Excalibur Black",
+    "file": "base-answer-0h7nkp.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/650a0608d0e203ce7dd6b375.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "7117e5693ad653c03dfed5859e4de40830a32c28d4023f4471f46f1a1f281c74",
+    "retrieved": "2026-09-24T17:08:00.974Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0h7qxl",
+    "name": "Excalibur Green",
+    "file": "base-answer-0h7qxl.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/650a0668f3ee5957bc584537.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "18c21386f3d872aaeb938c3bff9bea2ac0644ee7a7083e35f3585a32da7dbf37",
+    "retrieved": "2026-09-24T17:08:00.835Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0h7uah",
+    "name": "Excalibur Red",
+    "file": "base-answer-0h7uah.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/650a0682d0e203ce7dd6cd56.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "4f7ac355a2256095a8d0d289eac71f0bc0f075db8adfa81fd1f4d7cbacc06a85",
+    "retrieved": "2026-09-24T17:08:00.991Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-2i6dk6",
+    "name": "Tiger Stripe",
+    "file": "base-answer-2i6dk6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f5d67b8ba72600111736d8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a8b9813655686de49301db02f8b4e9c43041d80188616118e0651921f58da100",
+    "retrieved": "2026-09-24T17:08:02.985Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-2j6tp3",
+    "name": "Black",
+    "file": "base-answer-2j6tp3.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/637ee3eead67bfc61b4edf39.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f08db5e64ce47813adeef1277db0409154f085989a0484b8a7e7470ed8fad275",
+    "retrieved": "2026-09-24T17:07:58.007Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3av50r",
+    "name": "Yellow",
+    "file": "base-answer-3av50r.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/645486cd35867fdca0363ba0.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "83a856646130a6f2b3a2cd30a596b31bded0d7d3f3c2429eec6c0da2457783a3",
+    "retrieved": "2026-09-24T17:07:58.185Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3av8dn",
+    "name": "Red",
+    "file": "base-answer-3av8dn.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/6454882e5b68ac97088ebed7.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "04025ffee54fc8957132af0e7ba985fe1a95028805a434a9e9105fc404496cde",
+    "retrieved": "2026-09-24T17:07:57.963Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3avbqj",
+    "name": "White",
+    "file": "base-answer-3avbqj.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/645488875b68ac97088ec443.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e181c342ef8c39e027cf20e31b4bf1da993665a8716c48ca29a45afb74759257",
+    "retrieved": "2026-09-24T17:07:57.917Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3jr0hu",
+    "name": "Clawed Red",
+    "file": "base-answer-3jr0hu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3jr3uq.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "dec5221fcc4477db6ef9275619d35455ea10e25e828dbc8aadc5f9dedf5d5fb7",
+    "retrieved": "2026-09-24T17:07:59.114Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3jraki",
+    "name": "Clawed Yellow",
+    "file": "base-answer-3jraki.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3jrdxe.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "564364dbdd396d24b7182d04b6eb92aacc2b00add557b6d97725cc2c3f741bcf",
+    "retrieved": "2026-09-24T17:07:59.196Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3jrkn6",
+    "name": "Clawed Green",
+    "file": "base-answer-3jrkn6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3jro02.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "4e98712206b8bb4e1754cd373528423d60851edefab50a9d179cd5da28d10a82",
+    "retrieved": "2026-09-24T17:07:59.408Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3jrupu",
+    "name": "Clawed Blue",
+    "file": "base-answer-3jrupu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3jt5qa.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "6909cecd687a8265f44aafa9e44e26c51db1901ddbc726f0206d7939f7c53e6f",
+    "retrieved": "2026-09-24T17:07:59.702Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3js4si",
+    "name": "Clawed Orange",
+    "file": "base-answer-3js4si.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3js85e.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "66396f6f47904054fab31b2ec6af52814a8dd00772bbf1de69ee230a47f8a2e1",
+    "retrieved": "2026-09-24T17:07:59.545Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3jsev6",
+    "name": "Clawed Pink",
+    "file": "base-answer-3jsev6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3jsi82.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "081882513c662245a0a478929677a1777c593fc4663a5b45a47cc16b56ef1e76",
+    "retrieved": "2026-09-24T17:07:59.510Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3n8z5i",
+    "name": "Manus Dei",
+    "file": "base-answer-3n8z5i.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/628afa7912fdf30011755288.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "68dc38ba426ce86e1f059af1bc904c3e0b104c5bb01095f46615454e03be356f",
+    "retrieved": "2026-09-24T17:08:01.352Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3ns6ae",
+    "name": "Dazzle Camo",
+    "file": "base-answer-3ns6ae.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60ff717a77cc7b00113742b2.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "681591256879f9b79316e311189c2a0e04b9c6c6db4da2cfe8e84ccc3d141b8f",
+    "retrieved": "2026-09-24T17:08:02.044Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-45ju5f",
+    "name": "PDX",
+    "file": "base-answer-45ju5f.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4c5058ba7260011172d34.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b17e5129d3a6cef69044d240c07518842aae85bcb482e11ceea7bc7486006ebe",
+    "retrieved": "2026-09-24T17:08:01.959Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-45jxib",
+    "name": "Hawaiian Alpine",
+    "file": "base-answer-45jxib.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4cb238ba7260011172d53.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e90b24f7ad08499c611244fd4a86b3502b0f1bbe72ac8c1b7221630e2af6da3d",
+    "retrieved": "2026-09-24T17:08:01.974Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-45k0v7",
+    "name": "Crushin' Cans",
+    "file": "base-answer-45k0v7.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4cb358ba7260011172d57.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "27ad1acc3e17ad4c1005c2cb6ab5e430522c6c1247850745d5b851b00f2ea6ff",
+    "retrieved": "2026-09-24T17:08:03.539Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-45k483",
+    "name": "Frog Camo",
+    "file": "base-answer-45k483.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4cb458ba7260011172d58.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e6bb5f2a0e6cff5215bbc9ab7f76e12564e3e557af33a832c5261a2667c97585",
+    "retrieved": "2026-09-24T17:08:03.409Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-45k7kz",
+    "name": "Botanical",
+    "file": "base-answer-45k7kz.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f5d6748ba72600111736d7.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "bf756f3870743b40004e069381537cf21a438c92963ad907dbcbf23c69f7f4a1",
+    "retrieved": "2026-09-24T17:08:01.751Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-499ccq",
+    "name": "Flo-Yellow",
+    "file": "base-answer-499ccq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/ca0a9d19-d61e-4a39-9508-513541d1caa5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "bdc54ae1a0a487b9a6f15c2908e7d6160d9dcdbf891d57bc3090698e53c81066",
+    "retrieved": "2026-09-24T17:07:59.168Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-499fpm",
+    "name": "Flo-Green",
+    "file": "base-answer-499fpm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/bb8e5c49-d5bb-4251-b3c0-808244b8bf11.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a0199c55bc603d4c8797ee95371a9b797369a4c11bccd097d6260e6686775748",
+    "retrieved": "2026-09-24T17:07:58.919Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-499j2i",
+    "name": "Flo-Pink",
+    "file": "base-answer-499j2i.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/d8842947-b518-4c56-8d14-d1d495402b6c.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b2f008c9076384cea7b0e75aab9c5956ee4177ae76c254c0091b2493594f173a",
+    "retrieved": "2026-09-24T17:07:59.015Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-499m1m",
+    "name": "Mango VI",
+    "file": "base-answer-499m1m.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/eb58e700-3652-4e84-8f9a-5e0e06c6aa71.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "dfa9c2751a890b909ae91ca22b6819e89d0cf0cc906e72fdd6b31e41504a433d",
+    "retrieved": "2026-09-24T17:08:00.312Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-499mfe",
+    "name": "Flo-Blue",
+    "file": "base-answer-499mfe.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3c8bd975-902d-450d-bcc8-05c2244addaf.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "79c9533a7377061993481cb91753f6656f8f3fa56e2e3fc8d463914c787a32d4",
+    "retrieved": "2026-09-24T17:07:59.148Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-499psa",
+    "name": "Rooty Pro",
+    "file": "base-answer-499psa.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/dfe8087f-f8b6-4cf4-a81c-f812fac1dfd5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a38f8bb911d4a3732b5aef49d1a52e91282a0d513c6ee5a0b1fe6a28a4cccf31",
+    "retrieved": "2026-09-24T17:08:00.930Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4bxfxp",
+    "name": "Herringburn Green",
+    "file": "base-answer-4bxfxp.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4bxjal.jpg",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "6add747d71857da899af53e81950118674d5a7df1b7eed93e0470c01b5b8bb92",
+    "retrieved": "2026-09-24T17:07:58.298Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-52jknr",
+    "name": "Mango River V",
+    "file": "base-answer-52jknr.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/52jo0n.jpg",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f34506da2cd4bb264d821536b3aa4f55b02120416f34dca9fadb306039360ad3",
+    "retrieved": "2026-09-24T17:08:00.140Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-52k47r",
+    "name": "Solid Black",
+    "file": "base-answer-52k47r.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/52k7kn.jpg",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "4f779614acb6f5e11f108f5d187e78837d8575a45c081f3a852b63cbbb5b1aac",
+    "retrieved": "2026-09-24T17:07:58.240Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-52k4t3",
+    "name": "OSKI I",
+    "file": "base-answer-52k4t3.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/52k85z.jpg",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "6508a65e15c4c4216e58af46ca4dd4f6b66aee8aa28f8c9eb7dd711809656b31",
+    "retrieved": "2026-09-24T17:08:00.844Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-52krpz",
+    "name": "Mango River IV",
+    "file": "base-answer-52krpz.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/52j3vb.jpg",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b58041c6871a1de6ae3c1e7e34c45d1f952ed946d69225de5c063384edf9addc",
+    "retrieved": "2026-09-24T17:08:00.164Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-548ha2",
+    "name": "Hot Rod Pink",
+    "file": "base-answer-548ha2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/646d075b80a48560621ed505.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9924324fcf1a83602d2fa014e52f7842cfc6dec44a7988ce8a93766611c1d7e5",
+    "retrieved": "2026-09-24T17:08:00.649Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-548k96",
+    "name": "Hot Rod Red",
+    "file": "base-answer-548k96.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/646d07b439217fc206cb6517.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "69fb45692a4d9a1051944118119451982c4b6370045c5618ea765b58c241da95",
+    "retrieved": "2026-09-24T17:08:00.489Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-548kmy",
+    "name": "Hot Rod Yellow",
+    "file": "base-answer-548kmy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/646d076c98cdd6ec158b6c6e.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e2a0e4197f9ad279e0adb7f4760e1024d05253e244c66fc3200cb803cbba3720",
+    "retrieved": "2026-09-24T17:08:00.558Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-548nm2",
+    "name": "Hot Rod Blue",
+    "file": "base-answer-548nm2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/646d07ca80a48560621ee3b2.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "430ccea80ce0016c2a1e65c2cdab43711f665d76e42c8dc8502340b4b131c52f",
+    "retrieved": "2026-09-24T17:08:00.594Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-548nzu",
+    "name": "Hot Rod White",
+    "file": "base-answer-548nzu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/646d079439217fc206cb6245.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "97a0b5dd657f80d4b9060f40691fafe87bb360b615ecff97ab07a2ab1a1a9121",
+    "retrieved": "2026-09-24T17:08:00.594Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-548qyy",
+    "name": "Hot Rod Stars & Stripes",
+    "file": "base-answer-548qyy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/646d07e639217fc206cb6ec7.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "286ad64483df146c2ed60de5d675072eac0a10715c0f703a7a113d122ed57ae4",
+    "retrieved": "2026-09-24T17:08:01.334Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-5d5dua",
+    "name": "Point Break Dawn",
+    "file": "base-answer-5d5dua.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627f36df4d101a00110f0afd.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "91d8dbb0beb3904bf6444b0f2a0fa360244e77ef681c52e81bf64d1ebe4edbc7",
+    "retrieved": "2026-09-24T17:08:01.065Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-5d5nwy",
+    "name": "Leopard",
+    "file": "base-answer-5d5nwy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627f36f0790c7b001125efba.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e5b19c09e36f249c2af7c65e2e07aabc92b5270c55a99e3ffbf3c1cff18d7a41",
+    "retrieved": "2026-09-24T17:08:02.928Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-5ifhnj",
+    "name": "Hot Rod",
+    "file": "base-answer-5ifhnj.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/62eb18c0eaf3a3b802427cef.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "3358d353af683279ef596ab81a48c6e03e95f96cc73840d38736d0757ba4486f",
+    "retrieved": "2026-09-24T17:08:00.221Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6dppg3",
+    "name": "Chevron Red",
+    "file": "base-answer-6dppg3.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66562eacd3bbd2ee41ccf21c.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "72d239604d1fa8a8d7a92fe2adb78d7d926a2a791aa485c2ec941c613cf2b89c",
+    "retrieved": "2026-09-24T17:07:59.761Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6dpssz",
+    "name": "Chevron Orange",
+    "file": "base-answer-6dpssz.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66577dc42bb888be088cec0e.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "32bb9552bbe278ef375b699c87cd796333e6d178a3d598c05c65fa7ea700d3b1",
+    "retrieved": "2026-09-24T17:07:59.995Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6dpt6r",
+    "name": "Chevron Green",
+    "file": "base-answer-6dpt6r.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66562dff70e1e39522980b0b.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "554d9b92331cb206d59ce735d774de8a73c78851592bf57a0d1b14b71cf97c0d",
+    "retrieved": "2026-09-24T17:07:59.436Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6dpw5v",
+    "name": "Chevron Blue",
+    "file": "base-answer-6dpw5v.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66562ed5f164c6672e88af50.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d1b053a8befdddd04be4ad9a3455e22fac0945b96134cd991c57506efe0d1ea4",
+    "retrieved": "2026-09-24T17:08:00.011Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6dpzir",
+    "name": "Chevron White",
+    "file": "base-answer-6dpzir.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66562f01f164c6672e88c0f2.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "2642282cfe03c190b8ffbaaf4f8ab0af7c807e684a7b777f09ffafd0f429d21a",
+    "retrieved": "2026-09-24T17:07:59.747Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6h8d1e",
+    "name": "Flo-Orange",
+    "file": "base-answer-6h8d1e.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3811cdcc-6d41-4c31-8241-37b1f14cdb9a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "368ab9c6d3e9d1db2e94d154eca32c5e95a67e639a7458dca6278610f7524f30",
+    "retrieved": "2026-09-24T17:07:59.029Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6ox45d",
+    "name": "SFTL Blue",
+    "file": "base-answer-6ox45d.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/27b213e6-62d3-48f1-bb6f-49845dd06c18.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9f375d05319eab3a55d21ccf56cf1b195e3f21ff5b6b583b9469aeba71f7ab3b",
+    "retrieved": "2026-09-24T17:07:58.601Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6ox7i9",
+    "name": "SFTL Green",
+    "file": "base-answer-6ox7i9.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/eddd65a6-b1e8-4d77-bdbd-49a870131aee.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "1f758b9c25eda79fe49d4ff9f253f8563ff10e42f497fb6408b1e637571f3ddd",
+    "retrieved": "2026-09-24T17:07:58.519Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7n34ox",
+    "name": "Concept Camo",
+    "file": "base-answer-7n34ox.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66555ab5508af600f929e6c1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "77e470d6a743f50e6db7f17d39e5e6b6bec55768a5cd810533d2560e7da2c0f0",
+    "retrieved": "2026-09-24T17:08:02.291Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7u8qjh",
+    "name": "Herringburn Blue",
+    "file": "base-answer-7u8qjh.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/7u8twd.jpg",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9e7ec3b77ee9d28de2f4c64cf9c1da54bb94347250024ffedfd231a1feb1d2c2",
+    "retrieved": "2026-09-24T17:07:58.408Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7u9aot",
+    "name": "Herringburn Red",
+    "file": "base-answer-7u9aot.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/7u9e1p.jpg",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e1df05bef8f7cdc291c4eb41b4149bb84444e68a7297b47e25fb761514d87f38",
+    "retrieved": "2026-09-24T17:07:58.712Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7u9rh9",
+    "name": "Herringburn Orange",
+    "file": "base-answer-7u9rh9.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/7u9uu5.jpg",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5367b161dfc2b54b2ee11964c3c6dade0089e98f99cfe6cca85ad5282ab88bbc",
+    "retrieved": "2026-09-24T17:07:58.760Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7ua4wt",
+    "name": "Herringburn Yellow",
+    "file": "base-answer-7ua4wt.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/7ua89p.jpg",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "4d440967204578723e557bd0fc2009d05dc08975cbb762c17fd87fa6b47c3740",
+    "retrieved": "2026-09-24T17:07:58.644Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7uaelp",
+    "name": "Herringburn Purple",
+    "file": "base-answer-7uaelp.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/7uahyl.jpg",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "c41d4c12490870541d20be701358acfa175e69a5a3468487ed8bcdae09b50f17",
+    "retrieved": "2026-09-24T17:07:58.765Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8im3nm",
+    "name": "Desert Tiger",
+    "file": "base-answer-8im3nm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/6282d4b84d101a00110f3537.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "bf3a9929d31d8e4b27eccce694f53438ad279940ed6e38da580898d995f56181",
+    "retrieved": "2026-09-24T17:08:02.835Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8mo0va",
+    "name": "Dazzle Yellow",
+    "file": "base-answer-8mo0va.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4d5eb01a2f667e3e6451.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "8acfc3a0c7a9aa2f8cfbd44d810c7ba693cdb3f5626d41996fec7efb86248c36",
+    "retrieved": "2026-09-24T17:08:02.409Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8mo486",
+    "name": "Point Break Algae",
+    "file": "base-answer-8mo486.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4dfeb01a2f667e3e66d2.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "8fd2ea3fbbe0190eb16f2caa80eaa62d30d8c9745e22236d3a09eb41e6627187",
+    "retrieved": "2026-09-24T17:08:01.191Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8mo4ly",
+    "name": "Dazzle Green",
+    "file": "base-answer-8mo4ly.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4d3f166afcbd16267e55.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a7da5a1d58a8d65f836e2bbe8c49177c53d268fce1fb04ebb425fec090892447",
+    "retrieved": "2026-09-24T17:08:02.413Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8mo7l2",
+    "name": "Point Break Azul",
+    "file": "base-answer-8mo7l2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4e2e166afcbd1626827a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d02ab302df079e71bc99946c9d5f524e3e85df036db58a7bbc0f6b0857bc8074",
+    "retrieved": "2026-09-24T17:08:01.142Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8moaxy",
+    "name": "Point Break Coral",
+    "file": "base-answer-8moaxy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4e50b01a2f667e3e67f1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e6f2b0d9bbe5f72277da711fd4224fd042c5701e1a6b6900a93f979d3a7ec2e8",
+    "retrieved": "2026-09-24T17:08:01.314Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8moeau",
+    "name": "Forza 1.0",
+    "file": "base-answer-8moeau.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4e8ab01a2f667e3e68cc.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "95b5f1a8da43c9abb724b2cc20bf166cc33361ee4918a0d9c3693cbb0aa7e3ec",
+    "retrieved": "2026-09-24T17:08:01.588Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8mohnq",
+    "name": "Forza 2.0",
+    "file": "base-answer-8mohnq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4e9ab01a2f667e3e690d.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "cf76bd5f554ae109b96c5bfebb81909ebb24892440b5810829d079de7558f90b",
+    "retrieved": "2026-09-24T17:08:01.686Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8mol0m",
+    "name": "Forza 3.0",
+    "file": "base-answer-8mol0m.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4eb7166afcbd1626842d.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "13ab5a8130af8a05772620193854b60635c3ff27dbd8e3bb8ad6c727d4b7df35",
+    "retrieved": "2026-09-24T17:08:01.846Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8mpp3q",
+    "name": "Dazzle Blue",
+    "file": "base-answer-8mpp3q.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4ce8b01a2f667e3e62d6.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b588021f0ce9b03cf516fa903113dae0e7fcd92a31163fd186072a0ee33daafa",
+    "retrieved": "2026-09-24T17:08:02.239Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8mpsgm",
+    "name": "Dazzle Red",
+    "file": "base-answer-8mpsgm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4d21b01a2f667e3e6364.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e4973cfd4dc04c5c6b204bb8fade06351ffa04b6226575d29ba499012c266297",
+    "retrieved": "2026-09-24T17:08:02.288Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8sc6vp",
+    "name": "Hot Rod Rasta",
+    "file": "base-answer-8sc6vp.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/644072862336901bd553e8f0.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "82e225cbe67b54c7bac38eb3eae652b308b45d916528d7faa02f1fc43755cae1",
+    "retrieved": "2026-09-24T17:08:00.674Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8sca8l",
+    "name": "Nugski",
+    "file": "base-answer-8sca8l.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/644072c7cdceccbdfc92f9a0.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "eafb1dec572b1d7028979517f4bf63a4daf1e2e581ec0d5bfaac3346a76bae6d",
+    "retrieved": "2026-09-24T17:08:01.459Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8scdlh",
+    "name": "Mango II",
+    "file": "base-answer-8scdlh.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/644072edcdceccbdfc92fbcb.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "398149895b6d36b7190f7a92c5217f80223ea830ae81b5b52e157e55c262f9e0",
+    "retrieved": "2026-09-24T17:07:59.963Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8scgyd",
+    "name": "Mango III",
+    "file": "base-answer-8scgyd.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/64407305cdceccbdfc92fc49.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b5cb7787c86d40a2333656d5c3b9d303a430772c8463d4203d49d88fa981fcbf",
+    "retrieved": "2026-09-24T17:07:59.969Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8sckb9",
+    "name": "Mango III",
+    "file": "base-answer-8sckb9.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/644073212336901bd553ff13.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "dc94da805d7f573e0f4fb6c856268e06f26d3b2a1f92d4e88d449c91e2e051cd",
+    "retrieved": "2026-09-24T17:08:00.239Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46j9hl",
+    "name": "Green",
+    "file": "base-choice-46j9hl.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/6282e8084d101a00110f35f3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "510ab6808eeddbf0810a84631505b6c72571ed62dd3d4bc40e89f28dc23e7cb5",
+    "retrieved": "2026-09-24T17:07:57.854Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jcuh",
+    "name": "Cat Camo",
+    "file": "base-choice-46jcuh.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7119df8c2800107ea675.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "71c7eb87ae3ab0ddaeea338a2d66c0c138fb06cea10707fec49c0ab61b4a002d",
+    "retrieved": "2026-09-24T17:08:02.871Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jg7d",
+    "name": "Midnight",
+    "file": "base-choice-46jg7d.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7150df8c2800107ea677.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d98b9774047ef56d75a8ea2be2645ee4d287ce4e630786a9e916f5203c93ad25",
+    "retrieved": "2026-09-24T17:08:03.105Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jjk9",
+    "name": "Woodland",
+    "file": "base-choice-46jjk9.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7192df8c2800107ea678.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "0c6e2a776aeaef5c3b07e2bf6df6a6324e337122e8cb3b3588b92ea86c0144f0",
+    "retrieved": "2026-09-24T17:08:03.333Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jmx5",
+    "name": "Desert Night",
+    "file": "base-choice-46jmx5.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa71b4df8c2800107ea679.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e18c5d536dce972dd9e8e9f2c22ec4e3b554a1197c48caf51b38d46037d62e4b",
+    "retrieved": "2026-09-24T17:08:03.262Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jqa1",
+    "name": "Desert Duck",
+    "file": "base-choice-46jqa1.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa71c5c5ec72001739f7bd.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "bdc1f409caa6d7fc65cd3d4bc33a29b9d70144bde6926c5c098b6786f67fcfab",
+    "retrieved": "2026-09-24T17:08:03.126Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jtmx",
+    "name": "Duck Camo",
+    "file": "base-choice-46jtmx.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa71d6df8c2800107ea67a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "dc07036ca6ed864b71e6bd971768a99212e052723c162270dffb86691946ff09",
+    "retrieved": "2026-09-24T17:08:03.431Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jwm1",
+    "name": "Mango I",
+    "file": "base-choice-46jwm1.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa72fec5ec72001739f7c3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d9c35b57463f8b3d3cddfabfae22ffbd3c4d77b0d85f6053bec81a3b290a9e01",
+    "retrieved": "2026-09-24T17:07:59.865Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jwzt",
+    "name": "Sleet Camo",
+    "file": "base-choice-46jwzt.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa71f2c5ec72001739f7be.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "3758eb857409b5b17c74aa4666466e2e11fed434a83cb560cf147b9cb22eeb44",
+    "retrieved": "2026-09-24T17:08:02.687Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jzyx",
+    "name": "America",
+    "file": "base-choice-46jzyx.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa731ac5ec72001739f7c4.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f82cbe4081b6e41064f28004c47bc395d0634ba05b2de3488bbcbe80a82d5b22",
+    "retrieved": "2026-09-24T17:08:03.632Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46k3bt",
+    "name": "EhSki",
+    "file": "base-choice-46k3bt.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7330df8c2800107ea67e.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "6112756641bcfe033a57509ebe07b0586602b3cb2c81191aa2571b7d0f5669b2",
+    "retrieved": "2026-09-24T17:08:03.450Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46k6op",
+    "name": "GrizzlyCorn",
+    "file": "base-choice-46k6op.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7342c5ec72001739f7c5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "798af9beeeb3d2eedbc50141eb6454bcd146841302b0d6929965af195e1c4a5e",
+    "retrieved": "2026-09-24T17:08:03.551Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46ka1l",
+    "name": "Team Yellow",
+    "file": "base-choice-46ka1l.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa735edf8c2800107ea67f.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b6d474e2ae86b30daf298796b019352aef641692ab1f4cb3d960da6ece29f146",
+    "retrieved": "2026-09-24T17:08:03.863Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46kdeh",
+    "name": "Team Pink",
+    "file": "base-choice-46kdeh.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa737ddf8c2800107ea680.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "24f914e0e4085b974e0cb909a900f3cc4fada58eaf5b2ae9bc8926f06d50aea9",
+    "retrieved": "2026-09-24T17:08:03.658Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46kgrd",
+    "name": "Team Green",
+    "file": "base-choice-46kgrd.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa738cc5ec72001739f7c7.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d405427f7cfa1bb836edb93b281bec886271aeb1da13f68a9242f640f7e1cfcb",
+    "retrieved": "2026-09-24T17:08:03.826Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46kk49",
+    "name": "Team White",
+    "file": "base-choice-46kk49.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efaae26df8c2800107ea7d9.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a42b06be4d80d7402cc26f98b3af8c39d7c1e4e53df7c570eef47fe615dd8013",
+    "retrieved": "2026-09-24T17:08:03.733Z",
+    "crop": {
+      "x": 379,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0bwm31",
+    "name": "Blackout Serpent",
+    "file": "top-answer-0bwm31.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/637ee3c2b5b7df155f662f38.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5f07f482a046aef80f005add3d08b184787acc1bdb7803d4c69df9df571cce29",
+    "retrieved": "2026-09-24T17:07:38.113Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0bwpfx",
+    "name": "Blackout Warrior",
+    "file": "top-answer-0bwpfx.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/637dee91049693860e454b10.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "90f8dd2e28b317918b99d32dff0de9eb0f3369137704a0d1e8d412956b607875",
+    "retrieved": "2026-09-24T17:07:38.180Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0bxzv1",
+    "name": "Blackout Palmist",
+    "file": "top-answer-0bxzv1.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/637dee2311476f4f79f40cca.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "3847f3f6f2fc1aedafa4ea7b68e05eb4b977e7793d663344c02a95f8e1f09d0e",
+    "retrieved": "2026-09-24T17:07:38.256Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0by6kt",
+    "name": "Blackout Bomber",
+    "file": "top-answer-0by6kt.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/637ee3af11476f4f79f8c078.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "40423cac24f559d9e2c9e44ec1734e5416c78404cd584ccd90cabaa9c179d738",
+    "retrieved": "2026-09-24T17:07:38.244Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0by9xp",
+    "name": "Blackout Reaper",
+    "file": "top-answer-0by9xp.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/637ee3b9b5b7df155f662eea.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "bbb302c46fb05a91f9543c8bd0b677119b4010d9fc1364296e9c261abf969b43",
+    "retrieved": "2026-09-24T17:07:38.081Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0h66ft",
+    "name": "Krypto Pro",
+    "file": "top-answer-0h66ft.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/650a06b27cdfb8340557f6a3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "cf2bd7bb3d6550256ec0b280ca1551b373c79c3044cb11957a9ded0aefc8b336",
+    "retrieved": "2026-09-24T17:07:39.796Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0h69sp",
+    "name": "BG XIX",
+    "file": "top-answer-0h69sp.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66e25482977a02f1375c0a98.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "71efc0a55e10e77ac9ddac58ab34a779452f5c16d46fd3675473ef397c2a8311",
+    "retrieved": "2026-09-24T17:07:51.463Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0h6d5l",
+    "name": "Woodsman XIII",
+    "file": "top-answer-0h6d5l.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/653850b6c6642c93d10278e6.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e0ab22a8012f1702b444d385585b21b76fc05781c354baf5834acccd889e1b82",
+    "retrieved": "2026-09-24T17:07:53.775Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-0h6gih",
+    "name": "Woodsman XIV",
+    "file": "top-answer-0h6gih.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/650a0755d0e203ce7dd6f73f.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "8680e84e557510a069f357a6b3528ab55f9aac23986806883cfd0811c140a6d8",
+    "retrieved": "2026-09-24T17:07:53.693Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-1avrjm",
+    "name": "OSKI I",
+    "file": "top-answer-1avrjm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/1avuwi.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "656d85e557560149f24a264ac178d2713993d954ac2fe533264c0e9c94874843",
+    "retrieved": "2026-09-24T17:07:52.043Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-1avy9e",
+    "name": "Mango IV",
+    "file": "top-answer-1avy9e.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/1aw1ma.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "709452bfbeb7d15058543836b35cd432313a38177ba2ae2e4901d5c8bfa95775",
+    "retrieved": "2026-09-24T17:07:45.377Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-1awboy",
+    "name": "Mango V",
+    "file": "top-answer-1awboy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/1awf1u.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e1c949127e581db38d50a0b649c402e0669d91eaf3fa95b84e083ded4d38df79",
+    "retrieved": "2026-09-24T17:07:45.223Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-1fzl75",
+    "name": "Wrenegade XXVII",
+    "file": "top-answer-1fzl75.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/644c76eb3af26fcfc6dbf727.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "060c9f5099660dd183f7535f87ededd8ef31356029230cad67e75730874c17d3",
+    "retrieved": "2026-09-24T17:07:56.105Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-2i6a7a",
+    "name": "Tiger Stripe",
+    "file": "top-answer-2i6a7a.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f5d64f8ba72600111736d5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "8afdc70aec6dc84258ea9cc52f76d0e3d92a5dac94cdb77bcf3a33cc2e142581",
+    "retrieved": "2026-09-24T17:07:42.603Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-2j6qc7",
+    "name": "Blackout Jeffrey",
+    "file": "top-answer-2j6qc7.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/637ee3dbb5b7df155f662faf.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "04bcc06644fca99eb50806939c9a9c6fa1e822b5c6ebacb2261faaa0f54e237c",
+    "retrieved": "2026-09-24T17:07:38.350Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3gt6ld",
+    "name": "Mango III",
+    "file": "top-answer-3gt6ld.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/62be0024f2a2d77d4d651b8c.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "eff1368774f2c059ea3a263fa8898280e483f4974de3bc83c5967c90af2ed745",
+    "retrieved": "2026-09-24T17:07:45.220Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3h1xh1",
+    "name": "Jeffrey XXVIII",
+    "file": "top-answer-3h1xh1.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3h20tx.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a24a4fc98b3ed98015d77e89047a6a9279467599b29e8d4ed372d1e6d340221d",
+    "retrieved": "2026-09-24T17:07:48.728Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3h27jp",
+    "name": "Jeffrey XXIX",
+    "file": "top-answer-3h27jp.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3h2awl.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5cc04dfd4db6e2d9fa59de79cdaacb9f4226588e58c54e9d15416a0f2c00e373",
+    "retrieved": "2026-09-24T17:07:48.766Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3iammt",
+    "name": "Wild Tiger",
+    "file": "top-answer-3iammt.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/9fev3g.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f96187fc1d9f69bed15f825a5e46ea1c729bfa20f516c32503436d63704084a3",
+    "retrieved": "2026-09-24T17:07:38.592Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-3ns2xi",
+    "name": "Dazzle Camo",
+    "file": "top-answer-3ns2xi.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60ff70d18ba726001117875f.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "060c5cb42dd71b89940beef898f377838bc244a253e83d500fc699cca24cce90",
+    "retrieved": "2026-09-24T17:07:41.485Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-45it7n",
+    "name": "Clear",
+    "file": "top-answer-45it7n.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4b77c77cc7b001136e64e.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "13deef81bd865638fe3d0a1ab94e26eede05c6a387198d2e21adbe99281529c9",
+    "retrieved": "2026-09-24T17:07:41.387Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-45jdcz",
+    "name": "Hawaiian Alpine",
+    "file": "top-answer-45jdcz.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4b9038ba7260011172c7e.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5647d8e16bfcc07e7d9788dd2be76a2ee3a917309af701794431d62702c0d0da",
+    "retrieved": "2026-09-24T17:07:41.097Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-45jgpv",
+    "name": "Botanical",
+    "file": "top-answer-45jgpv.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4b90f8ba7260011172c80.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5d7dfcb000b3f587fe213c2bf298d7e8c272c4f1ae6ea141b0af216e4029cde3",
+    "retrieved": "2026-09-24T17:07:41.254Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-45jk2r",
+    "name": "PDX",
+    "file": "top-answer-45jk2r.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4b9278ba7260011172c82.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "dc8d2bda32d9f2377c83c8f3f1bff69cae5a1e0701961d77729122f10c5f3a59",
+    "retrieved": "2026-09-24T17:07:41.518Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-45jnfn",
+    "name": "Frog Camo",
+    "file": "top-answer-45jnfn.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4b9328ba7260011172c83.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a7f19135f1334b98a1e49791450364dcc00447da5b8b70de65660554f7941c05",
+    "retrieved": "2026-09-24T17:07:42.560Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-497h6y",
+    "name": "Onyx",
+    "file": "top-answer-497h6y.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/09479509-61f3-4def-98b4-38e3a6447b22.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "bfa47c80c4fa7183147da5e81356dea9d838c51fecd79b00d9c34a4d63c216c9",
+    "retrieved": "2026-09-24T17:07:37.109Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-497kju",
+    "name": "Ivory",
+    "file": "top-answer-497kju.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/1e000262-7757-4eba-9ff5-03f2dcbd8414.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "da05e5f19072a9c6fd4b5bf9115fde7b7c7fa40da50a8c7c120449db1859d038",
+    "retrieved": "2026-09-24T17:07:36.881Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-497nwq",
+    "name": "Turquoise",
+    "file": "top-answer-497nwq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/aa63c7ec-a6f3-4623-86b1-fc866b959524.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "482427ce767ce54f61e84be6b9a7a282ece1a51bb54cc66ef93599c2703e42c0",
+    "retrieved": "2026-09-24T17:07:37.912Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-497r9m",
+    "name": "Acid",
+    "file": "top-answer-497r9m.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/94856c40-3049-4db7-bdcf-a7502bc01e1a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a1ab4799fa8bf69ec4e38ed8fd774c01444d102edcdc4bb53572d9886bd67f6a",
+    "retrieved": "2026-09-24T17:07:37.798Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-497umi",
+    "name": "Tangerine",
+    "file": "top-answer-497umi.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/ec0817cc-bc63-4773-8699-1049ddf8b273.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5ab6f8e04d34141622386a22e92fd4f1b69dbc53869cc85b6619081db0e221f3",
+    "retrieved": "2026-09-24T17:07:37.543Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-497xze",
+    "name": "Fuschia",
+    "file": "top-answer-497xze.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/8305179b-4511-4e8d-ab0e-eb942141d19d.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "be62f16728b8d75bc9d59aa41453f9b039212bad75aba33573c62ed1ea3c2ae4",
+    "retrieved": "2026-09-24T17:07:37.421Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4981ca",
+    "name": "Cobalt",
+    "file": "top-answer-4981ca.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/74953ca9-098a-4147-8b95-dca0b8a25c26.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "0ade9e0972335c8029eeaa4c1e26eacd18a6e567186f26cf92fa50a62a9c20c6",
+    "retrieved": "2026-09-24T17:07:37.446Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4984p6",
+    "name": "Spruce",
+    "file": "top-answer-4984p6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3bae13af-2d53-49ba-9574-b4a66bbe47d6.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "394f5a2ec5eefa69bdd0b0067b24bad3625084e211c3150e66d2b19982ce6990",
+    "retrieved": "2026-09-24T17:07:37.462Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4984wq",
+    "name": "Woodsman XXII",
+    "file": "top-answer-4984wq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/1e28c676-878b-49c5-b9f4-bc72468c2c95.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f7e386d8d5f5fb3a235c2996e3f1ba1d7b0d0f2e65c58e6adff5cb8a2152c9ba",
+    "retrieved": "2026-09-24T17:07:54.419Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498822",
+    "name": "Scarlet",
+    "file": "top-answer-498822.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/8ad7eb6f-1e7a-4ffe-9e93-eb2f2baa9a62.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "6fb38f98dfb2689d087ef9d12657b29f45edc49be91e41f7cb2ba740601bc079",
+    "retrieved": "2026-09-24T17:07:37.342Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-49889m",
+    "name": "Woodsman XXIII",
+    "file": "top-answer-49889m.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/8abf7974-37fa-4dae-94fb-88c69463f70d.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "72752e4da7214fec7e8233101d3698898580b6d3df2889ad39fbf6d7ccf904d7",
+    "retrieved": "2026-09-24T17:07:54.510Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498bey",
+    "name": "Violet",
+    "file": "top-answer-498bey.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/6e6990e6-7c3c-403e-b3da-7a32e4ded3bf.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "c75b19308a8d1da3a28b112e917b6f533ae98f8e7f39d9e2aa2bb5337e0fec7a",
+    "retrieved": "2026-09-24T17:07:36.966Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498bmi",
+    "name": "Woodsman XXIV",
+    "file": "top-answer-498bmi.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/50f2c494-d81e-4339-9178-77f6cc9e76a1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "61e70ff40b57e0978de399794583c090b31c60e3f45ce9e2fc7477e6e5322985",
+    "retrieved": "2026-09-24T17:07:54.689Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498eru",
+    "name": "Petrol",
+    "file": "top-answer-498eru.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/99dedea6-6f07-4efc-929b-e34e9ebef320.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d391d0c1338f5c30ec24d23e99bec38770a8111b2af0d667e046da51e4c51b9e",
+    "retrieved": "2026-09-24T17:07:36.989Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498eze",
+    "name": "BG XXI",
+    "file": "top-answer-498eze.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/57a0bb8e-e92e-4549-94c7-757450632cfb.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "27266782892e78c4763609fbced637d1a7b0d7be9bfd26250ab6860dac86218e",
+    "retrieved": "2026-09-24T17:07:51.581Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498i4q",
+    "name": "Oxblood",
+    "file": "top-answer-498i4q.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5b6dba1e-1daf-455f-b72b-b8ce56ef3da5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "3c023d00dea1ba195f9f16fe8285d06613ba46bc32fa6996156a9af410c7055e",
+    "retrieved": "2026-09-24T17:07:36.953Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498ica",
+    "name": "BG XXII",
+    "file": "top-answer-498ica.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/94ed2bf8-0dcb-4633-9c4f-43bf35756e7d.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "12c6af2acb7e7f88136faf4070b3a661bead779552ed9ad5276d6ef9dc875138",
+    "retrieved": "2026-09-24T17:07:51.729Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498lhm",
+    "name": "Flo-Yellow",
+    "file": "top-answer-498lhm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/db0ddef5-e4b5-40db-93bf-ffce29f0daa4.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "512acc940d9908c977908a72222ddb70e0e6bc64f23becf5c1ce4e2a0c91d990",
+    "retrieved": "2026-09-24T17:07:37.762Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498lp6",
+    "name": "BG XXIII",
+    "file": "top-answer-498lp6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/d4d572dd-28a5-4872-a2b5-bcc1d7db2ea0.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d7d765b2660758ca235dcd812af781923f908cb38c050095154f8811a67dc86e",
+    "retrieved": "2026-09-24T17:07:51.983Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498oui",
+    "name": "Flo-Green",
+    "file": "top-answer-498oui.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/623d7fc2-4745-4e68-acd8-f3cc16938e6a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "39e68de4fd3da6e4632e69eede4e887f98385be3a262676f7b10d6c26318a6cb",
+    "retrieved": "2026-09-24T17:07:37.779Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498p22",
+    "name": "BG XXIV",
+    "file": "top-answer-498p22.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4644e5da-3e71-4ede-ac08-566bfefab59e.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "3e4aadcb1f1c9d119131145651185abc24bb8ddea5111774f39e5c8bea10ec2b",
+    "retrieved": "2026-09-24T17:07:52.144Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498s7e",
+    "name": "Flo-Pink",
+    "file": "top-answer-498s7e.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/0e14b4c0-8958-453e-ab3c-099825bed0d3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "48270b7e6e0f956afbb82d326a99370e42737f823c0686f2e54a83da7e6b5f7b",
+    "retrieved": "2026-09-24T17:07:37.842Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498sey",
+    "name": "BG XXV",
+    "file": "top-answer-498sey.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/fc6f5f55-66bf-453e-bcde-da8625621a73.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "8cab983bea9b8b508637bb01e37ebd44a224bfd616f538153301c9543334c002",
+    "retrieved": "2026-09-24T17:07:51.997Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498vka",
+    "name": "Flo-Blue",
+    "file": "top-answer-498vka.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/1e6b44e7-abfa-42d1-93c1-46b8aa28fcdf.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "568b5c83b72b3367646801f4143ec959e8733842d3eb06313563c42dc85ed7c3",
+    "retrieved": "2026-09-24T17:07:38.172Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498vru",
+    "name": "Cease & Desist XIII",
+    "file": "top-answer-498vru.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/666d1aa1-440d-4c41-b547-7512463b8675.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5ad9908a407e17fbfddf6d4ed32a169c3073bd67ae9664cc2bca3659e13bdcc6",
+    "retrieved": "2026-09-24T17:07:50.002Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-498yx6",
+    "name": "Rooty Pro",
+    "file": "top-answer-498yx6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/e87e3f23-5ea7-4b4f-b8e4-7add1497a4ad.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9d7e52de009da2eb3a8c13d2971fee7c33ee2ea840aff8df2004bbaff43e9b71",
+    "retrieved": "2026-09-24T17:07:40.363Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4992a2",
+    "name": "Mango VI",
+    "file": "top-answer-4992a2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/f48ce037-1a7c-4102-90a2-af7c6fae4626.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "72965ba41ff746ea40671f88840b01a1b61a287bc06b51cd375392d9e33a98bf",
+    "retrieved": "2026-09-24T17:07:45.679Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4995my",
+    "name": "Mango VII",
+    "file": "top-answer-4995my.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/97fc1035-9f77-4759-b6e7-d1fb8d08e0ac.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "08754176b1ece238839dd2f55584b6e15042488cd5639cf55b7dafdc73bf344c",
+    "retrieved": "2026-09-24T17:07:45.722Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4998zu",
+    "name": "Mango VIII",
+    "file": "top-answer-4998zu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/48285f8f-9721-4c09-ab09-75392f30b477.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "3acd40bc20ed648fb5831ac90cc5099191241dfe93139f6b1e3a42516aa90083",
+    "retrieved": "2026-09-24T17:07:46.098Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-499pei",
+    "name": "Woodsman XX",
+    "file": "top-answer-499pei.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/f7ec5ffa-3897-4f71-ba35-8c5c2e76e845.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5296947995a124fcd6bca671e605b94236893e1f80558da08f84a07909ace9b1",
+    "retrieved": "2026-09-24T17:07:54.221Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-499sre",
+    "name": "Woodsman XXI",
+    "file": "top-answer-499sre.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/24750f50-7b2a-489c-80f3-88ef0aa71d80.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "111e5fea8640c138a818b97ff812789b74106355d42864d8ef703381f9bf8f00",
+    "retrieved": "2026-09-24T17:07:54.429Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4c5j4t",
+    "name": "Dazzle Red",
+    "file": "top-answer-4c5j4t.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/631aa1a1f300503c880ce9b8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "99f109aff7edd9a2f17272ecc0b117fa6e532beed95ec448bf30a59ea43ba0eb",
+    "retrieved": "2026-09-24T17:07:41.921Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4c5mhp",
+    "name": "Dazzle Yellow",
+    "file": "top-answer-4c5mhp.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/631aa1f942846fcdbe77666c.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "ed4cbe7fceb5c175e836e6d990cb855da03adb46be33760b731da4b751330f99",
+    "retrieved": "2026-09-24T17:07:42.026Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4c5pul",
+    "name": "Dazzle Blue",
+    "file": "top-answer-4c5pul.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/631aa26df300503c880ced66.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "7e7481d14f3db6a9586d6c061a68e20d2bfd12950c9a1c457b177a0bf91ad8d7",
+    "retrieved": "2026-09-24T17:07:41.982Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4c5t7h",
+    "name": "Dazzle Green",
+    "file": "top-answer-4c5t7h.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/631aa29542846fcdbe7768ad.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d03955b69ba159527eda2ba34edb4f9d5a3029a642ec0ce267ce4dc783bcd853",
+    "retrieved": "2026-09-24T17:07:41.970Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4rbjfg",
+    "name": "Jeffrey XXVI",
+    "file": "top-answer-4rbjfg.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4rbmsc.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "36c5bf4dbe5261ecc5b1b173815df2f6ecc88230854d3ee7eaca096e6d40ba3c",
+    "retrieved": "2026-09-24T17:07:48.671Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xkfut",
+    "name": "Wood CD VI",
+    "file": "top-answer-4xkfut.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xkj7p.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "66a3d6478a09136070e5ed51b11b406c9e322817ce9a5b749fe52caa2380cecf",
+    "retrieved": "2026-09-24T17:07:43.511Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xkpxh",
+    "name": "Wood CD VIII",
+    "file": "top-answer-4xkpxh.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xktad.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "c7115a03f7c2e550ffb15be25f979c2bcc78ed360a2ef930dae6585ee1f55463",
+    "retrieved": "2026-09-24T17:07:43.426Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xkswl",
+    "name": "Wood CD IX",
+    "file": "top-answer-4xkswl.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xkw9h.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "30712cbf153e37802d2e39214864cb962f979e719de3b1b8cb4b017f2fa5c87f",
+    "retrieved": "2026-09-24T17:07:43.595Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xkwut",
+    "name": "Wood Jeffrey XVIII",
+    "file": "top-answer-4xkwut.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xl07p.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "18aba49b25af92d14dc86da20379d0187a39fd0b841b06b82cec81d2366c0705",
+    "retrieved": "2026-09-24T17:07:44.059Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xl2z9",
+    "name": "Wood CD XI",
+    "file": "top-answer-4xl2z9.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xl6c5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "dd7d31689b97b951acc0eb5ff14899f95c7c9c79ea64a6fe24c19c27be5e1f2f",
+    "retrieved": "2026-09-24T17:07:43.632Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xl6xh",
+    "name": "Wood Caylor I",
+    "file": "top-answer-4xl6xh.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xlaad.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "743ef3275a6daa65517d72865a020edd68dc8b2ebb18faba73d1555d67b93c2c",
+    "retrieved": "2026-09-24T17:07:44.298Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xlget",
+    "name": "Wood BG IV",
+    "file": "top-answer-4xlget.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xljrp.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e1d3b344923471b96ab94898ad685788c65b92336cc07687f7bfb5be42a9c569",
+    "retrieved": "2026-09-24T17:07:43.848Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xlh05",
+    "name": "Wood Wren III",
+    "file": "top-answer-4xlh05.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xlkd1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d1e9502b0b21928694c9b0fe2cc43c41958292a83e037329cbe388179e3ef566",
+    "retrieved": "2026-09-24T17:07:44.241Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xlqhh",
+    "name": "Wood Kartel IV",
+    "file": "top-answer-4xlqhh.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xltud.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a5a4e7c906c19e8fe668fb79bca8d1366fdae4ba69a83253b8986a89f9c8993a",
+    "retrieved": "2026-09-24T17:07:43.867Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xlr2t",
+    "name": "Wood Jeronimo V",
+    "file": "top-answer-4xlr2t.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xlufp.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d6d4e11b85fcade79374eaca1ec1dd0a302c7dd0f4f820f1eb39cc3d823578e4",
+    "retrieved": "2026-09-24T17:07:44.405Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xm0k5",
+    "name": "Wood Kartel V",
+    "file": "top-answer-4xm0k5.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xm3x1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "10ebadf889b1674e7721da3fa03f5e2efadf606593fcc2f53fcd0d45401aaf04",
+    "retrieved": "2026-09-24T17:07:44.189Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xm15h",
+    "name": "Wood Rattlecan",
+    "file": "top-answer-4xm15h.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xm4id.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "0c54d169bc25efb31e5e1dbe4110ff0e44a403229f3795896f61d7ad2a6a8efc",
+    "retrieved": "2026-09-24T17:07:44.456Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xm4px",
+    "name": "Wood Sleet",
+    "file": "top-answer-4xm4px.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xm82t.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "712fd9cbc413f99d1bee7e6abe45aacf1e09d51527271525116d05a4c32abdc4",
+    "retrieved": "2026-09-24T17:07:44.900Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xmamt",
+    "name": "Wood Kartel IX",
+    "file": "top-answer-4xmamt.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xmdzp.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d05adf8f1eabd3c1fa24a9efa75d81e1dc69a3c940793c34c56052c1916519b9",
+    "retrieved": "2026-09-24T17:07:44.030Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xmb85",
+    "name": "Wood Botanical",
+    "file": "top-answer-4xmb85.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xm7hh.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "af713f76f85ab032c8e1b7339b7af725d0369dd08b77a70e9b0fa86e452bd862",
+    "retrieved": "2026-09-24T17:07:44.785Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xme79",
+    "name": "Wood Dazzle Camo",
+    "file": "top-answer-4xme79.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xmhk5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d2686007993c437d3098d0e1db338e77aa800a27db2edf0e7460d59002dd7cf7",
+    "retrieved": "2026-09-24T17:07:44.700Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xmo9x",
+    "name": "Wood Cow",
+    "file": "top-answer-4xmo9x.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xmrmt.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "95a8ad29cbe134057ea52facfba3d8a2b5665c50d90643da5667e6f8eec0e2fb",
+    "retrieved": "2026-09-24T17:07:44.710Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xmycl",
+    "name": "Wood Duck Camo",
+    "file": "top-answer-4xmycl.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xn1ph.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b5ced0800315b1eb69bdce2059c82f45dd9ee6032ce0987e37a8978c758f0e46",
+    "retrieved": "2026-09-24T17:07:44.798Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xn8f9",
+    "name": "Wood Leopard",
+    "file": "top-answer-4xn8f9.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xnf51.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "ecbe0427649641892133c022c7c175676392a58ff46ef00aa8ac40c67b59cc8d",
+    "retrieved": "2026-09-24T17:07:44.949Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-4xnlut",
+    "name": "Wood Tiger Camo",
+    "file": "top-answer-4xnlut.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/4xnp7p.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "1a449353395935c859e4e567adb3165b72f8156833717450bbee25070b7d62aa",
+    "retrieved": "2026-09-24T17:07:45.637Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-5480hm",
+    "name": "GT Yellow",
+    "file": "top-answer-5480hm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/646d06b598cdd6ec158b4f50.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f4dd90f9f407464a41cdd579bc2818ad909d672e75aebd5fe47e97bc12f2cd04",
+    "retrieved": "2026-09-24T17:07:40.133Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-54877e",
+    "name": "GT Red",
+    "file": "top-answer-54877e.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/646d06dc39217fc206cb4701.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "36186cea02ba2700e6d071dd2fdb084f84d1704654b9712ac44405184a4b8d8d",
+    "retrieved": "2026-09-24T17:07:40.045Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-548aka",
+    "name": "GT Blue",
+    "file": "top-answer-548aka.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/646d071998cdd6ec158b5e67.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "c49c00112f383e73d1ddc448a6e378227da90a6f86fe6797c4ceaf6e5150fe2f",
+    "retrieved": "2026-09-24T17:07:40.342Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-548dx6",
+    "name": "GT Pink",
+    "file": "top-answer-548dx6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/646d072a98cdd6ec158b65c7.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f8d25a2ad323bb2867c20672746d7645bd63d06af1d3505969595024efc90671",
+    "retrieved": "2026-09-24T17:07:40.136Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-54jdi8",
+    "name": "Manus Dei I",
+    "file": "top-answer-54jdi8.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/6283f0062f5058001129369d.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f358ac9ecec4e613ea00f0b2f53671574e467462aacbe59e7adad4e09c91b2f3",
+    "retrieved": "2026-09-24T17:07:41.080Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-5d574i",
+    "name": "Leopard",
+    "file": "top-answer-5d574i.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627f2749790c7b001125ef30.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "91fe0a616001d76928f205ef072b029074b14fdb16a35ca739860f3c23033800",
+    "retrieved": "2026-09-24T17:07:42.887Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-5d5ahe",
+    "name": "Red Leopard",
+    "file": "top-answer-5d5ahe.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627f2755790c7b001125ef31.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5a0628d0dd099aa4e78386d2df9f2a3756965672973671552b965a4c3611e02a",
+    "retrieved": "2026-09-24T17:07:43.056Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-5d5h76",
+    "name": "Point Break Dawn",
+    "file": "top-answer-5d5h76.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627f2783790c7b001125ef32.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "64cb78da0906694e163a50eab28400f6085726c0801496313b2767e459d8b851",
+    "retrieved": "2026-09-24T17:07:40.870Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-5d5kk2",
+    "name": "Desert Tiger",
+    "file": "top-answer-5d5kk2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627f27944d101a00110f0a7c.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "6afa8f8f60a492306ad758ad712585c0b237918bbf2f40dbf7e176d3b859ff3c",
+    "retrieved": "2026-09-24T17:07:42.443Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-5ifaxr",
+    "name": "Oski GT Pro",
+    "file": "top-answer-5ifaxr.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/62eb180c1b465e39e2294d2a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e6aebe88368ffc0d25d35ddd505ccce2b72aa35c26b67c553fd410442d3a67df",
+    "retrieved": "2026-09-24T17:07:39.975Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-5ifean",
+    "name": "Jeffrey XVIII",
+    "file": "top-answer-5ifean.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/62eb187ceaf3a3b802427bd8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "2b1ff23443b0ee613ffe5671cc2d5a1d09bc8758382d49d217b01f6393b10a4c",
+    "retrieved": "2026-09-24T17:07:47.947Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6comay",
+    "name": "Jeffrey XIX",
+    "file": "top-answer-6comay.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/64e03f411dafecde70cdd0fb.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "977e760c2222dd236993a44d814901d2510b8b345cd0232a2338aca5a6c3a15a",
+    "retrieved": "2026-09-24T17:07:48.070Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6copnu",
+    "name": "Jeffrey XX",
+    "file": "top-answer-6copnu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/64e03f731dafecde70cdd34f.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d313a85d5636519c973719c4898c4f107e501dac28c40df14a6557393b0cc7d3",
+    "retrieved": "2026-09-24T17:07:48.133Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6cot0q",
+    "name": "Jeffrey XXI",
+    "file": "top-answer-6cot0q.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/64e03f8dda4b7861c185f53f.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "90bd6b624eaf264b4586345b2ecb027eec42f9b4a2a99b1d66b9dba7cd68a24b",
+    "retrieved": "2026-09-24T17:07:48.271Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6dq2vn",
+    "name": "Rattlecan Green",
+    "file": "top-answer-6dq2vn.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66563f7970e1e395229c74bc.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9e9928dd8e229ac6f04a576ed5b6f574bd7c64d33e88ca2052a690d8983a59bb",
+    "retrieved": "2026-09-24T17:07:39.183Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6dq68j",
+    "name": "Rattlecan Red",
+    "file": "top-answer-6dq68j.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66563f8270e1e395229c774f.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "270611970093733bf1b3b25c08850801b6924cecc769ebb8e8cb97b0a92607c3",
+    "retrieved": "2026-09-24T17:07:39.201Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6dq9lf",
+    "name": "Rattlecan White",
+    "file": "top-answer-6dq9lf.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66563f5c9d03e0779bcbd965.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "0667a4c6ffcccbd4f6502e63274c66e5f08e73a38ec2f2415e9d9ffe82c880a9",
+    "retrieved": "2026-09-24T17:07:38.875Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6dqcyb",
+    "name": "Rattlecan Yellow",
+    "file": "top-answer-6dqcyb.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66563f7070e1e395229c708d.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "18d2cbf777603174128e6eb629185d0435344afd59624c7fa627d2fe2a169dcb",
+    "retrieved": "2026-09-24T17:07:39.202Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-6dqgb7",
+    "name": "Rattlecan Blue",
+    "file": "top-answer-6dqgb7.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66563f65d3bbd2ee41d1790a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "36167c6949d77ef5364b9c24069f94d57dd8eba043bf8a45ecaf0a34b41c2872",
+    "retrieved": "2026-09-24T17:07:39.017Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-70hi3o",
+    "name": "Crushin' Cans",
+    "file": "top-answer-70hi3o.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/60e76f36737d2b0011443b88.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a14303f8229f95ea83cf7cb4632bc39594a9b274e3676507657b922896e17668",
+    "retrieved": "2026-09-24T17:07:41.381Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7dollk",
+    "name": "Mango Shine",
+    "file": "top-answer-7dollk.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/616f23f1ec24dd001120596e.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "112b1987d32c3c68b732b437d158ea7f6216ad8174d10866af64eebf2acab7e0",
+    "retrieved": "2026-09-24T17:07:40.675Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7n31c1",
+    "name": "Concept Camo",
+    "file": "top-answer-7n31c1.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/6655599a2796789f44d4470e.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a9aec200af88f7af50d1db0110902d301b616f25de1ee1151fc07364663e45f7",
+    "retrieved": "2026-09-24T17:07:39.304Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7n4igx",
+    "name": "BG IV",
+    "file": "top-answer-7n4igx.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/665553f741cdda2b365177cd.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "7c2d0717f62cbcf0e5e421dd426a7830547c2ba8373cf163a9ad02093d1e6850",
+    "retrieved": "2026-09-24T17:07:50.033Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7n4ltt",
+    "name": "BG V",
+    "file": "top-answer-7n4ltt.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66555442f01f4c60afebaba8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "54c99f88dd6b800aadaf3a02fbd0d869ae7ccaa4a45ac3170f25ef8b99e6de3f",
+    "retrieved": "2026-09-24T17:07:50.233Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7n4p6p",
+    "name": "Great Scott",
+    "file": "top-answer-7n4p6p.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/665558be2796789f44d42170.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e911852665af28139330850342b9d659307d509f1b85b6b8ba8fdf6142b34092",
+    "retrieved": "2026-09-24T17:07:48.999Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7xuniz",
+    "name": "Woodsman XV",
+    "file": "top-answer-7xuniz.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/65384f61a5816e3e0943718c.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "ee1c7542fd0e291fcf1ba5a40bcbceb61b19af0bdffa9ebabc4dcc5e71eaf66f",
+    "retrieved": "2026-09-24T17:07:53.808Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-7xuqvv",
+    "name": "Woodsman XVI",
+    "file": "top-answer-7xuqvv.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/65384f7c67e43e121c37f131.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "40709d8c7c081ab1f39b9cfe3eb7e5540c02975b6a179aaa878ba75c5a118244",
+    "retrieved": "2026-09-24T17:07:53.967Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8e4xn2",
+    "name": "Wild Lion",
+    "file": "top-answer-8e4xn2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/8e50zy.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e156f0e56996304921966dc18ecd2d26c5ba17d0131a1dd95a55bf6057b1416a",
+    "retrieved": "2026-09-24T17:07:38.795Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k2kgi",
+    "name": "Mango II",
+    "file": "top-answer-8k2kgi.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee083790c7b001125ec96.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "ed53f497fb8ef1709413a4e3543d9a7eef944d99919f778cd0fb31dccdac1945",
+    "retrieved": "2026-09-24T17:07:45.390Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k2nte",
+    "name": "Filthy Rich I",
+    "file": "top-answer-8k2nte.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee08d790c7b001125ec97.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "bb328f9d6e35b7486e98ee8dcee7fea19cdc2d968bfdcb3506cbf600955d64cb",
+    "retrieved": "2026-09-24T17:07:45.795Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k2r6a",
+    "name": "Filthy Rich III",
+    "file": "top-answer-8k2r6a.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee09f790c7b001125ec9a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "43727af47c969b11a32889926bf815e4ce4ce527ca93e73f0aa80b17507eb78e",
+    "retrieved": "2026-09-24T17:07:46.061Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k2uj6",
+    "name": "Filthy Rich V",
+    "file": "top-answer-8k2uj6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee0a84d101a00110f0787.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a2817b46c4968cf3af1021ccd368d2ee1fd40efaa4edd5677b3dc064c1866c36",
+    "retrieved": "2026-09-24T17:07:46.184Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k2xw2",
+    "name": "Kartel IV",
+    "file": "top-answer-8k2xw2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee0b4790c7b001125ec9b.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "8fe798fbcb72d58ad9927abaab5bdfd279517f6986c379f4841f408b5593f85f",
+    "retrieved": "2026-09-24T17:07:45.993Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k318y",
+    "name": "Kartel V",
+    "file": "top-answer-8k318y.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee0c14d101a00110f0788.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "32a6cc2d62b9a1b8083a0902febd8e2bfc65bd87273668973dd04e5f58f8a895",
+    "retrieved": "2026-09-24T17:07:46.258Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k34lu",
+    "name": "Kartel VI",
+    "file": "top-answer-8k34lu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee0cc790c7b001125ec9e.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "c47532ea503cf798cbdaf235b0e1d339cb84ec1d6aa2576ea32695e392db5c0b",
+    "retrieved": "2026-09-24T17:07:46.474Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k37yq",
+    "name": "Kartel VII",
+    "file": "top-answer-8k37yq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee1a7790c7b001125eca5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "6578dbd236d71cfa7e7c4fa9e6588e0ecaa34f48993f9405d983ecc41697d75e",
+    "retrieved": "2026-09-24T17:07:46.607Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3bbm",
+    "name": "Kartel VIII",
+    "file": "top-answer-8k3bbm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee24a790c7b001125ecad.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "67562776df7835c947534e7fd27c8d1bc85cb644eb35fbf51474474c5709e9c6",
+    "retrieved": "2026-09-24T17:07:46.640Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3bj6",
+    "name": "BG III",
+    "file": "top-answer-8k3bj6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3b94d101a00110f07aa.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "40a868c0c99314b6b40089c39578a2dac9260771d12cb733913db35b46b45f8f",
+    "retrieved": "2026-09-24T17:07:49.841Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3eoi",
+    "name": "Kartel IX",
+    "file": "top-answer-8k3eoi.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee1e44d101a00110f078f.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b5795c5ad07872eb9a86125ff4ee5e9503330175c7f014e15836653228b47f4f",
+    "retrieved": "2026-09-24T17:07:46.524Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3ew2",
+    "name": "BG VII",
+    "file": "top-answer-8k3ew2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3c24d101a00110f07ab.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5628cbba2e09f76ac6778a34272d58a491ceeea2c54838ba4fe7dd103550eabc",
+    "retrieved": "2026-09-24T17:07:50.534Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3f9u",
+    "name": "Cease & Desist XII",
+    "file": "top-answer-8k3f9u.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3ae4d101a00110f07a9.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a5ff380c1f937a5a674ee8fbc32812934eddd0bf00034ea4704108ecdb19e858",
+    "retrieved": "2026-09-24T17:07:50.185Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3i1e",
+    "name": "Kartel X",
+    "file": "top-answer-8k3i1e.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee265790c7b001125ecae.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "db2a3a00a1d263b6c03c96f6bb9811b4d629ac1ad0a756bb9904ffc5ab71f4f1",
+    "retrieved": "2026-09-24T17:07:46.681Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3i8y",
+    "name": "BG VIII",
+    "file": "top-answer-8k3i8y.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3c94d101a00110f07ae.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "cc728f9266d7112d84b9fb8cb89c256599416d0a34be2033b3cb5f778747aafd",
+    "retrieved": "2026-09-24T17:07:50.471Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3lea",
+    "name": "Kartel XI",
+    "file": "top-answer-8k3lea.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee2794d101a00110f0790.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "4ffca3fbf8b93c87176415c240fe03e5531579d2334991310e1b4d41bb663b55",
+    "retrieved": "2026-09-24T17:07:46.877Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3llu",
+    "name": "BG IX",
+    "file": "top-answer-8k3llu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3d1790c7b001125ecc9.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d6457c3851feb71e4c057be3e344e42aaab16ff8ba33121726ddbeda26317e67",
+    "retrieved": "2026-09-24T17:07:50.503Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3or6",
+    "name": "Kartel XII",
+    "file": "top-answer-8k3or6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee286790c7b001125ecaf.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "3fa30d66da09d2fa0e51efe531024196b37f1cf8b177d416fd4e0ca846bc6f46",
+    "retrieved": "2026-09-24T17:07:46.889Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3oyq",
+    "name": "BG X",
+    "file": "top-answer-8k3oyq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3d94d101a00110f07af.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "610eec492deff0f7f57ba73e132dba22dfd4272052e85a67d8a50067a5b1aecb",
+    "retrieved": "2026-09-24T17:07:50.638Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3s42",
+    "name": "Mag II",
+    "file": "top-answer-8k3s42.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee8f24d101a00110f07e3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9e7a58fd3f3390dbdec645c691cbe0ae69b0cdc570ff8a2c1c7dd67c82bb684e",
+    "retrieved": "2026-09-24T17:07:56.152Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3sbm",
+    "name": "BG XI",
+    "file": "top-answer-8k3sbm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3e1790c7b001125eccd.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "1c1f23da829592d16624dfaafac44d14bae7126183c0acfc3cc1437e174d92dc",
+    "retrieved": "2026-09-24T17:07:50.767Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3vgy",
+    "name": "Kartel XIII",
+    "file": "top-answer-8k3vgy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee290790c7b001125ecb1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "4a866d045f09fc2a78f803a9fbac7450507ef20cb2907fea279250652024ecb2",
+    "retrieved": "2026-09-24T17:07:47.031Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3voi",
+    "name": "BG XII",
+    "file": "top-answer-8k3voi.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3e8790c7b001125ecce.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "cc60a93ff2b0583f05aac5f4f68b711888002603bdcce0090a39f354c1403880",
+    "retrieved": "2026-09-24T17:07:50.898Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3ytu",
+    "name": "Jeffrey VIII",
+    "file": "top-answer-8k3ytu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee2ab4d101a00110f0796.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "3ae814914da9b2d94be7dfc416ee1cf7690634e2c2f42525c493d369d75d5458",
+    "retrieved": "2026-09-24T17:07:47.029Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k3z1e",
+    "name": "BG XIII",
+    "file": "top-answer-8k3z1e.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee401790c7b001125eccf.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "2f30c51c9f709a8c2fe55629f5d13f1e951f3afcf4c91c7f073a785b610a9559",
+    "retrieved": "2026-09-24T17:07:50.938Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k426q",
+    "name": "Jeffrey IX",
+    "file": "top-answer-8k426q.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee2be790c7b001125ecb3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "0a77fc335a2cb37f82b4a17e33b71afb4bd32edef90034b5b8658ea371fa9659",
+    "retrieved": "2026-09-24T17:07:47.111Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k42ea",
+    "name": "BG XIV",
+    "file": "top-answer-8k42ea.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee40e790c7b001125ecd0.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9ebe7e72f78f1a99d4c4f405b41d55de93f329bd05a474d8c5ed2e5238c9ac60",
+    "retrieved": "2026-09-24T17:07:51.006Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k45jm",
+    "name": "Jeffrey X",
+    "file": "top-answer-8k45jm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee2ca790c7b001125ecb4.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d00c1b2e9afac1c7090e762c29ccf42fa1c893fa4a80c93fffc2cc414ee697a2",
+    "retrieved": "2026-09-24T17:07:47.281Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k45r6",
+    "name": "BG XV",
+    "file": "top-answer-8k45r6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee4184d101a00110f07b2.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "7c1aae3533e4fc6d51e29e6ef6713386e345931a6f1aa5c6eda6911504929953",
+    "retrieved": "2026-09-24T17:07:51.216Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4942",
+    "name": "BG XVI",
+    "file": "top-answer-8k4942.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee4234d101a00110f07b3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "c78732ec3c61b25412eb51344a9406745ca1e5ee136c0ac2f0578ff385753688",
+    "retrieved": "2026-09-24T17:07:51.161Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4c9e",
+    "name": "Jeffrey XVI",
+    "file": "top-answer-8k4c9e.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee352790c7b001125ecc3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "30a92ec10d963c8076c5a5b1067f05ce901d93a3787d70cbc9a52a6b334f3ed4",
+    "retrieved": "2026-09-24T17:07:47.853Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4cgy",
+    "name": "BG XVIII",
+    "file": "top-answer-8k4cgy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee42c790c7b001125ecd1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "3ba506b66a557746045c74a89d41ae5c2ddf41b73aa313bae8bd4f4d4395efc8",
+    "retrieved": "2026-09-24T17:07:51.252Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4fma",
+    "name": "Jeffrey XVII",
+    "file": "top-answer-8k4fma.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee35d790c7b001125ecc5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "c84d71f1757eeed0cfd6137c936512e1e43fc7b52d583a5e3fb288a5e93f821e",
+    "retrieved": "2026-09-24T17:07:47.872Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4ftu",
+    "name": "Jmo III",
+    "file": "top-answer-8k4ftu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee43c790c7b001125ecd2.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9a77282c8075c0f05722f4ae1249facc79dfa254a7727961fdeba17aeaef43f5",
+    "retrieved": "2026-09-24T17:07:52.180Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4iz6",
+    "name": "Cease & Desist III",
+    "file": "top-answer-8k4iz6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3664d101a00110f07a3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "93fef9bfa1bbcacdb0fd091013a7034b097ec5304bdf252f3d2a1ac4a3c94ba1",
+    "retrieved": "2026-09-24T17:07:49.561Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4j6q",
+    "name": "Jmo V",
+    "file": "top-answer-8k4j6q.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee4474d101a00110f07b6.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b6512bf5e6d21fc3af84fec53222c7e9031254783ce15bdbfab1b861239e3116",
+    "retrieved": "2026-09-24T17:07:52.381Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4mc2",
+    "name": "Cease & Desist VI",
+    "file": "top-answer-8k4mc2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3704d101a00110f07a4.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "628c0f265f1d391324af2023385c073d92d4d8000d7a49c9b5fe578133890481",
+    "retrieved": "2026-09-24T17:07:49.193Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4mjm",
+    "name": "Caylor I",
+    "file": "top-answer-8k4mjm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee455790c7b001125ecd3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "04fa56080ddc7b5a97f5fc2194bef4e992faa2b5ca29c1f1435ce29ea04dc818",
+    "retrieved": "2026-09-24T17:07:52.401Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4poy",
+    "name": "Cease & Desist VII",
+    "file": "top-answer-8k4poy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee37a4d101a00110f07a5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "619819ddd9b78609b46fe2c3fce152729d39596f1ade776a985b08375a3ee8da",
+    "retrieved": "2026-09-24T17:07:49.483Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4pwi",
+    "name": "Caylor III",
+    "file": "top-answer-8k4pwi.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee4604d101a00110f07b8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e192209f0b460c6c2a4aa2faeebdb918e67d176377e5796a0088f36011fbed55",
+    "retrieved": "2026-09-24T17:07:52.747Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4q42",
+    "name": "Wrenegade XII",
+    "file": "top-answer-8k4q42.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee7c5790c7b001125ecf8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "4c47c397ac0f96fbeec4ef2751326c3ff8978f9f4fa1ab3b2d3bdff6ddae3901",
+    "retrieved": "2026-09-24T17:07:54.957Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4t1u",
+    "name": "Cease & Desist VIII",
+    "file": "top-answer-8k4t1u.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3874d101a00110f07a6.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "8f447da4cfbdd0e1191569e9feda68654d50cae947b1350be67d8db71d2d27a0",
+    "retrieved": "2026-09-24T17:07:49.541Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4tgy",
+    "name": "Wrenegade XIII",
+    "file": "top-answer-8k4tgy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627efe754d101a00110f08c1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "318018f3d111eedf6b5adde4f12133cf25126863329fb1af89061d77de4f8a55",
+    "retrieved": "2026-09-24T17:07:54.940Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4tuq",
+    "name": "Wrenegade XI",
+    "file": "top-answer-8k4tuq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee7bc4d101a00110f07cf.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "c010bd8febcccbe34b427c499078228b44e73368b56ffe7fdbb764c1aeddffc4",
+    "retrieved": "2026-09-24T17:07:54.915Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4weq",
+    "name": "Cease & Desist IX",
+    "file": "top-answer-8k4weq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3924d101a00110f07a7.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "84bec3e02da565e2f9f44a1a8d0c168eacd80bc99657fd0463e7c56373b36249",
+    "retrieved": "2026-09-24T17:07:49.546Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4wtu",
+    "name": "Wrenegade XIV",
+    "file": "top-answer-8k4wtu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627f01ff4d101a00110f08e8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e2188c7a2cd368ac198a60433f211f320a03c6e59015dde5beb822b2934c8416",
+    "retrieved": "2026-09-24T17:07:55.184Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k4zrm",
+    "name": "Cease & Desist X",
+    "file": "top-answer-8k4zrm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee39b790c7b001125ecc8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f39e3fece946cb34143922cd962de69c23133d71dff32a6865ba2d3931424372",
+    "retrieved": "2026-09-24T17:07:49.610Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k506q",
+    "name": "Wrenegade XV",
+    "file": "top-answer-8k506q.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee7e1790c7b001125ecfa.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9e229e71243714328a87c251173587d3f5af1efa08c7dfa17736bbf950eeb4a5",
+    "retrieved": "2026-09-24T17:07:55.570Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k534i",
+    "name": "Cease & Desist XI",
+    "file": "top-answer-8k534i.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3a64d101a00110f07a8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "ffab83ee8c27b3c7e1acdcbbeccb59d1d72f47405070266c3d1bdada17698208",
+    "retrieved": "2026-09-24T17:07:50.057Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k53jm",
+    "name": "Wrenegade XVI",
+    "file": "top-answer-8k53jm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee8124d101a00110f07d7.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "06da1d7afd150296b4177531aca9d6ce837970441677b9588c7fce3b5ca207f0",
+    "retrieved": "2026-09-24T17:07:55.127Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k56wi",
+    "name": "Wrenegade XVII",
+    "file": "top-answer-8k56wi.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee81c790c7b001125ecfb.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "57061e43d4afefa3efd7d65f87bd546273b5dccafb5a68154e557f51e83cab85",
+    "retrieved": "2026-09-24T17:07:55.142Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5a1u",
+    "name": "Woodsman I",
+    "file": "top-answer-8k5a1u.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee4a6790c7b001125ecd7.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "7c732c64374ec4981a79a6340c8505cb38717486f391cad5456d228f1b7468ff",
+    "retrieved": "2026-09-24T17:07:52.561Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5a9e",
+    "name": "Wrenegade XVIII",
+    "file": "top-answer-8k5a9e.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee8254d101a00110f07d8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "dc37b623a08403f97da6ca52a2ed9956b55ab3a18a90f8f04c77b614d6c2330e",
+    "retrieved": "2026-09-24T17:07:55.329Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5deq",
+    "name": "Woodsman II",
+    "file": "top-answer-8k5deq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee4b0790c7b001125ecd8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f10397290ebd66941ca63dc6497f61ae304191dcad6edbdb0fa7d684b79f3dfd",
+    "retrieved": "2026-09-24T17:07:52.647Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5dma",
+    "name": "Wrenegade XIX",
+    "file": "top-answer-8k5dma.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee831790c7b001125ecfc.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "09621f7717450b1c201661fdc49f6c4693cb4274fb00b0b946f0c93becce0b51",
+    "retrieved": "2026-09-24T17:07:55.578Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5grm",
+    "name": "Woodsman III",
+    "file": "top-answer-8k5grm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee4b7790c7b001125ecd9.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "53c26f2b012f74218d49f98e15b2507c04d06d5829dfae9a00ba3c75b072e8b7",
+    "retrieved": "2026-09-24T17:07:52.817Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5gz6",
+    "name": "Wrenegade XX",
+    "file": "top-answer-8k5gz6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee8394d101a00110f07d9.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "36e22e0706ad9dfb0c4a919e0d668c91268ed1f0cf9639a9c0f69968272ed3b0",
+    "retrieved": "2026-09-24T17:07:55.480Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5k4i",
+    "name": "Woodsman IV",
+    "file": "top-answer-8k5k4i.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee6384d101a00110f07c1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "ea96cfbb86319e4c8abfb7986538939c379a36b64f65fb89b614587d5e867cf3",
+    "retrieved": "2026-09-24T17:07:52.827Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5kc2",
+    "name": "Wrenegade XXI",
+    "file": "top-answer-8k5kc2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee8424d101a00110f07da.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "70637af27d2da4c0cb6fb3a6408f98af46fcf464488b63acf978a203f70bb9c1",
+    "retrieved": "2026-09-24T17:07:55.695Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5nhe",
+    "name": "Woodsman V",
+    "file": "top-answer-8k5nhe.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee6c0790c7b001125ece4.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "ee303f4b1f5b3d4ee98023748ddc8f26ce0cae3d16757da49229703bcfc5f438",
+    "retrieved": "2026-09-24T17:07:52.957Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5noy",
+    "name": "Wrenegade XXII",
+    "file": "top-answer-8k5noy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee84a4d101a00110f07db.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "124d7c10dfefd48b7d7e600fd135d7cf0a95365642ccbe00c449c5c658d05b3b",
+    "retrieved": "2026-09-24T17:07:55.543Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5qua",
+    "name": "Woodsman VI",
+    "file": "top-answer-8k5qua.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee6cf790c7b001125ece5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b0df8cd0e1489ee9c0cb5ddb1a379340df77037528194148d8c2138afc56e784",
+    "retrieved": "2026-09-24T17:07:53.116Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5r1u",
+    "name": "Wrenegade XXIII",
+    "file": "top-answer-8k5r1u.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee856790c7b001125ecfd.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "6d9d655c239c91b4df06001545ac32b7d1d2fe46bee743fcde33dcbb2ab3bf75",
+    "retrieved": "2026-09-24T17:07:55.819Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5u76",
+    "name": "Woodsman VII",
+    "file": "top-answer-8k5u76.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee6e4790c7b001125ece8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "a87da44fcd1a5bf7260a29ef370d4177b160fcc12a398421ffd2099d3f0b5f11",
+    "retrieved": "2026-09-24T17:07:53.233Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5ueq",
+    "name": "Wrenegade XXIV",
+    "file": "top-answer-8k5ueq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee85f4d101a00110f07dc.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "cc9595021b37e2eeffeca417b2d8d13f98c8d027df9ac8c6decdf7e1277db896",
+    "retrieved": "2026-09-24T17:07:55.733Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5xk2",
+    "name": "Woodsman VIII",
+    "file": "top-answer-8k5xk2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee6ec4d101a00110f07c8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "028f6a4989f7e4569f973d7305c8e981c0ccaf7060f2f3d7a7235bef058ac951",
+    "retrieved": "2026-09-24T17:07:53.254Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k5xrm",
+    "name": "Wrenegade XXV",
+    "file": "top-answer-8k5xrm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee8694d101a00110f07dd.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "aca4199717716a88efaf7f102c1997e70a885603aa5b05be7bff8e649d84c584",
+    "retrieved": "2026-09-24T17:07:55.981Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k60wy",
+    "name": "Woodsman IX",
+    "file": "top-answer-8k60wy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee6f44d101a00110f07c9.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e6419debd032b08fbf5f01e7d7e1f03246379cc2a932e519fed4a6869449fc5a",
+    "retrieved": "2026-09-24T17:07:53.301Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k614i",
+    "name": "Wrenegade XXVI",
+    "file": "top-answer-8k614i.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee871790c7b001125ecfe.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e725f2b54b9be4e0850a80d08dfe0c671b66ccb9e00d3bafb41adca5ed18b932",
+    "retrieved": "2026-09-24T17:07:55.791Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k649u",
+    "name": "Woodsman X",
+    "file": "top-answer-8k649u.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee6ff790c7b001125eceb.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "bbcc87292c728c0c64aeaaebc80ad6bc08f02e7bc380a2cfcb6f93eaddabd358",
+    "retrieved": "2026-09-24T17:07:53.323Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k64he",
+    "name": "Mag III",
+    "file": "top-answer-8k64he.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee8fc790c7b001125ed04.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "82167e86928f257ba0699f093f72f895ecc8fb6873c3519219458b612d997cc4",
+    "retrieved": "2026-09-24T17:07:56.214Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k67mq",
+    "name": "Woodsman XI",
+    "file": "top-answer-8k67mq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee70a4d101a00110f07ca.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "1b0fcf5a28f4d6638378690598f12042d3e4f9fa608232f8836c2e396bc1e65d",
+    "retrieved": "2026-09-24T17:07:53.554Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k67ua",
+    "name": "Mag IV",
+    "file": "top-answer-8k67ua.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee905790c7b001125ed05.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "72d94f0a15f66a311cb678cb754bffd55eef0a003e74a856666b8d7ab87013f7",
+    "retrieved": "2026-09-24T17:07:56.421Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k6azm",
+    "name": "Woodsman XII",
+    "file": "top-answer-8k6azm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee719790c7b001125ecec.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "11719c9e078a6249cf647e3b3fffab7272e7f98a2df198312e1357958b064474",
+    "retrieved": "2026-09-24T17:07:53.715Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k6b76",
+    "name": "Mag V",
+    "file": "top-answer-8k6b76.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee90e4d101a00110f07e6.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "741256ab6656430c38f779add5f1d775969a940726302fc9d08804ccd483c129",
+    "retrieved": "2026-09-24T17:07:56.236Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k6eci",
+    "name": "Wrenegade III",
+    "file": "top-answer-8k6eci.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee79a790c7b001125ecf4.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "deef0e61124b4515ab10d8da5329b6a5a0d3e4153b95b0c0976ef1150d163fbb",
+    "retrieved": "2026-09-24T17:07:54.536Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k6ek2",
+    "name": "Mag VI",
+    "file": "top-answer-8k6ek2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee9324d101a00110f07e7.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "8a3b47e56a3d8381535cdd253677037e71f3388803db3aadcd274f2ac950fe50",
+    "retrieved": "2026-09-24T17:07:56.489Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k6hpe",
+    "name": "Wrenegade X",
+    "file": "top-answer-8k6hpe.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee7b14d101a00110f07ce.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "dd62b41ee7fffa7c9fd26adbcc379db17d5e5e45f20f23b029216ef10560959b",
+    "retrieved": "2026-09-24T17:07:54.841Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k6hwy",
+    "name": "Mag VII",
+    "file": "top-answer-8k6hwy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee93b790c7b001125ed0a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d43d1394e83586a4ed3616aca70f4994177f808e10bb5ffd0ea9acf7e00a9045",
+    "retrieved": "2026-09-24T17:07:56.564Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k6l9u",
+    "name": "Mag VIII",
+    "file": "top-answer-8k6l9u.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee9444d101a00110f07e8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "58f93b8d12922c631a520697195e9bff318cdd9a25b789f1058063057fc7fea1",
+    "retrieved": "2026-09-24T17:07:56.438Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k6omq",
+    "name": "Steeple V",
+    "file": "top-answer-8k6omq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee96c4d101a00110f07e9.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "4b02cef22dd83bc1c569c1e8753a6ec19398ee08edc66b64b5b10cc455b1ecf3",
+    "retrieved": "2026-09-24T17:07:56.715Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k6rzm",
+    "name": "Steeple VI",
+    "file": "top-answer-8k6rzm.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee9754d101a00110f07ea.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "47e818c3ff5aa0b56ee8809fafeb6f5fd49b38db86d2ad5b4f0692c21a5ef0bc",
+    "retrieved": "2026-09-24T17:07:56.920Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k6vci",
+    "name": "Steeple VII",
+    "file": "top-answer-8k6vci.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee97e4d101a00110f07eb.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "0afeaecf237bfad701b0ad9db75331c7ac333a53942d19f866ce03718ecb8e46",
+    "retrieved": "2026-09-24T17:07:56.934Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k6ype",
+    "name": "Steeple VIII",
+    "file": "top-answer-8k6ype.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee986790c7b001125ed13.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "906082cf12be0547933d704c1f7a10e0a849f2da998a2b52c793880fc4f17d24",
+    "retrieved": "2026-09-24T17:07:56.830Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k722a",
+    "name": "Jessie IV",
+    "file": "top-answer-8k722a.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee9a14d101a00110f07f1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d20af249bdf515efa1deeaaf61191cf2a73a47c8bbd7fe446d5dc98fa89c0b1b",
+    "retrieved": "2026-09-24T17:07:57.092Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k75f6",
+    "name": "Jessie V",
+    "file": "top-answer-8k75f6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee9a94d101a00110f07f3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "215267cbc868379676f067e0459cb757becfe0527b00b510beedca7a285e85e4",
+    "retrieved": "2026-09-24T17:07:57.107Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k78s2",
+    "name": "Jessie VI",
+    "file": "top-answer-8k78s2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627eea0b4d101a00110f07f4.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5e086df7c7ea2b585a3723124fb16267032472ff3b1e6ebd20e796ed0aef013f",
+    "retrieved": "2026-09-24T17:07:57.253Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k7c4y",
+    "name": "Jessie VII",
+    "file": "top-answer-8k7c4y.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627eea1b4d101a00110f07f5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "284d58aea15a10c7f61a5ce7506da325b299db0285dd68fc4b3cd96b476c6b4c",
+    "retrieved": "2026-09-24T17:07:57.343Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k7fhu",
+    "name": "Jessie VIII",
+    "file": "top-answer-8k7fhu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627eeb634d101a00110f0805.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "6c4e33abae45ca8b11dc6e61ed09a775db8315698d25a7c2351ffe9d638b2208",
+    "retrieved": "2026-09-24T17:07:57.337Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k7iuq",
+    "name": "Jessie IX",
+    "file": "top-answer-8k7iuq.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627eeb6c4d101a00110f0806.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "cb928c9ff3b55ac3b60b64778ccbbbc6b2b864743ce66a00f258ffa3625e2395",
+    "retrieved": "2026-09-24T17:07:57.710Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k7m7m",
+    "name": "Jessie X",
+    "file": "top-answer-8k7m7m.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627eeb73790c7b001125ed37.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "91e3f74cff7ba17f046add3376d7b8b3641aaa20b86dd74159e4240de3577eb6",
+    "retrieved": "2026-09-24T17:07:57.523Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k7pki",
+    "name": "Jessie XI",
+    "file": "top-answer-8k7pki.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627eeb7b4d101a00110f0807.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b128dbf0c0665bd78b38b493c82995aea6e29c874b068faf621edce1bac255bc",
+    "retrieved": "2026-09-24T17:07:57.642Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k7sxe",
+    "name": "Jessie XII",
+    "file": "top-answer-8k7sxe.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627eeb814d101a00110f0808.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "3dcbb4c8b34f540e6511aed7af8588af183e8211fe2fc0925571a587ae8bcc8c",
+    "retrieved": "2026-09-24T17:07:57.761Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8k7waa",
+    "name": "Jessie XIII",
+    "file": "top-answer-8k7waa.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627eeb88790c7b001125ed38.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "ac3dde4e7601c88e480a282bca4f42b876cd24a8028f35527883ada637bcd3c4",
+    "retrieved": "2026-09-24T17:07:57.855Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8sc05x",
+    "name": "Doobski",
+    "file": "top-answer-8sc05x.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/6440720d1cc42e2aa7b68562.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "1da6555a8f722f9ad90723fcf1b248a4c6ba8a1949669dcd8eede4833a93dde2",
+    "retrieved": "2026-09-24T17:07:40.372Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8sc3it",
+    "name": "GT Rasta",
+    "file": "top-answer-8sc3it.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/644072412336901bd553e239.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b91ef6c965cdeef0ffe62c25a0cbaa61476a01741ac3d5109d514740e3bd8ba3",
+    "retrieved": "2026-09-24T17:07:40.401Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8scno5",
+    "name": "Mango I",
+    "file": "top-answer-8scno5.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/64407446cdceccbdfc930283.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "af104a6b974b81b4bf3a61181e7df437f8bbb1f0655a8ebeff9068a5e8042ea3",
+    "retrieved": "2026-09-24T17:07:45.025Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8yo8a2",
+    "name": "Forza Camo 1.0",
+    "file": "top-answer-8yo8a2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/63127d16990950bda532745b.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9d217cb7033b6303d3ec8bd4fbbb3d445d807269f9f9e795cd02680a1ca1d596",
+    "retrieved": "2026-09-24T17:07:42.199Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8yobmy",
+    "name": "Forza Camo 2.0",
+    "file": "top-answer-8yobmy.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/63127da56e6d4d49cdf75197.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "237233f9a57920f813d2c36b4460e01864815d93e1c914c85c3a0bc8af30068e",
+    "retrieved": "2026-09-24T17:07:42.341Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-8yoezu",
+    "name": "Forza Camo 3.0",
+    "file": "top-answer-8yoezu.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/63127dce6e6d4d49cdf7526f.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "593897b4ba9cdcf07a58ebd5536be3551e3d4a521effc21a122754ed046c40c1",
+    "retrieved": "2026-09-24T17:07:42.578Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-967xfw",
+    "name": "Point Break Azul",
+    "file": "top-answer-967xfw.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/6324137ec61fff52be2933da.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "bfae1a8af4c2a133784622cec03e2d99af3e94391a6cdb9aa1e1b54f169b08cb",
+    "retrieved": "2026-09-24T17:07:40.726Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9680ss",
+    "name": "Point Break Algae",
+    "file": "top-answer-9680ss.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/63241409fa548c247f9d8949.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "7b091ae998bea3cb714b1a76847b60c0eefd22829e48368539bfd61573098e80",
+    "retrieved": "2026-09-24T17:07:40.843Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-969hxo",
+    "name": "Point Break Coral",
+    "file": "top-answer-969hxo.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/6324149cc61fff52be293857.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "0f2820ef6a1446d26cfddf603197040a5a7360ab028accaf1e5f44f7c254bc25",
+    "retrieved": "2026-09-24T17:07:40.954Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-97q7n7",
+    "name": "SFTL Blue",
+    "file": "top-answer-97q7n7.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/cbcf0c92-7e62-4647-9b9c-da571575a3f3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "79c9aff31648f942f505f4b903bc2efb046ac5983964fa86fb02c67c89d2ef63",
+    "retrieved": "2026-09-24T17:07:41.205Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-97qb03",
+    "name": "SFTL Green",
+    "file": "top-answer-97qb03.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/9fcb8853-d662-4010-a2d6-ec8efe34e966.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f1a9ccea58bb865aab0c6e51709be26424bda767e51a0b352983685023d0d4a8",
+    "retrieved": "2026-09-24T17:07:41.175Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9eq8pe",
+    "name": "BG XX",
+    "file": "top-answer-9eq8pe.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66e24d5e977a02f1375882e8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "7d293d92d0a65b71281307b8d06c5571bfe3125af090f064cc8baab580555d9c",
+    "retrieved": "2026-09-24T17:07:51.538Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9eqc2a",
+    "name": "Woodsman XVII",
+    "file": "top-answer-9eqc2a.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66e24db99105a8124ab6571d.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "93623b38b9c07e49db9a80d7c9ce599b218af798662ac2157b73a9e89ac5f915",
+    "retrieved": "2026-09-24T17:07:54.069Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9eqff6",
+    "name": "Woodsman XVIII",
+    "file": "top-answer-9eqff6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66e24dd5977a02f13758a93b.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "13bad1df96dd0b282b835a35cfb9129467ebbcfc2e796974c9e386c58d044e21",
+    "retrieved": "2026-09-24T17:07:54.099Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9eqiea",
+    "name": "Jeffrey XXIII",
+    "file": "top-answer-9eqiea.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66e250409105a8124ab7702a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e8198347ba45a0d93308674ea171a1c7920055b9875dc7009441e7f590849013",
+    "retrieved": "2026-09-24T17:07:48.322Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9eqis2",
+    "name": "Woodsman XIX",
+    "file": "top-answer-9eqis2.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66e24df22e5bc9e9728b184a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "5fe73483156264ec3af998369d51252dd0f3faa769fd0905972189ba21ae9bed",
+    "retrieved": "2026-09-24T17:07:54.220Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9eqlr6",
+    "name": "Jeffrey XXIV",
+    "file": "top-answer-9eqlr6.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66e2505c977a02f13759c95a.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "b157f1871d1b21f46d49058a0797bab9f84d90671c6924a21c0b06916689e50d",
+    "retrieved": "2026-09-24T17:07:48.406Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9eqm4y",
+    "name": "Jeffrey XXII",
+    "file": "top-answer-9eqm4y.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66e250129105a8124ab75ec3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "c9782834c3c36ea8394065554a0e6a82d5656bae576a191c11a1d0fc973c352a",
+    "retrieved": "2026-09-24T17:07:48.314Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9eqp42",
+    "name": "Jeffrey XXV",
+    "file": "top-answer-9eqp42.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/66e25088977a02f13759d760.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "370776d608ba84ea3e81a734d332ada0e0a041ebbb72133319a7b62f46f42ad3",
+    "retrieved": "2026-09-24T17:07:48.536Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9fdxwc",
+    "name": "Jeffrey XXX",
+    "file": "top-answer-9fdxwc.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/9fe198.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "812965247a1585e1a210f45e51f8e9524fbe0200e6220f178313e808d119111c",
+    "retrieved": "2026-09-24T17:07:49.019Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9feeos",
+    "name": "Jeffrey XXXI",
+    "file": "top-answer-9feeos.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/9feay4.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "88d831ba88037f5404d7e70d19865af290e42c72bbb9515583f174043e29b346",
+    "retrieved": "2026-09-24T17:07:49.138Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9fel0s",
+    "name": "Jeffrey XXXII",
+    "file": "top-answer-9fel0s.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/9feodo.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "13377fdbd29f1406833236947fed4838fa46c2ac81cdb9663e2f3458cded8eca",
+    "retrieved": "2026-09-24T17:07:48.961Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9qxu51",
+    "name": "Flo-Orange",
+    "file": "top-answer-9qxu51.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/7948a155-deac-4528-ba0a-385595c14ecf.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "ade75c5dc0b15edcd334fcce1732ed319cce4af3b9a5c9f0c90b4757e2fcba6c",
+    "retrieved": "2026-09-24T17:07:38.134Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-9ui80h",
+    "name": "Wild Bear",
+    "file": "top-answer-9ui80h.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/3jsvnm.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "08481840e19b5253e44383d34ab31cca35e9c5a67039a5910f2f25629659634c",
+    "retrieved": "2026-09-24T17:07:38.743Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "ANSWER-a98dd3",
+    "name": "Jeffrey XXVII",
+    "file": "top-answer-a98dd3.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/a98gpz.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "ecbb78f288f107e7607e5488b11e3af64aaaddb9c9a785e96ebc7d13aeb91ad5",
+    "retrieved": "2026-09-24T17:07:49.139Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-0mjgl8",
+    "name": "Green",
+    "file": "top-choice-0mjgl8.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5f501145e6a3210017aa8438.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "146ce7f1fcf2cbc745ae07ae710f4d049f3550125e086f4a48a995d092fc1de7",
+    "retrieved": "2026-09-24T17:07:39.768Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-0mjkbw",
+    "name": "Orange",
+    "file": "top-choice-0mjkbw.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5f501139e6a3210017aa8437.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "571ccc3a470b8313af66beec9f3f67d19dc7447e23a0da3b9f2ed67203bcc6c7",
+    "retrieved": "2026-09-24T17:07:39.590Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-0mjqnw",
+    "name": "Jeffrey XI",
+    "file": "top-choice-0mjqnw.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee2d9790c7b001125ecb5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "6cf39073a0e4b2ea1eb10aa9128d4c72eb1df7320ae8b820f13d7a455135e8fd",
+    "retrieved": "2026-09-24T17:07:47.416Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-0mju0s",
+    "name": "Jeffrey XII",
+    "file": "top-choice-0mju0s.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee2ee790c7b001125ecbb.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "bcf29894651391764dee5a1af59cd38af9a6afec84044d588aa63ef2211a478b",
+    "retrieved": "2026-09-24T17:07:47.441Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-0mjxdo",
+    "name": "Jeffrey XIII",
+    "file": "top-choice-0mjxdo.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee3424d101a00110f07a0.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "924286536da05a88058f0214618ad40f63a7f3ec2192c208f938127bda939a4f",
+    "retrieved": "2026-09-24T17:07:47.520Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-0mk0qk",
+    "name": "Jeffrey XV",
+    "file": "top-choice-0mk0qk.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee30e4d101a00110f079d.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "7525a330e5192ebe72871d9033d561af39b4ba5dd45692fc8e860521f17205e3",
+    "retrieved": "2026-09-24T17:07:47.703Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-0ml518",
+    "name": "Jeffrey XIV",
+    "file": "top-choice-0ml518.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/627ee316790c7b001125ecbe.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9426926c54f47dd2ab9d017bd4fc119e7288a5366437c7f9c4e842009c5d3cb3",
+    "retrieved": "2026-09-24T17:07:47.688Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46j9p5",
+    "name": "White",
+    "file": "top-choice-46j9p5.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa73d2df8c2800107ea682.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "ec56a3040265e6d70d9e96ea72ce2eb44bd8a0644092fbbb64ff711e1de34b8b",
+    "retrieved": "2026-09-24T17:07:38.461Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jd21",
+    "name": "Pink",
+    "file": "top-choice-46jd21.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa73dcc5ec72001739f7c9.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "e6b64ca8b5c370dfca73bbd6fcfc6f5a5ba75b42c642dfefaf84c4e219712e4f",
+    "retrieved": "2026-09-24T17:07:39.382Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jgex",
+    "name": "Teal",
+    "file": "top-choice-46jgex.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa73e7df8c2800107ea683.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "85932c8c01aab40d64554b9aa3efcbaee08c9cc26529db777afffb52653aceca",
+    "retrieved": "2026-09-24T17:07:39.735Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jjrt",
+    "name": "Purple",
+    "file": "top-choice-46jjrt.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa73fac5ec72001739f7ca.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "c9527f2fb5139722156bb9bd0f5754c52c43f24f37a349ff6ee3e525893431e8",
+    "retrieved": "2026-09-24T17:07:39.825Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jn4p",
+    "name": "Yellow",
+    "file": "top-choice-46jn4p.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7401c5ec72001739f7cb.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "9417837f1ed923efe5d52bbd07620f59a73a9f97cc8cfed081a4342da1f0c412",
+    "retrieved": "2026-09-24T17:07:39.629Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jqhl",
+    "name": "Black Eagle",
+    "file": "top-choice-46jqhl.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7419c5ec72001739f7cc.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "377f233d08306b72b3763fc9dcd95d700c2b826e1d77a953405a3600138ac9e6",
+    "retrieved": "2026-09-24T17:07:38.772Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46jtuh",
+    "name": "White Eagle",
+    "file": "top-choice-46jtuh.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7426c5ec72001739f7cd.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "0f078522670e9c7438824b4994f7ef183e72254226ff4377472c6d41579db785",
+    "retrieved": "2026-09-24T17:07:38.782Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46kamx",
+    "name": "Black Wolf",
+    "file": "top-choice-46kamx.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7483c5ec72001739f7cf.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "1bde2ebb1c087ec2634bcac0aad28de6f85245af1f90d2a03f07ddca72a6918d",
+    "retrieved": "2026-09-24T17:07:38.389Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46kdzt",
+    "name": "White Wolf",
+    "file": "top-choice-46kdzt.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa749ec5ec72001739f7d1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "976e449f99189f9474c72b5cb01d01f5eb5adb32f7f8aa49d8c7424fff56a345",
+    "retrieved": "2026-09-24T17:07:38.562Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46koa1",
+    "name": "Wood USA",
+    "file": "top-choice-46koa1.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7685c5ec72001739f7ef.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "fda271fc045d887d1d66916df79e35819134ec1ee8f5c306338537189dcdde9b",
+    "retrieved": "2026-09-24T17:07:44.997Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46kus9",
+    "name": "Cat Camo",
+    "file": "top-choice-46kus9.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7523c5ec72001739f7dd.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "046b975a06a885ce8322577e4e17815e26ce096b976de5da3759becec831b612",
+    "retrieved": "2026-09-24T17:07:42.804Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46kxjt",
+    "name": "Black",
+    "file": "top-choice-46kxjt.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa73bcdf8c2800107ea681.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "160146a57c29791f86d4ff213f41ff8c668f59ced50f9770646496d631df62e3",
+    "retrieved": "2026-09-24T17:07:38.015Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46ky55",
+    "name": "Midnight",
+    "file": "top-choice-46ky55.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa752bc5ec72001739f7de.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "6c1195c0be9cb28cdf97c9a3f7d2d0aaba69094509022c03968ab4a732162fc3",
+    "retrieved": "2026-09-24T17:07:42.428Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46l1i1",
+    "name": "Woodland",
+    "file": "top-choice-46l1i1.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7574c5ec72001739f7e1.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "928353c2bbb7704933804c681e4e60b56a4c4b0554fbb6942c2a4b037737edde",
+    "retrieved": "2026-09-24T17:07:42.645Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46l4ux",
+    "name": "Desert Night",
+    "file": "top-choice-46l4ux.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7583df8c2800107ea690.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "58a34368e4fbe62f6cce875ee95cc28e34a77e4f1472a4592b19cf2bc1ace2e6",
+    "retrieved": "2026-09-24T17:07:43.038Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46l7u1",
+    "name": "Sleet Camo",
+    "file": "top-choice-46l7u1.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa75c4c5ec72001739f7e4.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "26a29eca901e663af2acdd5912c9dca33a671eb7aa964e7951eac18d7915cc57",
+    "retrieved": "2026-09-24T17:07:42.156Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46l87t",
+    "name": "Desert Duck",
+    "file": "top-choice-46l87t.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa75b2df8c2800107ea691.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "db7602ccd3d6a870de2575d005553d6865686b9bc6d4d5ac87582137c7dbcd48",
+    "retrieved": "2026-09-24T17:07:42.844Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46lb6x",
+    "name": "Mango Sunrise",
+    "file": "top-choice-46lb6x.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa75ddc5ec72001739f7e5.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "10b11b382d1588d013d618ee8b946756a35dd59bc9e61980e3e7e38617494f3d",
+    "retrieved": "2026-09-24T17:07:40.800Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46lbkp",
+    "name": "Duck Camo",
+    "file": "top-choice-46lbkp.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa75a1c5ec72001739f7e3.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d643ab3acc63ba7624b7b5997ebe1f7142c4cb53a9dc073c08a983681bfcc089",
+    "retrieved": "2026-09-24T17:07:43.074Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46lhwp",
+    "name": "America",
+    "file": "top-choice-46lhwp.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa77e3c5ec72001739f802.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d4d8105313a988b18aea7614e3717bd758f01a5e5bcc0c6fd834db0e67d6b23a",
+    "retrieved": "2026-09-24T17:07:43.046Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46ll9l",
+    "name": "EhSki",
+    "file": "top-choice-46ll9l.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa760fc5ec72001739f7e7.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "eb74b45832ac8c0c314551bfe5ec589bd2b9135dcccf7bd1539f12f5f7b2266b",
+    "retrieved": "2026-09-24T17:07:41.722Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46lomh",
+    "name": "GrizzlyCorn",
+    "file": "top-choice-46lomh.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa761ac5ec72001739f7e8.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "d2ad886c4b0cbabc5a432177bd5a1c29791afae71cddaffb761b9f3877d0d48f",
+    "retrieved": "2026-09-24T17:07:41.315Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46m5ex",
+    "name": "Wood Logo",
+    "file": "top-choice-46m5ex.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7658c5ec72001739f7ed.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "f5b322d848f9fcb56c82c41112eeb518a2cfd134bdb0d895a4438edd77957c7b",
+    "retrieved": "2026-09-24T17:07:43.153Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46m8rt",
+    "name": "Wood Eagle",
+    "file": "top-choice-46m8rt.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7669df8c2800107ea693.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "cc579f818b9673136ad7ee2a2d7bb8151efb2d8d7bd9f59926240049aec10e30",
+    "retrieved": "2026-09-24T17:07:43.232Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  },
+  {
+    "id": "CHOICE-46mc4p",
+    "name": "Wood Wolf",
+    "file": "top-choice-46mc4p.png",
+    "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7677c5ec72001739f7ee.png",
+    "sourceWidth": 1000,
+    "sourceHeight": 1600,
+    "sha256": "33e85a102ca34bad94992f5018270398cf972d5e1496de8de670fe92db385a8e",
+    "retrieved": "2026-09-24T17:07:43.437Z",
+    "crop": {
+      "x": 80,
+      "y": 124,
+      "w": 234,
+      "h": 1452
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46jtmx",
+  "name": "Duck Camo",
+  "file": "base-choice-46jtmx.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa71d6df8c2800107ea67a.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "dc07036ca6ed864b71e6bd971768a99212e052723c162270dffb86691946ff09",
+  "retrieved": "2026-09-24T17:08:03.431Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

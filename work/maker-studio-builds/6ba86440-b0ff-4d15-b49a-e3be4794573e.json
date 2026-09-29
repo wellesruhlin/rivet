@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "6ba86440-b0ff-4d15-b49a-e3be4794573e",
+  "createdAt": "2026-09-24T19:27:11.766Z",
+  "purpose": "independent-demo-build",
+  "productId": "ref-parsons",
+  "productVersion": "2026-09-24.1",
+  "config": {
+    "size": "72",
+    "length": 72,
+    "width": 38,
+    "height": 30,
+    "finish": "blackened-oak"
+  },
+  "quote": {
+    "currency": "CAD",
+    "source": "https://ref-co.ca/products/parsons-dining-table",
+    "observed": "2026-09-24",
+    "excludes": [
+      "tax",
+      "shipping"
+    ],
+    "notice": "Published reference only. Maker confirmation required; no order is placed.",
+    "status": "reference",
+    "variantId": "45768169980053",
+    "lines": [
+      {
+        "id": "45768169980053",
+        "label": "Parsons · 72 × 38 in · Blackened Oak",
+        "amountMinor": 409900,
+        "quantity": 1
+      }
+    ],
+    "totalMinor": 409900
+  },
+  "specification": [
+    {
+      "label": "Maker",
+      "value": "ref."
+    },
+    {
+      "label": "Product",
+      "value": "Parsons Dining Table"
+    },
+    {
+      "label": "Dimensions",
+      "value": "72 × 38 × 30 in"
+    },
+    {
+      "label": "Finish",
+      "value": "Blackened Oak"
+    },
+    {
+      "label": "Wood",
+      "value": "Oak"
+    },
+    {
+      "label": "Surface finish",
+      "value": "3% matte polyurethane"
+    },
+    {
+      "label": "Apparent edge",
+      "value": "3 in, mitered"
+    },
+    {
+      "label": "Corner legs",
+      "value": "4 × 4 in"
+    },
+    {
+      "label": "Size status",
+      "value": "Published standard size"
+    }
+  ],
+  "orderPlaced": false
+}

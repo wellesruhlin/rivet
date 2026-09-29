@@ -1,0 +1,78 @@
+import * as THREE from 'three';
+import {OrbitControls} from './vendor/OrbitControls.js';
+import {resolve,generateMesh,widthAt,heightAt,thicknessAt,sample} from './geometry.mjs';
+const $=id=>document.getElementById(id);
+const data=await fetch('./data/on3p.json').then(r=>{if(!r.ok)throw Error('Reference data unavailable');return r.json();});
+let model=data.models[0],length=186,overrides={},definition,meshes=[],view='pair',stockArt=true,sidewall='#e4e4d8';
+let renderer,scene,camera,controls,pair,texture;
+const textureCache=new Map();
+const params=[['lengthMm','Length · mm',1200,2200,10],['tipMm','Tip · mm',85,185,1],['waistMm','Waist · mm',65,155,1],['tailMm','Tail · mm',80,180,1],['tipRiseMm','Tip rise · mm',0,160,1],['tailRiseMm','Tail rise · mm',0,160,1],['camberMm','Camber · mm',0,15,.5],['thicknessMm','Thickness · mm',7,22,.5]];
+for(const m of data.models) $('model-select').add(new Option(m.name,m.handle));
+$('variant-count').textContent=data.models.reduce((n,m)=>n+m.lengths.length,0);
+for(const [key,label,min,max,step] of params){const l=document.createElement('label');l.textContent=label;const i=document.createElement('input');i.type='number';i.min=min;i.max=max;i.step=step;i.id=`param-${key}`;let debounce;const commit=()=>{try{const trial={...overrides,[key]:Number(i.value)};resolve(model,length,trial);overrides=trial;update(false);$('parameter-error').textContent='';}catch(e){$('parameter-error').textContent=e.message;}};i.addEventListener('input',()=>{clearTimeout(debounce);debounce=setTimeout(commit,200);});i.addEventListener('change',()=>{clearTimeout(debounce);commit();});l.append(i);$('parameters').append(l);}
+function init3D(){
+ try {
+  renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setClearColor(0,0);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;
+  $('canvas-host').append(renderer.domElement);renderer.domElement.setAttribute('aria-label','Orbitable 3D ski pair');renderer.domElement.tabIndex=0;
+  scene=new THREE.Scene();camera=new THREE.OrthographicCamera(-1,1,1,-1,.01,20);controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.dampingFactor=.08;controls.minZoom=.5;controls.maxZoom=12;controls.enablePan=true;
+  scene.add(new THREE.HemisphereLight(0xe6eff5,0x444032,2.0));
+  for(const [pos,color,power] of [[[1.8,3,1],0xffffff,3.2],[[-2,1.4,-1.4],0xbdd5de,2.2],[[1,.7,-3],0xe7dcca,1.8],[[-.5,-3,1.2],0xeef0e8,3]]){const light=new THREE.DirectionalLight(color,power);light.position.set(...pos);scene.add(light);}
+  pair=new THREE.Group();scene.add(pair);
+  const ro=new ResizeObserver(resize);ro.observe($('canvas-host'));
+  renderer.domElement.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){e.preventDefault();const offset=camera.position.clone().sub(controls.target);const axis=e.key.includes('Left')||e.key.includes('Right')?new THREE.Vector3(0,1,0):new THREE.Vector3(1,0,0);offset.applyAxisAngle(axis,(e.key==='ArrowLeft'||e.key==='ArrowUp'?-1:1)*.12);camera.position.copy(controls.target.clone().add(offset));camera.lookAt(controls.target);}if(e.key==='Home')setView('pair');});
+  function animate(){requestAnimationFrame(animate);if(!$('stage').hidden){controls.update();renderer.render(scene,camera);}}animate();
+ }catch(e){$('fallback').hidden=false;$('stage-hint').textContent='Source and trace view remains available';console.warn('WebGL fallback:',e.message);}
+}
+function resize(){if(!renderer)return;const {width,height}=$('canvas-host').getBoundingClientRect();if(width<1||height<1)return;renderer.setSize(width,height);const ratio=width/height,half=1.16;camera.left=-half*ratio;camera.right=half*ratio;camera.top=half;camera.bottom=-half;camera.updateProjectionMatrix();}
+function materialList(){const map=stockArt?texture:null;return [new THREE.MeshPhysicalMaterial({map,color:map?0xffffff:0xb9c1b7,roughness:.40,metalness:0,clearcoat:.24,clearcoatRoughness:.30}),new THREE.MeshStandardMaterial({map,color:map?0xffffff:0x303637,roughness:.65}),new THREE.MeshStandardMaterial({color:sidewall,roughness:.5}),new THREE.MeshStandardMaterial({color:0xbfc8c9,metalness:.85,roughness:.25})];}
+function buildBuffer(m){
+ const g=new THREE.BufferGeometry();const pos=[],uv=[],norm=[];
+ // Calculate smooth longitudinal normals from the shared mesh, then retain the
+ // face-local UV seams needed for independent top/base artwork.
+ const indexed=new THREE.BufferGeometry();indexed.setAttribute('position',new THREE.Float32BufferAttribute(m.positions.flat(),3));const idx=[];
+ m.faces.forEach(f=>{for(let j=1;j<f.length-1;j++)idx.push(f[0],f[j],f[j+1]);});indexed.setIndex(idx);indexed.computeVertexNormals();const normals=indexed.getAttribute('normal');
+ for(let mat=0;mat<4;mat++){const start=pos.length/3;m.faces.forEach((f,fi)=>{if(m.materials[fi]!==mat)return;for(let j=1;j<f.length-1;j++)for(const k of [0,j,j+1]){const id=f[k];pos.push(...m.positions[id]);uv.push(...m.uvs[fi][k]);norm.push(normals.getX(id),normals.getY(id),normals.getZ(id));}});g.addGroup(start,pos.length/3-start,mat);}
+ g.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));g.setAttribute('normal',new THREE.Float32BufferAttribute(norm,3));g.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2));g.computeBoundingSphere();indexed.dispose();return g;
+}
+async function loadTexture(){const key=model.handle;if(!textureCache.has(key)){const pending=new THREE.TextureLoader().loadAsync(model.referenceImage).then(t=>{t.colorSpace=THREE.SRGBColorSpace;t.userData.on3pHandle=key;t.anisotropy=Math.min(8,renderer?.capabilities.getMaxAnisotropy()||1);return t;});textureCache.set(key,pending);}return textureCache.get(key);}
+function rebuild(){if(!renderer)return;for(const mesh of meshes){pair.remove(mesh);mesh.geometry.dispose();mesh.material.forEach(m=>m.dispose());}meshes=[];for(let side=0;side<2;side++){const m=generateMesh(model,definition,{side});const mesh=new THREE.Mesh(buildBuffer(m),materialList());mesh.position.x=(.5-side)*.22;pair.add(mesh);meshes.push(mesh);}setView(view);}
+function setView(next){view=next;document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));if(!renderer)return;const L=definition.lengthMm/1000;camera.zoom=1;camera.up.set(0,0,1);controls.target.set(0,.025,0);meshes.forEach(m=>m.visible=true);pair.rotation.set(0,0,0);pair.position.set(0,0,0);
+ if(view==='pair'){camera.position.set(.55,3,.9);pair.rotation.y=-.25;camera.zoom=1.12;}
+ if(view==='top'){camera.position.set(0,3,0);camera.zoom=1.02;}
+ if(view==='base'){camera.position.set(0,-3,0);camera.zoom=1.02;}
+ if(view==='side'){meshes[1].visible=false;meshes[0].position.x=0;camera.up.set(0,1,0);camera.position.set(3,.025,0);camera.zoom=Math.min(1.75,Math.max(1,($('canvas-host').clientWidth/$('canvas-host').clientHeight)*2.0/L));}
+ else meshes[0].position.x=.11;
+ if(view==='detail'){meshes[1].visible=false;meshes[0].position.x=0;camera.up.set(0,1,0);controls.target.set(0,.008,0);camera.position.set(1,.3,.55);camera.zoom=4.2;}
+ camera.lookAt(controls.target);camera.updateProjectionMatrix();controls.update();$('stage-hint').textContent=view==='side'?'Orthographic side · Actual proportions · Scroll to inspect':view==='detail'?'Underfoot detail · Derived thickness · Estimated shoulder':'Drag to orbit · Scroll to inspect';
+}
+function drawProfile(){const L=definition.lengthMm,s=920/L,m=generateMesh(model,definition);const coord=p=>`${(40+(L/2-p[2]*1000)*s).toFixed(2)},${(113-p[1]*1000*s).toFixed(2)}`;const base=m.sections.map((_,i)=>coord(m.positions[i*m.ringSize+1]));const top=m.sections.map((_,i)=>coord(m.positions[i*m.ringSize+m.topRingIndex])).reverse();$('profile-chart').innerHTML=`<path d="M40 114H960" stroke="#3a4447" stroke-dasharray="3 6"/><polygon points="${[...base,...top].join(' ')}" fill="#a3b69a" fill-opacity=".22" stroke="#b8c5ac" stroke-width="1.2"/><text x="40" y="143" fill="#7f8a8b" font-size="10">TIP</text><text x="960" y="143" fill="#7f8a8b" font-size="10" text-anchor="end">TAIL</text>`;$('tip-value').textContent=`Tip rise ≈ ${definition.tipRiseMm.toFixed(1)} mm`;$('camber-value').textContent=`Camber ≈ ${definition.camberMm.toFixed(1)} mm`;$('tail-value').textContent=`Tail rise ≈ ${definition.tailRiseMm.toFixed(1)} mm`;}
+const poly=pts=>pts.map(p=>p.map(v=>v.toFixed(2)).join(',')).join(' ');
+function evidence(){const o=model.outline,ref=resolve(model,186),f=(o.y1-o.y0)/1860;const left=[],right=[];
+ for(let i=0;i<=480;i++){const u=i/480,y=o.y0+u*(o.y1-o.y0),cx=(sample(o.leftPx,u)+sample(o.rightPx,u))/2,w=widthAt(model,ref,u)*f/2;left.push([cx-w,y]);right.push([cx+w,y]);}
+ const outline=`<polyline class="trace-overlay" points="${poly([...left,...right.reverse(),left[0]])}" fill="none" stroke="#bc3e30" stroke-width="3"/>`;
+ const p=model.profile,raw=p.rawTracePx;const pa=[],pb=[];for(let i=0;i<raw.length;i++){const [y,il,ir]=raw[i],u=(y-p.y0)/(p.y1-p.y0),cx=sample(p.centerLinePx,u),h=heightAt(model,ref,u)*(p.y1-p.y0)/1860;pa.push([cx-h+p.cropX,y]);pb.push([cx+h+p.cropX,y]);}
+ const isPow=p.source.includes('pow');let profileSvg;
+ if(isPow){const fix=arr=>arr.map(([x,y])=>[2499-y,x]);profileSvg=`<svg x="40" y="340" width="920" height="160" viewBox="40 130 2410 360"><image href="reference/signature-pow-profile-guide.png" width="2500" height="625"/><polyline points="${poly(fix(pa))}" fill="none" stroke="#b8392f" stroke-width="2"/><polyline points="${poly(fix(pb))}" fill="none" stroke="#b8392f" stroke-width="2"/></svg>`;}
+ else profileSvg=`<svg x="40" y="340" width="920" height="160" viewBox="${p.y0} -1550 ${p.y1-p.y0} 310"><g transform="matrix(0 -1 1 0 0 0)"><image href="${model.referenceImage}" width="1667" height="3125" clip-path="url(#profile-crop)"/><polyline points="${poly(pa)}" fill="none" stroke="#b8392f" stroke-width="2"/><polyline points="${poly(pb)}" fill="none" stroke="#b8392f" stroke-width="2"/></g></svg>`;
+ let grids='';for(let mm=0;mm<1900;mm+=100){const x=o.y0+mm*f;grids+=`<path d="M ${x} -895 V -650" stroke="#2e574a" opacity=".17" stroke-width="1"/>`;}
+ $('trace-image').innerHTML=`<svg viewBox="0 0 1000 620" aria-label="Original image with calibrated outline and rocker trace"><defs><clipPath id="outline-crop"><rect x="610" y="${o.y0}" width="300" height="${o.y1-o.y0}"/></clipPath><clipPath id="profile-crop"><rect x="1200" y="${p.y0}" width="467" height="${p.y1-p.y0}"/></clipPath></defs><text x="40" y="42" fill="#303b38" font-size="19">01 / Base outline</text><text x="40" y="69" fill="#5c6661" font-size="12">100 mm grid · red line constrained to published widths</text><svg x="40" y="95" width="920" height="160" viewBox="${o.y0} -910 ${o.y1-o.y0} 270"><g transform="matrix(0 -1 1 0 0 0)"><image href="${model.referenceImage}" width="1667" height="3125" clip-path="url(#outline-crop)"/>${outline}</g>${grids}</svg><text x="40" y="302" fill="#303b38" font-size="19">02 / Paired rocker reference</text><text x="40" y="328" fill="#5c6661" font-size="12">${isPow?'Family diagram · absolute scale estimated':'Product composite · loading condition unverified'}</text>${profileSvg}<text x="40" y="551" fill="#5c6661" font-size="13">Raw widths: ${o.rawWidthsMm.join(' / ')} mm</text><text x="40" y="578" fill="#303b38" font-size="13">Published: ${o.publishedWidthsMm.join(' / ')} mm · maximum correction ${o.maxWidthCorrectionPct}%</text></svg>`;
+ $('evidence-caption').innerHTML=isPow?'<strong>Source conflict:</strong> The product composite reuses the Jeffrey 106 profile exactly. This reconstruction uses the published Signature Pow family diagram; its photographed size and absolute vertical scale are unverified.':'The 186 cm label supplies scale. The outline is adjusted to the three published widths. Rocker comes from half the gap between paired bases; unknown loading, image compositing and cap extrapolation limit accuracy.';
+ $('trace-visible').dispatchEvent(new Event('change'));
+}
+let generation=0;
+async function update(changeModel=true){const ticket=++generation;definition=resolve(model,length,overrides);$('model-title').textContent=model.name;$('subtitle').textContent=`Image-derived geometry · ${model.rocker} Rocker`;$('metric-length').innerHTML=`${(definition.lengthMm/10).toFixed(definition.lengthMm%10?1:0)} <small>cm</small>`;$('metric-widths').innerHTML=`${definition.tipMm} / ${definition.waistMm} / ${definition.tailMm} <small>mm</small>`;$('metric-thickness').innerHTML=`${definition.thicknessMm.toFixed(1)} <small>mm · derived</small>`;$('source-link').href=model.sourceUrl;
+ $('variant-note').innerHTML=definition.custom?'<strong>Hypothetical geometry.</strong> Dimensions have been edited for this study.':length===186?'186 cm reference. Published dimensions fitted to the original image.':'Published widths for this size. Outline and rocker are scaled from the 186 cm reference; size-specific curves remain estimated.';
+ for(const [k] of params)$(`param-${k}`).value=Number(definition[k].toFixed(2));
+ drawProfile();evidence();if(changeModel||texture?.userData.on3pHandle!==model.handle){try{const next=await loadTexture();if(ticket!==generation)return;texture=next;}catch(e){$('parameter-error').textContent='Artwork unavailable; showing neutral geometry.';texture=null;}}rebuild();const m=generateMesh(model,definition);$('mesh-info').textContent=`${m.positions.length.toLocaleString()} vertices / ski · Same mesh → Blender`;}
+function lengths(){const select=$('length-select');select.innerHTML='';for(const s of model.lengths)select.add(new Option(`${s.length_cm} cm`,s.length_cm));select.value=length;}
+$('model-select').addEventListener('change',()=>{model=data.models.find(m=>m.handle===$('model-select').value);if(!model.lengths.some(s=>s.length_cm===length))length=186;overrides={};lengths();update();});
+$('length-select').addEventListener('change',()=>{length=Number($('length-select').value);overrides={};update(false);});
+$('reset').addEventListener('click',()=>{overrides={};$('parameter-error').textContent='';update(false);});
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));
+document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>{const active=b.dataset.mode==='model';$('stage').hidden=!active;$('evidence').hidden=active;document.querySelectorAll('[data-mode]').forEach(x=>x.classList.toggle('active',x===b));if(active)resize();}));
+$('trace-visible').addEventListener('change',()=>document.querySelectorAll('.trace-overlay').forEach(p=>p.style.display=$('trace-visible').checked?'':'none'));
+function materials(){if(!renderer)return;meshes.forEach(m=>{m.material.forEach(x=>x.dispose());m.material=materialList();});}
+for(const [id,on] of [['art-on',true],['art-off',false]])$(id).addEventListener('click',()=>{stockArt=on;$('art-on').classList.toggle('active',on);$('art-off').classList.toggle('active',!on);materials();});
+document.querySelectorAll('[data-color]').forEach(b=>b.addEventListener('click',()=>{sidewall=b.dataset.color;document.querySelectorAll('[data-color]').forEach(x=>x.classList.toggle('active',x===b));materials();}));
+$('download').addEventListener('click',()=>{const file=generateMesh(model,definition);const url=URL.createObjectURL(new Blob([JSON.stringify(file)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=`${model.handle}-${definition.lengthMm}-mesh.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+init3D();lengths();await update();

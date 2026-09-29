@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46koa1",
+  "name": "Wood USA",
+  "file": "top-choice-46koa1.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7685c5ec72001739f7ef.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "fda271fc045d887d1d66916df79e35819134ec1ee8f5c306338537189dcdde9b",
+  "retrieved": "2026-09-24T17:07:44.997Z",
+  "crop": {
+    "x": 80,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

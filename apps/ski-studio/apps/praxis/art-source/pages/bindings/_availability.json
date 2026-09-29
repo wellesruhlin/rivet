@@ -1,0 +1,148 @@
+{
+ "observed": "2026-09-25",
+ "products": {
+  "733": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": 5
+  },
+  "734": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": 2
+  },
+  "742": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": null
+  },
+  "743": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": null
+  },
+  "777": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": 6
+  },
+  "779": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": null
+  },
+  "780": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": null
+  },
+  "781": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": null
+  },
+  "782": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": null
+  },
+  "783": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": null
+  },
+  "784": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": null
+  },
+  "785": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": null
+  },
+  "786": {
+   "inStock": [
+    3061,
+    3062,
+    3063,
+    3064
+   ],
+   "purchasable": true,
+   "instock": true,
+   "stock": null
+  }
+ }
+}

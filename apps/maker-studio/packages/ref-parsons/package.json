@@ -1,0 +1,1 @@
+{"name":"@maker/ref-parsons","version":"0.1.0","type":"module","exports":{".":"./index.mjs","./geometry":"./geometry.mjs"},"dependencies":{"@maker/configurator-core":"*"}}

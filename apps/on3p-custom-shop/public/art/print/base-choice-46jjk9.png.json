@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46jjk9",
+  "name": "Woodland",
+  "file": "base-choice-46jjk9.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7192df8c2800107ea678.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "0c6e2a776aeaef5c3b07e2bf6df6a6324e337122e8cb3b3588b92ea86c0144f0",
+  "retrieved": "2026-09-24T17:08:03.333Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46k6op",
+  "name": "GrizzlyCorn",
+  "file": "base-choice-46k6op.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7342c5ec72001739f7c5.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "798af9beeeb3d2eedbc50141eb6454bcd146841302b0d6929965af195e1c4a5e",
+  "retrieved": "2026-09-24T17:08:03.551Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "glbRoundTrips": [
+    {
+      "model": "jeffrey-106",
+      "side": "left",
+      "canonicalVertexSetMatches": true,
+      "maxErrorMeters": 0.0,
+      "materialSlots": 4,
+      "uvLayers": 1
+    },
+    {
+      "model": "jeffrey-106",
+      "side": "right",
+      "canonicalVertexSetMatches": true,
+      "maxErrorMeters": 0.0,
+      "materialSlots": 4,
+      "uvLayers": 1
+    },
+    {
+      "model": "woodsman-108",
+      "side": "left",
+      "canonicalVertexSetMatches": true,
+      "maxErrorMeters": 0.0,
+      "materialSlots": 4,
+      "uvLayers": 1
+    },
+    {
+      "model": "woodsman-108",
+      "side": "right",
+      "canonicalVertexSetMatches": true,
+      "maxErrorMeters": 0.0,
+      "materialSlots": 4,
+      "uvLayers": 1
+    },
+    {
+      "model": "jeffrey-112",
+      "side": "left",
+      "canonicalVertexSetMatches": true,
+      "maxErrorMeters": 0.0,
+      "materialSlots": 4,
+      "uvLayers": 1
+    },
+    {
+      "model": "jeffrey-112",
+      "side": "right",
+      "canonicalVertexSetMatches": true,
+      "maxErrorMeters": 0.0,
+      "materialSlots": 4,
+      "uvLayers": 1
+    }
+  ],
+  "blenderPanelRegenerates": true,
+  "changedWaistMm": 112
+}

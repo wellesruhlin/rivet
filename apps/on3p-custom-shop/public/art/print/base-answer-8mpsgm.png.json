@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-8mpsgm",
+  "name": "Dazzle Red",
+  "file": "base-answer-8mpsgm.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4d21b01a2f667e3e6364.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "e4973cfd4dc04c5c6b204bb8fade06351ffa04b6226575d29ba499012c266297",
+  "retrieved": "2026-09-24T17:08:02.288Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

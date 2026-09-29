@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-8mpp3q",
+  "name": "Dazzle Blue",
+  "file": "base-answer-8mpp3q.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/632e4ce8b01a2f667e3e62d6.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "b588021f0ce9b03cf516fa903113dae0e7fcd92a31163fd186072a0ee33daafa",
+  "retrieved": "2026-09-24T17:08:02.239Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

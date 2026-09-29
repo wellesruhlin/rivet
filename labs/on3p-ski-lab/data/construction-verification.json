@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "layups": [
+    {
+      "layup": "Stock",
+      "layers": 28,
+      "sharedGeometry": true,
+      "vertices": 39368
+    },
+    {
+      "layup": "LITE",
+      "layers": 28,
+      "sharedGeometry": true,
+      "vertices": 39368
+    },
+    {
+      "layup": "50/50",
+      "layers": 29,
+      "sharedGeometry": true,
+      "vertices": 39652
+    },
+    {
+      "layup": "Tour",
+      "layers": 29,
+      "sharedGeometry": true,
+      "vertices": 39652
+    },
+    {
+      "layup": "Leaf Spring",
+      "layers": 29,
+      "sharedGeometry": true,
+      "vertices": 39924
+    },
+    {
+      "layup": "Torsion Bar",
+      "layers": 29,
+      "sharedGeometry": true,
+      "vertices": 40352
+    }
+  ],
+  "source": "https://www.on3pskis.com/products/custom-skis",
+  "note": "Layer coordinates verified against shared JavaScript generator; materials and exact internal placement remain illustrative."
+}

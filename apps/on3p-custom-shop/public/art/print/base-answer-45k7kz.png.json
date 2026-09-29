@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-45k7kz",
+  "name": "Botanical",
+  "file": "base-answer-45k7kz.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/60f5d6748ba72600111736d7.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "bf756f3870743b40004e069381537cf21a438c92963ad907dbcbf23c69f7f4a1",
+  "retrieved": "2026-09-24T17:08:01.751Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

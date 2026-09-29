@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46jzyx",
+  "name": "America",
+  "file": "base-choice-46jzyx.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa731ac5ec72001739f7c4.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "f82cbe4081b6e41064f28004c47bc395d0634ba05b2de3488bbcbe80a82d5b22",
+  "retrieved": "2026-09-24T17:08:03.632Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

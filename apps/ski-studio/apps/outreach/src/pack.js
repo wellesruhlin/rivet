@@ -1,0 +1,50 @@
+import {brands,asset,colors,title,observed} from './catalog.js';
+import {formatMoney} from '@ski-studio/configurator/engine';
+import {createSki3d,skiShape,skiLayers,storedArt,modelDimensions} from './ski3d.js';
+import {rockerProfiles,tailShapes,folsomBindings} from './folsom-options.js';
+import {grassGroups} from './grass-options.js';
+const opt=(value,label=value,text)=>({value,label,text});
+export function proofKey(c){return ['model','length','design','graphic','artId','scale','position','brief'].map(k=>String(c[k]??'')).join('|');}
+export function createPack(id,{widgets={},Stage,overrides={}}={}){
+ const brand=brands[id],pole=id==='grass',meier=id==='meier';
+ const price=(key,fallback)=>Number.isFinite(overrides[key]?.price)?overrides[key].price:fallback;
+ const available=(key)=>overrides[key]?.enabled!==false;
+ const context=c=>{const model=brand.models.find(m=>m.id===c.model)||null;return {model,lengths:model?.lengths||[],brand};};
+ const step=(id,label,intro)=>({id,label,title:label,intro});
+ const steps=pole?[step('size','Product','Find your sticks, gear or next great gift.'),step('options','Options','The details that make it yours.')]:meier?[step('shape','Shape','Choose your terrain. Then make it your own.'),step('art','Artwork','Real wood. Your point of view.'),step('proof','Proof','Check the whole pair before saving your design.')]:[step('shape','Shape','Start with the way you ski.'),step('profile','Profile','Choose your rocker and tail shape.'),step('art','Graphics','Independent artwork. Endless personality.'),step('build','Construction','Fine-tune what is beneath the surface.'),step('bindings','Bindings','Complete your setup, or bring your own bindings.')];
+ steps.push(step('review','Review','Every choice, in one place.'));
+ const model={id:'model',type:'model',label:pole?'Your product':'Your model',step:steps[0].id,default:()=>brand.models.find(m=>available(`model:${m.id}`))?.id||'',options:()=>brand.models.map(m=>({...opt(m.id,m.name),disabled:!available(`model:${m.id}`)})),price:(v)=>price(`model:${v}`,brand.basePrice),ui:{descriptionLabel:pole?'About this product':'About this ski',placeholder:()=>pole?'Choose your product':'Choose your model',description:(c,ctx)=>ctx.model?.summary}};
+ const familyModels=c=>brand.models.filter(m=>!c.family||m.family===c.family||m.families?.includes(c.family));
+ model.default=()=>'';
+ model.options=c=>familyModels(c).map(m=>({...opt(m.id,m.name),disabled:!available(`model:${m.id}`)}));
+ model.price=v=>v?price(`model:${v}`,brand.models.find(m=>m.id===v)?.price||brand.basePrice):brand.basePrice;
+ model.ui.visible=c=>!!c.family;
+ const groups=[{id:'family',type:'category',label:pole?'Explore the collection':meier?'Find your terrain':'Shape family',step:steps[0].id,resets:['model','length'],default:(c,ctx,input)=>brand.models.find(m=>m.id===input.model)?.family||'',options:()=>brand.families.map(f=>({...opt(f.id,f.name),description:f.description,meta:`${brand.models.filter(m=>m.family===f.id||m.families?.includes(f.id)).length} ${pole?'product':'shape'}${brand.models.filter(m=>m.family===f.id||m.families?.includes(f.id)).length===1?'':'s'}`,disabled:!brand.models.some(m=>(m.family===f.id||m.families?.includes(f.id))&&available(`model:${m.id}`))})),ui:{collapse:true}},model];
+ if(pole){
+  groups.push(...grassGroups({widgets,price}));
+ }else{
+  groups.push({id:'length',type:'length',label:'Length · cm',step:'shape',options:(c,ctx)=>ctx.lengths.map(v=>opt(v,String(v))),default:()=>null,format:v=>v?`${v} cm`:'Choose a length',ui:{visible:c=>!!c.model}});
+  if(!meier)groups.push({id:'profile',type:'choice',label:'Rocker profile',step:'profile',options:(c,ctx)=>(ctx.model?.profiles||[]).map(v=>opt(v,v,rockerProfiles[v]?.description)),default:(c,ctx)=>ctx.model?.profiles[0]||'',ui:{display:'cards',visible:c=>!!c.model}},{id:'tail',type:'choice',label:'Tail shape',step:'profile',options:(c,ctx)=>(ctx.model?.tails||[]).map(v=>opt(v,v,tailShapes[v])),default:(c,ctx)=>ctx.model?.tails?.[0]||'',ui:{widget:widgets.tails,display:'cards',visible:c=>!!c.model}});
+  if(meier)groups.push({id:'design',type:'choice',label:'Your design path',step:'art',default:()=> 'house',options:c=>[opt('house','Meier artwork',`Choose a house graphic · ${formatMoney(price('model:'+c.model,brand.basePrice))}`),opt('upload','Your artwork',`Upload a design · ${formatMoney(price('model:'+c.model,brand.basePrice)+price('design:custom',396))}`),opt('artist','Work with an artist',`Includes 4 hours of design · ${formatMoney(price('model:'+c.model,brand.basePrice)+price('design:custom',396))}`)],price:v=>v==='house'?0:price('design:custom',396),ui:{display:'cards'}});
+  groups.push({id:'graphic',type:'gallery',label:'Topsheet artwork',step:'art',default:c=>meier&&available(`graphic:${c.model}`)?c.model:brand.graphics.find(([v])=>v===brand.defaultGraphic&&available(`graphic:${v}`))?.[0]||brand.graphics.find(([v])=>available(`graphic:${v}`))?.[0]||'',options:()=>brand.graphics.map(([v,label])=>({...opt(v,label),disabled:!available(`graphic:${v}`)})),ui:{widget:widgets.graphics,visible:c=>!meier||c.design==='house'}});
+  if(meier){
+   groups.push({id:'artId',type:'text',label:'Artwork',step:'art',share:false,maxLength:80,ui:{widget:widgets.upload,reviewHidden:true,visible:c=>c.design==='upload'}},{id:'artFile',type:'text',label:'Artwork file',step:'art',share:false,maxLength:100,ui:{visible:()=>false}},{id:'scale',type:'number',label:'Artwork scale',step:'art',min:40,max:150,default:()=>100,format:v=>v+'%',bom:c=>c.design==='upload',ui:{widget:widgets.slider,visible:c=>c.design==='upload'}},{id:'position',type:'number',label:'Artwork position',step:'art',min:10,max:90,default:()=>50,format:v=>v+'%',bom:c=>c.design==='upload',ui:{widget:widgets.slider,visible:c=>c.design==='upload'}},{id:'brief',type:'text',label:'Design brief',step:'art',maxLength:1200,share:false,ui:{widget:widgets.brief,visible:c=>c.design==='artist'}},{id:'proof',type:'choice',label:'Design proof',step:'proof',share:false,options:c=>[opt(proofKey(c),'Approved for demo review')],format:v=>v?'Reviewed':'Needs review',ui:{widget:widgets.proof}});
+  }else{
+   groups.push({id:'layup',type:'choice',label:'Layup',step:'build',options:(c)=>Object.entries(c.model==='hayden'?{junior:{label:'Junior bamboo',description:'Bamboo core and fiberglass composite. Everyday Rocker is included.'}}:brand.layups).map(([v,l])=>opt(v,l.label+(v==='tour'?` · +${formatMoney(price('layup:tour',200))}`:''),l.description)),default:c=>c.model==='hayden'?'junior':'standard',price:v=>v==='tour'?price('layup:tour',200):0,ui:{display:'cards'}});
+  }
+ }
+ if(id==='folsom')groups.push({id:'binding',type:'binding',label:'Bindings',step:'bindings',default:()=>'',options:()=>folsomBindings.map(b=>({...opt(b.id,b.name,b.description),disabled:!available('binding:'+b.id)})),format:v=>folsomBindings.find(b=>b.id===v)?.name||'No bindings',price:v=>{const b=folsomBindings.find(b=>b.id===v);return b?price('binding:'+b.id,b.price):0;},ui:{widget:widgets.bindings}});
+ const designMissing=c=>pole&&c.model==='length-change'&&!c.originalOrder.trim()?'add the original Kids Sticks order reference':meier&&c.design==='upload'&&!storedArt(c.artId)?'add your artwork file':meier&&c.design==='artist'&&!c.brief.trim()?'add a design brief':null;
+ const pack={id,reviewVersion:id==='folsom'?2:undefined,name:brand.name,currency:'USD',steps,groups,context,Stage:pole?Stage:undefined,model3d:pole?undefined:createSki3d(brand),
+  ready:(c,ctx)=>!!ctx.model&&(pole?ctx.model.kind==='poles'||ctx.model.kind==='service'?Number.isFinite(c.length)&&c.length<=ctx.model.maxLength:true:ctx.lengths.includes(c.length)),
+  orderRequirements:c=>[...(designMissing(c)?[{label:designMissing(c),step:1}]:[]),...(meier&&!c.proof?[{label:'review your design proof',step:2}]:[])],
+  beforeNormalize:(prev,patch,requested)=>{let next={...requested};if(patch.model){const selected=brand.models.find(m=>m.id===patch.model);if(selected&&selected.family!==next.family&&!selected.families?.includes(next.family))next.family=selected.family;if(meier&&patch.graphic===undefined)next.graphic=selected?.id;}if(meier&&Object.keys(patch).some(k=>k!=='proof'&&prev[k]!==patch[k]))next.proof='';return next;},
+  viewForField:(field,stepIndex)=>!pole&&!meier?({profile:'Profile',build:'Construction',bindings:'Bindings'}[steps[stepIndex]?.id]||'Topsheet'):'Topsheet',
+  copy:{exportTitle:`${brand.name.toUpperCase()} · CUSTOM BUILD · INDEPENDENT DEMO`,totalLabel:'Reference total',sheetEyebrow:pole?'Your Grass Sticks selection':'One custom pair',sheetNote:'Public catalog prices. Tax and shipping excluded. The maker confirms your final build.',priceNote:`Independent demo using public options observed ${observed}. No order or payment is submitted.`,exportNotes:[`Source: ${brand.source}. Observed ${observed}.`,`Independent demonstration. No order placed. Final specification, availability and price require ${brand.name} confirmation.`],firstStep:{cta:pole?'Choose your product':'Choose shape and length',short:pole?'Choose product':'Choose shape'},linkNote:meier?'Build links include product choices; uploaded artwork and design briefs stay on this device. Reattach artwork on another device.':'Build links include product choices only.'},
+  stage:{sampleModel:brand.models[0].id,preferredLength:180},
+  review:{barMeta:pole?(c)=>c.length?`${c.length} cm`:'' :undefined,priceLabel:line=>groups.find(g=>g.id===line.key)?.type==='toggle'?line.label:line.value.split(' · +')[0],heroMeta:(c)=>`${c.length?c.length+' cm · ':''}${brand.origin}`},
+  art:{shape:(c,ctx)=>{const width=pole?20:Math.max(...modelDimensions(ctx.model,c.length)),shape=pole?null:skiShape(c,ctx),us=Array.from({length:61},(_,i)=>i/60);return {width,length:(c.length||180)*10,gap:40,profile:{left:us.map(u=>[u,.5-(shape?.widthAt(u)||20)/width/2]),right:us.map(u=>[u,.5+(shape?.widthAt(u)||20)/width/2])}};},swatch:(item,g,c,ctx)=>skiLayers(brand,{...c,graphic:item.value},ctx),surface:(c,face,ctx)=>skiLayers(brand,c,ctx)}
+ };
+ return pack;
+}
+

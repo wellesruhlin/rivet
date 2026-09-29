@@ -1,0 +1,27 @@
+{
+  "name": "ski-studio",
+  "private": true,
+  "type": "module",
+  "description": "A shared custom-ski configurator with brand packs for ON3P, Praxis and Proteus snowboards.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "test": "node --test packages/configurator/src/engine/engine.test.js apps/on3p/src/config.test.js apps/on3p/src/session.test.js apps/praxis/src/configurator/pack.test.js apps/praxis/src/configurator/studio.test.js apps/praxis/src/catalog/catalog.test.js apps/proteus/src/brand/pack.test.js",
+    "build": "npm run build --workspaces --if-present",
+    "dev:on3p": "npm run dev --workspace apps/on3p -- --port 5180",
+    "dev:praxis": "npm run dev --workspace apps/praxis -- --port 5181",
+    "dev:proteus": "npm run dev --workspace apps/proteus -- --port 5182",
+    "qa:praxis": "node qa/praxis.mjs",
+    "qa:on3p": "node qa/on3p.mjs",
+    "qa:proteus": "node qa/proteus.mjs",
+    "screenshots": "node qa/screenshots.mjs screenshots"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}

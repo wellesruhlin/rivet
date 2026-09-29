@@ -1,0 +1,132 @@
+{
+  "observed": "2026-09-24",
+  "season": "2026/27",
+  "method": "Current official product composites visually matched against the public custom artwork catalog. IDs refer to existing selectable artwork, not invented stock entries.",
+  "models": {
+    "jeffrey-92": {
+      "top": "ANSWER-497h6y",
+      "base": "CHOICE-46j9hl",
+      "topName": "Onyx",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/jeffrey-92",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Jeffrey92_WebWorkingFile_Final_WebFinal_800x1500x150.png?v=1789594617"
+    },
+    "jeffrey-98": {
+      "top": "ANSWER-497h6y",
+      "base": "CHOICE-46j9hl",
+      "topName": "Onyx",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/jeffrey-98",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Jeffrey98_Onyx_WebWorkingFile_Final_V2_WebFinal_800x1500x150.png?v=1789941294"
+    },
+    "jeffrey-106": {
+      "top": "ANSWER-497h6y",
+      "base": "CHOICE-46j9hl",
+      "topName": "Onyx",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/jeffrey-106",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Jeffrey106_WebWorkingFile_Final_WebFinal_800x1500x150.png?v=1789750456"
+    },
+    "jeffrey-112": {
+      "top": "ANSWER-497h6y",
+      "base": "CHOICE-46j9hl",
+      "topName": "Onyx",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/jeffrey-112",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Jeffrey112_WebWorkingFile_Onyx_Final_WebFinal_800x1500x150.png?v=1789588590"
+    },
+    "jeffrey-118": {
+      "top": "ANSWER-497h6y",
+      "base": "CHOICE-46j9hl",
+      "topName": "Onyx",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/jeffrey-118",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Jeffrey118_WebWorkingFile_Final_WebFinal_800x1500x150.png?v=1789590118"
+    },
+    "woodsman-92": {
+      "top": "ANSWER-499pei",
+      "base": "CHOICE-46j9hl",
+      "topName": "Woodsman XX",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/woodsman-92",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Woodman92_WebWorkingFile_Final_WebFinal_800x1500x150.png?v=1789576543"
+    },
+    "woodsman-100": {
+      "top": "ANSWER-499sre",
+      "base": "CHOICE-46j9hl",
+      "topName": "Woodsman XXI",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/woodsman-100",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Woodman100_WebWorkingFile_Final_WebFinal_800x1500x150_e4411f84-ad02-4193-bf64-e56d17d11572.png?v=1789577279"
+    },
+    "woodsman-108": {
+      "top": "ANSWER-4984wq",
+      "base": "CHOICE-46j9hl",
+      "topName": "Woodsman XXII",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/woodsman-108",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Woodsman108_WebWorkingFile_Final_WebFinal_800x1500x150_3f848417-d80e-49b6-9828-1454ef10b854.png?v=1789576112"
+    },
+    "billy-goat-114": {
+      "top": "ANSWER-498eze",
+      "base": "CHOICE-46j9hl",
+      "topName": "BG XXI",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/billy-goat-114",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_BillyGoat114_WebWorkingFile_Final_WebFinal_800x1500x150.png?v=1789582887"
+    },
+    "billy-goat-118": {
+      "top": "ANSWER-498ica",
+      "base": "CHOICE-46j9hl",
+      "topName": "BG XXII",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/billy-goat-118",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_BillyGoat118_WebWorkingFile_Final_WebFinal_800x1500x150.png?v=1789579421"
+    },
+    "mango-90": {
+      "top": "ANSWER-4992a2",
+      "base": "CHOICE-46j9hl",
+      "topName": "Mango VI",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/mango-90",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Mango90_WebWorkingFile_Final_WebFinal_800x1500x150_e4ab14ef-2c57-4d54-a752-65cf543c358d.png?v=1789779849"
+    },
+    "mango-102": {
+      "top": "ANSWER-4995my",
+      "base": "CHOICE-46j9hl",
+      "topName": "Mango VII",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/mango-102",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Mango102_WebWorkingFile_Final_WebFinal_800x1500x150_acf7fdd0-1866-4b93-a124-4cc8be91cb8f.png?v=1789588128"
+    },
+    "mango-114": {
+      "top": "ANSWER-4998zu",
+      "base": "CHOICE-46j9hl",
+      "topName": "Mango VIII",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/mango-114",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Mango114_WebWorkingFile_Final_WebFinal_800x1500x150.png?v=1789588207"
+    },
+    "oski-102": {
+      "top": "ANSWER-1avrjm",
+      "base": "ANSWER-52k4t3",
+      "topName": "OSKI I",
+      "baseName": "OSKI I",
+      "source": "https://www.on3pskis.com/products/oski-102",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Oski102_WebWorkingFile_Final_WebFinal_800x1500x150.png?v=1789577143"
+    },
+    "cease-and-desist": {
+      "top": "ANSWER-498vru",
+      "base": "CHOICE-46j9hl",
+      "topName": "Cease & Desist XIII",
+      "baseName": "Green",
+      "source": "https://www.on3pskis.com/products/cease-and-desist",
+      "image": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Cease_Desist_WebWorkingFile_Final_WebFinal_800x1500x150.png?v=1789686169"
+    }
+  },
+  "unverified": {
+    "jeffrey-124": "No current stock product listing returned; retain the starting artwork or the customer\u2019s choice without labeling it stock.",
+    "billy-goat-102": "No current stock product listing returned; retain the starting artwork or the customer\u2019s choice without labeling it stock.",
+    "billy-goat-108": "No current stock product listing returned; retain the starting artwork or the customer\u2019s choice without labeling it stock."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-7ua4wt",
+  "name": "Herringburn Yellow",
+  "file": "base-answer-7ua4wt.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/7ua89p.jpg",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "4d440967204578723e557bd0fc2009d05dc08975cbb762c17fd87fa6b47c3740",
+  "retrieved": "2026-09-24T17:07:58.644Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

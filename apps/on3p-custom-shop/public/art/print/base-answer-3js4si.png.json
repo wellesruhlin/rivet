@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-3js4si",
+  "name": "Clawed Orange",
+  "file": "base-answer-3js4si.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/3js85e.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "66396f6f47904054fab31b2ec6af52814a8dd00772bbf1de69ee230a47f8a2e1",
+  "retrieved": "2026-09-24T17:07:59.545Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

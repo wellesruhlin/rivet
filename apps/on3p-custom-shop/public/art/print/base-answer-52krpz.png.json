@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-52krpz",
+  "name": "Mango River IV",
+  "file": "base-answer-52krpz.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/52j3vb.jpg",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "b58041c6871a1de6ae3c1e7e34c45d1f952ed946d69225de5c063384edf9addc",
+  "retrieved": "2026-09-24T17:08:00.164Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

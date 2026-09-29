@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-4xlget",
+  "name": "Wood BG IV",
+  "file": "top-answer-4xlget.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/4xljrp.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "e1d3b344923471b96ab94898ad685788c65b92336cc07687f7bfb5be42a9c569",
+  "retrieved": "2026-09-24T17:07:43.848Z",
+  "crop": {
+    "x": 80,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

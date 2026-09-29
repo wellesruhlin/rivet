@@ -1,0 +1,162 @@
+[
+  {
+    "id": "natural-oak",
+    "name": "Natural Oak",
+    "color": "#cfaf7e",
+    "texture": "oak",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 1
+  },
+  {
+    "id": "whitened-oak",
+    "name": "Whitened Oak",
+    "color": "#d7cdb9",
+    "texture": "oak",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 0.64
+  },
+  {
+    "id": "nordic-oak",
+    "name": "Nordic Oak",
+    "color": "#baae94",
+    "texture": "oak",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 0.85
+  },
+  {
+    "id": "sand-oak",
+    "name": "Sand Oak",
+    "color": "#bda180",
+    "texture": "oak",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 1
+  },
+  {
+    "id": "aged-oak",
+    "name": "Aged Oak",
+    "color": "#9a8268",
+    "texture": "oak",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 1.1
+  },
+  {
+    "id": "golden-oak",
+    "name": "Golden Oak",
+    "color": "#b2824a",
+    "texture": "oak",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 1.1
+  },
+  {
+    "id": "espresso-oak",
+    "name": "Espresso Oak",
+    "color": "#49392d",
+    "texture": "oak",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 1.1
+  },
+  {
+    "id": "blackened-oak",
+    "name": "Blackened Oak",
+    "color": "#292922",
+    "texture": "oak",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 1.15
+  },
+  {
+    "id": "natural-walnut",
+    "name": "Natural Walnut",
+    "color": "#ffffff",
+    "texture": "walnut",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 1
+  },
+  {
+    "id": "bourbon-walnut",
+    "name": "Bourbon Walnut",
+    "color": "#d4ab85",
+    "texture": "walnut",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 1.1
+  },
+  {
+    "id": "charcoal-walnut",
+    "name": "Charcoal Walnut",
+    "color": "#97968f",
+    "texture": "walnut",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 1.1
+  },
+  {
+    "id": "maple",
+    "name": "Maple",
+    "color": "#dac39a",
+    "texture": "oak",
+    "kind": "wood",
+    "roughness": 0.7,
+    "grainScale": 1,
+    "grainStrength": 0.3
+  },
+  {
+    "id": "mountain-green",
+    "name": "Mountain Green",
+    "color": "#748166",
+    "texture": null,
+    "kind": "powder",
+    "roughness": 0.58,
+    "grainScale": 1,
+    "grainStrength": 1
+  },
+  {
+    "id": "matte-black",
+    "name": "Matte Black",
+    "color": "#292c29",
+    "texture": null,
+    "kind": "powder",
+    "roughness": 0.58,
+    "grainScale": 1,
+    "grainStrength": 1
+  },
+  {
+    "id": "oxblood-red",
+    "name": "Oxblood Red",
+    "color": "#60252e",
+    "texture": null,
+    "kind": "powder",
+    "roughness": 0.58,
+    "grainScale": 1,
+    "grainStrength": 1
+  },
+  {
+    "id": "white",
+    "name": "White",
+    "color": "#ecece4",
+    "texture": null,
+    "kind": "powder",
+    "roughness": 0.58,
+    "grainScale": 1,
+    "grainStrength": 1
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-52k4t3",
+  "name": "OSKI I",
+  "file": "base-answer-52k4t3.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/52k85z.jpg",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "6508a65e15c4c4216e58af46ca4dd4f6b66aee8aa28f8c9eb7dd711809656b31",
+  "retrieved": "2026-09-24T17:08:00.844Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "spec": {
+    "handle": "jeffrey-106",
+    "name": "Jeffrey 106",
+    "family": "Jeffrey",
+    "waist_mm": 106,
+    "rocker": "Signature",
+    "line": "resort",
+    "core": "Bamboo",
+    "lengths": [
+      {
+        "length_cm": 161,
+        "mount_from_center_cm": -3,
+        "mount_from_tail_cm": 77.5,
+        "tip_mm": 129,
+        "waist_mm": 106,
+        "tail_mm": 124,
+        "effective_edge_mm": 1265,
+        "turn_radius_m": 19.1,
+        "weight_g": 1730
+      },
+      {
+        "length_cm": 166,
+        "mount_from_center_cm": -3.25,
+        "mount_from_tail_cm": 79.75,
+        "tip_mm": 130,
+        "waist_mm": 106,
+        "tail_mm": 125,
+        "effective_edge_mm": 1310,
+        "turn_radius_m": 19.8,
+        "weight_g": 1790
+      },
+      {
+        "length_cm": 171,
+        "mount_from_center_cm": -3.5,
+        "mount_from_tail_cm": 82,
+        "tip_mm": 131,
+        "waist_mm": 106,
+        "tail_mm": 125,
+        "effective_edge_mm": 1355,
+        "turn_radius_m": 20.5,
+        "weight_g": 1830
+      },
+      {
+        "length_cm": 176,
+        "mount_from_center_cm": -3.75,
+        "mount_from_tail_cm": 84.25,
+        "tip_mm": 132,
+        "waist_mm": 106,
+        "tail_mm": 126,
+        "effective_edge_mm": 1400,
+        "turn_radius_m": 21.1,
+        "weight_g": 1900
+      },
+      {
+        "length_cm": 181,
+        "mount_from_center_cm": -4,
+        "mount_from_tail_cm": 85.6,
+        "tip_mm": 133,
+        "waist_mm": 106,
+        "tail_mm": 127,
+        "effective_edge_mm": 1445,
+        "turn_radius_m": 21.8,
+        "weight_g": 1975
+      },
+      {
+        "length_cm": 186,
+        "mount_from_center_cm": -4.25,
+        "mount_from_tail_cm": 88.75,
+        "tip_mm": 134,
+        "waist_mm": 106,
+        "tail_mm": 127,
+        "effective_edge_mm": 1490,
+        "turn_radius_m": 22.5,
+        "weight_g": 2080
+      },
+      {
+        "length_cm": 191,
+        "mount_from_center_cm": -4.5,
+        "mount_from_tail_cm": 91,
+        "tip_mm": 135,
+        "waist_mm": 106,
+        "tail_mm": 128,
+        "effective_edge_mm": 1535,
+        "turn_radius_m": 23.2,
+        "weight_g": 2250
+      }
+    ]
+  },
+  "product": {
+    "images": [
+      {
+        "id": 50127421472993,
+        "product_id": 9728659882209,
+        "position": 1,
+        "created_at": "2026-09-18T09:54:14-07:00",
+        "updated_at": "2026-09-18T09:54:16-07:00",
+        "alt": null,
+        "width": 1667,
+        "height": 3125,
+        "src": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Jeffrey106_WebWorkingFile_Final_WebFinal_800x1500x150.png?v=1789750456",
+        "variant_ids": []
+      },
+      {
+        "id": 50127421440225,
+        "product_id": 9728659882209,
+        "position": 2,
+        "created_at": "2026-09-18T09:54:14-07:00",
+        "updated_at": "2026-09-18T09:54:16-07:00",
+        "alt": null,
+        "width": 1667,
+        "height": 3125,
+        "src": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Jeffrey106_WebWorkingFile_Final_WebFinal_Skis_800x1500x150.png?v=1789750456",
+        "variant_ids": []
+      },
+      {
+        "id": 50127421505761,
+        "product_id": 9728659882209,
+        "position": 3,
+        "created_at": "2026-09-18T09:54:14-07:00",
+        "updated_at": "2026-09-18T09:54:16-07:00",
+        "alt": null,
+        "width": 1667,
+        "height": 3125,
+        "src": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Jeffrey106_WebWorkingFile_Final_WebFinal_Base_800x1500x150.png?v=1789750456",
+        "variant_ids": []
+      },
+      {
+        "id": 50127421538529,
+        "product_id": 9728659882209,
+        "position": 4,
+        "created_at": "2026-09-18T09:54:14-07:00",
+        "updated_at": "2026-09-18T09:54:16-07:00",
+        "alt": null,
+        "width": 1667,
+        "height": 3125,
+        "src": "https://cdn.shopify.com/s/files/1/0033/4622/files/2027_Jeffrey106_WebWorkingFile_Final_WebFinal_Rocker_800x1500x150.png?v=1789750456",
+        "variant_ids": []
+      }
+    ]
+  }
+}

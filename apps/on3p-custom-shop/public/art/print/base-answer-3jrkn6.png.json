@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-3jrkn6",
+  "name": "Clawed Green",
+  "file": "base-answer-3jrkn6.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/3jro02.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "4e98712206b8bb4e1754cd373528423d60851edefab50a9d179cd5da28d10a82",
+  "retrieved": "2026-09-24T17:07:59.408Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "families": [
+    {
+      "id": "ski",
+      "name": "Ski poles",
+      "description": "Original, Touring and Ringtail."
+    },
+    {
+      "id": "kids",
+      "name": "Kids & growing",
+      "description": "Kids Sticks and length changes."
+    },
+    {
+      "id": "trekking",
+      "name": "Trekking",
+      "description": "Pairs and single walking sticks."
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "description": "Baskets, straps, tip covers and care."
+    },
+    {
+      "id": "gifts",
+      "name": "Gift cards",
+      "description": "A custom pair, chosen by them."
+    }
+  ],
+  "models": [
+    {
+      "id": "original",
+      "name": "Original Grass Sticks",
+      "family": "ski",
+      "kind": "poles",
+      "summary": "Full bamboo shafts, your colors and your length. Handmade in Steamboat Springs for everyday skiing.",
+      "price": 134.95,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/Original-Custom-Grass-Sticks/p/55001151",
+      "image": "55001151.jpg",
+      "maxLength": 200,
+      "minLength": 40
+    },
+    {
+      "id": "touring",
+      "name": "Touring Sticks",
+      "family": "ski",
+      "kind": "poles",
+      "summary": "A full bamboo touring pole with a 6.5-inch shaft grip for steep ascents and traverses.",
+      "price": 146.95,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/Touring-Sticks/p/74102380",
+      "image": "74102380.jpg",
+      "maxLength": 200,
+      "minLength": 40
+    },
+    {
+      "id": "ringtail",
+      "name": "Ringtail Torched Sticks",
+      "family": "ski",
+      "kind": "poles",
+      "summary": "The Original pole with hand-torched rings, sanding and a clear finish inspired by classic bamboo fly rods.",
+      "price": 151.95,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/Ringtail-Torched-Sticks/p/506210440",
+      "image": "506210440.jpg",
+      "maxLength": 200,
+      "minLength": 40
+    },
+    {
+      "id": "kids",
+      "name": "Kids Sticks",
+      "family": "kids",
+      "kind": "poles",
+      "summary": "Bamboo poles at 42 inches or less. The Grow with Your Poles program offers up to five length changes for $14 each.",
+      "price": 85.95,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/Kids-Sticks-Grow-with-your-poles-program/p/94782479",
+      "image": "94782479.jpg",
+      "maxLength": 106.68,
+      "minLength": 40
+    },
+    {
+      "id": "trekking",
+      "name": "Bamboo Trekking Sticks",
+      "family": "trekking",
+      "kind": "poles",
+      "summary": "Handmade bamboo trekking poles with small black baskets. Choose a pair or a single walking stick.",
+      "price": 134.95,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/Bamboo-Trekking-Sticks/p/570262509",
+      "image": "570262509.jpg",
+      "maxLength": 200,
+      "minLength": 40
+    },
+    {
+      "id": "baskets",
+      "name": "Extra Baskets (Interchangeable)",
+      "family": "accessories",
+      "kind": "accessory",
+      "summary": "Interchangeable baskets for adapting your Grass Sticks to the snow. New set screws are included.",
+      "price": 12,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/Extra-Baskets-Interchangeable/p/55221294",
+      "image": "55221294.jpg"
+    },
+    {
+      "id": "gift-adult",
+      "name": "Ski Pole Gift Card",
+      "family": "gifts",
+      "kind": "gift",
+      "summary": "Let someone else choose their colors and length. Select a digital card or a physical card with a bamboo key chain.",
+      "price": 134.95,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/Gift-Card-Ski-Poles/p/105038640",
+      "image": "105038640.jpg"
+    },
+    {
+      "id": "gift-kids",
+      "name": "Kids Sticks Gift Card",
+      "family": "gifts",
+      "kind": "gift",
+      "summary": "A gift for a growing skier, covering Kids Sticks up to 42 inches and access to the length-change program.",
+      "price": 85.95,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/Gift-Card-Kids-Sticks-Grow-with-your-poles-program/p/116311542",
+      "image": "116311542.jpg"
+    },
+    {
+      "id": "mtn-straps",
+      "name": "MTN Straps",
+      "family": "accessories",
+      "kind": "accessory",
+      "summary": "Printed adjustable pole straps, crafted by Mtn Straps in Bozeman, Montana. Choose from 14 artist designs.",
+      "price": 19.99,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/MTN-Straps/p/116311087",
+      "image": "116311087.jpg"
+    },
+    {
+      "id": "length-change",
+      "name": "Kids Sticks Length Change",
+      "family": "kids",
+      "kind": "service",
+      "summary": "A longer pair for an existing Kids Sticks customer. Up to five changes, at 42 inches or less; reuse your baskets and straps or choose replacements.",
+      "price": 14,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/Kids-Sticks-Length-Change/p/280246131",
+      "image": "280246131.jpg",
+      "maxLength": 106.68,
+      "minLength": 40
+    },
+    {
+      "id": "tip-covers",
+      "name": "Rubber Hiking Tip Covers",
+      "family": "accessories",
+      "kind": "accessory",
+      "summary": "Push-on rubber tip covers for improved grip on rock, pavement and other hard surfaces.",
+      "price": 12,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/Rubber-Hiking-Tip-Covers/p/54881189",
+      "image": "54881189.jpg"
+    },
+    {
+      "id": "coat-kit",
+      "name": "Coat Kit",
+      "family": "accessories",
+      "kind": "accessory",
+      "summary": "A clear-coat touch-up kit for refreshing the finish on your bamboo poles.",
+      "price": 12,
+      "lengths": [],
+      "source": "https://www.grasssticks.com/shop#!/Coat-Kit/p/283200118",
+      "image": "283200118.jpg"
+    }
+  ]
+}

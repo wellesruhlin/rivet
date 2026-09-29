@@ -1,0 +1,2336 @@
+[
+  {
+    "schemaVersion": 1,
+    "version": "1",
+    "rules": [],
+    "camera": {
+      "yaw": -37,
+      "elevation": 26,
+      "distance": 1
+    },
+    "limits": {
+      "length": {
+        "min": 48,
+        "max": 120,
+        "step": 0.25
+      },
+      "width": {
+        "min": 28,
+        "max": 48,
+        "step": 0.25
+      },
+      "height": {
+        "min": 26,
+        "max": 36,
+        "step": 0.25
+      }
+    },
+    "id": "ref-parsons",
+    "maker": "ref.",
+    "title": "Parsons dining table",
+    "template": "parsons",
+    "currency": "CAD",
+    "defaults": {
+      "size": "72",
+      "finish": "natural-walnut",
+      "baseFinish": "match-top"
+    },
+    "sizes": [
+      {
+        "id": "72",
+        "length": 72,
+        "width": 38,
+        "seats": "6–8",
+        "confidence": "published"
+      },
+      {
+        "id": "84",
+        "length": 84,
+        "width": 42,
+        "seats": "6–8",
+        "confidence": "published"
+      },
+      {
+        "id": "96",
+        "length": 96,
+        "width": 44,
+        "seats": "8–10",
+        "confidence": "published"
+      },
+      {
+        "id": "108",
+        "length": 108,
+        "width": 44,
+        "seats": "8–10",
+        "confidence": "published"
+      }
+    ],
+    "finishes": [
+      {
+        "id": "natural-oak",
+        "name": "Natural Oak",
+        "color": "#cfaf7e",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "whitened-oak",
+        "name": "Whitened Oak",
+        "color": "#d7cdb9",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 0.64
+      },
+      {
+        "id": "nordic-oak",
+        "name": "Nordic Oak",
+        "color": "#baae94",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 0.85
+      },
+      {
+        "id": "sand-oak",
+        "name": "Sand Oak",
+        "color": "#bda180",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "aged-oak",
+        "name": "Aged Oak",
+        "color": "#9a8268",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1.1
+      },
+      {
+        "id": "golden-oak",
+        "name": "Golden Oak",
+        "color": "#b2824a",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1.1
+      },
+      {
+        "id": "espresso-oak",
+        "name": "Espresso Oak",
+        "color": "#49392d",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1.1
+      },
+      {
+        "id": "blackened-oak",
+        "name": "Blackened Oak",
+        "color": "#292922",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1.15
+      },
+      {
+        "id": "natural-walnut",
+        "name": "Natural Walnut",
+        "color": "#ffffff",
+        "texture": "walnut",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "bourbon-walnut",
+        "name": "Bourbon Walnut",
+        "color": "#d4ab85",
+        "texture": "walnut",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1.1
+      },
+      {
+        "id": "charcoal-walnut",
+        "name": "Charcoal Walnut",
+        "color": "#97968f",
+        "texture": "walnut",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1.1
+      },
+      {
+        "id": "maple",
+        "name": "Maple",
+        "color": "#dac39a",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 0.3
+      }
+    ],
+    "baseFinishes": [
+      {
+        "id": "match-top",
+        "name": "Matches top",
+        "color": "#816042",
+        "texture": "walnut",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      }
+    ],
+    "geometry": {
+      "height": {
+        "value": 30,
+        "confidence": "published"
+      },
+      "topThickness": {
+        "value": 1.625,
+        "confidence": "estimated"
+      },
+      "edgeDepth": {
+        "value": 3,
+        "confidence": "published"
+      },
+      "legWidth": {
+        "value": 4,
+        "confidence": "published"
+      },
+      "baseDiameter": {
+        "value": 19.5,
+        "confidence": "estimated"
+      },
+      "columnDiameter": {
+        "value": 2.5,
+        "confidence": "estimated"
+      },
+      "baseThickness": {
+        "value": 0.5,
+        "confidence": "estimated"
+      }
+    },
+    "sources": [
+      {
+        "label": "Maker product specifications",
+        "url": "https://ref-co.ca/products/parsons-dining-table",
+        "observed": "2026-09-24"
+      },
+      {
+        "label": "Variant catalog",
+        "url": "https://ref-co.ca/products/parsons-dining-table.js",
+        "observed": "2026-09-24"
+      }
+    ],
+    "pricing": {
+      "mode": "reference",
+      "provenance": "published",
+      "variants": [
+        {
+          "id": "43602253938837",
+          "size": "72",
+          "finish": "natural-oak",
+          "priceMinor": 449900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 449900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768169848981",
+          "size": "72",
+          "finish": "whitened-oak",
+          "priceMinor": 449900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 449900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768169881749",
+          "size": "72",
+          "finish": "nordic-oak",
+          "priceMinor": 449900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 449900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768169914517",
+          "size": "72",
+          "finish": "sand-oak",
+          "priceMinor": 409900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 409900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294319253",
+          "size": "72",
+          "finish": "aged-oak",
+          "priceMinor": 409900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 409900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294384789",
+          "size": "72",
+          "finish": "golden-oak",
+          "priceMinor": 409900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 409900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294352021",
+          "size": "72",
+          "finish": "espresso-oak",
+          "priceMinor": 409900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 409900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768169980053",
+          "size": "72",
+          "finish": "blackened-oak",
+          "priceMinor": 409900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 409900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170012821",
+          "size": "72",
+          "finish": "natural-walnut",
+          "priceMinor": 539900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 539900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170045589",
+          "size": "72",
+          "finish": "bourbon-walnut",
+          "priceMinor": 539900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 539900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170078357",
+          "size": "72",
+          "finish": "charcoal-walnut",
+          "priceMinor": 539900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 539900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170111125",
+          "size": "72",
+          "finish": "maple",
+          "priceMinor": 409900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 409900,
+          "dimensions": {
+            "length": 72,
+            "width": 38,
+            "height": 30
+          }
+        },
+        {
+          "id": "43602253971605",
+          "size": "84",
+          "finish": "natural-oak",
+          "priceMinor": 499900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 499900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170143893",
+          "size": "84",
+          "finish": "whitened-oak",
+          "priceMinor": 499900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 499900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170176661",
+          "size": "84",
+          "finish": "nordic-oak",
+          "priceMinor": 499900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 499900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170209429",
+          "size": "84",
+          "finish": "sand-oak",
+          "priceMinor": 459900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 459900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294417557",
+          "size": "84",
+          "finish": "aged-oak",
+          "priceMinor": 459900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 459900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294483093",
+          "size": "84",
+          "finish": "golden-oak",
+          "priceMinor": 459900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 459900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294450325",
+          "size": "84",
+          "finish": "espresso-oak",
+          "priceMinor": 459900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 459900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170274965",
+          "size": "84",
+          "finish": "blackened-oak",
+          "priceMinor": 459900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 459900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170307733",
+          "size": "84",
+          "finish": "natural-walnut",
+          "priceMinor": 599900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 599900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170340501",
+          "size": "84",
+          "finish": "bourbon-walnut",
+          "priceMinor": 599900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 599900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170373269",
+          "size": "84",
+          "finish": "charcoal-walnut",
+          "priceMinor": 599900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 599900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170406037",
+          "size": "84",
+          "finish": "maple",
+          "priceMinor": 459900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 459900,
+          "dimensions": {
+            "length": 84,
+            "width": 42,
+            "height": 30
+          }
+        },
+        {
+          "id": "43602254004373",
+          "size": "96",
+          "finish": "natural-oak",
+          "priceMinor": 549900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 549900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170438805",
+          "size": "96",
+          "finish": "whitened-oak",
+          "priceMinor": 549900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 549900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170471573",
+          "size": "96",
+          "finish": "nordic-oak",
+          "priceMinor": 549900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 549900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170504341",
+          "size": "96",
+          "finish": "sand-oak",
+          "priceMinor": 499900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 499900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294515861",
+          "size": "96",
+          "finish": "aged-oak",
+          "priceMinor": 499900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 499900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294581397",
+          "size": "96",
+          "finish": "golden-oak",
+          "priceMinor": 499900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 499900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294548629",
+          "size": "96",
+          "finish": "espresso-oak",
+          "priceMinor": 499900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 499900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170569877",
+          "size": "96",
+          "finish": "blackened-oak",
+          "priceMinor": 499900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 499900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170602645",
+          "size": "96",
+          "finish": "natural-walnut",
+          "priceMinor": 659900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 659900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170635413",
+          "size": "96",
+          "finish": "bourbon-walnut",
+          "priceMinor": 659900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 659900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170668181",
+          "size": "96",
+          "finish": "charcoal-walnut",
+          "priceMinor": 659900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 659900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170700949",
+          "size": "96",
+          "finish": "maple",
+          "priceMinor": 499900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 499900,
+          "dimensions": {
+            "length": 96,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170733717",
+          "size": "108",
+          "finish": "natural-oak",
+          "priceMinor": 599900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 599900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170766485",
+          "size": "108",
+          "finish": "whitened-oak",
+          "priceMinor": 599900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 599900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170799253",
+          "size": "108",
+          "finish": "nordic-oak",
+          "priceMinor": 599900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 599900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170832021",
+          "size": "108",
+          "finish": "sand-oak",
+          "priceMinor": 549900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 549900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294220949",
+          "size": "108",
+          "finish": "aged-oak",
+          "priceMinor": 549900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 549900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294286485",
+          "size": "108",
+          "finish": "golden-oak",
+          "priceMinor": 549900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 549900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "47950294253717",
+          "size": "108",
+          "finish": "espresso-oak",
+          "priceMinor": 549900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 549900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170897557",
+          "size": "108",
+          "finish": "blackened-oak",
+          "priceMinor": 549900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 549900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170930325",
+          "size": "108",
+          "finish": "natural-walnut",
+          "priceMinor": 719900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 719900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170963093",
+          "size": "108",
+          "finish": "bourbon-walnut",
+          "priceMinor": 719900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 719900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768170995861",
+          "size": "108",
+          "finish": "charcoal-walnut",
+          "priceMinor": 719900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 719900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        },
+        {
+          "id": "45768171028629",
+          "size": "108",
+          "finish": "maple",
+          "priceMinor": 549900,
+          "available": true,
+          "baseFinish": "match-top",
+          "amountMinor": 549900,
+          "dimensions": {
+            "length": 108,
+            "width": 44,
+            "height": 30
+          }
+        }
+      ]
+    },
+    "notes": "Published overall dimensions, leg section and apparent edge. Slab chosen within published range; concealed joinery, bracing and grain are illustrative."
+  },
+  {
+    "schemaVersion": 1,
+    "version": "1",
+    "rules": [],
+    "camera": {
+      "yaw": -37,
+      "elevation": 26,
+      "distance": 1
+    },
+    "limits": {
+      "length": {
+        "min": 24,
+        "max": 48,
+        "step": 0.25
+      },
+      "width": {
+        "min": 24,
+        "max": 48,
+        "step": 0.25
+      },
+      "height": {
+        "min": 26,
+        "max": 36,
+        "step": 0.25
+      }
+    },
+    "id": "vft-bistro-round",
+    "maker": "Vermont Farm Table",
+    "title": "Bistro Round",
+    "template": "pedestal",
+    "currency": "USD",
+    "defaults": {
+      "size": "36",
+      "finish": "white-oak",
+      "baseFinish": "mountain-green"
+    },
+    "sizes": [
+      {
+        "id": "24",
+        "length": 24,
+        "width": 24,
+        "confidence": "published"
+      },
+      {
+        "id": "36",
+        "length": 36,
+        "width": 36,
+        "confidence": "published"
+      }
+    ],
+    "finishes": [
+      {
+        "id": "white-oak",
+        "name": "White Oak",
+        "color": "#c7ae85",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "white-oak-dark-gray",
+        "name": "White Oak Dark Gray",
+        "color": "#77766e",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "white-oak-oxidized",
+        "name": "White Oak Oxidized",
+        "color": "#66543e",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "rustic-oak",
+        "name": "Rustic Oak",
+        "color": "#b69b6e",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "rustic-oak-bourbon-brown",
+        "name": "Rustic Oak Bourbon Brown",
+        "color": "#79502d",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "ash",
+        "name": "Ash",
+        "color": "#d4bd92",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "ash-whitewashed",
+        "name": "Ash Whitewashed",
+        "color": "#e4ded0",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "ash-light-gray",
+        "name": "Ash Light Gray",
+        "color": "#a8a69a",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "ash-dark-brown",
+        "name": "Ash Dark Brown",
+        "color": "#6b4832",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "ash-true-black",
+        "name": "Ash True Black",
+        "color": "#30322f",
+        "texture": "oak",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "walnut",
+        "name": "Walnut",
+        "color": "#ffffff",
+        "texture": "walnut",
+        "kind": "wood",
+        "roughness": 0.7,
+        "grainScale": 1,
+        "grainStrength": 1
+      }
+    ],
+    "baseFinishes": [
+      {
+        "id": "mountain-green",
+        "name": "Mountain Green",
+        "color": "#748166",
+        "texture": null,
+        "kind": "powder",
+        "roughness": 0.58,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "matte-black",
+        "name": "Matte Black",
+        "color": "#292c29",
+        "texture": null,
+        "kind": "powder",
+        "roughness": 0.58,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "oxblood-red",
+        "name": "Oxblood Red",
+        "color": "#60252e",
+        "texture": null,
+        "kind": "powder",
+        "roughness": 0.58,
+        "grainScale": 1,
+        "grainStrength": 1
+      },
+      {
+        "id": "white",
+        "name": "White",
+        "color": "#ecece4",
+        "texture": null,
+        "kind": "powder",
+        "roughness": 0.58,
+        "grainScale": 1,
+        "grainStrength": 1
+      }
+    ],
+    "geometry": {
+      "height": {
+        "value": 29,
+        "confidence": "estimated"
+      },
+      "topThickness": {
+        "value": 1.25,
+        "confidence": "photo-derived"
+      },
+      "edgeDepth": {
+        "value": 1.25,
+        "confidence": "photo-derived"
+      },
+      "legWidth": {
+        "value": 4,
+        "confidence": "estimated"
+      },
+      "baseDiameter": {
+        "value": 19.5,
+        "confidence": "photo-derived"
+      },
+      "columnDiameter": {
+        "value": 2.5,
+        "confidence": "photo-derived"
+      },
+      "baseThickness": {
+        "value": 0.5,
+        "confidence": "photo-derived"
+      }
+    },
+    "sources": [
+      {
+        "label": "Mountain Green maker catalog",
+        "url": "https://www.vermontfarmtable.com/products/bistro-metal-round-mountain-green",
+        "observed": "2026-09-24",
+        "sha256": "bc6f160a9e033a5571774d46c0d9db8861176659638805924526e82f7c3c1400"
+      },
+      {
+        "label": "Matte Black maker catalog",
+        "url": "https://www.vermontfarmtable.com/products/template-for-round-2025-copy",
+        "observed": "2026-09-24",
+        "sha256": "7e68c9fca97285f2e10aba4cd73a87b4c4516a7a2be6b34b25daadc7bbe1f288"
+      },
+      {
+        "label": "Oxblood Red maker catalog",
+        "url": "https://www.vermontfarmtable.com/products/bistro-metal-round-oxblood-red",
+        "observed": "2026-09-24",
+        "sha256": "7b8c198793f89cb3be0fecebd60c6a1ee4ec2951076fc295fc2c9d7f1cdd161b"
+      },
+      {
+        "label": "White maker catalog",
+        "url": "https://www.vermontfarmtable.com/products/bistro-metal-round-white",
+        "observed": "2026-09-24",
+        "sha256": "e1b6976e20466af40ab3a9f804a6b4d9d5e7b410552ed38a87401773303444a5"
+      }
+    ],
+    "pricing": {
+      "mode": "quote",
+      "provenance": "published",
+      "variants": [
+        {
+          "id": "44098007793836",
+          "size": "24",
+          "finish": "white-oak",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007826604",
+          "size": "36",
+          "finish": "white-oak",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007892140",
+          "size": "24",
+          "finish": "white-oak-dark-gray",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007924908",
+          "size": "36",
+          "finish": "white-oak-dark-gray",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007990444",
+          "size": "24",
+          "finish": "white-oak-oxidized",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008023212",
+          "size": "36",
+          "finish": "white-oak-oxidized",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008088748",
+          "size": "24",
+          "finish": "rustic-oak",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008121516",
+          "size": "36",
+          "finish": "rustic-oak",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008187052",
+          "size": "24",
+          "finish": "rustic-oak-bourbon-brown",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008219820",
+          "size": "36",
+          "finish": "rustic-oak-bourbon-brown",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008285356",
+          "size": "24",
+          "finish": "ash",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008318124",
+          "size": "36",
+          "finish": "ash",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008383660",
+          "size": "24",
+          "finish": "ash-whitewashed",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008416428",
+          "size": "36",
+          "finish": "ash-whitewashed",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008481964",
+          "size": "24",
+          "finish": "ash-light-gray",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008514732",
+          "size": "36",
+          "finish": "ash-light-gray",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008580268",
+          "size": "24",
+          "finish": "ash-dark-brown",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008613036",
+          "size": "36",
+          "finish": "ash-dark-brown",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008678572",
+          "size": "24",
+          "finish": "ash-true-black",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008711340",
+          "size": "36",
+          "finish": "ash-true-black",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008776876",
+          "size": "24",
+          "finish": "walnut",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098008809644",
+          "size": "36",
+          "finish": "walnut",
+          "baseFinish": "mountain-green",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093749362860",
+          "size": "24",
+          "finish": "white-oak",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093749395628",
+          "size": "36",
+          "finish": "white-oak",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093749493932",
+          "size": "24",
+          "finish": "white-oak-dark-gray",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093749526700",
+          "size": "36",
+          "finish": "white-oak-dark-gray",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093749625004",
+          "size": "24",
+          "finish": "white-oak-oxidized",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093749657772",
+          "size": "36",
+          "finish": "white-oak-oxidized",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093749756076",
+          "size": "24",
+          "finish": "rustic-oak",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093749788844",
+          "size": "36",
+          "finish": "rustic-oak",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093749887148",
+          "size": "24",
+          "finish": "rustic-oak-bourbon-brown",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093749919916",
+          "size": "36",
+          "finish": "rustic-oak-bourbon-brown",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750018220",
+          "size": "24",
+          "finish": "ash",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750050988",
+          "size": "36",
+          "finish": "ash",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750149292",
+          "size": "24",
+          "finish": "ash-whitewashed",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750182060",
+          "size": "36",
+          "finish": "ash-whitewashed",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750280364",
+          "size": "24",
+          "finish": "ash-light-gray",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750313132",
+          "size": "36",
+          "finish": "ash-light-gray",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750411436",
+          "size": "24",
+          "finish": "ash-dark-brown",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750444204",
+          "size": "36",
+          "finish": "ash-dark-brown",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750542508",
+          "size": "24",
+          "finish": "ash-true-black",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750575276",
+          "size": "36",
+          "finish": "ash-true-black",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750673580",
+          "size": "24",
+          "finish": "walnut",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44093750706348",
+          "size": "36",
+          "finish": "walnut",
+          "baseFinish": "matte-black",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006450348",
+          "size": "24",
+          "finish": "white-oak",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006483116",
+          "size": "36",
+          "finish": "white-oak",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006548652",
+          "size": "24",
+          "finish": "white-oak-dark-gray",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006581420",
+          "size": "36",
+          "finish": "white-oak-dark-gray",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006646956",
+          "size": "24",
+          "finish": "white-oak-oxidized",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006679724",
+          "size": "36",
+          "finish": "white-oak-oxidized",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006745260",
+          "size": "24",
+          "finish": "rustic-oak",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006778028",
+          "size": "36",
+          "finish": "rustic-oak",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006843564",
+          "size": "24",
+          "finish": "rustic-oak-bourbon-brown",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006876332",
+          "size": "36",
+          "finish": "rustic-oak-bourbon-brown",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006941868",
+          "size": "24",
+          "finish": "ash",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098006974636",
+          "size": "36",
+          "finish": "ash",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007040172",
+          "size": "24",
+          "finish": "ash-whitewashed",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007072940",
+          "size": "36",
+          "finish": "ash-whitewashed",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007138476",
+          "size": "24",
+          "finish": "ash-light-gray",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007171244",
+          "size": "36",
+          "finish": "ash-light-gray",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007236780",
+          "size": "24",
+          "finish": "ash-dark-brown",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007269548",
+          "size": "36",
+          "finish": "ash-dark-brown",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007335084",
+          "size": "24",
+          "finish": "ash-true-black",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007367852",
+          "size": "36",
+          "finish": "ash-true-black",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007433388",
+          "size": "24",
+          "finish": "walnut",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098007466156",
+          "size": "36",
+          "finish": "walnut",
+          "baseFinish": "oxblood-red",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098003566764",
+          "size": "24",
+          "finish": "white-oak",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098003599532",
+          "size": "36",
+          "finish": "white-oak",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098003665068",
+          "size": "24",
+          "finish": "white-oak-dark-gray",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098003697836",
+          "size": "36",
+          "finish": "white-oak-dark-gray",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098003763372",
+          "size": "24",
+          "finish": "white-oak-oxidized",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098003796140",
+          "size": "36",
+          "finish": "white-oak-oxidized",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098003861676",
+          "size": "24",
+          "finish": "rustic-oak",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098003894444",
+          "size": "36",
+          "finish": "rustic-oak",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098003959980",
+          "size": "24",
+          "finish": "rustic-oak-bourbon-brown",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098003992748",
+          "size": "36",
+          "finish": "rustic-oak-bourbon-brown",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004058284",
+          "size": "24",
+          "finish": "ash",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004091052",
+          "size": "36",
+          "finish": "ash",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004156588",
+          "size": "24",
+          "finish": "ash-whitewashed",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004189356",
+          "size": "36",
+          "finish": "ash-whitewashed",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004254892",
+          "size": "24",
+          "finish": "ash-light-gray",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004287660",
+          "size": "36",
+          "finish": "ash-light-gray",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004353196",
+          "size": "24",
+          "finish": "ash-dark-brown",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004385964",
+          "size": "36",
+          "finish": "ash-dark-brown",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004451500",
+          "size": "24",
+          "finish": "ash-true-black",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004484268",
+          "size": "36",
+          "finish": "ash-true-black",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004549804",
+          "size": "24",
+          "finish": "walnut",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 24,
+            "width": 24,
+            "height": 29
+          }
+        },
+        {
+          "id": "44098004582572",
+          "size": "36",
+          "finish": "walnut",
+          "baseFinish": "white",
+          "amountMinor": null,
+          "available": true,
+          "dimensions": {
+            "length": 36,
+            "width": 36,
+            "height": 29
+          }
+        }
+      ]
+    },
+    "notes": "Published: 24- and 36-inch round tops, eleven wood finishes, four powder-coated base colors, quote-only pricing. Height (29 in), top thickness and pedestal dimensions are estimates from public photography, not maker measurements. Hidden mounting details are illustrative. Ash and rustic grain use a simplified oak proxy."
+  }
+]

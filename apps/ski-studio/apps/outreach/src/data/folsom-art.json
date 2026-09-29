@@ -1,0 +1,1645 @@
+{
+  "observed": "2026-09-27",
+  "source": "https://www.folsomskis.com/graphics",
+  "categories": [
+    {
+      "id": "featured",
+      "name": "Featured"
+    },
+    {
+      "id": "artist-series",
+      "name": "Artist Series"
+    },
+    {
+      "id": "classic",
+      "name": "Classic"
+    },
+    {
+      "id": "creative",
+      "name": "Creative"
+    },
+    {
+      "id": "nature",
+      "name": "Nature"
+    },
+    {
+      "id": "nautical",
+      "name": "Nautical"
+    },
+    {
+      "id": "patriotic",
+      "name": "Patriotic"
+    },
+    {
+      "id": "retro",
+      "name": "Retro"
+    },
+    {
+      "id": "tropical",
+      "name": "Tropical"
+    },
+    {
+      "id": "andy-patchin-series",
+      "name": "Andy Patchin Series"
+    },
+    {
+      "id": "simple",
+      "name": "Simple"
+    }
+  ],
+  "art": [
+    {
+      "id": "drive-to-survive",
+      "name": "Drive To Survive",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/drive-to-survive.jpg",
+      "categories": [
+        "featured"
+      ],
+      "original": "originals/drive-to-survive.jpg"
+    },
+    {
+      "id": "race-lines",
+      "name": "Race Lines",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/race-lines.jpg",
+      "categories": [
+        "featured",
+        "classic",
+        "retro"
+      ],
+      "original": "originals/race-lines.jpg"
+    },
+    {
+      "id": "patchwork",
+      "name": "Patchwork",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/patchwork-web.jpg",
+      "categories": [
+        "featured",
+        "nature"
+      ],
+      "original": "originals/patchwork.jpg"
+    },
+    {
+      "id": "lava-lamp",
+      "name": "Lava Lamp",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/03/lava-lamp-preview.jpg",
+      "categories": [
+        "featured",
+        "creative"
+      ],
+      "original": "originals/lava-lamp.jpg"
+    },
+    {
+      "id": "retrograde-white",
+      "name": "Retrograde White",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/retrograde-white.jpg",
+      "categories": [
+        "featured",
+        "retro"
+      ],
+      "original": "originals/retrograde-white.jpg"
+    },
+    {
+      "id": "rosati-v3",
+      "name": "Rosati V3",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2025/03/rosati-v3.jpg",
+      "categories": [
+        "featured"
+      ],
+      "original": "originals/rosati-v3.jpg"
+    },
+    {
+      "id": "darkline",
+      "name": "Darklines Miami Vice",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/06/darkline-miami-vice.jpg",
+      "categories": [
+        "featured",
+        "artist-series"
+      ],
+      "original": "originals/darkline.jpg"
+    },
+    {
+      "id": "optical-illusion",
+      "name": "Optical Illusion",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/optical-illusion.jpg",
+      "categories": [
+        "featured"
+      ],
+      "original": "originals/optical-illusion.jpg"
+    },
+    {
+      "id": "summit-to-sea",
+      "name": "Summit To Sea",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/summit-to-sea-web.jpg",
+      "categories": [
+        "featured",
+        "nature"
+      ],
+      "original": "originals/summit-to-sea.jpg"
+    },
+    {
+      "id": "bauhaus",
+      "name": "Bauhaus",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2025/01/bauhaus.jpg",
+      "categories": [
+        "featured"
+      ],
+      "original": "originals/bauhaus.jpg"
+    },
+    {
+      "id": "vaporwave",
+      "name": "Vaporwave",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/vaporwave-web.jpg",
+      "categories": [
+        "featured",
+        "nature"
+      ],
+      "original": "originals/vaporwave.jpg"
+    },
+    {
+      "id": "flow-state",
+      "name": "Flow State",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2025/01/flow-state.jpg",
+      "categories": [
+        "featured"
+      ],
+      "original": "originals/flow-state.jpg"
+    },
+    {
+      "id": "lava-lamp-white",
+      "name": "Lava Lamp White",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2025/01/lava-lamp-white-1.jpg",
+      "categories": [
+        "featured",
+        "creative"
+      ],
+      "original": "originals/lava-lamp-white.jpg"
+    },
+    {
+      "id": "infinite-space",
+      "name": "Infinite Space",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2025/01/infinite-space.jpg",
+      "categories": [
+        "featured"
+      ],
+      "original": "originals/infinite-space.jpg"
+    },
+    {
+      "id": "wedding-flowers",
+      "name": "Wedding Flowers",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2025/01/wedding-flowers.jpg",
+      "categories": [
+        "featured"
+      ],
+      "original": "originals/wedding-flowers.jpg"
+    },
+    {
+      "id": "midnight-ascent-2",
+      "name": "Midnight Ascent 2",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2025/03/midnight-ascent-2.jpg",
+      "categories": [
+        "featured"
+      ],
+      "original": "originals/midnight-ascent-2.jpg"
+    },
+    {
+      "id": "darklines-the-times-v1",
+      "name": "Darklines The Times V1",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2025/03/darklines-the-times-v1.jpg",
+      "categories": [
+        "featured",
+        "artist-series"
+      ],
+      "original": "originals/darklines-the-times-v1.jpg"
+    },
+    {
+      "id": "modern-pulse",
+      "name": "Modern Pulse",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2025/01/modern-pulse.jpg",
+      "categories": [
+        "featured"
+      ],
+      "original": "originals/modern-pulse.jpg"
+    },
+    {
+      "id": "hippie-pow",
+      "name": "Hippie Pow",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/06/hippie-pow-min.jpg",
+      "categories": [
+        "featured",
+        "creative"
+      ],
+      "original": "originals/hippie-pow.jpg"
+    },
+    {
+      "id": "japow",
+      "name": "Japow",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/03/japow.jpg",
+      "categories": [
+        "featured",
+        "nature"
+      ],
+      "original": "originals/japow.jpg"
+    },
+    {
+      "id": "future-past",
+      "name": "Future Past",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/03/future-past.jpg",
+      "categories": [
+        "featured",
+        "retro"
+      ],
+      "original": "originals/future-past.jpg"
+    },
+    {
+      "id": "pet-detective",
+      "name": "Pet Detective",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2023/02/pet-detective-min.jpg",
+      "categories": [
+        "featured",
+        "nature"
+      ],
+      "original": "originals/pet-detective.jpg"
+    },
+    {
+      "id": "americana",
+      "name": "Americana",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/03/americana.jpg",
+      "categories": [
+        "featured",
+        "patriotic"
+      ],
+      "original": "originals/americana.jpg"
+    },
+    {
+      "id": "magma",
+      "name": "Magma",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/03/magma-preview.jpg",
+      "categories": [
+        "featured",
+        "nature"
+      ],
+      "original": "originals/magma.jpg"
+    },
+    {
+      "id": "equipe-comp",
+      "name": "Equipe Comp",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2020/06/EQUIPE-COMP-min.jpg",
+      "categories": [
+        "featured",
+        "retro"
+      ],
+      "original": "originals/equipe-comp.jpg"
+    },
+    {
+      "id": "splash",
+      "name": "Splash",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2023/12/splash.jpg",
+      "categories": [
+        "featured"
+      ],
+      "original": "originals/splash.jpg"
+    },
+    {
+      "id": "above-the-rim",
+      "name": "Above The Rim",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2023/02/ABOVE-THE-RIM-min.jpg",
+      "categories": [
+        "featured",
+        "retro"
+      ],
+      "original": "originals/above-the-rim.jpg"
+    },
+    {
+      "id": "tidal-wave",
+      "name": "Tidal Wave",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2023/02/tidal-wave-min.jpg",
+      "categories": [
+        "featured",
+        "nautical"
+      ],
+      "original": "originals/tidal-wave.jpg"
+    },
+    {
+      "id": "animal-instinct",
+      "name": "Animal Instinct",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/03/animal-instinct.jpg",
+      "categories": [
+        "featured",
+        "nature"
+      ],
+      "original": "originals/animal-instinct.jpg"
+    },
+    {
+      "id": "rosati-v2",
+      "name": "Rosati V2",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2022/09/ROSATI-V2-min-1.jpg",
+      "categories": [
+        "featured",
+        "creative"
+      ],
+      "original": "originals/rosati-v2.jpg"
+    },
+    {
+      "id": "pink-moon-kellie",
+      "name": "Pink Moon Kellie",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/10/pink-moon-kellie-min.jpg",
+      "categories": [
+        "featured",
+        "artist-series"
+      ],
+      "original": "originals/pink-moon-kellie.jpg"
+    },
+    {
+      "id": "high-tide",
+      "name": "High Tide",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2022/05/high-tide-min.jpg",
+      "categories": [
+        "featured",
+        "tropical"
+      ],
+      "original": "originals/high-tide.jpg"
+    },
+    {
+      "id": "laser-dino",
+      "name": "Laser Dino",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/laser-dino.jpg",
+      "categories": [
+        "featured"
+      ],
+      "original": "originals/laser-dino.jpg"
+    },
+    {
+      "id": "darklines-desert-bones",
+      "name": "Darklines Desert Bones",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/06/darkline-desert-bones.jpg",
+      "categories": [
+        "artist-series"
+      ],
+      "original": "originals/darklines-desert-bones.jpg"
+    },
+    {
+      "id": "darklines-skipper",
+      "name": "Darklines Skipper",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/06/darkline-skipper.jpg",
+      "categories": [
+        "artist-series"
+      ],
+      "original": "originals/darklines-skipper.jpg"
+    },
+    {
+      "id": "daklines-the-links",
+      "name": "Darklines The Links",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/06/daklines-the-links.jpg",
+      "categories": [
+        "artist-series"
+      ],
+      "original": "originals/daklines-the-links.jpg"
+    },
+    {
+      "id": "chris-adams-out-west",
+      "name": "Chris Adams - Out West",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/chris-adams-out-west-min.jpg",
+      "categories": [
+        "artist-series"
+      ],
+      "original": "originals/chris-adams-out-west.jpg"
+    },
+    {
+      "id": "jameson-florence-stevens-pass",
+      "name": "Jameson Florence - Stevens Pass",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/jameson-florence-stevens-pass-min.jpg",
+      "categories": [
+        "artist-series"
+      ],
+      "original": "originals/jameson-florence-stevens-pass.jpg"
+    },
+    {
+      "id": "jameson-florence-windy-corner",
+      "name": "Jameson Florence - Windy Corner",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/jameson-florence-windy-corner-min.jpg",
+      "categories": [
+        "artist-series"
+      ],
+      "original": "originals/jameson-florence-windy-corner.jpg"
+    },
+    {
+      "id": "kind-design-aspen-mountain",
+      "name": "Kind Design Aspen Mountain",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2020/06/KIND-DESIGN-ASPEN-MOUNTAIN.jpg",
+      "categories": [
+        "artist-series"
+      ],
+      "original": "originals/kind-design-aspen-mountain.jpg"
+    },
+    {
+      "id": "kind-design-westwater-canyon",
+      "name": "Kind Design Westwater Canyon",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2019/11/kind-design-westwater-canyon-min-2.png",
+      "categories": [
+        "artist-series"
+      ],
+      "original": "originals/kind-design-westwater-canyon.png"
+    },
+    {
+      "id": "thomas-obrien-aspen-180",
+      "name": "Thomas Obrien - Aspen 180",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/thomas-obrien-aspen-180-min.jpg",
+      "categories": [
+        "artist-series"
+      ],
+      "original": "originals/thomas-obrien-aspen-180.jpg"
+    },
+    {
+      "id": "thomas-obrien-night-arch",
+      "name": "Thomas Obrien Night Arch",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/06/thomas-obrien-night-arch.jpg",
+      "categories": [
+        "artist-series"
+      ],
+      "original": "originals/thomas-obrien-night-arch.jpg"
+    },
+    {
+      "id": "thomas-obrien-space-bells",
+      "name": "Thomas Obrien - Space Bells",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/thomas-obrien-space-bells-min.jpg",
+      "categories": [
+        "artist-series"
+      ],
+      "original": "originals/thomas-obrien-space-bells.jpg"
+    },
+    {
+      "id": "typeface-b-w",
+      "name": "Typeface B&W",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/TYPEFACE-BW-min-1.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/typeface-b-w.jpg"
+    },
+    {
+      "id": "international",
+      "name": "International",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/03/international-preview.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/international.jpg"
+    },
+    {
+      "id": "ski-country",
+      "name": "Ski Country",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/ski-counry-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/ski-country.jpg"
+    },
+    {
+      "id": "chevron-v1",
+      "name": "Chevron V1",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/chevron-v1-min-min-1.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/chevron-v1.jpg"
+    },
+    {
+      "id": "classic-camo",
+      "name": "Classic Camo",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/CLASSIC-CAMO-min-1.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/classic-camo.jpg"
+    },
+    {
+      "id": "cold-smoke",
+      "name": "Cold Smoke",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/COLD-SMOKE-min-1.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/cold-smoke.jpg"
+    },
+    {
+      "id": "swiss-lines",
+      "name": "Swiss Lines",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/swiss-lines-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/swiss-lines.jpg"
+    },
+    {
+      "id": "turbo-time",
+      "name": "Turbo Time",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/06/turbo-time-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/turbo-time.jpg"
+    },
+    {
+      "id": "butts-up",
+      "name": "Butts Up",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/butts-up-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/butts-up.jpg"
+    },
+    {
+      "id": "typeface",
+      "name": "Typeface",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/typeface-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/typeface.jpg"
+    },
+    {
+      "id": "boss",
+      "name": "Boss",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/boss-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/boss.jpg"
+    },
+    {
+      "id": "geostripes-v1",
+      "name": "Geostripes V1",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2022/05/GEOSTRIPES-V1-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/geostripes-v1.jpg"
+    },
+    {
+      "id": "geostripes-v3",
+      "name": "Geostripes V3",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2022/05/GEOSTRIPES-V3-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/geostripes-v3.jpg"
+    },
+    {
+      "id": "surfs-up",
+      "name": "Surfs Up",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2017/10/surfs-up.png",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/surfs-up.png"
+    },
+    {
+      "id": "peak-fade-organic",
+      "name": "Peak Fade Organic",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/06/PEAK-FADE-ORGANIC-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/peak-fade-organic.jpg"
+    },
+    {
+      "id": "peak-fade-v2-blue-grain",
+      "name": "Peak Fade V2 Blue Grain",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Peak-Fade-V2-Blue-Grain-min-1.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/peak-fade-v2-blue-grain.jpg"
+    },
+    {
+      "id": "peak-plaid",
+      "name": "Peak Plaid",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/PEAK-PLAID-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/peak-plaid.jpg"
+    },
+    {
+      "id": "rocky-mtn-high",
+      "name": "Rocky Mtn High",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2020/06/ROCKY-MTN-HIGH-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/rocky-mtn-high.jpg"
+    },
+    {
+      "id": "teton",
+      "name": "Teton",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/TETON-min-1.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/teton.jpg"
+    },
+    {
+      "id": "sunburst",
+      "name": "Sunburst",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/sunburst-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/sunburst.jpg"
+    },
+    {
+      "id": "illuminati",
+      "name": "Illuminati",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/illuminati-min-1.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/illuminati.jpg"
+    },
+    {
+      "id": "white-lightning",
+      "name": "White Lightning",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/06/white-lightning-min.jpg",
+      "categories": [
+        "classic"
+      ],
+      "original": "originals/white-lightning.jpg"
+    },
+    {
+      "id": "bane",
+      "name": "Bane",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/bane-min.jpg",
+      "categories": [
+        "creative"
+      ],
+      "original": "originals/bane.jpg"
+    },
+    {
+      "id": "neon-cowboy",
+      "name": "Neon Cowboy",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/neon-cowboy.jpg",
+      "categories": [
+        "creative"
+      ],
+      "original": "originals/neon-cowboy.jpg"
+    },
+    {
+      "id": "stitches",
+      "name": "Stitches",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/stitches.jpg",
+      "categories": [
+        "creative"
+      ],
+      "original": "originals/stitches.jpg"
+    },
+    {
+      "id": "belafonte",
+      "name": "Belafonte",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/belafonte-min.jpg",
+      "categories": [
+        "creative",
+        "nautical"
+      ],
+      "original": "originals/belafonte.jpg"
+    },
+    {
+      "id": "monsters-inc",
+      "name": "Monsters Inc",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/monsters-inc-min.jpg",
+      "categories": [
+        "creative"
+      ],
+      "original": "originals/monsters-inc.jpg"
+    },
+    {
+      "id": "5280",
+      "name": "5280",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/06/5280-min.jpg",
+      "categories": [
+        "creative"
+      ],
+      "original": "originals/5280.jpg"
+    },
+    {
+      "id": "ram-state",
+      "name": "Ram State",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/03/ram-state.jpg",
+      "categories": [
+        "creative"
+      ],
+      "original": "originals/ram-state.jpg"
+    },
+    {
+      "id": "rosati",
+      "name": "Rosati",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/rosati-min.jpg",
+      "categories": [
+        "creative"
+      ],
+      "original": "originals/rosati.jpg"
+    },
+    {
+      "id": "persephone",
+      "name": "Persephone",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/09/persephone.jpg",
+      "categories": [
+        "creative"
+      ],
+      "original": "originals/persephone.jpg"
+    },
+    {
+      "id": "hex-appeal",
+      "name": "Hex Appeal",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/HEX-APPEAL-min-1.jpg",
+      "categories": [
+        "creative"
+      ],
+      "original": "originals/hex-appeal.jpg"
+    },
+    {
+      "id": "marvelous-night",
+      "name": "Marvelous Night",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/marvelous-night-min.jpg",
+      "categories": [
+        "creative"
+      ],
+      "original": "originals/marvelous-night.jpg"
+    },
+    {
+      "id": "woodsman",
+      "name": "Woodsman",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/woodsman-min-1.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/woodsman.jpg"
+    },
+    {
+      "id": "blue-moon",
+      "name": "Blue Moon",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/06/BLUE-MOON-min.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/blue-moon.jpg"
+    },
+    {
+      "id": "aspen-bark",
+      "name": "Aspen Bark",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/aspen-bark-min-1.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/aspen-bark.jpg"
+    },
+    {
+      "id": "mountain-grain",
+      "name": "Mountain Grain",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Mountain-Grain-min.jpg",
+      "categories": [
+        "nature",
+        "andy-patchin-series"
+      ],
+      "original": "originals/mountain-grain.jpg"
+    },
+    {
+      "id": "bamboo-tree-white",
+      "name": "Bamboo Tree White",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/bamboo-tree-white-min-1.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/bamboo-tree-white.jpg"
+    },
+    {
+      "id": "14er",
+      "name": "14er",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/14er-min-1.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/14er.jpg"
+    },
+    {
+      "id": "mad-cow-bright",
+      "name": "Mad Cow Bright",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/03/mad-cow-bright-preview.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/mad-cow-bright.jpg"
+    },
+    {
+      "id": "foodchain",
+      "name": "Foodchain",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/03/foodchain.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/foodchain.jpg"
+    },
+    {
+      "id": "foxtrot",
+      "name": "Foxtrot",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/foxtrot-min-1.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/foxtrot.jpg"
+    },
+    {
+      "id": "bamboo-tree-black",
+      "name": "Bamboo Tree Black",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/bamboo-tree-black-min-1.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/bamboo-tree-black.jpg"
+    },
+    {
+      "id": "spaceship-earth",
+      "name": "Spaceship Earth",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/06/spaceship-earth-min.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/spaceship-earth.jpg"
+    },
+    {
+      "id": "northern-lights",
+      "name": "Northern Lights",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/09/NORTHERN-LIGHTS.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/northern-lights.jpg"
+    },
+    {
+      "id": "ebb-and-flow",
+      "name": "Ebb And Flow",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/ebb-and-flow-min-1.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/ebb-and-flow.jpg"
+    },
+    {
+      "id": "grizzly-adams",
+      "name": "Grizzly Adams",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/grizzly-adams-min-1.jpg",
+      "categories": [
+        "nature",
+        "andy-patchin-series"
+      ],
+      "original": "originals/grizzly-adams.jpg"
+    },
+    {
+      "id": "hubble",
+      "name": "Hubble",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2022/05/hubble-min.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/hubble.jpg"
+    },
+    {
+      "id": "juicy-fruit",
+      "name": "Juicy Fruit",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/juicy-fruit-min-1.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/juicy-fruit.jpg"
+    },
+    {
+      "id": "natural-selection",
+      "name": "Natural Selection",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/12/natural-selection-min.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/natural-selection.jpg"
+    },
+    {
+      "id": "night-moves",
+      "name": "Night Moves",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2022/05/NIGHT-MOVES-min.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/night-moves.jpg"
+    },
+    {
+      "id": "calm-before-the-storm",
+      "name": "Calm Before The Storm",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/calm-before-the-storm-min-1.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/calm-before-the-storm.jpg"
+    },
+    {
+      "id": "poly-mountain",
+      "name": "Poly Mountain",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2019/04/POLY-MOUNTAIN-min.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/poly-mountain.jpg"
+    },
+    {
+      "id": "powder-dream",
+      "name": "Powder Dream",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2020/06/POWDER-DREAM-min.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/powder-dream.jpg"
+    },
+    {
+      "id": "spinal-tap",
+      "name": "Spinal Tap",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2020/06/spinal-tap-min.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/spinal-tap.jpg"
+    },
+    {
+      "id": "grass-stain",
+      "name": "Grass Stain",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/grass-stain-min-1.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/grass-stain.jpg"
+    },
+    {
+      "id": "zebra-stripes",
+      "name": "Zebra Stripes",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/zebra-stripes-1.jpg",
+      "categories": [
+        "nature"
+      ],
+      "original": "originals/zebra-stripes.jpg"
+    },
+    {
+      "id": "go-fish",
+      "name": "Go Fish",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/GO-FISH-min.jpg",
+      "categories": [
+        "nautical"
+      ],
+      "original": "originals/go-fish.jpg"
+    },
+    {
+      "id": "captain",
+      "name": "Captain",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/CAPTAIN-min.jpg",
+      "categories": [
+        "nautical"
+      ],
+      "original": "originals/captain.jpg"
+    },
+    {
+      "id": "captain-burgundy",
+      "name": "Captain Burgundy",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/captain-burgundy-min.jpg",
+      "categories": [
+        "nautical"
+      ],
+      "original": "originals/captain-burgundy.jpg"
+    },
+    {
+      "id": "seconds-to-spare",
+      "name": "Seconds To Spare",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/SECONDS-TO-SPARE-min.jpg",
+      "categories": [
+        "nautical"
+      ],
+      "original": "originals/seconds-to-spare.jpg"
+    },
+    {
+      "id": "utilitarian",
+      "name": "Utilitarian",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/UTILITARIAN-min.jpg",
+      "categories": [
+        "nautical"
+      ],
+      "original": "originals/utilitarian.jpg"
+    },
+    {
+      "id": "kraken",
+      "name": "Kraken",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/KRAKEN-min.jpg",
+      "categories": [
+        "nautical"
+      ],
+      "original": "originals/kraken.jpg"
+    },
+    {
+      "id": "race-lines-usa",
+      "name": "Race Lines USA",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/race-lines-usa.jpg",
+      "categories": [
+        "patriotic"
+      ],
+      "original": "originals/race-lines-usa.jpg"
+    },
+    {
+      "id": "patriot",
+      "name": "Patriot",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/patriot-min.jpg",
+      "categories": [
+        "patriotic"
+      ],
+      "original": "originals/patriot.jpg"
+    },
+    {
+      "id": "america",
+      "name": "America!",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/america-min.jpg",
+      "categories": [
+        "patriotic"
+      ],
+      "original": "originals/america.jpg"
+    },
+    {
+      "id": "fire-in-the-sky",
+      "name": "Fire In The Sky",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/fire-in-the-sky-min.jpg",
+      "categories": [
+        "patriotic"
+      ],
+      "original": "originals/fire-in-the-sky.jpg"
+    },
+    {
+      "id": "flying-aces",
+      "name": "Flying Aces",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2022/05/FLYING-ACES-min.jpg",
+      "categories": [
+        "patriotic"
+      ],
+      "original": "originals/flying-aces.jpg"
+    },
+    {
+      "id": "usa-bolt",
+      "name": "USA Bolt",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/usa-bolt-min.jpg",
+      "categories": [
+        "patriotic"
+      ],
+      "original": "originals/usa-bolt.jpg"
+    },
+    {
+      "id": "stars-and-stripes",
+      "name": "Stars And Stripes",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/stars-and-stripes-min.jpg",
+      "categories": [
+        "patriotic"
+      ],
+      "original": "originals/stars-and-stripes.jpg"
+    },
+    {
+      "id": "usa-bolt-carbon",
+      "name": "USA Bolt Carbon",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/usa-bolt-carbon-min.jpg",
+      "categories": [
+        "patriotic"
+      ],
+      "original": "originals/usa-bolt-carbon.jpg"
+    },
+    {
+      "id": "retrograde-black",
+      "name": "Retrograde Black",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2026/07/retrograde-black.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/retrograde-black.jpg"
+    },
+    {
+      "id": "sundance",
+      "name": "Sundance",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2017/10/sundance-min.png",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/sundance.png"
+    },
+    {
+      "id": "born-in-the-80-s",
+      "name": "Born In The 80'S",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Born-in-the-80s-min.jpg",
+      "categories": [
+        "retro",
+        "andy-patchin-series"
+      ],
+      "original": "originals/born-in-the-80-s.jpg"
+    },
+    {
+      "id": "80s-take-2",
+      "name": "80s Take 2",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/80S-TAKE-2-min.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/80s-take-2.jpg"
+    },
+    {
+      "id": "f9",
+      "name": "F9",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2023/02/f9-min.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/f9.jpg"
+    },
+    {
+      "id": "back-to-school",
+      "name": "Back To School",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2024/03/back-to-school-preview.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/back-to-school.jpg"
+    },
+    {
+      "id": "cougar-in-the-night",
+      "name": "Cougar In The Night",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/cougar-in-the-night-min-1.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/cougar-in-the-night.jpg"
+    },
+    {
+      "id": "the-grid",
+      "name": "The Grid",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/the-grid-min.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/the-grid.jpg"
+    },
+    {
+      "id": "race",
+      "name": "Race",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/race-min.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/race.jpg"
+    },
+    {
+      "id": "assault-supreme",
+      "name": "Assault Supreme",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/09/ASSAULT-SUPREME-min.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/assault-supreme.jpg"
+    },
+    {
+      "id": "vhs",
+      "name": "VHS",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/09/VHS.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/vhs.jpg"
+    },
+    {
+      "id": "darkside",
+      "name": "Darkside",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2019/04/DARKSIDE-min.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/darkside.jpg"
+    },
+    {
+      "id": "be-kind-rewind",
+      "name": "Be Kind Rewind",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/06/be-kind-rewind-min.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/be-kind-rewind.jpg"
+    },
+    {
+      "id": "retro-wave",
+      "name": "Retro Wave",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/retro-wave-min.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/retro-wave.jpg"
+    },
+    {
+      "id": "saved-by-the-bell",
+      "name": "Saved By The Bell",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/06/saved-by-the-bell-min.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/saved-by-the-bell.jpg"
+    },
+    {
+      "id": "space-sloths",
+      "name": "Space Sloths",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/space-sloths-min.jpg",
+      "categories": [
+        "retro"
+      ],
+      "original": "originals/space-sloths.jpg"
+    },
+    {
+      "id": "dino-stud",
+      "name": "Dino Stud",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/dino-stud-min.jpg",
+      "categories": [
+        "tropical"
+      ],
+      "original": "originals/dino-stud.jpg"
+    },
+    {
+      "id": "jungle-boogie",
+      "name": "Jungle Boogie",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2020/05/jungle-boogie-min.jpg",
+      "categories": [
+        "tropical"
+      ],
+      "original": "originals/jungle-boogie.jpg"
+    },
+    {
+      "id": "poolside",
+      "name": "Poolside",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Poolside-min.jpg",
+      "categories": [
+        "tropical"
+      ],
+      "original": "originals/poolside.jpg"
+    },
+    {
+      "id": "flamingo-party",
+      "name": "Flamingo Party",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/flamingo-party-min.jpg",
+      "categories": [
+        "tropical"
+      ],
+      "original": "originals/flamingo-party.jpg"
+    },
+    {
+      "id": "floral-garden",
+      "name": "Floral Garden",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/floral-garden-min.jpg",
+      "categories": [
+        "tropical"
+      ],
+      "original": "originals/floral-garden.jpg"
+    },
+    {
+      "id": "flower-power",
+      "name": "Flower Power",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2021/12/flower-power-min.jpg",
+      "categories": [
+        "tropical"
+      ],
+      "original": "originals/flower-power.jpg"
+    },
+    {
+      "id": "flower-power-lite",
+      "name": "Flower Power Lite",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2022/05/flower-power-lite-min.jpg",
+      "categories": [
+        "tropical"
+      ],
+      "original": "originals/flower-power-lite.jpg"
+    },
+    {
+      "id": "lifes-a-beach",
+      "name": "Lifes A Beach",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2022/05/lifes-a-beach-min.jpg",
+      "categories": [
+        "tropical"
+      ],
+      "original": "originals/lifes-a-beach.jpg"
+    },
+    {
+      "id": "its-tropical",
+      "name": "Its Tropical",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/its-tropical-min.jpg",
+      "categories": [
+        "tropical"
+      ],
+      "original": "originals/its-tropical.jpg"
+    },
+    {
+      "id": "guatemala",
+      "name": "Guatemala",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/09/guatemala.jpg",
+      "categories": [
+        "tropical"
+      ],
+      "original": "originals/guatemala.jpg"
+    },
+    {
+      "id": "pastel-bolt",
+      "name": "Pastel Bolt",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/PASTEL-BOLT-min-1.jpg",
+      "categories": [
+        "tropical"
+      ],
+      "original": "originals/pastel-bolt.jpg"
+    },
+    {
+      "id": "nadiyah",
+      "name": "Nadiyah",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Nadiyah-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/nadiyah.jpg"
+    },
+    {
+      "id": "5-o-clock",
+      "name": "5 O'Clock",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/5-Oclock-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/5-o-clock.jpg"
+    },
+    {
+      "id": "access-blue",
+      "name": "Access Blue",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Access-Blue-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/access-blue.jpg"
+    },
+    {
+      "id": "bandit",
+      "name": "Bandit",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Bandit-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/bandit.jpg"
+    },
+    {
+      "id": "precision",
+      "name": "Precision",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Precision-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/precision.jpg"
+    },
+    {
+      "id": "cowboy-killer",
+      "name": "Cowboy Killer",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2020/06/COWBOY-KILLER-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/cowboy-killer.jpg"
+    },
+    {
+      "id": "geometric",
+      "name": "Geometric",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Geometric-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/geometric.jpg"
+    },
+    {
+      "id": "sundance-andy-patchin-series",
+      "name": "Sundance · Andy Patchin",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/sundance-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/sundance-andy-patchin-series.jpg"
+    },
+    {
+      "id": "digi-snow-camo",
+      "name": "Digi Snow Camo",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/digi-snow-camo-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/digi-snow-camo.jpg"
+    },
+    {
+      "id": "digi-camo-desert",
+      "name": "Digi Camo Desert",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Digi-Camo-Desert-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/digi-camo-desert.jpg"
+    },
+    {
+      "id": "owl-blue",
+      "name": "Owl Blue",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Owl-Blue-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/owl-blue.jpg"
+    },
+    {
+      "id": "howl-at-the-moon",
+      "name": "Howl At The Moon",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/Howl-at-the-Moon-min-2.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/howl-at-the-moon.jpg"
+    },
+    {
+      "id": "money-order",
+      "name": "Money Order",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/money-order-min.jpg",
+      "categories": [
+        "andy-patchin-series"
+      ],
+      "original": "originals/money-order.jpg"
+    },
+    {
+      "id": "north-shore",
+      "name": "North Shore",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/north-shore-min-1.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/north-shore.jpg"
+    },
+    {
+      "id": "carbon-green",
+      "name": "Carbon Green",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/carbon-green-min-2.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/carbon-green.jpg"
+    },
+    {
+      "id": "carbon-red",
+      "name": "Carbon Red",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/carbon-red-min-2.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/carbon-red.jpg"
+    },
+    {
+      "id": "dark-woody",
+      "name": "Dark Woody",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/dark-woody-min-2.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/dark-woody.jpg"
+    },
+    {
+      "id": "lines-black",
+      "name": "Lines Black",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/lines-black-min.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/lines-black.jpg"
+    },
+    {
+      "id": "lines-red",
+      "name": "Lines Red",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/lines-red-min-1.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/lines-red.jpg"
+    },
+    {
+      "id": "lines-deep-blue",
+      "name": "Lines Deep Blue",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/lines-deep-blue-min-2.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/lines-deep-blue.jpg"
+    },
+    {
+      "id": "lines-aqua",
+      "name": "Lines Aqua",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/lines-aqua-min-2.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/lines-aqua.jpg"
+    },
+    {
+      "id": "lines-pink",
+      "name": "Lines Pink",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/lines-pink-min-2.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/lines-pink.jpg"
+    },
+    {
+      "id": "lines-orange",
+      "name": "Lines Orange",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/lines-orange-min-1.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/lines-orange.jpg"
+    },
+    {
+      "id": "lines-yellow",
+      "name": "Lines Yellow",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/lines-yellow-min-1.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/lines-yellow.jpg"
+    },
+    {
+      "id": "lines-white",
+      "name": "Lines White",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/lines-white-min-1.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/lines-white.jpg"
+    },
+    {
+      "id": "lines-soft-blue",
+      "name": "Lines Soft Blue",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/lines-soft-blue-min-2.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/lines-soft-blue.jpg"
+    },
+    {
+      "id": "simple-black",
+      "name": "Simple Black",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/simple-black-min-1.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/simple-black.jpg"
+    },
+    {
+      "id": "simple-red",
+      "name": "Simple Red",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/simple-red-min-1.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/simple-red.jpg"
+    },
+    {
+      "id": "simple-deep-blue",
+      "name": "Simple Deep Blue",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/simple-deep-blue-min-1.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/simple-deep-blue.jpg"
+    },
+    {
+      "id": "simple-aqua",
+      "name": "Simple Aqua",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/simple-aqua-min-1.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/simple-aqua.jpg"
+    },
+    {
+      "id": "simple-pink",
+      "name": "Simple Pink",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/simple-pink-min-1.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/simple-pink.jpg"
+    },
+    {
+      "id": "simple-orange",
+      "name": "Simple Orange",
+      "source": "https://www.folsomskis.com/wp-content/uploads/2018/05/simple-orange-min-1.jpg",
+      "categories": [
+        "simple"
+      ],
+      "original": "originals/simple-orange.jpg"
+    }
+  ]
+}

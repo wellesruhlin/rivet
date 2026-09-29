@@ -1,0 +1,28 @@
+{
+  "name": "maker-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "vite --configLoader native --host 127.0.0.1 --port 5192 --strictPort",
+    "server": "node server/index.mjs",
+    "build": "vite build --configLoader native",
+    "test": "node --test tests/*.test.mjs",
+    "scene": "node scripts/export-scene.mjs"
+  },
+  "dependencies": {
+    "@fontsource/barlow": "^5.3.0",
+    "@maker/configurator-core": "*",
+    "@maker/ref-parsons": "*",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  }
+}

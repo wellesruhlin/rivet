@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46k3bt",
+  "name": "EhSki",
+  "file": "base-choice-46k3bt.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7330df8c2800107ea67e.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "6112756641bcfe033a57509ebe07b0586602b3cb2c81191aa2571b7d0f5669b2",
+  "retrieved": "2026-09-24T17:08:03.450Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

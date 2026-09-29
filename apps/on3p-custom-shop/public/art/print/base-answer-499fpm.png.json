@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-499fpm",
+  "name": "Flo-Green",
+  "file": "base-answer-499fpm.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/bb8e5c49-d5bb-4251-b3c0-808244b8bf11.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "a0199c55bc603d4c8797ee95371a9b797369a4c11bccd097d6260e6686775748",
+  "retrieved": "2026-09-24T17:07:58.919Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

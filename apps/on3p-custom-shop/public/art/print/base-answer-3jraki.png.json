@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-3jraki",
+  "name": "Clawed Yellow",
+  "file": "base-answer-3jraki.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/3jrdxe.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "564364dbdd396d24b7182d04b6eb92aacc2b00add557b6d97725cc2c3f741bcf",
+  "retrieved": "2026-09-24T17:07:59.196Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

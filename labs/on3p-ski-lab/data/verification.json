@@ -1,0 +1,308 @@
+{
+  "date": "2026-09-24",
+  "passed": true,
+  "stockVariants": 18,
+  "checks": [
+    "published width constraints",
+    "projected length",
+    "rise constraints",
+    "watertight indexed topology",
+    "no degenerate triangles",
+    "positive volume / outward winding",
+    "finite vertices",
+    "mount independent of shape",
+    "invalid input rejection",
+    "custom parameter regeneration"
+  ],
+  "caveat": "Numerical consistency tests, not validation of manufacturer accuracy. No independent calibrated reference supplied.",
+  "results": [
+    {
+      "model": "jeffrey-106",
+      "lengthCm": 161,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0017083924035297545,
+      "minTriangleAreaM2": 6.056077678686607e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        129,
+        106,
+        124
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "jeffrey-106",
+      "lengthCm": 166,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0017674196417976095,
+      "minTriangleAreaM2": 6.244154625219737e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        130,
+        106,
+        125
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "jeffrey-106",
+      "lengthCm": 171,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0018239775861219937,
+      "minTriangleAreaM2": 6.432231571772104e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        131,
+        106,
+        125
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "jeffrey-106",
+      "lengthCm": 176,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.001883634919768241,
+      "minTriangleAreaM2": 6.62030851832447e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        132,
+        106,
+        126
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "jeffrey-106",
+      "lengthCm": 181,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0019436487134435613,
+      "minTriangleAreaM2": 6.808385464858628e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        133,
+        106,
+        127
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "jeffrey-106",
+      "lengthCm": 186,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.002000944741736553,
+      "minTriangleAreaM2": 6.996462411410479e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        134,
+        106,
+        127
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "jeffrey-106",
+      "lengthCm": 191,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0020615886316660685,
+      "minTriangleAreaM2": 7.18453935794464e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        135,
+        106,
+        128
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "woodsman-108",
+      "lengthCm": 161,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0017965571866875429,
+      "minTriangleAreaM2": 5.772311684164971e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        133,
+        108,
+        125
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "woodsman-108",
+      "lengthCm": 166,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0018556794067924823,
+      "minTriangleAreaM2": 5.951576022173557e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        134,
+        108,
+        125
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "woodsman-108",
+      "lengthCm": 171,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0019174721575799067,
+      "minTriangleAreaM2": 6.130840360200143e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        135,
+        108,
+        126
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "woodsman-108",
+      "lengthCm": 176,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.00197960738924058,
+      "minTriangleAreaM2": 6.310104698227463e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        136,
+        108,
+        127
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "woodsman-108",
+      "lengthCm": 181,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0020394672728025567,
+      "minTriangleAreaM2": 6.48936903623568e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        137,
+        108,
+        127
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "woodsman-108",
+      "lengthCm": 186,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0021022150208330026,
+      "minTriangleAreaM2": 6.668633374263001e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        138,
+        108,
+        128
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "woodsman-108",
+      "lengthCm": 191,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0021653052492683024,
+      "minTriangleAreaM2": 6.847897712270851e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        139,
+        108,
+        129
+      ],
+      "profileStatus": "image-derived; unloaded condition unverified"
+    },
+    {
+      "model": "jeffrey-112",
+      "lengthCm": 176,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0019641067962330714,
+      "minTriangleAreaM2": 6.57910735061712e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        137,
+        112,
+        130
+      ],
+      "profileStatus": "estimated from family diagram"
+    },
+    {
+      "model": "jeffrey-112",
+      "lengthCm": 181,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.002023586495920365,
+      "minTriangleAreaM2": 6.766013809431951e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        138,
+        112,
+        130
+      ],
+      "profileStatus": "estimated from family diagram"
+    },
+    {
+      "model": "jeffrey-112",
+      "lengthCm": 186,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.0020863392968166364,
+      "minTriangleAreaM2": 6.952920268265603e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        139,
+        112,
+        131
+      ],
+      "profileStatus": "estimated from family diagram"
+    },
+    {
+      "model": "jeffrey-112",
+      "lengthCm": 191,
+      "vertices": 4406,
+      "faces": 4416,
+      "watertight": true,
+      "positiveVolumeM3": 0.002149457869918426,
+      "minTriangleAreaM2": 7.139826727079934e-10,
+      "lengthErrorMm": 0,
+      "widthsMm": [
+        140,
+        112,
+        132
+      ],
+      "profileStatus": "estimated from family diagram"
+    }
+  ]
+}

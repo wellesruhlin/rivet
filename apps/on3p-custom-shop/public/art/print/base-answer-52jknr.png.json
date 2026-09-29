@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-52jknr",
+  "name": "Mango River V",
+  "file": "base-answer-52jknr.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/52jo0n.jpg",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "f34506da2cd4bb264d821536b3aa4f55b02120416f34dca9fadb306039360ad3",
+  "retrieved": "2026-09-24T17:08:00.140Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

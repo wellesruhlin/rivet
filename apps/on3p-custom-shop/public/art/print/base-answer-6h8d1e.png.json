@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-6h8d1e",
+  "name": "Flo-Orange",
+  "file": "base-answer-6h8d1e.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/3811cdcc-6d41-4c31-8241-37b1f14cdb9a.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "368ab9c6d3e9d1db2e94d154eca32c5e95a67e639a7458dca6278610f7524f30",
+  "retrieved": "2026-09-24T17:07:59.029Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46jwm1",
+  "name": "Mango I",
+  "file": "base-choice-46jwm1.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa72fec5ec72001739f7c3.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "d9c35b57463f8b3d3cddfabfae22ffbd3c4d77b0d85f6053bec81a3b290a9e01",
+  "retrieved": "2026-09-24T17:07:59.865Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

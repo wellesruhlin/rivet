@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46ka1l",
+  "name": "Team Yellow",
+  "file": "base-choice-46ka1l.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa735edf8c2800107ea67f.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "b6d474e2ae86b30daf298796b019352aef641692ab1f4cb3d960da6ece29f146",
+  "retrieved": "2026-09-24T17:08:03.863Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

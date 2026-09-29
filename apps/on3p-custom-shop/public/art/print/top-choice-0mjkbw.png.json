@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-0mjkbw",
+  "name": "Orange",
+  "file": "top-choice-0mjkbw.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5f501139e6a3210017aa8437.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "571ccc3a470b8313af66beec9f3f67d19dc7447e23a0da3b9f2ed67203bcc6c7",
+  "retrieved": "2026-09-24T17:07:39.590Z",
+  "crop": {
+    "x": 80,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

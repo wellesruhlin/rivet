@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-499m1m",
+  "name": "Mango VI",
+  "file": "base-answer-499m1m.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/eb58e700-3652-4e84-8f9a-5e0e06c6aa71.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "dfa9c2751a890b909ae91ca22b6819e89d0cf0cc906e72fdd6b31e41504a433d",
+  "retrieved": "2026-09-24T17:08:00.312Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

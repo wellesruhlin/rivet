@@ -1,0 +1,17 @@
+{
+  "default": {
+    "parts": 4,
+    "vertices": 1944,
+    "maxVertexErrorMeters": 0,
+    "uvParity": true
+  },
+  "custom": {
+    "parts": 4,
+    "vertices": 1944,
+    "maxVertexErrorMeters": 0,
+    "uvParity": true
+  },
+  "constructionDriver": true,
+  "recipeVersion": "1",
+  "productId": "vft-bistro-round"
+}

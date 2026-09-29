@@ -1,0 +1,2609 @@
+{
+  "source": "https://www.on3pskis.com/products/custom-skis",
+  "observed": "2026-09-24",
+  "policy": "Only lengths present in both the specification table and public customizer are offered. No inferred custom compatibility for Mango 114.",
+  "models": {
+    "jeffrey-124": {
+      "sourceModelId": "ANSWER-1ywdqx",
+      "verified": true,
+      "lengths": [
+        181,
+        186,
+        191
+      ],
+      "ripperLengths": [],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": false,
+      "skinClip": "optional",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-77sj7m"
+        ],
+        "rockerRules": {
+          "181": {
+            "ids": [
+              "ANSWER-77smki"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77staa"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77smki"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77staa"
+            ]
+          },
+          "191": {
+            "ids": [
+              "ANSWER-77smki"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77staa",
+              "RULE-2ekluf"
+            ]
+          }
+        },
+        "layupRules": [
+          "RULE-5ofu7i"
+        ],
+        "tailRules": [
+          "RULE-4z3q1s"
+        ],
+        "tuneRules": [
+          "RULE-9holdl"
+        ]
+      }
+    },
+    "jeffrey-118": {
+      "sourceModelId": "CHOICE-46fzjd",
+      "verified": true,
+      "lengths": [
+        181,
+        186,
+        191
+      ],
+      "ripperLengths": [],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": false,
+      "skinClip": "optional",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-46urm1"
+        ],
+        "rockerRules": {
+          "181": {
+            "ids": [
+              "ANSWER-77smki"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77staa"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77smki"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77staa"
+            ]
+          },
+          "191": {
+            "ids": [
+              "ANSWER-77smki"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77staa",
+              "RULE-2ekluf"
+            ]
+          }
+        },
+        "layupRules": [
+          "RULE-5ofqum"
+        ],
+        "tailRules": [
+          "RULE-038840"
+        ],
+        "tuneRules": [
+          "RULE-9holdl"
+        ]
+      }
+    },
+    "jeffrey-112": {
+      "sourceModelId": "ANSWER-3i8y6t",
+      "verified": true,
+      "lengths": [
+        176,
+        181,
+        186,
+        191
+      ],
+      "ripperLengths": [
+        176,
+        181,
+        186
+      ],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Torsion Bar",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Torsion Bar": [
+          "Stock"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": true,
+      "skinClip": "optional",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-3ia2hh"
+        ],
+        "rockerRules": {
+          "176": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-31cdlc"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-31cdlc"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-31cdlc"
+            ]
+          },
+          "191": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-2ekluf",
+              "RULE-31cdlc"
+            ]
+          }
+        },
+        "layupRules": [],
+        "tailRules": [
+          "RULE-4z3q1s"
+        ],
+        "tuneRules": []
+      }
+    },
+    "jeffrey-106": {
+      "sourceModelId": "CHOICE-46fw6h",
+      "verified": true,
+      "lengths": [
+        161,
+        166,
+        171,
+        176,
+        181,
+        186,
+        191
+      ],
+      "ripperLengths": [
+        176,
+        181,
+        186
+      ],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Torsion Bar",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Torsion Bar": [
+          "Stock"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": true,
+      "skinClip": "optional",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-46sm61"
+        ],
+        "rockerRules": {
+          "161": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-65h4wu",
+              "RULE-5r8ryj"
+            ]
+          },
+          "166": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-5r8ryj"
+            ]
+          },
+          "171": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-9l798q"
+            ]
+          },
+          "176": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "191": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-2ekluf"
+            ]
+          }
+        },
+        "layupRules": [],
+        "tailRules": [
+          "RULE-0384r4"
+        ],
+        "tuneRules": []
+      }
+    },
+    "jeffrey-98": {
+      "sourceModelId": "CHOICE-46fstl",
+      "verified": true,
+      "lengths": [
+        161,
+        166,
+        171,
+        176,
+        181,
+        186,
+        191
+      ],
+      "ripperLengths": [
+        176,
+        181,
+        186
+      ],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Torsion Bar",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Torsion Bar": [
+          "Stock"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": true,
+      "skinClip": "optional",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-46qh3t"
+        ],
+        "rockerRules": {
+          "161": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-65h4wu",
+              "RULE-5r8ryj"
+            ]
+          },
+          "166": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-5r8ryj"
+            ]
+          },
+          "171": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-9l798q"
+            ]
+          },
+          "176": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "191": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-2ekluf"
+            ]
+          }
+        },
+        "layupRules": [],
+        "tailRules": [
+          "RULE-0381e8"
+        ],
+        "tuneRules": []
+      }
+    },
+    "jeffrey-92": {
+      "sourceModelId": "ANSWER-1yxy8p",
+      "verified": true,
+      "lengths": [
+        171,
+        176,
+        181,
+        186
+      ],
+      "ripperLengths": [
+        176,
+        181,
+        186
+      ],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Torsion Bar",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Torsion Bar": [
+          "Stock"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": true,
+      "skinClip": "optional",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-1yxs49"
+        ],
+        "rockerRules": {
+          "171": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-9l798q"
+            ]
+          },
+          "176": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          }
+        },
+        "layupRules": [],
+        "tailRules": [
+          "RULE-0381e8"
+        ],
+        "tuneRules": []
+      }
+    },
+    "mango-114": {
+      "sourceModelId": "ANSWER-4ng4m6",
+      "verified": false,
+      "lengths": [
+        176,
+        181,
+        186
+      ],
+      "ripperLengths": [],
+      "layups": [
+        "Stock"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock"
+        ]
+      },
+      "detune": false,
+      "skinClip": "unverified",
+      "timing": {},
+      "notes": [
+        "Mango 114 has no model-specific rules in the published builder and exposes duplicate rocker profiles. This concept offers the documented stock build; custom construction needs ON3P confirmation."
+      ],
+      "evidence": {
+        "sizeRules": [],
+        "rockerRules": {
+          "176": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq",
+              "ANSWER-77scvm",
+              "ANSWER-77s94y",
+              "ANSWER-77smki",
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": []
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq",
+              "ANSWER-77scvm",
+              "ANSWER-77s94y",
+              "ANSWER-77smki",
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": []
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq",
+              "ANSWER-77scvm",
+              "ANSWER-77s94y",
+              "ANSWER-77smki",
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": []
+          }
+        },
+        "layupRules": [],
+        "tailRules": [],
+        "tuneRules": []
+      }
+    },
+    "mango-102": {
+      "sourceModelId": "CHOICE-46fm3t",
+      "verified": true,
+      "lengths": [
+        161,
+        166,
+        171,
+        176,
+        181,
+        186
+      ],
+      "ripperLengths": [
+        176,
+        181,
+        186
+      ],
+      "layups": [
+        "Stock"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": true,
+      "skinClip": "unavailable",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-46m2nd"
+        ],
+        "rockerRules": {
+          "161": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-65h4wu",
+              "RULE-5r8ryj"
+            ]
+          },
+          "166": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-5r8ryj"
+            ]
+          },
+          "171": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-9l798q"
+            ]
+          },
+          "176": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          }
+        },
+        "layupRules": [
+          "RULE-46uvd6",
+          "RULE-7kfxao"
+        ],
+        "tailRules": [
+          "RULE-037uog"
+        ],
+        "tuneRules": []
+      }
+    },
+    "mango-90": {
+      "sourceModelId": "CHOICE-46fiqx",
+      "verified": true,
+      "lengths": [
+        161,
+        166,
+        171,
+        176,
+        181,
+        186
+      ],
+      "ripperLengths": [
+        176,
+        181,
+        186
+      ],
+      "layups": [
+        "Stock"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": true,
+      "skinClip": "unavailable",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-46kycp"
+        ],
+        "rockerRules": {
+          "161": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-65h4wu",
+              "RULE-5r8ryj"
+            ]
+          },
+          "166": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-5r8ryj"
+            ]
+          },
+          "171": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77schu",
+              "RULE-9l798q"
+            ]
+          },
+          "176": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77schu"
+            ]
+          }
+        },
+        "layupRules": [
+          "RULE-46tkcq",
+          "RULE-7kfxao"
+        ],
+        "tailRules": [
+          "RULE-037rbk"
+        ],
+        "tuneRules": []
+      }
+    },
+    "oski-102": {
+      "sourceModelId": "ANSWER-3i94wl",
+      "verified": true,
+      "lengths": [
+        171,
+        176,
+        181,
+        186
+      ],
+      "ripperLengths": [
+        176,
+        181,
+        186
+      ],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": true,
+      "skinClip": "optional",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-3i9z4l"
+        ],
+        "rockerRules": {
+          "171": {
+            "ids": [
+              "ANSWER-77rw36"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-31c3io",
+              "RULE-9l798q"
+            ]
+          },
+          "176": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-31c3io"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-31c3io"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77rw36",
+              "ANSWER-77s9iq"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-31c3io"
+            ]
+          }
+        },
+        "layupRules": [
+          "RULE-5og0xa"
+        ],
+        "tailRules": [
+          "RULE-4z3q1s"
+        ],
+        "tuneRules": []
+      }
+    },
+    "cease-and-desist": {
+      "sourceModelId": "CHOICE-46gqeh",
+      "verified": true,
+      "lengths": [
+        181,
+        186,
+        191
+      ],
+      "ripperLengths": [],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Torsion Bar",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Torsion Bar": [
+          "Stock"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": false,
+      "skinClip": "optional",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-46k461"
+        ],
+        "rockerRules": {
+          "181": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-648g4o"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-648g4o"
+            ]
+          },
+          "191": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-2ekluf",
+              "RULE-648g4o"
+            ]
+          }
+        },
+        "layupRules": [],
+        "tailRules": [
+          "RULE-038vm8"
+        ],
+        "tuneRules": [
+          "RULE-9holdl"
+        ]
+      }
+    },
+    "billy-goat-118": {
+      "sourceModelId": "CHOICE-46gn1l",
+      "verified": true,
+      "lengths": [
+        176,
+        181,
+        186,
+        191
+      ],
+      "ripperLengths": [],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": false,
+      "skinClip": "optional",
+      "timing": {
+        "191": "This size is marked “+ ~40 Days” in the live builder. Confirm timing with ON3P."
+      },
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-77t3cy"
+        ],
+        "rockerRules": {
+          "176": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77swn6"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77swn6"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77swn6"
+            ]
+          },
+          "191": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77swn6",
+              "RULE-8c3rhg"
+            ]
+          }
+        },
+        "layupRules": [
+          "RULE-5ogecu"
+        ],
+        "tailRules": [
+          "RULE-038s9c"
+        ],
+        "tuneRules": [
+          "RULE-9holdl"
+        ]
+      }
+    },
+    "billy-goat-114": {
+      "sourceModelId": "ANSWER-3i9bmd",
+      "verified": true,
+      "lengths": [
+        176,
+        181,
+        186,
+        191
+      ],
+      "ripperLengths": [],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": false,
+      "skinClip": "optional",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-9gtvxh"
+        ],
+        "rockerRules": {
+          "176": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-31cr0w"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-31cr0w"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-31cr0w"
+            ]
+          },
+          "191": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-2ekluf",
+              "RULE-31cr0w"
+            ]
+          }
+        },
+        "layupRules": [
+          "RULE-5ogazy"
+        ],
+        "tailRules": [
+          "RULE-4z3q1s"
+        ],
+        "tuneRules": [
+          "RULE-9holdl"
+        ]
+      }
+    },
+    "billy-goat-102": {
+      "sourceModelId": "ANSWER-3i989h",
+      "verified": true,
+      "lengths": [
+        176,
+        181,
+        186
+      ],
+      "ripperLengths": [],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": false,
+      "skinClip": "optional",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-3ia5ud"
+        ],
+        "rockerRules": {
+          "176": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-31cno0"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-31cno0"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-31cno0"
+            ]
+          }
+        },
+        "layupRules": [
+          "RULE-5og4a6"
+        ],
+        "tailRules": [
+          "RULE-4z3q1s"
+        ],
+        "tuneRules": [
+          "RULE-9holdl"
+        ]
+      }
+    },
+    "billy-goat-108": {
+      "sourceModelId": "CHOICE-46gjop",
+      "verified": true,
+      "lengths": [
+        176,
+        181,
+        186
+      ],
+      "ripperLengths": [],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": false,
+      "skinClip": "included",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-77t002"
+        ],
+        "rockerRules": {
+          "176": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77swn6"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77swn6"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77spxe"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77swn6"
+            ]
+          }
+        },
+        "layupRules": [
+          "RULE-5og7n2"
+        ],
+        "tailRules": [
+          "RULE-037kls"
+        ],
+        "tuneRules": [
+          "RULE-9holdl"
+        ]
+      }
+    },
+    "woodsman-108": {
+      "sourceModelId": "CHOICE-46g9m1",
+      "verified": true,
+      "lengths": [
+        161,
+        166,
+        171,
+        176,
+        181,
+        186,
+        191
+      ],
+      "ripperLengths": [
+        171,
+        176,
+        181,
+        186
+      ],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Torsion Bar",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Torsion Bar": [
+          "Stock"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": false,
+      "skinClip": "optional",
+      "timing": {
+        "191": "This size is marked “+ ~40 Days” in the live builder. Confirm timing with ON3P."
+      },
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-473hrd"
+        ],
+        "rockerRules": {
+          "161": {
+            "ids": [
+              "ANSWER-77scvm"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77sfuq",
+              "RULE-5r8ryj"
+            ]
+          },
+          "166": {
+            "ids": [
+              "ANSWER-77scvm"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77sfuq",
+              "RULE-65h89q",
+              "RULE-5r8ryj"
+            ]
+          },
+          "171": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq",
+              "RULE-9l798q"
+            ]
+          },
+          "176": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq"
+            ]
+          },
+          "191": {
+            "ids": [
+              "ANSWER-77scvm"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77sfuq",
+              "RULE-8c3rhg"
+            ]
+          }
+        },
+        "layupRules": [],
+        "tailRules": [
+          "RULE-038i6o"
+        ],
+        "tuneRules": [
+          "RULE-9holdl"
+        ]
+      }
+    },
+    "woodsman-100": {
+      "sourceModelId": "CHOICE-46g695",
+      "verified": true,
+      "lengths": [
+        161,
+        166,
+        171,
+        176,
+        181,
+        186,
+        191
+      ],
+      "ripperLengths": [
+        171,
+        176,
+        181,
+        186
+      ],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Torsion Bar",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Torsion Bar": [
+          "Stock"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": false,
+      "skinClip": "optional",
+      "timing": {
+        "191": "This size is marked “+ ~40 Days” in the live builder. Confirm timing with ON3P."
+      },
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-4715ll"
+        ],
+        "rockerRules": {
+          "161": {
+            "ids": [
+              "ANSWER-77scvm"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77sfuq",
+              "RULE-5r8ryj"
+            ]
+          },
+          "166": {
+            "ids": [
+              "ANSWER-77scvm"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77sfuq",
+              "RULE-65h89q",
+              "RULE-5r8ryj"
+            ]
+          },
+          "171": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq",
+              "RULE-9l798q"
+            ]
+          },
+          "176": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq"
+            ]
+          },
+          "191": {
+            "ids": [
+              "ANSWER-77scvm"
+            ],
+            "names": [
+              "Signature"
+            ],
+            "rules": [
+              "RULE-77sfuq",
+              "RULE-8c3rhg"
+            ]
+          }
+        },
+        "layupRules": [],
+        "tailRules": [
+          "RULE-038ets"
+        ],
+        "tuneRules": [
+          "RULE-9holdl"
+        ]
+      }
+    },
+    "woodsman-92": {
+      "sourceModelId": "ANSWER-1yy1ll",
+      "verified": true,
+      "lengths": [
+        171,
+        176,
+        181,
+        186
+      ],
+      "ripperLengths": [
+        171,
+        176,
+        181,
+        186
+      ],
+      "layups": [
+        "Stock",
+        "LITE",
+        "50/50",
+        "Tour",
+        "Torsion Bar",
+        "Leaf Spring"
+      ],
+      "flex": {
+        "Stock": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "LITE": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "50/50": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Tour": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ],
+        "Torsion Bar": [
+          "Stock"
+        ],
+        "Leaf Spring": [
+          "Stock",
+          "Soft",
+          "Double Soft",
+          "Stiff"
+        ]
+      },
+      "detune": false,
+      "skinClip": "optional",
+      "timing": {},
+      "notes": [],
+      "evidence": {
+        "sizeRules": [
+          "RULE-1yxord"
+        ],
+        "rockerRules": {
+          "171": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq",
+              "RULE-9l798q"
+            ]
+          },
+          "176": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq"
+            ]
+          },
+          "181": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq"
+            ]
+          },
+          "186": {
+            "ids": [
+              "ANSWER-77scvm",
+              "ANSWER-77s94y"
+            ],
+            "names": [
+              "Signature",
+              "Ripper"
+            ],
+            "rules": [
+              "RULE-77sfuq"
+            ]
+          }
+        },
+        "layupRules": [],
+        "tailRules": [],
+        "tuneRules": [
+          "RULE-9holdl"
+        ]
+      }
+    }
+  },
+  "prices": {
+    "tops": {
+      "ANSWER-497h6y": 0,
+      "ANSWER-497kju": 0,
+      "ANSWER-498i4q": 0,
+      "ANSWER-498eru": 0,
+      "ANSWER-498bey": 0,
+      "ANSWER-498822": 0,
+      "ANSWER-4984p6": 0,
+      "ANSWER-4981ca": 0,
+      "ANSWER-497xze": 0,
+      "ANSWER-497umi": 0,
+      "ANSWER-497r9m": 0,
+      "ANSWER-497nwq": 0,
+      "ANSWER-498lhm": 0,
+      "ANSWER-498oui": 0,
+      "ANSWER-498s7e": 0,
+      "ANSWER-498vka": 0,
+      "ANSWER-9qxu51": 0,
+      "CHOICE-46kxjt": 0,
+      "ANSWER-0by9xp": 0,
+      "ANSWER-0bwm31": 0,
+      "ANSWER-0bwpfx": 0,
+      "ANSWER-0by6kt": 0,
+      "ANSWER-0bxzv1": 0,
+      "ANSWER-2j6qc7": 0,
+      "CHOICE-46jqhl": 0,
+      "CHOICE-46kamx": 0,
+      "CHOICE-46j9p5": 0,
+      "CHOICE-46jtuh": 0,
+      "CHOICE-46kdzt": 0,
+      "ANSWER-3iammt": 0,
+      "ANSWER-8e4xn2": 0,
+      "ANSWER-9ui80h": 0,
+      "ANSWER-6dq9lf": 0,
+      "ANSWER-6dqgb7": 0,
+      "ANSWER-6dqcyb": 0,
+      "ANSWER-6dq2vn": 0,
+      "ANSWER-6dq68j": 0,
+      "ANSWER-7n31c1": 0,
+      "CHOICE-46jd21": 0,
+      "CHOICE-46jgex": 0,
+      "CHOICE-46jn4p": 0,
+      "CHOICE-0mjkbw": 0,
+      "CHOICE-0mjgl8": 0,
+      "CHOICE-46jjrt": 0,
+      "ANSWER-498yx6": 0,
+      "ANSWER-0h66ft": 0,
+      "ANSWER-5ifaxr": 0,
+      "ANSWER-54877e": 0,
+      "ANSWER-5480hm": 0,
+      "ANSWER-548dx6": 0,
+      "ANSWER-548aka": 0,
+      "ANSWER-8sc3it": 0,
+      "ANSWER-8sc05x": 0,
+      "ANSWER-7dollk": 0,
+      "CHOICE-46lb6x": 0,
+      "ANSWER-5d5h76": 0,
+      "ANSWER-967xfw": 0,
+      "ANSWER-9680ss": 0,
+      "ANSWER-969hxo": 0,
+      "ANSWER-97q7n7": 0,
+      "ANSWER-97qb03": 0,
+      "ANSWER-54jdi8": 0,
+      "ANSWER-45jdcz": 0,
+      "ANSWER-45jgpv": 0,
+      "ANSWER-45jk2r": 0,
+      "CHOICE-46lomh": 0,
+      "ANSWER-45it7n": 0,
+      "ANSWER-70hi3o": 0,
+      "ANSWER-3ns2xi": 0,
+      "ANSWER-4c5j4t": 0,
+      "ANSWER-4c5mhp": 0,
+      "ANSWER-4c5pul": 0,
+      "ANSWER-4c5t7h": 0,
+      "CHOICE-46ll9l": 0,
+      "ANSWER-8yo8a2": 0,
+      "ANSWER-8yobmy": 0,
+      "ANSWER-8yoezu": 0,
+      "CHOICE-46l7u1": 0,
+      "ANSWER-5d5kk2": 0,
+      "ANSWER-2i6a7a": 0,
+      "CHOICE-46ky55": 0,
+      "ANSWER-45jnfn": 0,
+      "CHOICE-46kus9": 0,
+      "CHOICE-46l1i1": 0,
+      "CHOICE-46l4ux": 0,
+      "CHOICE-46l87t": 0,
+      "CHOICE-46lbkp": 0,
+      "ANSWER-5d574i": 0,
+      "ANSWER-5d5ahe": 0,
+      "CHOICE-46lhwp": 0,
+      "CHOICE-46m5ex": 250,
+      "CHOICE-46m8rt": 250,
+      "CHOICE-46mc4p": 250,
+      "ANSWER-4xkfut": 250,
+      "ANSWER-4xkpxh": 250,
+      "ANSWER-4xkswl": 250,
+      "ANSWER-4xl2z9": 250,
+      "ANSWER-4xlget": 250,
+      "ANSWER-4xlqhh": 250,
+      "ANSWER-4xm0k5": 250,
+      "ANSWER-4xmamt": 250,
+      "ANSWER-4xkwut": 250,
+      "ANSWER-4xl6xh": 250,
+      "ANSWER-4xlh05": 250,
+      "ANSWER-4xlr2t": 250,
+      "ANSWER-4xm15h": 250,
+      "ANSWER-4xmb85": 250,
+      "ANSWER-4xme79": 250,
+      "ANSWER-4xmo9x": 250,
+      "ANSWER-4xmycl": 250,
+      "ANSWER-4xn8f9": 250,
+      "ANSWER-4xnlut": 250,
+      "ANSWER-4xm4px": 250,
+      "CHOICE-46koa1": 250,
+      "ANSWER-8scno5": 0,
+      "ANSWER-8k2kgi": 0,
+      "ANSWER-3gt6ld": 0,
+      "ANSWER-1avy9e": 0,
+      "ANSWER-1awboy": 0,
+      "ANSWER-4992a2": 0,
+      "ANSWER-4995my": 0,
+      "ANSWER-4998zu": 0,
+      "ANSWER-8k2nte": 0,
+      "ANSWER-8k2r6a": 0,
+      "ANSWER-8k2uj6": 0,
+      "ANSWER-8k2xw2": 0,
+      "ANSWER-8k318y": 0,
+      "ANSWER-8k34lu": 0,
+      "ANSWER-8k37yq": 0,
+      "ANSWER-8k3bbm": 0,
+      "ANSWER-8k3eoi": 0,
+      "ANSWER-8k3i1e": 0,
+      "ANSWER-8k3lea": 0,
+      "ANSWER-8k3or6": 0,
+      "ANSWER-8k3vgy": 0,
+      "ANSWER-8k3ytu": 0,
+      "ANSWER-8k426q": 0,
+      "ANSWER-8k45jm": 0,
+      "CHOICE-0mjqnw": 0,
+      "CHOICE-0mju0s": 0,
+      "CHOICE-0mjxdo": 0,
+      "CHOICE-0ml518": 0,
+      "CHOICE-0mk0qk": 0,
+      "ANSWER-8k4c9e": 0,
+      "ANSWER-8k4fma": 0,
+      "ANSWER-5ifean": 0,
+      "ANSWER-6comay": 0,
+      "ANSWER-6copnu": 0,
+      "ANSWER-6cot0q": 0,
+      "ANSWER-9eqm4y": 0,
+      "ANSWER-9eqiea": 0,
+      "ANSWER-9eqlr6": 0,
+      "ANSWER-9eqp42": 0,
+      "ANSWER-4rbjfg": 0,
+      "ANSWER-a98dd3": 0,
+      "ANSWER-3h1xh1": 0,
+      "ANSWER-3h27jp": 0,
+      "ANSWER-9fdxwc": 0,
+      "ANSWER-9feeos": 0,
+      "ANSWER-9fel0s": 0,
+      "ANSWER-7n4p6p": 0,
+      "ANSWER-8k4iz6": 0,
+      "ANSWER-8k4mc2": 0,
+      "ANSWER-8k4poy": 0,
+      "ANSWER-8k4t1u": 0,
+      "ANSWER-8k4weq": 0,
+      "ANSWER-8k4zrm": 0,
+      "ANSWER-8k534i": 0,
+      "ANSWER-8k3f9u": 0,
+      "ANSWER-498vru": 0,
+      "ANSWER-8k3bj6": 0,
+      "ANSWER-7n4igx": 0,
+      "ANSWER-7n4ltt": 0,
+      "ANSWER-8k3ew2": 0,
+      "ANSWER-8k3i8y": 0,
+      "ANSWER-8k3llu": 0,
+      "ANSWER-8k3oyq": 0,
+      "ANSWER-8k3sbm": 0,
+      "ANSWER-8k3voi": 0,
+      "ANSWER-8k3z1e": 0,
+      "ANSWER-8k42ea": 0,
+      "ANSWER-8k45r6": 0,
+      "ANSWER-8k4942": 0,
+      "ANSWER-8k4cgy": 0,
+      "ANSWER-0h69sp": 0,
+      "ANSWER-9eq8pe": 0,
+      "ANSWER-498eze": 0,
+      "ANSWER-498ica": 0,
+      "ANSWER-498lp6": 0,
+      "ANSWER-498p22": 0,
+      "ANSWER-498sey": 0,
+      "ANSWER-1avrjm": 0,
+      "ANSWER-8k4ftu": 0,
+      "ANSWER-8k4j6q": 0,
+      "ANSWER-8k4mjm": 0,
+      "ANSWER-8k4pwi": 0,
+      "ANSWER-8k5a1u": 0,
+      "ANSWER-8k5deq": 0,
+      "ANSWER-8k5grm": 0,
+      "ANSWER-8k5k4i": 0,
+      "ANSWER-8k5nhe": 0,
+      "ANSWER-8k5qua": 0,
+      "ANSWER-8k5u76": 0,
+      "ANSWER-8k5xk2": 0,
+      "ANSWER-8k60wy": 0,
+      "ANSWER-8k649u": 0,
+      "ANSWER-8k67mq": 0,
+      "ANSWER-8k6azm": 0,
+      "ANSWER-0h6d5l": 0,
+      "ANSWER-0h6gih": 0,
+      "ANSWER-7xuniz": 0,
+      "ANSWER-7xuqvv": 0,
+      "ANSWER-9eqc2a": 0,
+      "ANSWER-9eqff6": 0,
+      "ANSWER-9eqis2": 0,
+      "ANSWER-499pei": 0,
+      "ANSWER-499sre": 0,
+      "ANSWER-4984wq": 0,
+      "ANSWER-49889m": 0,
+      "ANSWER-498bmi": 0,
+      "ANSWER-8k6eci": 0,
+      "ANSWER-8k6hpe": 0,
+      "ANSWER-8k4tuq": 0,
+      "ANSWER-8k4q42": 0,
+      "ANSWER-8k4tgy": 0,
+      "ANSWER-8k4wtu": 0,
+      "ANSWER-8k506q": 0,
+      "ANSWER-8k53jm": 0,
+      "ANSWER-8k56wi": 0,
+      "ANSWER-8k5a9e": 0,
+      "ANSWER-8k5dma": 0,
+      "ANSWER-8k5gz6": 0,
+      "ANSWER-8k5kc2": 0,
+      "ANSWER-8k5noy": 0,
+      "ANSWER-8k5r1u": 0,
+      "ANSWER-8k5ueq": 0,
+      "ANSWER-8k5xrm": 0,
+      "ANSWER-8k614i": 0,
+      "ANSWER-1fzl75": 0,
+      "ANSWER-8k3s42": 0,
+      "ANSWER-8k64he": 0,
+      "ANSWER-8k67ua": 0,
+      "ANSWER-8k6b76": 0,
+      "ANSWER-8k6ek2": 0,
+      "ANSWER-8k6hwy": 0,
+      "ANSWER-8k6l9u": 0,
+      "ANSWER-8k6omq": 0,
+      "ANSWER-8k6rzm": 0,
+      "ANSWER-8k6vci": 0,
+      "ANSWER-8k6ype": 0,
+      "ANSWER-8k722a": 0,
+      "ANSWER-8k75f6": 0,
+      "ANSWER-8k78s2": 0,
+      "ANSWER-8k7c4y": 0,
+      "ANSWER-8k7fhu": 0,
+      "ANSWER-8k7iuq": 0,
+      "ANSWER-8k7m7m": 0,
+      "ANSWER-8k7pki": 0,
+      "ANSWER-8k7sxe": 0,
+      "ANSWER-8k7waa": 0
+    },
+    "bases": {
+      "CHOICE-46j9hl": 0,
+      "ANSWER-3av8dn": 0,
+      "ANSWER-0h6ql5": 0,
+      "ANSWER-3avbqj": 0,
+      "ANSWER-2j6tp3": 0,
+      "ANSWER-0h6n89": 0,
+      "ANSWER-0h6xax": 0,
+      "ANSWER-3av50r": 0,
+      "ANSWER-0h6ty1": 0,
+      "ANSWER-52k47r": 0,
+      "ANSWER-6ox45d": 0,
+      "ANSWER-6ox7i9": 0,
+      "ANSWER-4bxfxp": 0,
+      "ANSWER-7u8qjh": 0,
+      "ANSWER-7u9aot": 0,
+      "ANSWER-7u9rh9": 0,
+      "ANSWER-7ua4wt": 0,
+      "ANSWER-7uaelp": 0,
+      "ANSWER-499fpm": 0,
+      "ANSWER-499j2i": 0,
+      "ANSWER-499mfe": 0,
+      "ANSWER-6h8d1e": 0,
+      "ANSWER-499ccq": 0,
+      "ANSWER-3jr0hu": 0,
+      "ANSWER-3jraki": 0,
+      "ANSWER-3jrkn6": 0,
+      "ANSWER-3js4si": 0,
+      "ANSWER-3jsev6": 0,
+      "ANSWER-3jrupu": 0,
+      "ANSWER-6dpt6r": 0,
+      "ANSWER-6dppg3": 0,
+      "ANSWER-6dpw5v": 0,
+      "ANSWER-6dpssz": 0,
+      "ANSWER-6dpzir": 0,
+      "CHOICE-46jwm1": 0,
+      "ANSWER-8scdlh": 0,
+      "ANSWER-8scgyd": 0,
+      "ANSWER-8sckb9": 0,
+      "ANSWER-52krpz": 0,
+      "ANSWER-52jknr": 0,
+      "ANSWER-499m1m": 0,
+      "ANSWER-5ifhnj": 0,
+      "ANSWER-548k96": 0,
+      "ANSWER-548kmy": 0,
+      "ANSWER-548ha2": 0,
+      "ANSWER-548nm2": 0,
+      "ANSWER-548nzu": 0,
+      "ANSWER-8sc6vp": 0,
+      "ANSWER-548qyy": 0,
+      "ANSWER-52k4t3": 0,
+      "ANSWER-499psa": 0,
+      "ANSWER-0h7uah": 0,
+      "ANSWER-0h7qxl": 0,
+      "ANSWER-0h7nkp": 0,
+      "ANSWER-5d5dua": 0,
+      "ANSWER-8mo7l2": 0,
+      "ANSWER-8mo486": 0,
+      "ANSWER-8moaxy": 0,
+      "ANSWER-8sca8l": 0,
+      "ANSWER-3n8z5i": 0,
+      "ANSWER-8moeau": 0,
+      "ANSWER-8mohnq": 0,
+      "ANSWER-8mol0m": 0,
+      "ANSWER-45jxib": 0,
+      "ANSWER-45k7kz": 0,
+      "ANSWER-45ju5f": 0,
+      "ANSWER-3ns6ae": 0,
+      "ANSWER-8mpp3q": 0,
+      "ANSWER-8mpsgm": 0,
+      "ANSWER-8mo4ly": 0,
+      "ANSWER-8mo0va": 0,
+      "ANSWER-7n34ox": 0,
+      "CHOICE-46jwzt": 0,
+      "ANSWER-5d5nwy": 0,
+      "ANSWER-8im3nm": 0,
+      "ANSWER-2i6dk6": 0,
+      "CHOICE-46jcuh": 0,
+      "CHOICE-46jg7d": 0,
+      "CHOICE-46jjk9": 0,
+      "CHOICE-46jmx5": 0,
+      "CHOICE-46jqa1": 0,
+      "CHOICE-46jtmx": 0,
+      "ANSWER-45k483": 0,
+      "ANSWER-45k0v7": 0,
+      "CHOICE-46k3bt": 0,
+      "CHOICE-46k6op": 0,
+      "CHOICE-46jzyx": 0,
+      "CHOICE-46ka1l": 0,
+      "CHOICE-46kdeh": 0,
+      "CHOICE-46kgrd": 0,
+      "CHOICE-46kk49": 0
+    }
+  }
+}

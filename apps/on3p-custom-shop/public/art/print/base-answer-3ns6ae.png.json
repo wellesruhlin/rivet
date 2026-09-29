@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-3ns6ae",
+  "name": "Dazzle Camo",
+  "file": "base-answer-3ns6ae.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/60ff717a77cc7b00113742b2.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "681591256879f9b79316e311189c2a0e04b9c6c6db4da2cfe8e84ccc3d141b8f",
+  "retrieved": "2026-09-24T17:08:02.044Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

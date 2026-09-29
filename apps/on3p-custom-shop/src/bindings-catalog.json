@@ -1,0 +1,153 @@
+{
+  "observed": "2026-09-24",
+  "source": "https://www.on3pskis.com/collections/bindings",
+  "fitPolicy": "Conservative prototype filter: listed brake width must be at least the selected ski waist and at most 15 mm wider. This is a clearance screen, not a certified fit or DIN recommendation.",
+  "accessory": {
+    "name": "Look Pivot Brake",
+    "generation": "1.0",
+    "source": "https://www.on3pskis.com/products/look-pivot-brake",
+    "note": "Replacement brake accessory, not a binding pair. Not offered as a 2.0 conversion."
+  },
+  "products": [
+    {
+      "id": "pivot-15",
+      "name": "LOOK PIVOT 2.0 15 GW",
+      "din": "6–15",
+      "toe": "Aluminum Race toe",
+      "source": "https://www.on3pskis.com/products/look-pivot-2-0-15-gw",
+      "bootCompatibility": "Alpine ISO 5355 A / GripWalk ISO 23223 A",
+      "variants": [
+        {
+          "id": "47243247878369",
+          "brake": 95,
+          "color": "Black",
+          "price": 499.95,
+          "available": true,
+          "image": "bindings/pivot-15-black.jpg"
+        },
+        {
+          "id": "47243247911137",
+          "brake": 95,
+          "color": "Blue",
+          "price": 499.95,
+          "available": true,
+          "image": "bindings/pivot-15-blue.jpg"
+        },
+        {
+          "id": "47243247943905",
+          "brake": 95,
+          "color": "Orange",
+          "price": 499.95,
+          "available": false,
+          "image": "bindings/pivot-15-orange.jpg"
+        },
+        {
+          "id": "47243248009441",
+          "brake": 95,
+          "color": "Super Edition",
+          "price": 499.95,
+          "available": false,
+          "image": "bindings/pivot-15-super-edition.jpg"
+        },
+        {
+          "id": "47243248042209",
+          "brake": 105,
+          "color": "Black",
+          "price": 499.95,
+          "available": false,
+          "image": "bindings/pivot-15-black.jpg"
+        },
+        {
+          "id": "47243248074977",
+          "brake": 105,
+          "color": "Blue",
+          "price": 499.95,
+          "available": true,
+          "image": "bindings/pivot-15-blue.jpg"
+        },
+        {
+          "id": "47243248107745",
+          "brake": 105,
+          "color": "Orange",
+          "price": 499.95,
+          "available": false,
+          "image": "bindings/pivot-15-orange.jpg"
+        },
+        {
+          "id": "47243248173281",
+          "brake": 105,
+          "color": "Super Edition",
+          "price": 499.95,
+          "available": true,
+          "image": "bindings/pivot-15-super-edition.jpg"
+        },
+        {
+          "id": "47243248206049",
+          "brake": 115,
+          "color": "Black",
+          "price": 499.95,
+          "available": false,
+          "image": "bindings/pivot-15-black.jpg"
+        },
+        {
+          "id": "47243248238817",
+          "brake": 115,
+          "color": "Blue",
+          "price": 499.95,
+          "available": false,
+          "image": "bindings/pivot-15-blue.jpg"
+        },
+        {
+          "id": "47243248271585",
+          "brake": 115,
+          "color": "Orange",
+          "price": 499.95,
+          "available": false,
+          "image": "bindings/pivot-15-orange.jpg"
+        },
+        {
+          "id": "47243248337121",
+          "brake": 115,
+          "color": "Super Edition",
+          "price": 499.95,
+          "available": false,
+          "image": "bindings/pivot-15-super-edition.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pivot-13",
+      "name": "LOOK PIVOT 2.0 13 GW",
+      "din": "4.5–13",
+      "toe": "Composite Full Action toe",
+      "source": "https://www.on3pskis.com/products/look-pivot-2-0-13-gw",
+      "bootCompatibility": "Alpine ISO 5355 A / GripWalk ISO 23223 A",
+      "variants": [
+        {
+          "id": "47243227955425",
+          "brake": 95,
+          "color": "Black",
+          "price": 399.95,
+          "available": true,
+          "image": "bindings/pivot-13-black.jpg"
+        },
+        {
+          "id": "47247870787809",
+          "brake": 105,
+          "color": "Black",
+          "price": 399.95,
+          "available": false,
+          "image": "bindings/pivot-13-black.jpg"
+        },
+        {
+          "id": "47243227988193",
+          "brake": 115,
+          "color": "Black",
+          "price": 399.95,
+          "available": false,
+          "image": "bindings/pivot-13-black.jpg"
+        }
+      ]
+    }
+  ]
+}

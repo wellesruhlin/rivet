@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-2i6dk6",
+  "name": "Tiger Stripe",
+  "file": "base-answer-2i6dk6.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/60f5d67b8ba72600111736d8.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "a8b9813655686de49301db02f8b4e9c43041d80188616118e0651921f58da100",
+  "retrieved": "2026-09-24T17:08:02.985Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

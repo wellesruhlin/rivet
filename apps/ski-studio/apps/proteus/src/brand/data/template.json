@@ -1,0 +1,19 @@
+{
+  "note": "Fractions of the board’s bounding box (x across, y from the nose). Recovered from Proteus’s product art by scripts/build-template.mjs.",
+  "bands": [
+    0.144,
+    0.3372
+  ],
+  "symbol": {
+    "x": 0.0617,
+    "y": 0.185,
+    "width": 0.8704,
+    "height": 0.1124
+  },
+  "wordmark": {
+    "x": 0.3642,
+    "y": 0.3372,
+    "width": 0.4938,
+    "height": 0.5246
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46l87t",
+  "name": "Desert Duck",
+  "file": "top-choice-46l87t.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa75b2df8c2800107ea691.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "db7602ccd3d6a870de2575d005553d6865686b9bc6d4d5ac87582137c7dbcd48",
+  "retrieved": "2026-09-24T17:07:42.844Z",
+  "crop": {
+    "x": 80,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

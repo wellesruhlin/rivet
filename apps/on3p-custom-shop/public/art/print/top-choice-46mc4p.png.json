@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46mc4p",
+  "name": "Wood Wolf",
+  "file": "top-choice-46mc4p.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa7677c5ec72001739f7ee.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "33e85a102ca34bad94992f5018270398cf972d5e1496de8de670fe92db385a8e",
+  "retrieved": "2026-09-24T17:07:43.437Z",
+  "crop": {
+    "x": 80,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

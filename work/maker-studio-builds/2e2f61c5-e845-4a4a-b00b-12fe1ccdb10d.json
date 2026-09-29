@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "2e2f61c5-e845-4a4a-b00b-12fe1ccdb10d",
+  "createdAt": "2026-09-24T19:22:25.770Z",
+  "purpose": "independent-demo-build",
+  "productId": "ref-parsons",
+  "productVersion": "2026-09-24.1",
+  "config": {
+    "size": "custom",
+    "length": 84.25,
+    "width": 38,
+    "height": 30,
+    "finish": "natural-walnut"
+  },
+  "quote": {
+    "currency": "CAD",
+    "source": "https://ref-co.ca/products/parsons-dining-table",
+    "observed": "2026-09-24",
+    "excludes": [
+      "tax",
+      "shipping"
+    ],
+    "notice": "Custom dimensions require a maker quote. No custom price has been inferred.",
+    "status": "requires-quote",
+    "lines": [],
+    "variantId": null,
+    "totalMinor": null
+  },
+  "specification": [
+    {
+      "label": "Maker",
+      "value": "ref."
+    },
+    {
+      "label": "Product",
+      "value": "Parsons Dining Table"
+    },
+    {
+      "label": "Dimensions",
+      "value": "84.25 × 38 × 30 in"
+    },
+    {
+      "label": "Finish",
+      "value": "Natural Walnut"
+    },
+    {
+      "label": "Wood",
+      "value": "Walnut"
+    },
+    {
+      "label": "Surface finish",
+      "value": "3% matte polyurethane"
+    },
+    {
+      "label": "Apparent edge",
+      "value": "3 in, mitered"
+    },
+    {
+      "label": "Corner legs",
+      "value": "4 × 4 in"
+    },
+    {
+      "label": "Size status",
+      "value": "Custom request; feasibility unconfirmed"
+    }
+  ],
+  "orderPlaced": false
+}

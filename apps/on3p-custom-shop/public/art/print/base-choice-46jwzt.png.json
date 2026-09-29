@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46jwzt",
+  "name": "Sleet Camo",
+  "file": "base-choice-46jwzt.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa71f2c5ec72001739f7be.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "3758eb857409b5b17c74aa4666466e2e11fed434a83cb560cf147b9cb22eeb44",
+  "retrieved": "2026-09-24T17:08:02.687Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

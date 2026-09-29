@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46jmx5",
+  "name": "Desert Night",
+  "file": "base-choice-46jmx5.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa71b4df8c2800107ea679.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "e18c5d536dce972dd9e8e9f2c22ec4e3b554a1197c48caf51b38d46037d62e4b",
+  "retrieved": "2026-09-24T17:08:03.262Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

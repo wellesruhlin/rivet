@@ -1,0 +1,349 @@
+{
+  "maker": "ref.",
+  "name": "Parsons Dining Table",
+  "currency": "CAD",
+  "productId": "7966136631445",
+  "observed": "2026-09-24",
+  "version": "2026-09-24.1",
+  "source": "https://ref-co.ca/products/parsons-dining-table",
+  "dataSource": "https://ref-co.ca/products/parsons-dining-table.js",
+  "sha256": "a85a1d148c333ce1788a1b008a5e926124bf6d7fb48a1ffe1b8eca46b456a9e4",
+  "variants": [
+    {
+      "id": "43602253938837",
+      "size": "72",
+      "finish": "natural-oak",
+      "priceMinor": 449900,
+      "available": true
+    },
+    {
+      "id": "45768169848981",
+      "size": "72",
+      "finish": "whitened-oak",
+      "priceMinor": 449900,
+      "available": true
+    },
+    {
+      "id": "45768169881749",
+      "size": "72",
+      "finish": "nordic-oak",
+      "priceMinor": 449900,
+      "available": true
+    },
+    {
+      "id": "45768169914517",
+      "size": "72",
+      "finish": "sand-oak",
+      "priceMinor": 409900,
+      "available": true
+    },
+    {
+      "id": "47950294319253",
+      "size": "72",
+      "finish": "aged-oak",
+      "priceMinor": 409900,
+      "available": true
+    },
+    {
+      "id": "47950294384789",
+      "size": "72",
+      "finish": "golden-oak",
+      "priceMinor": 409900,
+      "available": true
+    },
+    {
+      "id": "47950294352021",
+      "size": "72",
+      "finish": "espresso-oak",
+      "priceMinor": 409900,
+      "available": true
+    },
+    {
+      "id": "45768169980053",
+      "size": "72",
+      "finish": "blackened-oak",
+      "priceMinor": 409900,
+      "available": true
+    },
+    {
+      "id": "45768170012821",
+      "size": "72",
+      "finish": "natural-walnut",
+      "priceMinor": 539900,
+      "available": true
+    },
+    {
+      "id": "45768170045589",
+      "size": "72",
+      "finish": "bourbon-walnut",
+      "priceMinor": 539900,
+      "available": true
+    },
+    {
+      "id": "45768170078357",
+      "size": "72",
+      "finish": "charcoal-walnut",
+      "priceMinor": 539900,
+      "available": true
+    },
+    {
+      "id": "45768170111125",
+      "size": "72",
+      "finish": "maple",
+      "priceMinor": 409900,
+      "available": true
+    },
+    {
+      "id": "43602253971605",
+      "size": "84",
+      "finish": "natural-oak",
+      "priceMinor": 499900,
+      "available": true
+    },
+    {
+      "id": "45768170143893",
+      "size": "84",
+      "finish": "whitened-oak",
+      "priceMinor": 499900,
+      "available": true
+    },
+    {
+      "id": "45768170176661",
+      "size": "84",
+      "finish": "nordic-oak",
+      "priceMinor": 499900,
+      "available": true
+    },
+    {
+      "id": "45768170209429",
+      "size": "84",
+      "finish": "sand-oak",
+      "priceMinor": 459900,
+      "available": true
+    },
+    {
+      "id": "47950294417557",
+      "size": "84",
+      "finish": "aged-oak",
+      "priceMinor": 459900,
+      "available": true
+    },
+    {
+      "id": "47950294483093",
+      "size": "84",
+      "finish": "golden-oak",
+      "priceMinor": 459900,
+      "available": true
+    },
+    {
+      "id": "47950294450325",
+      "size": "84",
+      "finish": "espresso-oak",
+      "priceMinor": 459900,
+      "available": true
+    },
+    {
+      "id": "45768170274965",
+      "size": "84",
+      "finish": "blackened-oak",
+      "priceMinor": 459900,
+      "available": true
+    },
+    {
+      "id": "45768170307733",
+      "size": "84",
+      "finish": "natural-walnut",
+      "priceMinor": 599900,
+      "available": true
+    },
+    {
+      "id": "45768170340501",
+      "size": "84",
+      "finish": "bourbon-walnut",
+      "priceMinor": 599900,
+      "available": true
+    },
+    {
+      "id": "45768170373269",
+      "size": "84",
+      "finish": "charcoal-walnut",
+      "priceMinor": 599900,
+      "available": true
+    },
+    {
+      "id": "45768170406037",
+      "size": "84",
+      "finish": "maple",
+      "priceMinor": 459900,
+      "available": true
+    },
+    {
+      "id": "43602254004373",
+      "size": "96",
+      "finish": "natural-oak",
+      "priceMinor": 549900,
+      "available": true
+    },
+    {
+      "id": "45768170438805",
+      "size": "96",
+      "finish": "whitened-oak",
+      "priceMinor": 549900,
+      "available": true
+    },
+    {
+      "id": "45768170471573",
+      "size": "96",
+      "finish": "nordic-oak",
+      "priceMinor": 549900,
+      "available": true
+    },
+    {
+      "id": "45768170504341",
+      "size": "96",
+      "finish": "sand-oak",
+      "priceMinor": 499900,
+      "available": true
+    },
+    {
+      "id": "47950294515861",
+      "size": "96",
+      "finish": "aged-oak",
+      "priceMinor": 499900,
+      "available": true
+    },
+    {
+      "id": "47950294581397",
+      "size": "96",
+      "finish": "golden-oak",
+      "priceMinor": 499900,
+      "available": true
+    },
+    {
+      "id": "47950294548629",
+      "size": "96",
+      "finish": "espresso-oak",
+      "priceMinor": 499900,
+      "available": true
+    },
+    {
+      "id": "45768170569877",
+      "size": "96",
+      "finish": "blackened-oak",
+      "priceMinor": 499900,
+      "available": true
+    },
+    {
+      "id": "45768170602645",
+      "size": "96",
+      "finish": "natural-walnut",
+      "priceMinor": 659900,
+      "available": true
+    },
+    {
+      "id": "45768170635413",
+      "size": "96",
+      "finish": "bourbon-walnut",
+      "priceMinor": 659900,
+      "available": true
+    },
+    {
+      "id": "45768170668181",
+      "size": "96",
+      "finish": "charcoal-walnut",
+      "priceMinor": 659900,
+      "available": true
+    },
+    {
+      "id": "45768170700949",
+      "size": "96",
+      "finish": "maple",
+      "priceMinor": 499900,
+      "available": true
+    },
+    {
+      "id": "45768170733717",
+      "size": "108",
+      "finish": "natural-oak",
+      "priceMinor": 599900,
+      "available": true
+    },
+    {
+      "id": "45768170766485",
+      "size": "108",
+      "finish": "whitened-oak",
+      "priceMinor": 599900,
+      "available": true
+    },
+    {
+      "id": "45768170799253",
+      "size": "108",
+      "finish": "nordic-oak",
+      "priceMinor": 599900,
+      "available": true
+    },
+    {
+      "id": "45768170832021",
+      "size": "108",
+      "finish": "sand-oak",
+      "priceMinor": 549900,
+      "available": true
+    },
+    {
+      "id": "47950294220949",
+      "size": "108",
+      "finish": "aged-oak",
+      "priceMinor": 549900,
+      "available": true
+    },
+    {
+      "id": "47950294286485",
+      "size": "108",
+      "finish": "golden-oak",
+      "priceMinor": 549900,
+      "available": true
+    },
+    {
+      "id": "47950294253717",
+      "size": "108",
+      "finish": "espresso-oak",
+      "priceMinor": 549900,
+      "available": true
+    },
+    {
+      "id": "45768170897557",
+      "size": "108",
+      "finish": "blackened-oak",
+      "priceMinor": 549900,
+      "available": true
+    },
+    {
+      "id": "45768170930325",
+      "size": "108",
+      "finish": "natural-walnut",
+      "priceMinor": 719900,
+      "available": true
+    },
+    {
+      "id": "45768170963093",
+      "size": "108",
+      "finish": "bourbon-walnut",
+      "priceMinor": 719900,
+      "available": true
+    },
+    {
+      "id": "45768170995861",
+      "size": "108",
+      "finish": "charcoal-walnut",
+      "priceMinor": 719900,
+      "available": true
+    },
+    {
+      "id": "45768171028629",
+      "size": "108",
+      "finish": "maple",
+      "priceMinor": 549900,
+      "available": true
+    }
+  ]
+}

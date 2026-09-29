@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46j9hl",
+  "name": "Green",
+  "file": "base-choice-46j9hl.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/6282e8084d101a00110f35f3.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "510ab6808eeddbf0810a84631505b6c72571ed62dd3d4bc40e89f28dc23e7cb5",
+  "retrieved": "2026-09-24T17:07:57.854Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

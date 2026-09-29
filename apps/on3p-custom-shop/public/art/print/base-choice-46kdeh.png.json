@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46kdeh",
+  "name": "Team Pink",
+  "file": "base-choice-46kdeh.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa737ddf8c2800107ea680.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "24f914e0e4085b974e0cb909a900f3cc4fada58eaf5b2ae9bc8926f06d50aea9",
+  "retrieved": "2026-09-24T17:08:03.658Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

@@ -1,0 +1,16 @@
+import React,{lazy,Suspense} from 'react';
+import {createRoot} from 'react-dom/client';
+import '@fontsource/barlow/400.css';
+import '@fontsource/barlow/500.css';
+import '@fontsource/barlow/600.css';
+import App from './App.jsx';
+import './style.css';
+import MakerGate from './management/MakerGate.jsx';
+const ProductStudio=lazy(()=>import('./studio/ProductStudio.jsx'));
+const Storefront=lazy(()=>import('./studio/Storefront.jsx'));
+const HandoffDesk=lazy(()=>import('./handoff/HandoffDesk.jsx'));
+const Management=lazy(()=>import('./management/Management.jsx'));
+const path=location.pathname;
+const Page=path.startsWith('/manage')?Management:path.startsWith('/handoff')?HandoffDesk:path.startsWith('/studio')?ProductStudio:path.startsWith('/products/')?Storefront:App;
+const page=path.startsWith('/studio')||path.startsWith('/manage')?<MakerGate><Page/></MakerGate>:<Page/>;
+createRoot(document.getElementById('root')).render(<React.StrictMode><Suspense fallback={<p style={{padding:40,color:'#f3f0e9'}}>Opening Maker Studio…</p>}>{page}</Suspense></React.StrictMode>);

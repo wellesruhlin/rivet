@@ -1,0 +1,128 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdtemp} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {randomUUID} from 'node:crypto';
+import {createApp} from '../server/app.mjs';
+import {tableProduct} from '@maker/ref-parsons';
+import {skiProduct} from '../../on3p-custom-shop/src/product-adapter.js';
+import {normalizeConfig,stockFor} from '../../on3p-custom-shop/src/config.js';
+import {createHandoffStore,packetFiles} from '../server/handoff-store.mjs';
+import {submitForReview} from '@maker/configurator-core/handoff-client';
+
+const password='local-pilot-test-password';
+const token=()=>randomUUID().replaceAll('-','')+randomUUID().replaceAll('-','');
+const request=(product=tableProduct,config=product.normalize({}))=>({id:randomUUID(),accessToken:token(),productId:product.id,productVersion:product.version,config,expectedQuote:product.evaluate(config).quote});
+const quote=(extra={})=>({id:randomUUID(),unitMinor:539900,shippingMinor:2500,taxMinor:40000,quantity:2,validityDays:14,itemCode:'=CUSTOM-TABLE',leadTime:'6–8 weeks',terms:'Local pilot; manufacturing held.',feasibilityReviewed:true,...extra});
+async function fixture(t,options={}){
+  const storage=await mkdtemp(join(tmpdir(),'maker-handoff-test-'));
+  let server=createApp({storage,handoffOptions:options,allowedOrigins:['http://127.0.0.1:5391']});
+  const listen=()=>new Promise(r=>server.listen(0,'127.0.0.1',r));await listen();
+  t.after(()=>new Promise(r=>server.close(r)));
+  let cookie='';
+  async function call(path,body,{auth=true,accessToken,origin,method}={}){const r=await fetch(`http://127.0.0.1:${server.address().port}/api/handoff/`+path,{method:method||(body?'POST':'GET'),headers:{...(body?{'Content-Type':'application/json'}:{}),...(auth&&cookie?{Cookie:cookie}:{}),...(accessToken?{Authorization:'Bearer '+accessToken}:{}),...(origin?{Origin:origin}:{})},...(body?{body:JSON.stringify(body)}:{})});const raw=await r.text();let data;try{data=JSON.parse(raw);}catch{data=raw;}return {status:r.status,data,headers:r.headers};}
+  return {call,async login(){const s=await call('session');if(s.data.setupRequired)await call('setup',{password});const r=await call('login',{password});assert.equal(r.status,200);cookie=r.headers.get('set-cookie').split(';')[0];},async restart(){await new Promise(r=>server.close(r));server=createApp({storage,handoffOptions:options});await listen();}};
+}
+test('dependent ski defaults agree across browser and server adapter',()=>{
+  const input={model:'billy-goat-118',length:186};assert.deepEqual(skiProduct.normalize(input),normalizeConfig(input));assert.equal(skiProduct.normalize(input).top,stockFor(input.model).top);
+});
+test('handoff rejects incomplete, silently adjusted, stale-price and unknown-option submissions',async t=>{
+  const f=await fixture(t),valid=request(skiProduct,skiProduct.normalize({category:'Freeride',model:'billy-goat-118',length:186}));
+  assert.equal((await f.call('builds',valid)).status,201);
+  for(const config of [{...valid.config,length:999},{...valid.config,binding:'invented'},{...valid.config,top:'invented'},{model:valid.config.model,length:186},{...valid.config,rogue:'value'}])assert.equal((await f.call('builds',{...valid,id:randomUUID(),config})).status,422);
+  assert.equal((await f.call('builds',request(skiProduct,skiProduct.defaults))).status,422);
+  assert.equal((await f.call('builds',{...valid,id:randomUUID(),expectedQuote:{...valid.expectedQuote,totalMinor:1}})).status,409);
+  assert.equal((await f.call('builds',{...valid,id:randomUUID(),productVersion:'old'})).status,409);
+});
+test('maker auth and build capabilities enforce separate permissions and origin checks',async t=>{
+  const f=await fixture(t),b=request();await f.call('builds',b);
+  assert.equal((await f.call('builds')).status,401);
+  assert.equal((await f.call('builds/'+b.id)).status,404);
+  assert.equal((await f.call('builds/'+b.id,undefined,{accessToken:token()})).status,404);
+  assert.equal((await f.call('builds/'+b.id,undefined,{accessToken:b.accessToken})).status,200);
+  assert.equal((await f.call('builds/'+b.id+'/quote',quote(),{accessToken:b.accessToken})).status,401);
+  assert.equal((await f.call('setup',{password},{origin:'https://malicious.example'})).status,403);
+  assert.equal((await f.call('setup',{password},{origin:'http://127.0.0.1:5399'})).status,403);
+  assert.equal((await f.call('builds',request(),{origin:'http://127.0.0.1:5391'})).status,201);
+  await f.login();assert.equal((await f.call('builds')).status,200);
+  assert.equal((await f.call('setup',{password})).status,409);
+  assert.equal((await f.call('login',{password:'bad'})).status,401);
+  const q=await f.call('builds/'+b.id+'/quote',quote());assert.equal(q.status,201);
+  const acceptance={quoteId:q.data.id,totalMinor:q.data.totalMinor,currency:q.data.currency,confirmed:true};
+  assert.equal((await f.call('builds/'+b.id+'/accept',acceptance)).status,404);
+  await f.call('logout',{});assert.equal((await f.call('builds')).status,401);
+});
+test('immutable builds, idempotent approvals, atomic acceptance and recoverable file delivery survive restart',async t=>{
+  let failures=1;
+  const f=await fixture(t,{exporter:packet=>{if(failures-->0)throw Error('simulated outage');return packetFiles(packet);}}),b=request();
+  const created=await f.call('builds',b);assert.equal(created.status,201);
+  const repeated=await f.call('builds',b);assert.deepEqual(repeated.data,created.data);
+  assert.equal((await f.call('builds',{...b,reference:'different'})).status,409);
+  await f.login();
+  const qbody=quote(),q=(await f.call('builds/'+b.id+'/quote',qbody)).data;
+  assert.equal(q.totalMinor,1122300);assert.equal((await f.call('builds/'+b.id+'/quote',qbody)).data.id,q.id);
+  assert.equal((await f.call('builds/'+b.id+'/quote',{...qbody,unitMinor:1})).status,409);
+  assert.equal((await f.call('builds/'+b.id+'/export',{})).status,409);
+  const accept={quoteId:q.id,totalMinor:q.totalMinor,currency:q.currency,confirmed:true},auth={accessToken:b.accessToken};
+  assert.equal((await f.call('builds/'+b.id+'/accept',{...accept,totalMinor:1},auth)).status,409);
+  const responses=await Promise.all([f.call('builds/'+b.id+'/accept',accept,auth),f.call('builds/'+b.id+'/accept',accept,auth)]);
+  assert.deepEqual(responses.map(r=>r.status),[200,200]);assert.equal(responses[0].data.id,responses[1].data.id);
+  assert.equal(responses[0].data.manufacturing.bom,null);assert.equal(responses[0].data.payment.status,'not_collected');
+  assert.equal((await f.call('builds/'+b.id+'/acknowledge',{receipt:'row 1'})).status,409);
+  const failed=await f.call('builds/'+b.id+'/export',{});assert.equal(failed.data.status,'failed');assert.equal(failed.data.attempts,1);
+  const exported=await f.call('builds/'+b.id+'/export',{});assert.equal(exported.data.status,'exported');assert.equal(exported.data.attempts,2);
+  assert.equal((await f.call('builds/'+b.id+'/export',{})).data.attempts,2);
+  assert.equal((await f.call('builds/'+b.id+'/file?format=json',undefined,{auth:false,accessToken:b.accessToken})).status,401);
+  const json=await f.call('builds/'+b.id+'/file?format=json'),csv=await f.call('builds/'+b.id+'/file?format=csv');
+  assert.equal(json.data.id,responses[0].data.id);assert.match(csv.data,/"'=CUSTOM-TABLE"/);assert.match(csv.headers.get('content-disposition'),/attachment/);
+  const ack=await f.call('builds/'+b.id+'/acknowledge',{receipt:'Sheet row 24 / SO-100'});assert.equal(ack.data.status,'acknowledged');
+  assert.equal((await f.call('builds/'+b.id+'/acknowledge',{receipt:'duplicate'})).data.receipt,'Sheet row 24 / SO-100');
+  assert.equal((await f.call('builds/'+b.id+'/withdraw',{quoteId:q.id})).status,409);
+  assert.equal((await f.call('builds/'+b.id+'/quote',quote())).status,409);
+  await f.restart();
+  const state=(await f.call('builds/'+b.id)).data;assert.deepEqual(state.build,created.data.build);assert.equal(state.delivery.status,'acknowledged');assert.equal(state.events.filter(e=>e.kind==='quote.accepted').length,1);
+  assert.deepEqual((await f.call('builds/'+b.id+'/file?format=json')).data,json.data);
+  const release=await f.call('builds/'+b.id+'/release');assert.ok(release.data.sources['catalog.json']);
+  const revision=request();revision.revises=b.id;revision.previousAccessToken=b.accessToken;
+  const revised=await f.call('builds',revision);assert.equal(revised.data.build.revision,2);assert.equal(revised.data.build.rootId,b.id);assert.equal((await f.call('builds/'+revision.id)).data.order,null);
+  assert.equal((await f.call('builds',{...request(),revises:b.id,previousAccessToken:token()})).status,404);
+});
+test('superseded, withdrawn, expired and changed-release quotes cannot be accepted',async t=>{
+  let time=new Date('2026-09-25T12:00:00Z');const f=await fixture(t,{now:()=>time}),b=request();await f.call('builds',b);await f.login();
+  const first=(await f.call('builds/'+b.id+'/quote',quote())).data,second=(await f.call('builds/'+b.id+'/quote',quote({validityDays:1}))).data;
+  const accept=q=>f.call('builds/'+b.id+'/accept',{quoteId:q.id,totalMinor:q.totalMinor,currency:q.currency,confirmed:true},{accessToken:b.accessToken});
+  assert.equal((await accept(first)).status,409);
+  time=new Date('2026-09-27T12:00:00Z');assert.equal((await accept(second)).status,409);
+  assert.equal((await f.call('builds')).status,401);await f.login();
+  const third=(await f.call('builds/'+b.id+'/quote',quote())).data;await f.call('builds/'+b.id+'/withdraw',{quoteId:third.id});assert.equal((await accept(third)).status,409);
+  const path=await mkdtemp(join(tmpdir(),'maker-release-test-')),store=createHandoffStore(path);t.after(()=>store.close());
+  store.create(b,tableProduct.evaluate(b.config),{id:'release-one',evidence:{}});
+  assert.throws(()=>store.approve(b.id,quote(),'changed-release'),/rules changed/);
+  const q=store.approve(b.id,quote(),'release-one');
+  assert.throws(()=>store.accept(b.id,{quoteId:q.id,totalMinor:q.totalMinor,currency:q.currency,confirmed:true},'changed-release'),/rules changed/);
+});
+test('custom furniture requires an explicit maker quote and preserves unpriced reference',async t=>{
+  const f=await fixture(t),b=request(tableProduct,tableProduct.normalize({size:'custom',length:81}));
+  assert.equal(b.expectedQuote.totalMinor,null);assert.equal((await f.call('builds',b)).status,201);await f.login();
+  assert.equal((await f.call('builds/'+b.id+'/quote',quote({feasibilityReviewed:false}))).status,422);
+  assert.equal((await f.call('builds/'+b.id+'/quote',quote({unitMinor:0}))).status,422);
+  const q=await f.call('builds/'+b.id+'/quote',quote({unitMinor:600000}));assert.equal(q.status,201);assert.equal(q.data.currency,'CAD');
+  assert.equal((await f.call('builds/'+b.id)).data.build.quote.totalMinor,null);
+});
+test('browser submission retries lost responses with the same ID and links later edits as revisions',async()=>{
+  const memory=new Map(),storage={getItem:k=>memory.get(k),setItem:(k,v)=>memory.set(k,v)};let lost=true;const bodies=[];
+  let releaseId='release-one';
+  const fetcher=async(path,init)=>{if(!init)return {ok:true,json:async()=>({releaseId})};const body=JSON.parse(init.body);bodies.push(body);if(lost){lost=false;throw Error('response lost');}return {ok:true,json:async()=>({build:{id:body.id}})};};
+  await assert.rejects(submitForReview(tableProduct,tableProduct.defaults,{storage,fetcher}),/lost/);
+  const first=await submitForReview(tableProduct,tableProduct.defaults,{storage,fetcher});assert.equal(bodies[0].id,bodies[1].id);
+  await submitForReview(tableProduct,tableProduct.change(tableProduct.defaults,{finish:'natural-oak'}).config,{storage,fetcher});
+  assert.equal(bodies[2].revises,first.id);assert.equal(bodies[2].previousAccessToken,first.accessToken);assert.notEqual(bodies[2].id,first.id);
+  releaseId='release-two';
+  await submitForReview(tableProduct,tableProduct.change(tableProduct.defaults,{finish:'natural-oak'}).config,{storage,fetcher});
+  assert.equal(bodies[3].revises,bodies[2].id);assert.notEqual(bodies[3].id,bodies[2].id);
+  await submitForReview(tableProduct,tableProduct.change(tableProduct.defaults,{finish:'natural-oak'}).config,{storage,fetcher,reference:'Visual only, excluded: test fixture'});
+  assert.equal(bodies[4].revises,bodies[3].id);
+  assert.equal(bodies[4].reference,'Visual only, excluded: test fixture');
+  await assert.rejects(submitForReview(tableProduct,tableProduct.defaults,{storage,fetcher,reference:'x'.repeat(121)}),/120/);
+});

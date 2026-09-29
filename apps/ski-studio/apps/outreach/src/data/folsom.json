@@ -1,0 +1,1759 @@
+{
+  "families": [
+    {
+      "id": "spar",
+      "name": "Spar",
+      "description": "Precise frontside carving. Narrower waists and quick turns."
+    },
+    {
+      "id": "completo",
+      "name": "Completo",
+      "description": "Tapered tips and tails for an intuitive, versatile daily driver."
+    },
+    {
+      "id": "cash",
+      "name": "Cash",
+      "description": "An easy-entering tapered tip, with power through the tail."
+    },
+    {
+      "id": "primary",
+      "name": "Primary",
+      "description": "Full-length sidecut for strong edge hold and stability."
+    },
+    {
+      "id": "turbo",
+      "name": "Turbo",
+      "description": "Deep sidecut and a short turn for committed carvers."
+    },
+    {
+      "id": "reserve",
+      "name": "Reserve",
+      "description": "Specialty shapes, powder tools and the junior Hayden."
+    }
+  ],
+  "models": [
+    {
+      "id": "spar-78",
+      "name": "Spar 78",
+      "family": "spar",
+      "summary": "A narrow frontside carver for firm snow, bumps and energetic turns.",
+      "lengths": [
+        158,
+        163,
+        167,
+        174,
+        180,
+        184
+      ],
+      "dims": [
+        122,
+        78,
+        106
+      ],
+      "dimsByLength": {
+        "158": [
+          122,
+          78,
+          106
+        ],
+        "163": [
+          122,
+          78,
+          106
+        ],
+        "167": [
+          122,
+          78,
+          106
+        ],
+        "174": [
+          122,
+          78,
+          106
+        ],
+        "180": [
+          122,
+          78,
+          106
+        ],
+        "184": [
+          122,
+          78,
+          106
+        ]
+      },
+      "radii": [
+        14,
+        14,
+        14,
+        17,
+        17,
+        17
+      ],
+      "profiles": [
+        "Traditional Rocker",
+        "Directional Rocker"
+      ],
+      "tails": [
+        "Round",
+        "Flat"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/spar-78",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2019/06/Spar78_StandardDisplayMasks-min.jpg",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "spar-88",
+      "name": "Spar 88",
+      "family": "spar",
+      "summary": "Quick and precise on groomers, with enough versatility for mixed conditions.",
+      "lengths": [
+        156,
+        160,
+        164,
+        172,
+        176,
+        178,
+        182,
+        186,
+        192
+      ],
+      "dims": [
+        132,
+        88,
+        116
+      ],
+      "dimsByLength": {
+        "156": [
+          132,
+          88,
+          116
+        ],
+        "160": [
+          132,
+          88,
+          116
+        ],
+        "164": [
+          132,
+          88,
+          116
+        ],
+        "172": [
+          132,
+          88,
+          116
+        ],
+        "176": [
+          132,
+          88,
+          116
+        ],
+        "178": [
+          132,
+          88,
+          116
+        ],
+        "182": [
+          132,
+          88,
+          116
+        ],
+        "186": [
+          132,
+          88,
+          116
+        ],
+        "192": [
+          132,
+          88,
+          116
+        ]
+      },
+      "radii": [
+        13,
+        13,
+        13,
+        15,
+        15,
+        17,
+        17,
+        17,
+        19
+      ],
+      "profiles": [
+        "Traditional Rocker",
+        "Directional Rocker"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/spar-88",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/05/Spar88New-min-1.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "spar-98",
+      "name": "Spar 98",
+      "family": "spar",
+      "summary": "The wider Spar combines a short turn with a 98 mm platform for precise all-mountain skiing.",
+      "lengths": [
+        156,
+        160,
+        164,
+        172,
+        176,
+        178,
+        182,
+        186,
+        190
+      ],
+      "dims": [
+        142,
+        98,
+        126
+      ],
+      "dimsByLength": {
+        "156": [
+          142,
+          98,
+          126
+        ],
+        "160": [
+          142,
+          98,
+          126
+        ],
+        "164": [
+          142,
+          98,
+          126
+        ],
+        "172": [
+          142,
+          98,
+          126
+        ],
+        "176": [
+          142,
+          98,
+          126
+        ],
+        "178": [
+          142,
+          98,
+          126
+        ],
+        "182": [
+          142,
+          98,
+          126
+        ],
+        "186": [
+          142,
+          98,
+          126
+        ],
+        "190": [
+          142,
+          98,
+          126
+        ]
+      },
+      "radii": [
+        13,
+        13,
+        13,
+        15,
+        15,
+        17,
+        17,
+        17,
+        17
+      ],
+      "profiles": [
+        "Traditional Rocker",
+        "Directional Rocker"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/spar-98",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2026/06/spar-98.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "completo-100",
+      "name": "Completo 100",
+      "family": "completo",
+      "summary": "An approachable all-mountain shape with tapered tips and tails for easy turn entry and release.",
+      "lengths": [
+        156,
+        164,
+        169,
+        175,
+        180,
+        184,
+        189
+      ],
+      "dims": [
+        130,
+        100,
+        120
+      ],
+      "dimsByLength": {
+        "156": [
+          130,
+          100,
+          120
+        ],
+        "164": [
+          130,
+          100,
+          120
+        ],
+        "169": [
+          130,
+          100,
+          120
+        ],
+        "175": [
+          130,
+          100,
+          120
+        ],
+        "180": [
+          130,
+          100,
+          120
+        ],
+        "184": [
+          130,
+          100,
+          120
+        ],
+        "189": [
+          130,
+          100,
+          120
+        ]
+      },
+      "radii": [
+        12,
+        12,
+        16,
+        16,
+        16,
+        18,
+        18
+      ],
+      "profiles": [
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/completo-100",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2020/06/completo-100-product-image-gradient-jpeg.jpg",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "completo-105",
+      "name": "Completo 105",
+      "family": "completo",
+      "summary": "A versatile daily driver with tapered ends for maneuverability in changing snow.",
+      "lengths": [
+        162,
+        169,
+        177,
+        181,
+        184,
+        187,
+        192
+      ],
+      "dims": [
+        134,
+        105,
+        124
+      ],
+      "dimsByLength": {
+        "162": [
+          134,
+          105,
+          124
+        ],
+        "169": [
+          134,
+          105,
+          124
+        ],
+        "177": [
+          134,
+          105,
+          124
+        ],
+        "181": [
+          134,
+          105,
+          124
+        ],
+        "184": [
+          134,
+          105,
+          124
+        ],
+        "187": [
+          134,
+          105,
+          124
+        ],
+        "192": [
+          134,
+          105,
+          124
+        ]
+      },
+      "radii": [
+        15,
+        15,
+        18,
+        18,
+        18,
+        21,
+        21
+      ],
+      "profiles": [
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/completo-105",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/Completo-01-1.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "completo-113",
+      "name": "Completo 113",
+      "family": "completo",
+      "summary": "More surface area for soft snow, with the intuitive feel of the Completo family.",
+      "lengths": [
+        178,
+        183,
+        188,
+        193
+      ],
+      "dims": [
+        143,
+        113,
+        127
+      ],
+      "dimsByLength": {
+        "178": [
+          143,
+          113,
+          127
+        ],
+        "183": [
+          143,
+          113,
+          127
+        ],
+        "188": [
+          143,
+          113,
+          127
+        ],
+        "193": [
+          143,
+          113,
+          127
+        ],
+        "205": [
+          150,
+          122,
+          134
+        ]
+      },
+      "radii": [
+        19,
+        19,
+        23,
+        23
+      ],
+      "profiles": [
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/completo-113",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/Gambit113_StandardDisplayMasks-1.jpg",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "cash-93",
+      "name": "Cash 93",
+      "family": "cash",
+      "summary": "A narrower daily driver that pairs an easy-entering tapered tip with a powerful tail.",
+      "lengths": [
+        170,
+        175,
+        180,
+        185
+      ],
+      "dims": [
+        131,
+        93,
+        120
+      ],
+      "dimsByLength": {
+        "170": [
+          131,
+          93,
+          120
+        ],
+        "175": [
+          131,
+          93,
+          120
+        ],
+        "180": [
+          131,
+          93,
+          120
+        ],
+        "185": [
+          131,
+          93,
+          120
+        ],
+        "190": [
+          131,
+          93,
+          120
+        ]
+      },
+      "radii": [
+        16,
+        16,
+        16,
+        19
+      ],
+      "profiles": [
+        "Traditional Rocker",
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/cash-93",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2022/10/cash-93-product-image-gradient-min.jpg",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "cash-106",
+      "name": "Cash 106",
+      "family": "cash",
+      "summary": "A directional all-mountain ski with a tapered nose and a supportive, full-sidecut tail.",
+      "lengths": [
+        164,
+        169,
+        174,
+        179,
+        184,
+        189
+      ],
+      "dims": [
+        138,
+        106,
+        124
+      ],
+      "dimsByLength": {
+        "164": [
+          138,
+          106,
+          124
+        ],
+        "169": [
+          138,
+          106,
+          124
+        ],
+        "174": [
+          138,
+          106,
+          124
+        ],
+        "179": [
+          138,
+          106,
+          124
+        ],
+        "184": [
+          138,
+          106,
+          124
+        ],
+        "189": [
+          138,
+          106,
+          124
+        ]
+      },
+      "radii": [
+        15,
+        15,
+        18,
+        18,
+        21,
+        21
+      ],
+      "profiles": [
+        "Traditional Rocker",
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/cash-106",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/Cash106-01-1.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "cash-117",
+      "name": "Cash 117",
+      "family": "cash",
+      "summary": "A wide big-mountain platform that keeps the power and directional feel of the Cash family.",
+      "lengths": [
+        183,
+        188,
+        193,
+        198
+      ],
+      "dims": [
+        146,
+        117,
+        132
+      ],
+      "dimsByLength": {
+        "183": [
+          146,
+          117,
+          132
+        ],
+        "188": [
+          146,
+          117,
+          132
+        ],
+        "193": [
+          146,
+          117,
+          132
+        ],
+        "198": [
+          146,
+          117,
+          132
+        ]
+      },
+      "radii": [
+        23,
+        23,
+        27,
+        27
+      ],
+      "profiles": [
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/cash-117",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/BTO-01.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "primary-95",
+      "name": "Primary 95",
+      "family": "primary",
+      "summary": "Full-length sidecut in a narrower all-mountain shape for connected, confident turns.",
+      "lengths": [
+        163,
+        169,
+        174,
+        179,
+        184,
+        189
+      ],
+      "dims": [
+        134,
+        95,
+        122
+      ],
+      "dimsByLength": {
+        "163": [
+          134,
+          95,
+          122
+        ],
+        "169": [
+          134,
+          95,
+          122
+        ],
+        "174": [
+          134,
+          95,
+          122
+        ],
+        "179": [
+          134,
+          95,
+          122
+        ],
+        "184": [
+          134,
+          99,
+          122
+        ],
+        "189": [
+          134,
+          99,
+          122
+        ]
+      },
+      "radii": [
+        14,
+        14,
+        17,
+        17,
+        22,
+        22
+      ],
+      "profiles": [
+        "Traditional Rocker",
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/primary-95",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/TriggerII-01-1.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "primary-104",
+      "name": "Primary 104",
+      "family": "primary",
+      "summary": "An all-mountain shape without taper, built for stability and control at speed.",
+      "lengths": [
+        163,
+        168,
+        174,
+        180,
+        184,
+        189
+      ],
+      "dims": [
+        134,
+        104,
+        122
+      ],
+      "dimsByLength": {
+        "163": [
+          134,
+          104,
+          122
+        ],
+        "168": [
+          134,
+          104,
+          122
+        ],
+        "174": [
+          134,
+          104,
+          122
+        ],
+        "180": [
+          134,
+          104,
+          122
+        ],
+        "184": [
+          134,
+          104,
+          122
+        ],
+        "189": [
+          134,
+          104,
+          122
+        ]
+      },
+      "radii": [
+        17,
+        17,
+        17,
+        21,
+        21,
+        21
+      ],
+      "profiles": [
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/primary-104",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/primary-104-product-image-gradient.png",
+      "bindingOptions": []
+    },
+    {
+      "id": "primary-110",
+      "name": "Primary 110",
+      "family": "primary",
+      "summary": "A wide, powerful all-mountain ski with full-length sidecut and a strong edge-to-edge feel.",
+      "lengths": [
+        158,
+        163,
+        168,
+        174,
+        178,
+        184,
+        186,
+        189,
+        194
+      ],
+      "dims": [
+        144,
+        110,
+        130
+      ],
+      "dimsByLength": {
+        "158": [
+          144,
+          110,
+          132
+        ],
+        "163": [
+          144,
+          110,
+          132
+        ],
+        "168": [
+          144,
+          110,
+          132
+        ],
+        "174": [
+          144,
+          110,
+          130
+        ],
+        "178": [
+          144,
+          110,
+          130
+        ],
+        "184": [
+          144,
+          110,
+          130
+        ],
+        "186": [
+          144,
+          110,
+          130
+        ],
+        "189": [
+          144,
+          110,
+          130
+        ],
+        "194": [
+          144,
+          110,
+          130
+        ]
+      },
+      "radii": [
+        16,
+        16,
+        16,
+        19,
+        19,
+        19,
+        21,
+        21,
+        21
+      ],
+      "profiles": [
+        "Traditional Rocker",
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/primary",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/primary-110-product-image-gradient-min.jpg",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "turbo-84",
+      "name": "Turbo 84",
+      "family": "turbo",
+      "summary": "A deeply shaped frontside ski for tight arcs and committed carving.",
+      "lengths": [
+        152,
+        160,
+        168,
+        172,
+        176,
+        182,
+        186
+      ],
+      "dims": [
+        138,
+        84,
+        110
+      ],
+      "dimsByLength": {
+        "152": [
+          138,
+          84,
+          110
+        ],
+        "160": [
+          138,
+          84,
+          110
+        ],
+        "168": [
+          138,
+          84,
+          110
+        ],
+        "172": [
+          138,
+          84,
+          110
+        ],
+        "176": [
+          138,
+          84,
+          110
+        ],
+        "182": [
+          138,
+          84,
+          110
+        ],
+        "186": [
+          138,
+          84,
+          110
+        ]
+      },
+      "radii": [
+        11,
+        11,
+        13,
+        13,
+        13,
+        15,
+        15
+      ],
+      "profiles": [
+        "Traditional Rocker",
+        "Directional Rocker"
+      ],
+      "tails": [
+        "Round"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/turbo-84",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2026/06/turbo-84.png",
+      "bindingOptions": []
+    },
+    {
+      "id": "turbo-94",
+      "name": "Turbo 94",
+      "family": "turbo",
+      "summary": "The wider Turbo pairs a dramatic sidecut with a very short turn shape.",
+      "lengths": [
+        152,
+        160,
+        168,
+        172,
+        176,
+        182,
+        186
+      ],
+      "dims": [
+        148,
+        94,
+        120
+      ],
+      "dimsByLength": {
+        "152": [
+          148,
+          94,
+          120
+        ],
+        "160": [
+          148,
+          94,
+          120
+        ],
+        "168": [
+          148,
+          94,
+          120
+        ],
+        "172": [
+          148,
+          94,
+          120
+        ],
+        "176": [
+          148,
+          94,
+          120
+        ],
+        "182": [
+          148,
+          94,
+          120
+        ],
+        "186": [
+          148,
+          94,
+          120
+        ],
+        "192": [
+          148,
+          94,
+          120
+        ]
+      },
+      "radii": [
+        11,
+        11,
+        13,
+        13,
+        13,
+        15,
+        15
+      ],
+      "profiles": [
+        "Traditional Rocker",
+        "Directional Rocker"
+      ],
+      "tails": [
+        "Round"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/turbo-94",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2020/07/spar-turbo-product-image-gradient.png",
+      "bindingOptions": []
+    },
+    {
+      "id": "trn-tek",
+      "name": "TRN TEK",
+      "family": "reserve",
+      "summary": "A narrow specialty carving tool with a 69 mm waist.",
+      "lengths": [
+        186,
+        191,
+        195,
+        201
+      ],
+      "dims": [
+        92,
+        69,
+        82
+      ],
+      "dimsByLength": {
+        "186": [
+          92,
+          69,
+          82
+        ],
+        "191": [
+          92,
+          69,
+          82
+        ],
+        "196": [
+          92,
+          69,
+          82
+        ],
+        "201": [
+          92,
+          69,
+          82
+        ]
+      },
+      "radii": [
+        42,
+        42,
+        null,
+        53
+      ],
+      "profiles": [
+        "Traditional Rocker"
+      ],
+      "tails": [
+        "Round"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/trn-tek",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/TRNTEK-01-1.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "hayden",
+      "name": "Hayden",
+      "family": "reserve",
+      "summary": "A real bamboo-core junior ski with fiberglass construction and an Everyday Rocker profile.",
+      "lengths": [
+        122,
+        130,
+        138,
+        146,
+        154
+      ],
+      "dims": [
+        114,
+        86,
+        106
+      ],
+      "dimsByLength": {
+        "122": [
+          114,
+          86,
+          106
+        ],
+        "130": [
+          114,
+          86,
+          106
+        ],
+        "138": [
+          114,
+          86,
+          106
+        ],
+        "146": [
+          114,
+          86,
+          106
+        ],
+        "154": [
+          129,
+          95,
+          118
+        ]
+      },
+      "radii": [
+        9,
+        9,
+        11,
+        11,
+        13
+      ],
+      "profiles": [
+        "Everyday Rocker"
+      ],
+      "tails": [
+        "Round"
+      ],
+      "price": 550,
+      "source": "https://www.folsomskis.com/product/hayden",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2019/12/hayden-product-image-gradient-min.png",
+      "bindingOptions": []
+    },
+    {
+      "id": "rad-dad",
+      "name": "Rad Dad",
+      "family": "reserve",
+      "summary": "A directional all-mountain shape for smooth turns and a traditional ski feel.",
+      "lengths": [
+        178,
+        182,
+        186,
+        192,
+        196
+      ],
+      "dims": [
+        132,
+        96,
+        118
+      ],
+      "dimsByLength": {
+        "178": [
+          132,
+          96,
+          118
+        ],
+        "182": [
+          132,
+          96,
+          118
+        ],
+        "186": [
+          132,
+          96,
+          118
+        ],
+        "192": [
+          132,
+          96,
+          118
+        ],
+        "196": [
+          132,
+          96,
+          118
+        ]
+      },
+      "radii": [
+        20,
+        20,
+        20,
+        25,
+        25
+      ],
+      "profiles": [
+        "Traditional Rocker",
+        "Directional Rocker"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/rad-dad",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/RadDad-01-1.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "giver",
+      "name": "Giver",
+      "family": "reserve",
+      "summary": "A long-radius charger with no taper for expert skiers who favor speed and big terrain.",
+      "lengths": [
+        184,
+        188,
+        192,
+        195
+      ],
+      "dims": [
+        142,
+        114,
+        130
+      ],
+      "dimsByLength": {
+        "184": [
+          141,
+          110,
+          131
+        ],
+        "188": [
+          141,
+          110,
+          131
+        ],
+        "192": [
+          142,
+          114,
+          130
+        ],
+        "195": [
+          142,
+          114,
+          130
+        ]
+      },
+      "radii": [
+        25,
+        25,
+        27,
+        27
+      ],
+      "profiles": [
+        "Traditional Rocker",
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/giver",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/Primary-01-1.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "trophy-115",
+      "name": "Trophy 115",
+      "family": "reserve",
+      "summary": "A playful powder shape with early taper for smearing, slashing and soft-snow tricks.",
+      "lengths": [
+        166,
+        169,
+        174,
+        180,
+        184,
+        188
+      ],
+      "dims": [
+        145,
+        115,
+        140
+      ],
+      "dimsByLength": {
+        "166": [
+          140,
+          115,
+          130
+        ],
+        "169": [
+          140,
+          115,
+          130
+        ],
+        "174": [
+          140,
+          115,
+          130
+        ],
+        "180": [
+          145,
+          115,
+          140
+        ],
+        "184": [
+          145,
+          115,
+          140
+        ],
+        "188": [
+          145,
+          115,
+          140
+        ]
+      },
+      "radii": [
+        15,
+        15,
+        15,
+        17,
+        17,
+        17
+      ],
+      "profiles": [
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1650,
+      "source": "https://www.folsomskis.com/product/trophy",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/Trophy-01-1.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "rapture",
+      "name": "Rapture",
+      "family": "reserve",
+      "summary": "A powerful powder ski with tapered ends for fast big-mountain lines.",
+      "lengths": [
+        178,
+        182,
+        186,
+        188,
+        192,
+        195
+      ],
+      "dims": [
+        148,
+        122,
+        138
+      ],
+      "dimsByLength": {
+        "178": [
+          146,
+          120,
+          136
+        ],
+        "182": [
+          146,
+          120,
+          136
+        ],
+        "186": [
+          146,
+          120,
+          136
+        ],
+        "188": [
+          148,
+          122,
+          138
+        ],
+        "192": [
+          148,
+          122,
+          138
+        ],
+        "195": [
+          148,
+          122,
+          138
+        ]
+      },
+      "radii": [
+        25,
+        25,
+        25,
+        28,
+        28,
+        28
+      ],
+      "profiles": [
+        "Directional Rocker",
+        "Everyday Rocker",
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Flat",
+        "Touring"
+      ],
+      "price": 1800,
+      "source": "https://www.folsomskis.com/product/rapture",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2018/04/Rapture-01-1.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "s-class",
+      "name": "S-Class",
+      "family": "reserve",
+      "summary": "A big-mountain powder tool with generous surface area for steep terrain and deep snow.",
+      "lengths": [
+        184,
+        188,
+        193,
+        195
+      ],
+      "dims": [
+        153,
+        127,
+        143
+      ],
+      "dimsByLength": {
+        "184": [
+          153,
+          127,
+          143
+        ],
+        "188": [
+          153,
+          127,
+          143
+        ],
+        "193": [
+          153,
+          127,
+          143
+        ],
+        "195": [
+          153,
+          127,
+          143
+        ]
+      },
+      "radii": [
+        28,
+        28,
+        28,
+        28
+      ],
+      "profiles": [
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Touring"
+      ],
+      "price": 1800,
+      "source": "https://www.folsomskis.com/product/s-class",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2026/06/s-class.png",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Griffon (+$270.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "rotor",
+      "name": "Rotor",
+      "family": "reserve",
+      "summary": "A broad traditional-sidecut powder shape for deep snow and powerful turns.",
+      "lengths": [
+        184,
+        188,
+        193,
+        195
+      ],
+      "dims": [
+        158,
+        132,
+        148
+      ],
+      "dimsByLength": {
+        "184": [
+          158,
+          132,
+          148
+        ],
+        "188": [
+          158,
+          132,
+          148
+        ],
+        "193": [
+          158,
+          132,
+          148
+        ],
+        "195": [
+          158,
+          132,
+          148
+        ]
+      },
+      "radii": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "profiles": [
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Touring"
+      ],
+      "price": 1800,
+      "source": "https://www.folsomskis.com/product/rotor",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2024/02/rotor-preview.jpg",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    },
+    {
+      "id": "g-wagon",
+      "name": "G-Wagon",
+      "family": "reserve",
+      "summary": "A deep-snow specialty tool for cat and heli skiing, with an unusually wide 135 mm platform.",
+      "lengths": [
+        184,
+        192,
+        195
+      ],
+      "dims": [
+        160,
+        135,
+        140
+      ],
+      "dimsByLength": {
+        "184": [
+          160,
+          135,
+          140
+        ],
+        "188": [
+          160,
+          135,
+          140
+        ],
+        "192": [
+          160,
+          135,
+          140
+        ],
+        "195": [
+          160,
+          135,
+          140
+        ]
+      },
+      "radii": [
+        23,
+        23,
+        23
+      ],
+      "profiles": [
+        "Powder Rocker",
+        "Shallow Reverse Camber"
+      ],
+      "tails": [
+        "Round",
+        "Touring"
+      ],
+      "price": 1800,
+      "source": "https://www.folsomskis.com/product/g-wagon",
+      "outlineSource": "https://www.folsomskis.com/wp-content/uploads/2022/10/g-wagon-thumbnail-2.jpg",
+      "bindingOptions": [
+        "No Bindings",
+        "Marker Squire (+$230.00)",
+        "Marker Jester (+$400.00)"
+      ]
+    }
+  ]
+}

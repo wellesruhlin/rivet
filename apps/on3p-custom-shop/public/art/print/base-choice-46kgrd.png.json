@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46kgrd",
+  "name": "Team Green",
+  "file": "base-choice-46kgrd.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa738cc5ec72001739f7c7.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "d405427f7cfa1bb836edb93b281bec886271aeb1da13f68a9242f640f7e1cfcb",
+  "retrieved": "2026-09-24T17:08:03.826Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

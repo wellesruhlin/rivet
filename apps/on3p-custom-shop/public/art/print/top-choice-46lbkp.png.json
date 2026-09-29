@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46lbkp",
+  "name": "Duck Camo",
+  "file": "top-choice-46lbkp.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa75a1c5ec72001739f7e3.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "d643ab3acc63ba7624b7b5997ebe1f7142c4cb53a9dc073c08a983681bfcc089",
+  "retrieved": "2026-09-24T17:07:43.074Z",
+  "crop": {
+    "x": 80,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

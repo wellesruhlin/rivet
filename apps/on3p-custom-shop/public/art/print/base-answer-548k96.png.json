@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-548k96",
+  "name": "Hot Rod Red",
+  "file": "base-answer-548k96.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/646d07b439217fc206cb6517.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "69fb45692a4d9a1051944118119451982c4b6370045c5618ea765b58c241da95",
+  "retrieved": "2026-09-24T17:08:00.489Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

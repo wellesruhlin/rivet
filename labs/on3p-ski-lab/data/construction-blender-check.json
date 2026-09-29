@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "savedAssets": [
+    {
+      "layup": "50/50",
+      "animatedTopSeparationMeters": 0.17599999904632568,
+      "layerCount": 29
+    },
+    {
+      "layup": "Leaf Spring",
+      "animatedTopSeparationMeters": 0.17599999904632568,
+      "layerCount": 29
+    },
+    {
+      "layup": "LITE",
+      "animatedTopSeparationMeters": 0.17599999904632568,
+      "layerCount": 28
+    },
+    {
+      "layup": "Stock",
+      "animatedTopSeparationMeters": 0.17599999904632568,
+      "layerCount": 28
+    },
+    {
+      "layup": "Torsion Bar",
+      "animatedTopSeparationMeters": 0.17599999904632568,
+      "layerCount": 29
+    },
+    {
+      "layup": "Tour",
+      "animatedTopSeparationMeters": 0.17599999904632568,
+      "layerCount": 29
+    }
+  ],
+  "regeneratedModel": "Woodsman 108 / 181 cm / Tour",
+  "liveSeparationControl": true,
+  "nonDestructiveVerification": true
+}

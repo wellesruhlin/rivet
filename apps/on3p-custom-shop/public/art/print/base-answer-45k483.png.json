@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-45k483",
+  "name": "Frog Camo",
+  "file": "base-answer-45k483.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/60f4cb458ba7260011172d58.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "e6bb5f2a0e6cff5215bbc9ab7f76e12564e3e557af33a832c5261a2667c97585",
+  "retrieved": "2026-09-24T17:08:03.409Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

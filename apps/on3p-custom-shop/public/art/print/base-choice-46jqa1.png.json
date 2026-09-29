@@ -1,0 +1,16 @@
+{
+  "id": "CHOICE-46jqa1",
+  "name": "Desert Duck",
+  "file": "base-choice-46jqa1.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/5efa71c5c5ec72001739f7bd.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "bdc1f409caa6d7fc65cd3d4bc33a29b9d70144bde6926c5c098b6786f67fcfab",
+  "retrieved": "2026-09-24T17:08:03.126Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

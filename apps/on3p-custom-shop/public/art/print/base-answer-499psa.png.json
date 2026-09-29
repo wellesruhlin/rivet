@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-499psa",
+  "name": "Rooty Pro",
+  "file": "base-answer-499psa.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/dfe8087f-f8b6-4cf4-a81c-f812fac1dfd5.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "a38f8bb911d4a3732b5aef49d1a52e91282a0d513c6ee5a0b1fe6a28a4cccf31",
+  "retrieved": "2026-09-24T17:08:00.930Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

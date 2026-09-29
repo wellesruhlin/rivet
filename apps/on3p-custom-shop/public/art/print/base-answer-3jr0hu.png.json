@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-3jr0hu",
+  "name": "Clawed Red",
+  "file": "base-answer-3jr0hu.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/3jr3uq.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "dec5221fcc4477db6ef9275619d35455ea10e25e828dbc8aadc5f9dedf5d5fb7",
+  "retrieved": "2026-09-24T17:07:59.114Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ANSWER-0h6ty1",
+  "name": "Forest",
+  "file": "base-answer-0h6ty1.png",
+  "source": "https://cdnv2.mycustomizer.com/on3pskis/650a0e10d0e203ce7dd7e0d5.png",
+  "sourceWidth": 1000,
+  "sourceHeight": 1600,
+  "sha256": "59afc5f1cdca8330d1a30b530024bf48642d82957967bafd86ca3b34fa6a54cd",
+  "retrieved": "2026-09-24T17:07:58.417Z",
+  "crop": {
+    "x": 379,
+    "y": 124,
+    "w": 234,
+    "h": 1452
+  }
+}
