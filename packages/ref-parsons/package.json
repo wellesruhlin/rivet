@@ -7,6 +7,6 @@
     "./geometry": "./geometry.mjs"
   },
   "dependencies": {
-    "@rivet/configurator": "*"
+    "@arc/configurator": "*"
   }
 }

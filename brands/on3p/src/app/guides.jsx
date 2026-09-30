@@ -1,5 +1,5 @@
 import {ArrowUpRight} from 'lucide-react';
-import {formatMoney} from '@rivet/configurator/engine';
+import {formatMoney} from '@arc/configurator/engine';
 import {layups} from '../rules.js';
 
 const signed = n => (n > 0 ? `+${n}` : n < 0 ? `−${Math.abs(n)}` : '0');

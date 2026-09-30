@@ -1,9 +1,9 @@
 {
-  "name": "@rivet/configurator",
+  "name": "@arc/configurator",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Rivet configurator: the brand-agnostic engine, session state, React UI and 3D ski studio, plus the order-side product contract (validate, price, snapshot, hand off).",
+  "description": "Arc configurator: the brand-agnostic engine, session state, React UI and 3D ski studio, plus the order-side product contract (validate, price, snapshot, hand off).",
   "exports": {
     ".": "./src/index.js",
     "./engine": "./src/engine/index.js",
@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "three": "0.180.0",
-    "@rivet/ski-geometry": "*"
+    "@arc/ski-geometry": "*"
   }
 }

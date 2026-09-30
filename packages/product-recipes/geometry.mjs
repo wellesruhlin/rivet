@@ -1,4 +1,4 @@
-import {beveledBoxMesh} from '@rivet/configurator/product/geometry';
+import {beveledBoxMesh} from '@arc/configurator/product/geometry';
 const inch=.0254;
 
 // Closed, smooth-sided cylinder with independent planar cap UVs and physical

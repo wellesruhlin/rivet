@@ -1,4 +1,4 @@
-// The one ski mesh kernel for Rivet, Fall Line exports and the Blender lab.
+// The one ski mesh kernel for Arc, Fall Line exports and the Blender lab.
 // Meters, X across, Y up, +Z toward the tip. A brand supplies the outline, profile and
 // thickness as functions of u (0 at the tip, 1 at the tail); traced.js builds those
 // functions from traced image data.

@@ -12,7 +12,7 @@
 //
 // Proteus doesn't publish the mechanism's internals. The housing, the two tension members
 // in their sleeves and every thickness, width and position here are illustrative.
-import {across, halfWidth, rail, strip} from '@rivet/ski-geometry';
+import {across, halfWidth, rail, strip} from '@arc/ski-geometry';
 import {ESTIMATES} from './specs.js';
 import {hardwareStations, planform} from './geometry.js';
 

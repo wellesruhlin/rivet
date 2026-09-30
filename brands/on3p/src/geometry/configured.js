@@ -1,5 +1,5 @@
 import references from './traced-models.json' with {type: 'json'};
-import {resolve, sample, tracedShape, generateTracedMesh as generateMesh} from '@rivet/ski-geometry/traced';
+import {resolve, sample, tracedShape, generateTracedMesh as generateMesh} from '@arc/ski-geometry/traced';
 
 const models = new Map(references.models.map(model => [model.handle, model]));
 export const supportedModels = references.models.map(model => model.name);

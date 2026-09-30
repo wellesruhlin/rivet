@@ -1,8 +1,8 @@
 import {useEffect, useMemo, useRef, useState} from 'react';
 import {Minus, Plus, RotateCcw} from 'lucide-react';
 import {RadioGroup} from '../ui/Controls.jsx';
-import {generateSkiMesh} from '@rivet/ski-geometry';
-import {buildLayers} from '@rivet/ski-geometry';
+import {generateSkiMesh} from '@arc/ski-geometry';
+import {buildLayers} from '@arc/ski-geometry';
 import {createSkiRenderer} from './renderer.js';
 import {canvasSize, decodedImage, paintSidewall, paintSurfaces} from './surfaces.js';
 import './studio3d.css';

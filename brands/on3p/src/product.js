@@ -1,6 +1,6 @@
 // ON3P as an order-side product for Maker Studio: the engine's rules become the product's
 // validation, change and price contract; the scene is the traced 3D pair.
-import {engineProduct} from '@rivet/configurator/product/engine';
+import {engineProduct} from '@arc/configurator/product/engine';
 import {engine} from './index.js';
 import {catalog, compatibility} from './rules.js';
 import {configuredGeometry, configuredMesh} from './geometry/configured.js';

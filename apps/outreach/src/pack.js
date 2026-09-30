@@ -1,8 +1,8 @@
 import {brands,asset,colors,title,observed} from './catalog.js';
-import {formatMoney} from '@rivet/configurator/engine';
+import {formatMoney} from '@arc/configurator/engine';
 import {createSki3d,skiShape,skiLayers,storedArt,modelDimensions} from './ski3d.js';
-import {rockerProfiles,tailShapes,folsomBindings} from '@rivet/brand-folsom';
-import {grassGroups} from '@rivet/brand-grass-sticks';
+import {rockerProfiles,tailShapes,folsomBindings} from '@arc/brand-folsom';
+import {grassGroups} from '@arc/brand-grass-sticks';
 const opt=(value,label=value,text)=>({value,label,text});
 export function proofKey(c){return ['model','length','design','graphic','artId','scale','position','brief'].map(k=>String(c[k]??'')).join('|');}
 export function createPack(id,{widgets={},Stage,overrides={}}={}){

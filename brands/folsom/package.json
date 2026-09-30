@@ -1,5 +1,5 @@
 {
-  "name": "@rivet/brand-folsom",
+  "name": "@arc/brand-folsom",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -8,6 +8,6 @@
     ".": "./src/index.js"
   },
   "dependencies": {
-    "@rivet/configurator": "*"
+    "@arc/configurator": "*"
   }
 }

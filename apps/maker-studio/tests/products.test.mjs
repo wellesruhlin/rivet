@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {tableProduct,catalog,sizes,finishes,previewLimits} from '@maker/ref-parsons';
-import {encodeConfiguration,decodeConfiguration,createSnapshot,ConfigurationError,totalMinor} from '@rivet/configurator/product';
-import {inspectScene} from '@rivet/configurator/product/geometry';
-import {skiProduct} from '@rivet/brand-on3p/product';
+import {encodeConfiguration,decodeConfiguration,createSnapshot,ConfigurationError,totalMinor} from '@arc/configurator/product';
+import {inspectScene} from '@arc/configurator/product/geometry';
+import {skiProduct} from '@arc/brand-on3p/product';
 
 test('all 48 standard variants preserve maker IDs and exact published minor-unit prices',async()=>{
  const raw=await readFile(new URL('../reference/ref-parsons-product.json',import.meta.url));const source=JSON.parse(raw);

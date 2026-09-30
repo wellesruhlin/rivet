@@ -1,5 +1,5 @@
 {
-  "name": "@rivet/brand-praxis",
+  "name": "@arc/brand-praxis",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -14,8 +14,8 @@
     "./catalog": "./src/catalog/index.js"
   },
   "dependencies": {
-    "@rivet/configurator": "*",
-    "@rivet/ski-geometry": "*"
+    "@arc/configurator": "*",
+    "@arc/ski-geometry": "*"
   },
   "peerDependencies": {
     "react": ">=19",

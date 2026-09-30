@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import {ArrowRight, ChevronDown} from 'lucide-react';
-import {RadioGroup} from '@rivet/configurator';
-import {products, terrains} from '@rivet/brand-praxis/catalog';
+import {RadioGroup} from '@arc/configurator';
+import {products, terrains} from '@arc/brand-praxis/catalog';
 import {StockCard} from '../Cards.jsx';
 import {replaceQuery} from '../router.js';
 

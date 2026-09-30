@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {submitForReview,reviewPath} from '@rivet/configurator/product/handoff-client';
+import {submitForReview,reviewPath} from '@arc/configurator/product/handoff-client';
 export default function RequestReview({product,config}) {
   const [busy,setBusy]=useState(false),[error,setError]=useState('');
   async function submit(){setBusy(true);setError('');try{location.assign(reviewPath(await submitForReview(product,config)));}catch(e){setError(e.message);setBusy(false);}}

@@ -8,7 +8,7 @@
 //
 // Field widgets are React components the app attaches (see widgets.jsx), so this pack
 // stays importable in Node for the tests.
-import {formatMoney} from '@rivet/configurator/engine';
+import {formatMoney} from '@arc/configurator/engine';
 import {BASE_COLORS, baseColor, BASE_ZONES, customLayers, designLayers, uploadedArt} from './art.js';
 import {artShape} from './geometry.js';
 import {createModel3d} from './model3d.js';

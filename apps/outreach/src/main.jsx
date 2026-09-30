@@ -1,9 +1,9 @@
 import React,{Suspense,lazy,useEffect,useMemo,useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import {ArrowRight,ArrowUpRight,SlidersHorizontal,Check,ArrowLeft} from 'lucide-react';
-import {Configurator,createEngine} from '@rivet/configurator';
-import '@rivet/configurator/styles.css';
-import '@rivet/configurator/studio3d.css';
+import {Configurator,createEngine} from '@arc/configurator';
+import '@arc/configurator/styles.css';
+import '@arc/configurator/studio3d.css';
 import './theme.css';
 import {brands,asset} from './catalog.js';
 import {createPack} from './pack.js';

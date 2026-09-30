@@ -1,4 +1,4 @@
-import {formatMoney} from '@rivet/configurator/engine';
+import {formatMoney} from '@arc/configurator/engine';
 import {products} from './products.js';
 import {stockCovers} from './covers.js';
 import {chartFor, specAt} from './specs.js';

@@ -2,7 +2,7 @@
 // Meters, X across, Y up, +Z nose. ON3P publishes materials and base/edge sizes, but
 // not its laminate schedule: internal thicknesses, strip widths, insert outlines and
 // separation are illustrative. The stack is data for the shared layer builder.
-import {buildLayers, halfWidth, mountU as mountOf} from '@rivet/ski-geometry/construction';
+import {buildLayers, halfWidth, mountU as mountOf} from '@arc/ski-geometry/construction';
 
 export const CONSTRUCTION_SOURCE = 'https://www.on3pskis.com/products/custom-skis';
 export const CONSTRUCTION_NOTE = 'Materials and base/edge sizes follow ON3P. Internal thicknesses, placement and insert outlines are illustrative; layer gaps are exaggerated.';

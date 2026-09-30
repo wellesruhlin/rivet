@@ -1,6 +1,6 @@
 # ON3P Custom Shop — independent fan concept
 
-A working React + Vite redesign of the ON3P custom ski experience, built around original ON3P artwork and the public 26.27 specifications. Revision 3 presents the skis like a premium configurator: a dark studio stage, quiet type, and the artwork carrying all of the color. Revision 3.1 moves the configurator into the shared `@rivet/configurator` package (also used by the Praxis concept) and makes the weight estimate follow the layup.
+A working React + Vite redesign of the ON3P custom ski experience, built around original ON3P artwork and the public 26.27 specifications. Revision 3 presents the skis like a premium configurator: a dark studio stage, quiet type, and the artwork carrying all of the color. Revision 3.1 moves the configurator into the shared `@arc/configurator` package (also used by the Praxis concept) and makes the weight estimate follow the layup.
 
 ## Run
 

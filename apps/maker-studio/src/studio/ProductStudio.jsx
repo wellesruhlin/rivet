@@ -1,7 +1,7 @@
 import {lazy,Suspense,useEffect,useMemo,useRef,useState} from 'react';
 import {Plus,Database,ArrowUpRight,Check,Download,Trash2} from 'lucide-react';
 import {compileRecipe,validateRecipe,TEMPLATE_NAMES} from '@maker/product-recipes';
-import {formatMoney} from '@rivet/configurator/product';
+import {formatMoney} from '@arc/configurator/product';
 import {api,exportJSON} from './api.js';
 import {Field,NumberField,Select,Modal,MaterialFields} from './Fields.jsx';
 import './studio.css';

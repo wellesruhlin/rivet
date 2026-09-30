@@ -1,8 +1,8 @@
 import {ArrowRight} from 'lucide-react';
-import {PairPreview} from '@rivet/configurator';
-import {detailUrl, product} from '@rivet/brand-praxis/catalog';
-import {engine} from '@rivet/brand-praxis';
-import {catalog} from '@rivet/brand-praxis/pack';
+import {PairPreview} from '@arc/configurator';
+import {detailUrl, product} from '@arc/brand-praxis/catalog';
+import {engine} from '@arc/brand-praxis';
+import {catalog} from '@arc/brand-praxis/pack';
 import {Cover, StockCard} from '../Cards.jsx';
 
 const FEATURED = ['gpo', 'exp', 'mvp-108', 'rx'];

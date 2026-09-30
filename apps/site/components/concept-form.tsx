@@ -13,7 +13,7 @@ type Context={registerTool:(tool:unknown,options:{signal:AbortSignal})=>void|Pro
 const context=(document as Document&{modelContext?:Context}).modelContext;
 if(!context?.registerTool)return;
 const lifecycle=new AbortController();
-Promise.resolve(context.registerTool({name:"prepare_concept_request",title:"Prepare a Rivet concept request",description:"Fill the product concept form for review. This does not submit or send the request; the visitor must use Request a concept to send it.",inputSchema:{type:"object",properties:{name:{type:"string"},email:{type:"string"},website:{type:"string"},options:{type:"string"},notes:{type:"string"}},required:["name","email","website","options"],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input:unknown){
+Promise.resolve(context.registerTool({name:"prepare_concept_request",title:"Prepare a Arc concept request",description:"Fill the product concept form for review. This does not submit or send the request; the visitor must use Request a concept to send it.",inputSchema:{type:"object",properties:{name:{type:"string"},email:{type:"string"},website:{type:"string"},options:{type:"string"},notes:{type:"string"}},required:["name","email","website","options"],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input:unknown){
 if(!input||typeof input!=="object")throw new Error("Provide the requested form fields.");
 const parsed=conceptSchema.parse({...input,requestId:crypto.randomUUID(),companyFax:""});
 const form=formRef.current;if(!form)throw new Error("The form is not available after a request is submitted.");
@@ -43,7 +43,7 @@ return <form ref={formRef} className="concept-form" onSubmit={submit} aria-label
 <label htmlFor="catalog">Catalog or product photo <span className="optional">Optional</span><Input id="catalog" name="catalog" type="file" accept=".pdf,.png,.jpg,.jpeg" aria-describedby="file-hint" /><span id="file-hint" className="field-hint">One PDF, PNG, or JPEG, up to 5 MB. A link above is enough to get started.</span></label>
 <div className="honeypot" aria-hidden="true"><label>Leave this empty<input name="companyFax" tabIndex={-1} autoComplete="off" /></label></div>
 {error&&<p className="form-error" role="alert">{error}</p>}
-<Button className="rivet-button form-submit" type="submit" disabled={status==="saving"}>{status==="saving"?"Saving your request…":"Request a concept"}<span aria-hidden="true">→</span></Button>
+<Button className="arc-button form-submit" type="submit" disabled={status==="saving"}>{status==="saving"?"Saving your request…":"Request a concept"}<span aria-hidden="true">→</span></Button>
 <p className="field-hint privacy-note">We use these details to review your product and contact you about your concept. Please share only materials you’re comfortable providing for that purpose.</p>
 </form>;
 }

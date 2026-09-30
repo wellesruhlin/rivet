@@ -8,7 +8,7 @@ From the workspace root: `npm ci`, then `npm run dev:praxis` (http://127.0.0.1:5
 
 ## Where things live
 
-This app is the storefront (`src/site`, `src/App.jsx`, `src/styles`). Everything Praxis-specific that a configurator needs (the custom catalog and rules, the in-stock catalog, traced shapes, bindings, the import and art scripts, `art-source/` and `public/`) is the brand pack in [`brands/praxis`](../../brands/praxis), imported as `@rivet/brand-praxis`. File paths below under `src/configurator`, `src/catalog`, `scripts`, `art-source` and `public` are relative to that folder.
+This app is the storefront (`src/site`, `src/App.jsx`, `src/styles`). Everything Praxis-specific that a configurator needs (the custom catalog and rules, the in-stock catalog, traced shapes, bindings, the import and art scripts, `art-source/` and `public/`) is the brand pack in [`brands/praxis`](../../brands/praxis), imported as `@arc/brand-praxis`. File paths below under `src/configurator`, `src/catalog`, `scripts`, `art-source` and `public` are relative to that folder.
 
 ## What's here
 

@@ -11,7 +11,7 @@ const types = {'.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg',
 function brandAssets() {
   let outDir;
   return {
-    name: 'rivet-brand-assets',
+    name: 'arc-brand-assets',
     configResolved(config) { outDir = path.resolve(config.root, config.build.outDir); },
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {

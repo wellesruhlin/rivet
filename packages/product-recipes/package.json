@@ -9,6 +9,6 @@
     "./materials": "./materials.json"
   },
   "dependencies": {
-    "@rivet/configurator": "*"
+    "@arc/configurator": "*"
   }
 }

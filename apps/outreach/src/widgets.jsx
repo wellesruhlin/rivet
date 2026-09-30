@@ -1,11 +1,11 @@
 import {useState} from 'react';
 import {Check,Upload,ArrowUpRight} from 'lucide-react';
-import {RadioGroup} from '@rivet/configurator';
+import {RadioGroup} from '@arc/configurator';
 import {asset,brands} from './catalog.js';
 import {proofKey} from './pack.js';
 import {storedArt} from './ski3d.js';
-import {strapDesigns} from '@rivet/brand-grass-sticks';
-import {folsomBindings} from '@rivet/brand-folsom';
+import {strapDesigns} from '@arc/brand-grass-sticks';
+import {folsomBindings} from '@arc/brand-folsom';
 
 export function TailShapes({engine,group,config,update}){
  const paths={Round:'M10 2V24Q10 45 28 45Q46 45 46 24V2',Flat:'M10 2V40Q10 43 13 43H43Q46 43 46 40V2',Touring:'M10 2V40H24V35H32V40H46V2',Swallowtail:'M10 2V43L28 26L46 43V2'};

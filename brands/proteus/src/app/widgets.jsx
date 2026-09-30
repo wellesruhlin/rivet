@@ -3,7 +3,7 @@
 // picker, the Adjustable Camber tuner and the sidewall text.
 import {useEffect, useMemo, useRef, useState, useSyncExternalStore} from 'react';
 import {ArrowDown, ImageUp, Search, Trash2, X} from 'lucide-react';
-import {ArtSwatch, CheckMark, Note, priceLabel, RadioGroup, reducedMotion} from '@rivet/configurator';
+import {ArtSwatch, CheckMark, Note, priceLabel, RadioGroup, reducedMotion} from '@arc/configurator';
 import {artName, asset, BASE_COLORS, BASE_ZONES, baseColor, prepareUpload, TEMPLATE_IN, uploadedArt} from '../art.js';
 import {artShape, profile as boardProfile, planform} from '../geometry.js';
 import {catalog, collectionOf} from '../pack.js';

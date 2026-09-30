@@ -6,9 +6,9 @@ import '@fontsource/barlow/400.css';
 import '@fontsource/barlow/500.css';
 import '@fontsource/barlow/600.css';
 import '@fontsource/barlow/700.css';
-import '@rivet/configurator/styles.css';
-import '@rivet/brand-on3p/app/styles.css';
-import App from '@rivet/brand-on3p/app';
+import '@arc/configurator/styles.css';
+import '@arc/brand-on3p/app/styles.css';
+import App from '@arc/brand-on3p/app';
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>

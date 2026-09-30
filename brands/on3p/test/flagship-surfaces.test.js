@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {existsSync, readFileSync} from 'node:fs';
-import {finishPixels} from '@rivet/configurator/studio3d/finishes';
-import {baseArtworkSide, smoothTransition, withDetail as withPrintDetail} from '@rivet/configurator/studio3d/renderer';
-import {VIEWS as PREVIEW_VIEWS, cameraFor} from '@rivet/configurator/studio3d/views';
+import {finishPixels} from '@arc/configurator/studio3d/finishes';
+import {baseArtworkSide, smoothTransition, withDetail as withPrintDetail} from '@arc/configurator/studio3d/renderer';
+import {VIEWS as PREVIEW_VIEWS, cameraFor} from '@arc/configurator/studio3d/views';
 import {catalog, finishFor} from '../src/rules.js';
 import {printArt as stageArt, artName} from '../src/art.js';
 import {detailBounds, factoryName, LABEL_REGIONS} from '../src/print-detail.js';

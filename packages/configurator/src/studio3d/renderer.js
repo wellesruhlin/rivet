@@ -82,7 +82,7 @@ export function withDetail(material, detail) {
       diffuseColor.rgb = mix(diffuseColor.rgb, detailInk.rgb, detailInk.a * inside);
     `);
   };
-  material.customProgramCacheKey = () => 'rivet-print-detail-v1';
+  material.customProgramCacheKey = () => 'arc-print-detail-v1';
   return material;
 }
 

@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {existsSync} from 'node:fs';
-import {formatWeight} from '@rivet/configurator/engine';
+import {formatWeight} from '@arc/configurator/engine';
 import {engine} from './index.js';
 import {catalog, categories, graphicById} from './pack.js';
 import outlines from './data/outlines.json' with {type: 'json'};

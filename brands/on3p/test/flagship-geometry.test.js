@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {configuredGeometry, configuredMesh} from '../src/geometry/configured.js';
-import {bufferGeometry} from '@rivet/configurator/studio3d/renderer';
+import {bufferGeometry} from '@arc/configurator/studio3d/renderer';
 import references from '../src/geometry/traced-models.json' with {type: 'json'};
 import {defaultConfig, normalizeConfig, compatibility} from '../src/index.js';
 

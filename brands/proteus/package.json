@@ -1,5 +1,5 @@
 {
-  "name": "@rivet/brand-proteus",
+  "name": "@arc/brand-proteus",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -15,8 +15,8 @@
     "./app/styles.css": "./src/app/styles.css"
   },
   "dependencies": {
-    "@rivet/configurator": "*",
-    "@rivet/ski-geometry": "*"
+    "@arc/configurator": "*",
+    "@arc/ski-geometry": "*"
   },
   "peerDependencies": {
     "react": ">=19",

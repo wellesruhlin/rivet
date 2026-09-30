@@ -1,6 +1,6 @@
 import {writeFile,readFile} from 'node:fs/promises';
 import {tableProduct} from '@maker/ref-parsons';
-import {inspectScene} from '@rivet/configurator/product/geometry';
+import {inspectScene} from '@arc/configurator/product/geometry';
 import {compileRecipe} from '@maker/product-recipes';
 import seeds from '@maker/product-recipes/seeds' with {type:'json'};
 const args=process.argv.slice(2),option=key=>{const i=args.indexOf(key);return i>=0?args[i+1]:null;};

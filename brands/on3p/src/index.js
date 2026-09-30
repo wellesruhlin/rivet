@@ -1,6 +1,6 @@
 // The ON3P brand on the shared engine: the engine itself plus the rule names Maker
 // Studio, the art scripts and the tests import. Node-safe (no JSX, no DOM at import time).
-import {createEngine} from '@rivet/configurator/engine';
+import {createEngine} from '@arc/configurator/engine';
 import pack from './pack.js';
 
 export const engine = createEngine(pack);

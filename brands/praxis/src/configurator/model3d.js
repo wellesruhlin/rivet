@@ -1,5 +1,5 @@
 // Praxis in the shared 3D studio: shape, surfaces, layup, bindings and the words around them.
-import {formatWeight} from '@rivet/configurator/engine';
+import {formatWeight} from '@arc/configurator/engine';
 import {praxisShape} from './geometry.js';
 import {praxisLayers, praxisStack, CONSTRUCTION_SOURCE} from './construction.js';
 import {bindingCaption, bindingFor, colorwayFor} from './bindings.js';

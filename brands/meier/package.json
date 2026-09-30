@@ -1,5 +1,5 @@
 {
-  "name": "@rivet/brand-meier",
+  "name": "@arc/brand-meier",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -8,6 +8,6 @@
     ".": "./src/index.js"
   },
   "dependencies": {
-    "@rivet/configurator": "*"
+    "@arc/configurator": "*"
   }
 }

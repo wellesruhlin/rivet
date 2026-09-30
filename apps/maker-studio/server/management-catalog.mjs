@@ -1,5 +1,5 @@
-import {catalog,compatibility,categories,sidewalls,layups,flexOptions,PRICES} from '@rivet/brand-on3p';
-import {bindingCatalog} from '@rivet/brand-on3p';
+import {catalog,compatibility,categories,sidewalls,layups,flexOptions,PRICES} from '@arc/brand-on3p';
+import {bindingCatalog} from '@arc/brand-on3p';
 import {compileRecipe} from '@maker/product-recipes';
 const choices=list=>list.map(v=>typeof v==='object'?{value:v.id,label:v.name||v.id}:{value:v,label:String(v)});
 export async function managementCatalog(recipes,products){

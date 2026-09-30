@@ -1,8 +1,8 @@
 {
-  "name": "rivet",
+  "name": "arc-cpq",
   "private": true,
   "type": "module",
-  "description": "Rivet CPQ: shared configurator engine, geometry, brand packs and apps.",
+  "description": "Arc CPQ: shared configurator engine, geometry, brand packs and apps.",
   "workspaces": [
     "packages/*",
     "brands/*",

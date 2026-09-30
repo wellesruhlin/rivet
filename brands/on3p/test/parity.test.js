@@ -2,7 +2,7 @@
 // reference copies in ./reference are the flagship's own rules and session reducer.
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {createSessionReducer, initialSession} from '@rivet/configurator/engine';
+import {createSessionReducer, initialSession} from '@arc/configurator/engine';
 import {engine} from '../src/index.js';
 import * as flagship from './reference/flagship-config.js';
 import {buildReducer, initialBuild} from './reference/flagship-build-state.js';

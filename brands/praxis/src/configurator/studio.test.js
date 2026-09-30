@@ -1,9 +1,9 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {existsSync} from 'node:fs';
-import {createSessionReducer, formatMoney, initialSession} from '@rivet/configurator/engine';
-import {generateSkiMesh, meshReport, mountPoint} from '@rivet/ski-geometry';
-import {buildLayers, layerReport} from '@rivet/ski-geometry';
+import {createSessionReducer, formatMoney, initialSession} from '@arc/configurator/engine';
+import {generateSkiMesh, meshReport, mountPoint} from '@arc/ski-geometry';
+import {buildLayers, layerReport} from '@arc/ski-geometry';
 import {engine} from './index.js';
 import {catalog, cores, waistFor} from './pack.js';
 import {praxisShape, profileFor} from './geometry.js';

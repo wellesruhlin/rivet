@@ -1,5 +1,5 @@
 import {colors,title} from './palette.js';
-import {formatMoney} from '@rivet/configurator/engine';
+import {formatMoney} from '@arc/configurator/engine';
 const option=(value,label=value,text)=>({value,label,text});
 export const strapDesigns=['Bridgers','Dark Side','Fantasia','Flow','Idaho 9','Lone 2','Lone Peak','Mount Tam','Purple Haze','Sacagawea','Spanish Peaks','Teton','The Grand','Wasatch Front'];
 export const engravingPrice=text=>text.trim()?14+Math.ceil(Math.max(0,text.trim().length-6)/2)*1.25:0;

@@ -1,6 +1,6 @@
-// ON3P on the shared Rivet engine: the flagship configurator's rules, steps and copy as a
+// ON3P on the shared Arc engine: the flagship configurator's rules, steps and copy as a
 // brand pack. Rules and prices follow the public builder snapshot in PRODUCT-RELATIONSHIPS.md.
-import {formatMoney, formatWeight} from '@rivet/configurator/engine';
+import {formatMoney, formatWeight} from '@arc/configurator/engine';
 import {
   PRICES, DEFAULT_ART, catalog, categories, compatibility, familyOf, flexOptions, layups, sidewalls,
   artworkPrice, baseById, canRipper, getModel, graphicCategory, modelByHandle, optionReason, prepareSkiChange,
@@ -391,7 +391,7 @@ const pack = {
     available: () => typeof location !== 'undefined' && ['localhost', '127.0.0.1'].includes(location.hostname),
     submit: async (config, {previewBinding}) => {
       if (previewBinding && !bindingFor(previewBinding)) throw new Error('Review the saved binding choice before submitting.');
-      const [{submitForReview, reviewPath}, {skiProduct}] = await Promise.all([import('@rivet/configurator/product/handoff-client'), import('./product.js')]);
+      const [{submitForReview, reviewPath}, {skiProduct}] = await Promise.all([import('@arc/configurator/product/handoff-client'), import('./product.js')]);
       const reference = previewBinding ? `Visual only, excluded: ${bindingLabel(previewBinding)} [${previewBinding}]` : '';
       const result = await submitForReview(skiProduct, config, {reference});
       const desk = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_MAKER_DESK_URL) || 'http://127.0.0.1:5192';

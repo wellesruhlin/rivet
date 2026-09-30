@@ -1,4 +1,4 @@
-# Claude instructions for Rivet
+# Claude instructions for Arc
 
 Read `README.md` first: it maps the apps and how they depend on each other.
 Then read the specific app's `README.md` and handoff file (`AGENT-HANDOFF.md`,

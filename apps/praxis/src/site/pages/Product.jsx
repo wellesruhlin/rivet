@@ -1,8 +1,8 @@
 import {useState} from 'react';
 import {ArrowRight, ArrowUpRight, Check} from 'lucide-react';
-import {RadioGroup, Technical} from '@rivet/configurator';
-import {chartFor, photoUrl, priceLabel, products, specAt, summary} from '@rivet/brand-praxis/catalog';
-import {engine} from '@rivet/brand-praxis';
+import {RadioGroup, Technical} from '@arc/configurator';
+import {chartFor, photoUrl, priceLabel, products, specAt, summary} from '@arc/brand-praxis/catalog';
+import {engine} from '@arc/brand-praxis';
 import {Cover, StockCard} from '../Cards.jsx';
 import {addStock} from '../store.js';
 import {toast} from '../toast.jsx';

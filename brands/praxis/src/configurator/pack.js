@@ -3,7 +3,7 @@
 // Options, prices and lengths come from Praxis's public custom-order pages
 // (data/custom-catalog.json). Outlines are traced from Praxis's shape drawings
 // (data/outlines.json); dimensions, rocker and weight from its spec charts.
-import {formatMoney, formatWeight} from '@rivet/configurator/engine';
+import {formatMoney, formatWeight} from '@arc/configurator/engine';
 import catalog from './data/custom-catalog.json' with {type: 'json'};
 import outlines from './data/outlines.json' with {type: 'json'};
 import {describedDimensions, specAt} from '../catalog/specs.js';

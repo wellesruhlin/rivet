@@ -1,6 +1,6 @@
 import {ArrowRight, ArrowUpRight} from 'lucide-react';
-import {detailUrl, product} from '@rivet/brand-praxis/catalog';
-import {asset, catalog, flexGuide} from '@rivet/brand-praxis/pack';
+import {detailUrl, product} from '@arc/brand-praxis/catalog';
+import {asset, catalog, flexGuide} from '@arc/brand-praxis/pack';
 import {Cover} from '../Cards.jsx';
 
 const External = ({href, children, className = 'px-text-link'}) => (

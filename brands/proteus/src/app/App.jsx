@@ -1,4 +1,4 @@
-import {Configurator} from '@rivet/configurator';
+import {Configurator} from '@arc/configurator';
 import {engine} from '../index.js';
 import {asset} from '../art.js';
 import {guides} from './guides.jsx';

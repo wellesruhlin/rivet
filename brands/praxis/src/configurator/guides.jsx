@@ -1,5 +1,5 @@
 import {ArrowUpRight} from 'lucide-react';
-import {formatMoney} from '@rivet/configurator/engine';
+import {formatMoney} from '@arc/configurator/engine';
 import {asset, catalog, cores, flexGuide} from './pack.js';
 import {chartFor, specAt} from '../catalog/specs.js';
 

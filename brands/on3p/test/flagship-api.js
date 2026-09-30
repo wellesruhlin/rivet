@@ -1,6 +1,6 @@
 // The flagship's session names over the shared engine, so its original tests run
 // unchanged against the rebuild. `graphicsConfirmed` is the engine's `confirmed`.
-import {createSessionReducer, initialSession, nextConfirmation} from '@rivet/configurator/engine';
+import {createSessionReducer, initialSession, nextConfirmation} from '@arc/configurator/engine';
 import {engine} from '../src/index.js';
 import {bindingFor} from '../src/bindings.js';
 

@@ -1,4 +1,4 @@
-import {defineProduct} from '@rivet/configurator/product';
+import {defineProduct} from '@arc/configurator/product';
 import catalog from './catalog.json' with {type:'json'};
 import {tableScene} from './geometry.mjs';
 export {catalog};

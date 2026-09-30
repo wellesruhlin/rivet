@@ -14,7 +14,7 @@
 //
 // Materials and their placement follow those descriptions. Laminate thicknesses, strip
 // widths, zone lengths and the separation distances are illustrative.
-import {across, halfWidth, mountU, rail, strip} from '@rivet/ski-geometry';
+import {across, halfWidth, mountU, rail, strip} from '@arc/ski-geometry';
 import {ESTIMATES} from './geometry.js';
 
 export const CONSTRUCTION_SOURCE = 'https://www.praxisskis.com/ski/construction/';

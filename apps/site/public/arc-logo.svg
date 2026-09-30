@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" role="img" aria-label="Arc">
+  <!-- Interim Arc wordmark (renamed from Rivet, 2026-09-30). Replace with the final identity. -->
+  <rect x="4" y="10" width="80" height="80" rx="15" fill="#ef4b27"/>
+  <path d="M22 70 A22 22 0 0 1 66 70" fill="none" stroke="#faf9f6" stroke-width="9" stroke-linecap="round"/>
+  <path d="M66 24 l3.2 7.8 7.8 3.2 -7.8 3.2 -3.2 7.8 -3.2 -7.8 -7.8 -3.2 7.8 -3.2 z" fill="#faf9f6"/>
+  <text x="100" y="83" font-family="'Arial Black', Arial, Helvetica, sans-serif" font-weight="900" font-size="92" letter-spacing="-4" fill="#20241f">Arc</text>
+</svg>

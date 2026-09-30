@@ -1,4 +1,4 @@
-import {beveledBoxMesh} from '@rivet/configurator/product/geometry';
+import {beveledBoxMesh} from '@arc/configurator/product/geometry';
 export const inch=.0254;
 export function tableScene(config) {
   const L=config.length*inch, W=config.width*inch,H=config.height*inch;

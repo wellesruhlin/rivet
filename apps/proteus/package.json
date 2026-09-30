@@ -1,17 +1,17 @@
 {
-  "name": "@rivet/app-proteus",
+  "name": "@arc/app-proteus",
   "version": "2.0.0",
   "private": true,
   "type": "module",
-  "description": "Proteus custom shop (independent fan concept) on the shared Rivet configurator.",
+  "description": "Proteus custom shop (independent fan concept) on the shared Arc configurator.",
   "scripts": {
     "dev": "vite --configLoader native --host 127.0.0.1",
     "build": "vite build --configLoader native",
     "preview": "vite preview --configLoader native --host 127.0.0.1"
   },
   "dependencies": {
-    "@rivet/brand-proteus": "*",
-    "@rivet/configurator": "*",
+    "@arc/brand-proteus": "*",
+    "@arc/configurator": "*",
     "@fontsource-variable/figtree": "^5.3.0",
     "@fontsource-variable/urbanist": "^5.3.0",
     "lucide-react": "^0.468.0",

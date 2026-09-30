@@ -1,5 +1,5 @@
-import {across,strip,rail} from '@rivet/ski-geometry';
-import {rockerProfiles,tailShapes,profileHeight,folsomBindings} from '@rivet/brand-folsom';
+import {across,strip,rail} from '@arc/ski-geometry';
+import {rockerProfiles,tailShapes,profileHeight,folsomBindings} from '@arc/brand-folsom';
 import {asset} from './catalog.js';
 
 export const modelDimensions=(model,length)=>model.dimsByLength?.[length]||model.dims;

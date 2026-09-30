@@ -1,5 +1,5 @@
 {
-  "name": "@rivet/app-maker-studio",
+  "name": "@arc/app-maker-studio",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -17,8 +17,8 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "three": "0.180.0",
-    "@rivet/configurator": "*",
-    "@rivet/brand-on3p": "*"
+    "@arc/configurator": "*",
+    "@arc/brand-on3p": "*"
   },
   "devDependencies": {
     "vite": "^7.1.7"

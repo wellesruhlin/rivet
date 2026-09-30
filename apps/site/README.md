@@ -1,5 +1,5 @@
-# Rivet CPQ
-Responsive website for Welles Ruhlin, using the original Rivet identity.
+# Arc CPQ
+Responsive website for Welles Ruhlin, with an interim Arc identity (renamed from Rivet on 2026-09-30; `public/arc-logo.svg` is a placeholder mark).
 
 ## Included
 Interactive sample configurator with two finishes, three lengths, sample pricing, build review, and build-sheet download; a full ON3P concept at /demo; the $3,000 + $299/month founding offer; and a working product-request form with optional catalog/photo upload.
@@ -18,7 +18,7 @@ node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1
 Do not replay that migration against an initialized database.
 
 ## Owner workflow
-Use the private Sites database tools to inspect concept_requests. Ask Codex to review new Rivet concept requests.
+Use the private Sites database tools to inspect concept_requests. Ask Claude to review new Arc concept requests.
 Stored stages: new, reviewed, concept, shared, proposal, customer. This version has no browser administration screen.
 It does not automatically email, scrape submitted links, or generate concepts. Welles reviews fit and follows up; an inbox integration is the next step after choosing the domain and business email.
 

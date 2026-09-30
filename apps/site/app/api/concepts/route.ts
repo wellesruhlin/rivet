@@ -5,7 +5,7 @@ const MAX_BODY=6*1024*1024,MAX_FILE=5*1024*1024;
 function json(data:unknown,status=200){return Response.json(data,{status,headers:{"Cache-Control":"no-store"}})}
 export async function POST(request:Request){
 try{
-const origin=request.headers.get("origin");if(origin&&origin!==new URL(request.url).origin)return json({error:"Please submit this form from the Rivet website."},403);
+const origin=request.headers.get("origin");if(origin&&origin!==new URL(request.url).origin)return json({error:"Please submit this form from the Arc website."},403);
 if(!request.headers.get("content-type")?.startsWith("multipart/form-data"))return json({error:"Please use the request form."},415);
 if(Number(request.headers.get("content-length")||0)>MAX_BODY)return json({error:"Please keep your file under 5 MB."},413);
 const reader=request.body?.getReader();if(!reader)return json({error:"Your request was empty."},400);

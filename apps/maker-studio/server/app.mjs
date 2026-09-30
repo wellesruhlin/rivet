@@ -2,7 +2,7 @@ import {createServer} from 'node:http';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {randomUUID} from 'node:crypto';
 import {join} from 'node:path';
-import {createSnapshot,ConfigurationError} from '@rivet/configurator/product';
+import {createSnapshot,ConfigurationError} from '@arc/configurator/product';
 import {products} from './registry.mjs';
 import {createRecipeStore} from './recipe-store.mjs';
 import {studioRoutes,resolveProduct} from './studio-routes.mjs';

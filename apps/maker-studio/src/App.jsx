@@ -1,7 +1,7 @@
 import {lazy,Suspense,useCallback,useEffect,useMemo,useRef,useState} from 'react';
 import {Bookmark,Share2,X,RotateCcw} from 'lucide-react';
 import {tableProduct} from '@maker/ref-parsons';
-import {encodeConfiguration,decodeConfiguration} from '@rivet/configurator/product';
+import {encodeConfiguration,decodeConfiguration} from '@arc/configurator/product';
 import Configurator from './components/Configurator.jsx';
 const Studio=lazy(()=>import('./components/Studio.jsx'));
 import Sources from './components/Sources.jsx';

@@ -1,5 +1,5 @@
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
-import {mountPoint} from '@rivet/ski-geometry';
+import {mountPoint} from '@arc/ski-geometry';
 
 // Paint and print colors for the Blender LOOK Pivot 15 study (sRGB of the study's linear
 // colors; see the ON3P workspace's scripts/pivot/materials.py). Colorways the study was

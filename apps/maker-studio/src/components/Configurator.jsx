@@ -1,7 +1,7 @@
 import {useEffect,useRef,useState} from 'react';
 import {ArrowRight,Check,ChevronLeft,Download,ExternalLink} from 'lucide-react';
 import {sizes,finishes,findFinish,previewLimits,catalog} from '@maker/ref-parsons';
-import {formatMoney} from '@rivet/configurator/product';
+import {formatMoney} from '@arc/configurator/product';
 
 function DimensionInput({field,value,update}) {
   const [draft,setDraft]=useState(String(value));useEffect(()=>setDraft(String(value)),[value]);

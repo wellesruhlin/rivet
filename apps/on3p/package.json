@@ -1,17 +1,17 @@
 {
-  "name": "@rivet/app-on3p",
+  "name": "@arc/app-on3p",
   "version": "4.0.0",
   "private": true,
   "type": "module",
-  "description": "ON3P custom shop (independent fan concept) on the shared Rivet configurator.",
+  "description": "ON3P custom shop (independent fan concept) on the shared Arc configurator.",
   "scripts": {
     "dev": "vite --configLoader native --host 127.0.0.1",
     "build": "vite build --configLoader native",
     "preview": "vite preview --configLoader native --host 127.0.0.1"
   },
   "dependencies": {
-    "@rivet/brand-on3p": "*",
-    "@rivet/configurator": "*",
+    "@arc/brand-on3p": "*",
+    "@arc/configurator": "*",
     "@fontsource-variable/saira": "^5.3.0",
     "@fontsource/barlow": "^5.3.0",
     "lucide-react": "^0.468.0",

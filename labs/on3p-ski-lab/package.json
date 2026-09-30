@@ -1,5 +1,5 @@
 {
-  "name": "@rivet/lab-on3p-ski",
+  "name": "@arc/lab-on3p-ski",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -12,7 +12,7 @@
     "node": ">=22"
   },
   "dependencies": {
-    "@rivet/ski-geometry": "*",
-    "@rivet/brand-on3p": "*"
+    "@arc/ski-geometry": "*",
+    "@arc/brand-on3p": "*"
   }
 }

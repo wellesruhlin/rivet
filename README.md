@@ -1,9 +1,14 @@
-# Rivet CPQ
+# Arc CPQ
 
 Welles Ruhlin's configure-price-quote work: product configurators built from
-real makers' public catalogs, the shared engines behind them, and the Rivet
+real makers' public catalogs, the shared engines behind them, and the Arc
 marketing site. Private. Several apps contain makers' original artwork and
 names; nothing here is affiliated with or endorsed by those makers.
+
+Renamed from **Rivet CPQ** on 2026-09-30. Packages moved from `@rivet/*` to
+`@arc/*`. Older documents, Fall Line's asset contract and the PC's Codex folders
+still say Rivet; they mean this project. (Lowercase "rivet" in the binding
+geometry scripts is the physical part, not the product.)
 
 ## Layout
 
@@ -11,18 +16,18 @@ One npm workspace (`npm install` at the root) for everything except `apps/site`.
 
 | Path | What it is |
 |---|---|
-| `packages/configurator` | `@rivet/configurator`: the engine every brand runs on (rules, session, React UI, 3D ski studio) and, under `./product`, the order-side contract (validate, price, snapshot, hand off). `engineProduct()` turns any brand's engine into a Maker product. |
-| `packages/ski-geometry` | `@rivet/ski-geometry`: the one ski mesh kernel, construction-layer builder and traced-outline models. Dependency-free; runs in Node, the browser, Blender exports and Fall Line. |
+| `packages/configurator` | `@arc/configurator`: the engine every brand runs on (rules, session, React UI, 3D ski studio) and, under `./product`, the order-side contract (validate, price, snapshot, hand off). `engineProduct()` turns any brand's engine into a Maker product. |
+| `packages/ski-geometry` | `@arc/ski-geometry`: the one ski mesh kernel, construction-layer builder and traced-outline models. Dependency-free; runs in Node, the browser, Blender exports and Fall Line. |
 | `packages/product-recipes`, `packages/ref-parsons` | Maker Studio's recipe compiler and the Parsons table product. |
-| `brands/on3p` | `@rivet/brand-on3p`: ON3P's catalog, rules, traced geometry, layups, bindings, artwork (`art-source/`, `public/`), Blender sources, art scripts and app shell. |
-| `brands/praxis` | `@rivet/brand-praxis`: Praxis's custom catalog and rules, in-stock catalog, traced shapes, veneers, artwork, bindings, import scripts and configurator guides. |
-| `brands/proteus` | `@rivet/brand-proteus`: Proteus's boards, sizing, adjustable camber, board geometry, layup, artwork, import scripts and app shell. |
+| `brands/on3p` | `@arc/brand-on3p`: ON3P's catalog, rules, traced geometry, layups, bindings, artwork (`art-source/`, `public/`), Blender sources, art scripts and app shell. |
+| `brands/praxis` | `@arc/brand-praxis`: Praxis's custom catalog and rules, in-stock catalog, traced shapes, veneers, artwork, bindings, import scripts and configurator guides. |
+| `brands/proteus` | `@arc/brand-proteus`: Proteus's boards, sizing, adjustable camber, board geometry, layup, artwork, import scripts and app shell. |
 | `brands/folsom`, `brands/meier`, `brands/grass-sticks` | The outreach makers: each pack is the maker's record, scraped catalog, traced outlines, maker-specific options and artwork (`public/`). |
 | `apps/on3p`, `apps/proteus` | Thin hosts: the shared configurator plus one brand pack (a few lines each). |
-| `apps/praxis` | The Praxis storefront (collection, product pages, bag) around `@rivet/brand-praxis`. |
+| `apps/praxis` | The Praxis storefront (collection, product pages, bag) around `@arc/brand-praxis`. |
 | `apps/outreach` | The first-wave review: one studio template (`src/pack.js`) run over the three outreach packs, plus catalog controls. |
 | `apps/maker-studio` | Product recipe editor, table configurators, quote/handoff API. |
-| `apps/site` | Rivet marketing site (ChatGPT Sites; own lockfile, not in the workspace). |
+| `apps/site` | Arc marketing site (ChatGPT Sites; own lockfile, not in the workspace). |
 | `labs/on3p-ski-lab` | ON3P geometry lab and Blender library/export scripts, on the shared kernel. |
 | `qa/` | Scripted browser passes (puppeteer) and presentation screenshots. `qa/on3p-parity.mjs` checks the ON3P flagship's preserved behaviors. |
 | `work/maker-studio-builds` | Maker Studio's saved drafts and builds. **Data: back it up.** |
@@ -58,10 +63,10 @@ change altered real geometry: review it, don't just regenerate the file.
 
 ## Adding a brand
 
-A brand is a folder under `brands/<id>` with its own `package.json` (`@rivet/brand-<id>`).
-It exports a pack for `createEngine()` from `@rivet/configurator`: steps, option groups,
+A brand is a folder under `brands/<id>` with its own `package.json` (`@arc/brand-<id>`).
+It exports a pack for `createEngine()` from `@arc/configurator`: steps, option groups,
 context, prices and presentation hooks, and optionally `model3d` for the 3D studio (use
-`@rivet/ski-geometry` for shapes). Artwork goes in the pack's `public/`, sources and
+`@arc/ski-geometry` for shapes). Artwork goes in the pack's `public/`, sources and
 scrapes in `art-source/`, and tests in the pack. An app is then a few lines that mount
 `Configurator` with the engine and point Vite's `publicDir` at the pack (see `apps/proteus`).
 For a quick outreach demo, add a pack like `brands/meier` and list it in

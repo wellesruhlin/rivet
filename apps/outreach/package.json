@@ -1,5 +1,5 @@
 {
-  "name": "@rivet/app-outreach",
+  "name": "@arc/app-outreach",
   "version": "2.0.0",
   "private": true,
   "type": "module",
@@ -10,11 +10,11 @@
     "test": "node --test tests/*.test.js"
   },
   "dependencies": {
-    "@rivet/brand-folsom": "*",
-    "@rivet/brand-grass-sticks": "*",
-    "@rivet/brand-meier": "*",
-    "@rivet/configurator": "*",
-    "@rivet/ski-geometry": "*",
+    "@arc/brand-folsom": "*",
+    "@arc/brand-grass-sticks": "*",
+    "@arc/brand-meier": "*",
+    "@arc/configurator": "*",
+    "@arc/ski-geometry": "*",
     "lucide-react": "^0.468.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

@@ -1,5 +1,5 @@
 import {ArrowUpRight} from 'lucide-react';
-import {formatMoney} from '@rivet/configurator/engine';
+import {formatMoney} from '@arc/configurator/engine';
 import {BASE_PRICE, catalog, COLLAB_PRICE, CUSTOM_FEE} from '../pack.js';
 import {CAMBER_PRESETS, describeEnd, SIZES, STIFFNESS, TRAVEL_MM} from '../specs.js';
 

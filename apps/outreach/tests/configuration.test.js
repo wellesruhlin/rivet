@@ -1,10 +1,10 @@
 import {brands} from '../src/catalog.js';
-import {engravingPrice} from '@rivet/brand-grass-sticks';
+import {engravingPrice} from '@arc/brand-grass-sticks';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {createEngine} from '@rivet/configurator/engine';
+import {createEngine} from '@arc/configurator/engine';
 import {createPack,proofKey} from '../src/pack.js';
-import {generateSkiMesh,meshReport} from '@rivet/ski-geometry';
+import {generateSkiMesh,meshReport} from '@arc/ski-geometry';
 import {parsePriceCsv} from '../src/admin-data.js';
 const engine=id=>createEngine(createPack(id));
 test('Folsom validates length and rocker when switching shapes',()=>{const e=engine('folsom');const c=e.normalize({model:'completo-100',length:180,profile:'Powder Rocker',layup:'tour'});assert.equal(e.total(c).amount,1850);const changed=e.apply(c,{model:'spar-98'});assert.equal(changed.config.length,null);assert.equal(changed.config.profile,'Traditional Rocker');assert.equal(changed.config.layup,'tour');assert.equal(e.ready(changed.config),false);assert.ok(changed.changes.length>=2);});

@@ -1,5 +1,5 @@
 {
-  "name": "@rivet/brand-on3p",
+  "name": "@arc/brand-on3p",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -19,8 +19,8 @@
     "./geometry/traced-models.json": "./src/geometry/traced-models.json"
   },
   "dependencies": {
-    "@rivet/configurator": "*",
-    "@rivet/ski-geometry": "*"
+    "@arc/configurator": "*",
+    "@arc/ski-geometry": "*"
   },
   "peerDependencies": {
     "react": ">=19",
