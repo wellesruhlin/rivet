@@ -1,6 +1,7 @@
 # Claude instructions for Arc
 
 Read `README.md` first: it maps the apps and how they depend on each other.
+Then read `docs/ROADMAP.md` for the current phase and what it's trying to prove.
 Then read the specific app's `README.md` and handoff file (`AGENT-HANDOFF.md`,
 `HANDOFF.md`) before changing it.
 
@@ -22,3 +23,6 @@ Then read the specific app's `README.md` and handoff file (`AGENT-HANDOFF.md`,
 - Commit completed, tested work and push to `origin`. Never force-push.
 - Before claiming a change works, run the affected app's tests (and build for
   UI changes). Say which checks you ran.
+- **Keep the roadmap current.** When work changes a stage's status or passes an
+  exit criterion in `docs/ROADMAP.md`, update it in the same commit. Record
+  decisions Welles makes in its decision log with the date.

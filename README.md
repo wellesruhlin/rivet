@@ -32,6 +32,7 @@ One npm workspace (`npm install` at the root) for everything except `apps/site`.
 | `qa/` | Scripted browser passes (puppeteer) and presentation screenshots. `qa/on3p-parity.mjs` checks the ON3P flagship's preserved behaviors. |
 | `work/maker-studio-builds` | Maker Studio's saved drafts and builds. **Data: back it up.** |
 | `work/stock-2027` | Cached ON3P product data for `brands/on3p/scripts/extend-geometry.py`. |
+| `docs/ROADMAP.md` | Plan of record: where Arc stands, the six build phases, open decisions and the decision log. |
 | `docs/history` | Handoff notes from the pre-import projects. |
 
 Fall Line consumes these products too. Its
